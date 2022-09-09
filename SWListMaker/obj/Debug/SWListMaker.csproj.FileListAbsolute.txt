@@ -1,0 +1,13 @@
+D:\swccg\SWListMaker\SWListMaker\bin\Debug\SWListMaker.exe.config
+D:\swccg\SWListMaker\SWListMaker\bin\Debug\SWListMaker.exe
+D:\swccg\SWListMaker\SWListMaker\bin\Debug\SWListMaker.pdb
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.csproj.AssemblyReference.cache
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.Form1.resources
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.Properties.Resources.resources
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.csproj.GenerateResource.cache
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.csproj.CoreCompileInputs.cache
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.exe
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.pdb
+D:\swccg\SWListMaker\SWListMaker\bin\Debug\Newtonsoft.Json.dll
+D:\swccg\SWListMaker\SWListMaker\bin\Debug\Newtonsoft.Json.xml
+D:\swccg\SWListMaker\SWListMaker\obj\Debug\SWListMaker.csproj.CopyComplete

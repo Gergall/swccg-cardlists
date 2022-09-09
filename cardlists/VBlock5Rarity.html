@@ -1,0 +1,419 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Star Wars Cardlists - Virtual Block 5</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="https://res.starwarsccg.org/cardlists/swccg2.css" />
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <script language="javascript">
+
+  function fnLegacyToggle()
+  {
+   if (document.getElementById('divLegacy').style.display=='none')
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Hide';
+    document.getElementById('divLegacy').style.display='block';
+   }
+   else
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Show';
+    document.getElementById('divLegacy').style.display='none';
+   }
+
+   return false;
+  }
+
+ function waitForImage(imgElem) {
+    return new Promise(res => {
+        if (imgElem.complete) {
+            return res();
+        }
+        imgElem.onload = () => res();
+        imgElem.onerror = () => res();
+    });
+ }
+
+ function fnShowCard(imgUrl, horizontal, side)
+ {
+ (async () => {
+  var ext='';
+
+  if (side=='Dark')
+   ext+='D';
+  else
+   ext+='L';
+
+  if (horizontal==1)
+   ext+='H';
+  else
+   ext+='V';
+
+  const img = document.getElementById('imgCardPopup'+ext);
+  img.src = imgUrl;
+  await waitForImage(img);
+
+  switch (ext)
+  {
+   case 'LH':
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLH').style.display='block';
+	break;
+   case 'LV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='block';
+	break;
+   case 'DH':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='block';
+	break;
+   case 'DV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='block';
+	break;
+   default:
+	break;
+  }
+
+  document.getElementById('aCardPopup'+ext).href = imgUrl;
+ })();
+		
+  return false;
+ }
+
+ </script>
+</head>
+<body>
+
+ <div class="CardPopupLH" id="divCardPopupLH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:480px">
+  <a id="aCardPopupLH" href="#" target="_blank"><img id="imgCardPopupLH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupLV" id="divCardPopupLV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:600px">
+  <a id="aCardPopupLV" href="#" target="_blank"><img id="imgCardPopupLV" src="" width="350" /></a>
+ </div>
+
+ <div class="CardPopupDH" id="divCardPopupDH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:100px">
+  <a id="aCardPopupDH" href="#" target="_blank"><img id="imgCardPopupDH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupDV" id="divCardPopupDV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:240px">
+  <a id="aCardPopupDV" href="#" target="_blank"><img id="imgCardPopupDV" src="" width="350" /></a>
+ </div>
+
+  <table class="sw" style="width:890px">
+      <tbody>
+      <tr> 
+         <td> 
+              <a href="https://www.starwarsccg.org">
+                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+              </a>
+         </td> 
+         <td colspan="2" style="text-align:center;vertical-align:top;">
+			<table>
+				<tr><td style="text-align:left;"><a href="https://www.starwarsccg.org">Star Wars CCG Home</a></td><td style="text-align:center;"><a href="https://gemp.starwarsccg.org/gemp-swccg/">Play SWCCG Online</a></td><td style="text-align:right;"><a href="https://scomp.starwarsccg.org">&#128269; Advanced Search</a><br /></td></tr>
+				<tr><td colspan="3"><img src="https://res.starwarsccg.org/cardlists/images/v5-title.jpg" height="93px" width="735px" alt="Virtual Block 5 Card Set" title="Virtual Block 5 Card Set" style="border-style: solid; border-color: black; border-width: 1px" /></td></tr>
+			</table>
+         </td>
+      </tr>
+      <tr >
+       <td class="smo" style="width:175px; vertical-align:top" rowspan="2">
+          <br/>
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Decipher Sets</span></b><br />
+
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiereRarity.html>Premiere</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/ANewHopeRarity.html>A New Hope</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/HothRarity.html>Hoth</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DagobahRarity.html>Dagobah</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CloudCityRarity.html>Cloud City</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/JabbasPalaceRarity.html>Jabba's Palace</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/SpecialEditionRarity.html>Special Edition</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/EndorRarity.html>Endor</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DeathStar2Rarity.html>Death Star II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections2Rarity.html>Reflections II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TatooineRarity.html>Tatooine</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CoruscantRarity.html>Coruscant</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections3Rarity.html>Reflections III</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TheedRarity.html>Theed</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiumRarity.html>Premium</a><br/>
+
+          <br />
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0Rarity.html">Set 0</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1Rarity.html">Set 1</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2Rarity.html">Set 2</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3Rarity.html">Set 3</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4Rarity.html">Set 4</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5Rarity.html">Set 5</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6Rarity.html">Set 6</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7Rarity.html">Set 7</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8Rarity.html">Set 8</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9Rarity.html">Set 9</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10Rarity.html">Set 10</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11Rarity.html">Set 11</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12Rarity.html">Set 12</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13Rarity.html">Set 13</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14Rarity.html">Set 14</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15Rarity.html">Set 15</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16Rarity.html">Set 16</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17Rarity.html">Set 17</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18Rarity.html">Set 18</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19Rarity.html">Set 19</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetDRarity.html">Set D</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetPRarity.html">Set P</a><br/>
+
+
+          <br />
+          &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">Hide</a><br />
+
+	<div id="divLegacy" style="display:block;">
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock1Rarity.html">Virtual Block 1</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock2Rarity.html">Virtual Block 2</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock3Rarity.html">Virtual Block 3</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock4Rarity.html">Virtual Block 4</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Rarity.html">Virtual Block 5</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock6Rarity.html">Virtual Block 6</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock7Rarity.html">Virtual Block 7</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock8Rarity.html">Virtual Block 8</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock9Rarity.html">Virtual Block 9</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VShieldsRarity.html">Virtual Shields</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VMasterRarity.html">Virtual Master</a><br/>
+	</div>
+
+          <br/>
+          <br/>
+    	</td>
+
+        <td colspan="2" style="padding-left:10px;"><span style='color:#AA0000;'><strong>Legacy Set Alert</strong><br />Legacy Virtual Cards (also known as the "Virtual Block" sets) are from a previous era of Star Wars CCG (2002-2014) and are no longer valid for competitive play. You may view them below, but if you are planning to play SWCCG, please use the Decipher Sets and the current Virtual Sets.<br /><br /></span></td></tr><tr>
+
+      <td  rowspan="1"  style="width:372px; vertical-align:top">
+        <table class="sw"  style="table-layout: auto; margin-left: 1em; margin-right: 1em; width: 329px" >
+          <tbody>
+          <tr class="center"> 
+            <td class="title" colspan="3"> 
+              <p>
+               <b>Virtual Block 5 Card List &#8211; Light Side - By Rarity </b></p>
+            </td>
+          </tr>
+          <tr class="center">
+            <td colspan="3">
+              <p><b>&nbsp;</b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Rarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/anunusualamountoffear.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/anunusualamountoffear.gif',0,'Light');">&#8226;An Unusual Amount Of Fear (V)</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/obiwankenobijediknight.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/obiwankenobijediknight.gif',0,'Light');">&#8226;Obi-Wan Kenobi, Jedi Knight (V)</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/objective.gif' height='21px' width='21px' alt="Objective" title="Objective" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wellhandlethis.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wellhandlethis.gif',0,'Light');">We'll Handle This</a> / <a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/duelofthefates.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/duelofthefates.gif',0,'Light');">Duel Of The Fates (V)</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ajediscunning.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ajediscunning.gif',0,'Light');">&#8226;A Jedi's Cunning</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ajedisplans.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ajedisplans.gif',0,'Light');">&#8226;A Jedi's Plans</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ambush.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/ambush.gif',0,'Light');">&#8226;Ambush (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/artoobravelittledroid.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/artoobravelittledroid.gif',0,'Light');">&#8226;Artoo, Brave Little Droid (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/artoobravelittledroidai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/artoobravelittledroidai.gif',0,'Light');">&#8226;Artoo, Brave Little Droid (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bravofighter.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bravofighter.gif',0,'Light');">&#8226;Bravo Fighter (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel.gif' height='21px' width='21px' alt="Rebel" title="Rebel" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/chewbaccaofkashyyyk.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/chewbaccaofkashyyyk.gif',0,'Light');">&#8226;Chewbacca Of Kashyyyk (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantjedicouncilchamber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantjedicouncilchamber.gif',1,'Light');">&#8226;Coruscant: Jedi Council Chamber (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedistarfighter.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedistarfighter.gif',0,'Light');">&#8226;&#8226;Jedi Starfighter</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/admirals_order.gif' height='21px' width='21px' alt="Admiral's Order" title="Admiral's Order" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/letsgoleft.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/letsgoleft.gif',0,'Light');">&#8226;Let's Go Left (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/macewindu.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/macewindu.gif',0,'Light');">&#8226;Mace Windu (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/macewinduai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/macewinduai.gif',0,'Light');">&#8226;Mace Windu (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/masterquigon.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/masterquigon.gif',0,'Light');">&#8226;Master Qui-Gon (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/masterquigonai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/masterquigonai.gif',0,'Light');">&#8226;Master Qui-Gon (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/obiwaninradiantvii.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/obiwaninradiantvii.gif',0,'Light');">&#8226;Obi-Wan in Radiant VII</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/padmenaberrie.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/padmenaberrie.gif',0,'Light');">&#8226;Padme Naberrie (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/padmenaberrieai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/padmenaberrieai.gif',0,'Light');">&#8226;Padme Naberrie (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/plokoon.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/plokoon.gif',0,'Light');">&#8226;Plo Koon (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien_republic.gif' height='21px' width='21px' alt="Alien/Republic" title="Alien/Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorjarjarbinks.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorjarjarbinks.gif',0,'Light');">&#8226;Senator Jar Jar Binks</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien_republic.gif' height='21px' width='21px' alt="Alien/Republic" title="Alien/Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorjarjarbinksai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorjarjarbinksai.gif',0,'Light');">&#8226;Senator Jar Jar Binks (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel_republic.gif' height='21px' width='21px' alt="Rebel/Republic" title="Rebel/Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatormonmothma.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatormonmothma.gif',0,'Light');">&#8226;Senator Mon Mothma</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/sothisishowlibertydies.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/sothisishowlibertydies.gif',0,'Light');">&#8226;So This Is How Liberty Dies</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodaseniorcouncilmember.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodaseniorcouncilmember.gif',0,'Light');">&#8226;Yoda, Senior Council Member (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodaseniorcouncilmemberai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodaseniorcouncilmemberai.gif',0,'Light');">&#8226;Yoda, Senior Council Member (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/grrrghrrrgh.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/grrrghrrrgh.gif',0,'Light');">&#8226;Grrrghrrrgh!</a></td><td class='center' style='width:43px'>R1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kraytdragonhowl.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kraytdragonhowl.gif',0,'Light');">&#8226;Krayt Dragon Howl (V)</a></td><td class='center' style='width:43px'>R1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookieeroar.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookieeroar.gif',0,'Light');">&#8226;Wookiee Roar (V)</a></td><td class='center' style='width:43px'>R1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bowcaster.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bowcaster.gif',0,'Light');">Bowcaster (V)</a></td><td class='center' style='width:43px'>R2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantnightclub.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantnightclub.gif',1,'Light');">&#8226;Coruscant: Night Club</a></td><td class='center' style='width:43px'>R2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/blockadeflagshipprison.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/blockadeflagshipprison.gif',1,'Light');">&#8226;Blockade Flagship: Prison</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kiadimundi.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kiadimundi.gif',0,'Light');">&#8226;Ki-Adi-Mundi (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/lieutenantwilliams.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/lieutenantwilliams.gif',0,'Light');">&#8226;Lieutenant Williams (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/objective.gif' height='21px' width='21px' alt="Objective" title="Objective" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wehaveaplan.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wehaveaplan.gif',0,'Light');">We Have A Plan</a> / <a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/theywillbelostandconfused.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/theywillbelostandconfused.gif',0,'Light');">They Will Be Lost And Confused (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/welltakethelongway.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/welltakethelongway.gif',0,'Light');">&#8226;We'll Take The Long Way</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yarua.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yarua.gif',0,'Light');">&#8226;Yarua (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodagreatwarrior.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/yodagreatwarrior.gif',0,'Light');">&#8226;Yoda, Great Warrior</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedilightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedilightsaber.gif',0,'Light');">Jedi Lightsaber (V)</a></td><td class='center' style='width:43px'>U1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/alderaanconsularship.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/alderaanconsularship.gif',0,'Light');">Alderaan Consular Ship</a></td><td class='center' style='width:43px'>U2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/republiccorvette.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/republiccorvette.gif',0,'Light');">Republic Corvette</a></td><td class='center' style='width:43px'>U2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel_republic.gif' height='21px' width='21px' alt="Rebel/Republic" title="Rebel/Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bailorgana.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/bailorgana.gif',0,'Light');">&#8226;Bail Organa</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/changingtheodds.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/changingtheodds.gif',0,'Light');">&#8226;Changing The Odds (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantjediarchives.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantjediarchives.gif',1,'Light');">&#8226;Coruscant: Jedi Archives</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantsenatelandingplatform.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/coruscantsenatelandingplatform.gif',1,'Light');">&#8226;Coruscant: Senate Landing Platform</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/elegantlightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/elegantlightsaber.gif',0,'Light');">Elegant Lightsaber</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jediadvisor.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jediadvisor.gif',0,'Light');">&#8226;&#8226;&#8226;Jedi Advisor</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jediguardian.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jediguardian.gif',0,'Light');">&#8226;&#8226;&#8226;Jedi Guardian</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedisurvivor.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/jedisurvivor.gif',0,'Light');">&#8226;&#8226;&#8226;Jedi Survivor</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyyksacredforest.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyyksacredforest.gif',1,'Light');">&#8226;Kashyyyk: Sacred Forest</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyykwookieehavenforest.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyykwookieehavenforest.gif',1,'Light');">&#8226;Kashyyyk: Wookiee Haven (Forest)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel_republic.gif' height='21px' width='21px' alt="Rebel/Republic" title="Rebel/Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorpadmeamidala.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/senatorpadmeamidala.gif',0,'Light');">&#8226;Senator Padme Amidala</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/supremechancellorpalpatine.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/supremechancellorpalpatine.gif',0,'Light');">&#8226;Supreme Chancellor Palpatine</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wesareadytodooursapart.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wesareadytodooursapart.gif',0,'Light');">&#8226;Wesa Ready To Do Our-sa Part (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookieeguide.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookieeguide.gif',0,'Light');">&#8226;Wookiee Guide (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/system.gif' height='21px' width='21px' alt="System" title="System" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyyk.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/kashyyyk.gif',0,'Light');">&#8226;Kashyyyk (V)</a></td><td class='center' style='width:43px'>C1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/clonepilot.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/clonepilot.gif',0,'Light');">Clone Pilot</a></td><td class='center' style='width:43px'>C2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/clonetrooper.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/clonetrooper.gif',0,'Light');">Clone Trooper</a></td><td class='center' style='width:43px'>C2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/republictrooperwithblasterrifle.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/republictrooperwithblasterrifle.gif',0,'Light');">Republic Trooper With Blaster Rifle</a></td><td class='center' style='width:43px'>C2</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookiee.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Light/large/wookiee.gif',0,'Light');">Wookiee (V)</a></td><td class='center' style='width:43px'>F</td></tr>
+          </tbody>
+        </table>
+       <td  rowspan="1" style="width:372px; vertical-align:top"> 
+       <table class="sw" style="table-layout: auto; margin-left: 1em; margin-right: 1em; width:329px" >
+          <tbody> 
+          <tr class="center">
+            <td class="title" colspan="3"> 
+              <p><b>Virtual Block 5 Card List &#8211; Dark Side - By Rarity </b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td colspan="3"> 
+              <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Rarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/forcepush.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/forcepush.gif',0,'Dark');">&#8226;Force Push (V)</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/jangofett.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/jangofett.gif',0,'Dark');">&#8226;Jango Fett</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/trainedinthejediarts.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/trainedinthejediarts.gif',0,'Dark');">&#8226;Trained In The Jedi Arts</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wherearethosedroidekas.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wherearethosedroidekas.gif',0,'Dark');">&#8226;Where Are Those Droidekas?! (V)</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/aurrasing.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/aurrasing.gif',0,'Dark');">&#8226;Aurra Sing (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/aurrasingai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/aurrasingai.gif',0,'Dark');">&#8226;Aurra Sing (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/daultaydofine.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/daultaydofine.gif',0,'Dark');">&#8226;Daultay Dofine (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/kedertheblack.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/kedertheblack.gif',0,'Dark');">&#8226;Keder The Black (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/device.gif' height='21px' width='21px' alt="Device" title="Device" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/mandalorianarmor.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/mandalorianarmor.gif',0,'Dark');">&#8226;Mandalorian Armor (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/admirals_order.gif' height='21px' width='21px' alt="Admiral's Order" title="Admiral's Order" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/nothingcangetthroughourshield.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/nothingcangetthroughourshield.gif',0,'Dark');">&#8226;Nothing Can Get Through Our Shield (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sebulba.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sebulba.gif',0,'Dark');">&#8226;Sebulba (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sebulbaai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sebulbaai.gif',0,'Dark');">&#8226;Sebulba (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sithprobedroid.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sithprobedroid.gif',0,'Dark');">Sith Probe Droid (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/strategicreserves.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/strategicreserves.gif',0,'Dark');">&#8226;Strategic Reserves (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/watto.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/watto.gif',0,'Dark');">&#8226;Watto (V)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wattoai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wattoai.gif',0,'Dark');">&#8226;Watto (V) (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/withthunderousapplause.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/withthunderousapplause.gif',0,'Dark');">&#8226;With Thunderous Applause</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/expandtheempire.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/expandtheempire.gif',0,'Dark');">&#8226;Expand The Empire (V)</a></td><td class='center' style='width:43px'>R1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/asithsplans.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/asithsplans.gif',0,'Dark');">&#8226;A Sith's Plans</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/chokk.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/chokk.gif',0,'Dark');">&#8226;Chokk (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/establishcontrol.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/establishcontrol.gif',0,'Dark');">Establish Control (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/dark_jedi_master.gif' height='21px' width='21px' alt="Dark Jedi Master" title="Dark Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/lordsidious.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/lordsidious.gif',0,'Dark');">&#8226;Lord Sidious</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/nutegunraysbounty.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/nutegunraysbounty.gif',0,'Dark');">&#8226;Nute Gunray's Bounty</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/tradefederationtactics.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/tradefederationtactics.gif',0,'Dark');">&#8226;Trade Federation Tactics (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wipethemoutallofthem.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/wipethemoutallofthem.gif',0,'Dark');">&#8226;Wipe Them Out, All Of Them (V)</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/darkjedilightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/darkjedilightsaber.gif',0,'Dark');">Dark Jedi Lightsaber (V)</a></td><td class='center' style='width:43px'>U1</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/atlastwearegettingresults.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/atlastwearegettingresults.gif',0,'Dark');">&#8226;At Last We Are Getting Results (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/coruscantguard.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/coruscantguard.gif',0,'Dark');">Coruscant Guard (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/coruscantchancellorsoffice.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/coruscantchancellorsoffice.gif',1,'Dark');">&#8226;Coruscant: Chancellor's Office</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/imperial.gif' height='21px' width='21px' alt="Imperial" title="Imperial" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/elitesquadronstormtrooper.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/elitesquadronstormtrooper.gif',0,'Dark');">&#8226;&#8226;&#8226;Elite Squadron Stormtrooper (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/vehicle.gif' height='21px' width='21px' alt="Vehicle" title="Vehicle" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/maulssithspeeder.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/maulssithspeeder.gif',0,'Dark');">&#8226;Maul's Sith Speeder</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/order66.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/order66.gif',0,'Dark');">&#8226;Order 66</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sithfury.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/sithfury.gif',0,'Dark');">&#8226;Sith Fury (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/vadersanger.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/vadersanger.gif',0,'Dark');">&#8226;Vader's Anger (V)</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/anenemyoftherepublic.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/legacy/VirtualBlock5-Dark/large/anenemyoftherepublic.gif',0,'Dark');">&#8226;An Enemy Of The Republic</a></td><td class='center' style='width:43px'>C2</td></tr>
+          </tbody> 
+        </table>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+          <b><a href="#Top">TOP</a></b> 
+      </td>
+    </tr>
+
+  </tbody>
+  </table>
+
+	<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container1 = $(".CardPopupLH");
+			var container2 = $(".CardPopupLV");
+			var container3 = $(".CardPopupDH");
+			var container4 = $(".CardPopupDV");
+			if( //if you didn't click on any of the 4 popup card divs or on a card link, hide the popup
+				!container1.is(e.target) && container1.has(e.target).length === 0 &&
+				!container2.is(e.target) && container2.has(e.target).length === 0 &&
+				!container3.is(e.target) && container3.has(e.target).length === 0 &&
+				!container4.is(e.target) && container4.has(e.target).length === 0 &&
+				!e.target.toString().includes('.gif')
+			)
+			{
+				container1.hide();
+				container2.hide();
+				container3.hide();
+				container4.hide();
+			}
+		});
+	</script>
+
+</body>
+</html>

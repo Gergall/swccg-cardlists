@@ -1,0 +1,2023 @@
+<!DOCTYPE html> 
+<html>
+<head>
+ <title>Star Wars Cardlists - Premium</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ <link rel="stylesheet" type="text/css" href="https://res.starwarsccg.org/cardlists/swccg2.css" />
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <script language="javascript">
+
+  function fnLegacyToggle()
+  {
+   if (document.getElementById('divLegacy').style.display=='none')
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Hide';
+    document.getElementById('divLegacy').style.display='block';
+   }
+   else
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Show';
+    document.getElementById('divLegacy').style.display='none';
+   }
+
+   return false;
+  }
+
+ function waitForImage(imgElem) {
+    return new Promise(res => {
+        if (imgElem.complete) {
+            return res();
+        }
+        imgElem.onload = () => res();
+        imgElem.onerror = () => res();
+    });
+ }
+
+ function fnShowCard(imgUrl, horizontal, side)
+ {
+ (async () => {
+  var ext='';
+
+  if (side=='Dark')
+   ext+='D';
+  else
+   ext+='L';
+
+  if (horizontal==1)
+   ext+='H';
+  else
+   ext+='V';
+
+  const img = document.getElementById('imgCardPopup'+ext);
+  img.src = imgUrl;
+  await waitForImage(img);
+
+  switch (ext)
+  {
+   case 'LH':
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLH').style.display='block';
+	break;
+   case 'LV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='block';
+	break;
+   case 'DH':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='block';
+	break;
+   case 'DV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='block';
+	break;
+   default:
+	break;
+  }
+
+  document.getElementById('aCardPopup'+ext).href = imgUrl;
+ })();
+		
+  return false;
+ }
+
+ </script>
+</head>
+<body>
+
+ <div class="CardPopupLH" id="divCardPopupLH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:480px">
+  <a id="aCardPopupLH" href="#" target="_blank"><img id="imgCardPopupLH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupLV" id="divCardPopupLV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:600px">
+  <a id="aCardPopupLV" href="#" target="_blank"><img id="imgCardPopupLV" src="" width="350" /></a>
+ </div>
+
+ <div class="CardPopupDH" id="divCardPopupDH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:100px">
+  <a id="aCardPopupDH" href="#" target="_blank"><img id="imgCardPopupDH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupDV" id="divCardPopupDV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:240px">
+  <a id="aCardPopupDV" href="#" target="_blank"><img id="imgCardPopupDV" src="" width="350" /></a>
+ </div>
+
+  <table class="sw" style="width:890px">
+      <tbody>
+      <tr> 
+         <td> 
+              <a href="https://www.starwarsccg.org">
+                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+              </a>
+         </td> 
+         <td colspan="2" style="text-align:center;vertical-align:top;">
+			<table>
+				<tr><td style="text-align:left;"><a href="https://www.starwarsccg.org">Star Wars CCG Home</a></td><td style="text-align:center;"><a href="https://gemp.starwarsccg.org/gemp-swccg/">Play SWCCG Online</a></td><td style="text-align:right;"><a href="https://scomp.starwarsccg.org">&#128269; Advanced Search</a><br /></td></tr>
+				<tr><td colspan="3"><img src="https://res.starwarsccg.org/cardlists/images/PREMIUM_title.gif" height="93px" width="735px" alt="Premium Card Set" title="Premium Card Set" style="border-style: solid; border-color: black; border-width: 1px" /></td></tr>
+			</table>
+         </td>
+      </tr>
+      <tr >
+       <td class="smo" style="width:175px; vertical-align:top"> 
+
+          <br/>
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Decipher Sets</span></b><br />
+
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiereRarity.html>Premiere</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/ANewHopeRarity.html>A New Hope</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/HothRarity.html>Hoth</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DagobahRarity.html>Dagobah</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CloudCityRarity.html>Cloud City</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/JabbasPalaceRarity.html>Jabba's Palace</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/SpecialEditionRarity.html>Special Edition</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/EndorRarity.html>Endor</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DeathStar2Rarity.html>Death Star II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections2Rarity.html>Reflections II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TatooineRarity.html>Tatooine</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CoruscantRarity.html>Coruscant</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections3Rarity.html>Reflections III</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TheedRarity.html>Theed</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiumRarity.html>Premium</a><br/>
+
+          <br />
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0Rarity.html">Set 0</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1Rarity.html">Set 1</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2Rarity.html">Set 2</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3Rarity.html">Set 3</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4Rarity.html">Set 4</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5Rarity.html">Set 5</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6Rarity.html">Set 6</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7Rarity.html">Set 7</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8Rarity.html">Set 8</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9Rarity.html">Set 9</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10Rarity.html">Set 10</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11Rarity.html">Set 11</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12Rarity.html">Set 12</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13Rarity.html">Set 13</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14Rarity.html">Set 14</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15Rarity.html">Set 15</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16Rarity.html">Set 16</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17Rarity.html">Set 17</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18Rarity.html">Set 18</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19Rarity.html">Set 19</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetDRarity.html">Set D</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetPRarity.html">Set P</a><br/>
+
+
+          <br />
+          &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">Show</a><br />
+
+	<div id="divLegacy" style="display:none;">
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock1Rarity.html">Virtual Block 1</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock2Rarity.html">Virtual Block 2</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock3Rarity.html">Virtual Block 3</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock4Rarity.html">Virtual Block 4</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Rarity.html">Virtual Block 5</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock6Rarity.html">Virtual Block 6</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock7Rarity.html">Virtual Block 7</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock8Rarity.html">Virtual Block 8</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock9Rarity.html">Virtual Block 9</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VShieldsRarity.html">Virtual Shields</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VMasterRarity.html">Virtual Master</a><br/>
+	</div>
+
+          <br/>
+          <br/>
+    	</td>
+        <td>
+        <table class="sw" style="table-layout: auto; margin-left: 1em; margin-right: 1em; width: 700" >
+          <tbody>
+          <tr>
+              <td>
+              <table class="sw"  style="table-layout: auto; width: 350" > 
+                  <tbody>
+                      <tr class="center"> 
+                          <td class="title" colspan="3" style="background-color:White" > 
+                              <p><b style="color:Black; font-size:18px">CARD LIST:</b></p>
+                          </td>
+                      </tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#RebelLeader " style="color:Black">Rebel Leader Pack</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#Prem2Player " style="color:Black">Premiere Introductory Two Player Game</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#JediPack " style="color:Black">Jedi Pack</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#ESB2Player " style="color:Black">Empire Strikes Back Introductory Two Player Game</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#OTSD " style="color:Black">Official Tournament Sealed Deck</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#EPP " style="color:Black">Enhanced Premiere</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#ECC " style="color:Black">Enhanced Cloud City</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#EJP " style="color:Black">Enhanced Jabba's Palace</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#3Anth " style="color:Black">Third Anthology</a><br/></b></td></tr>
+                      <tr><td><b >&#8226;
+                      <a href="https://res.starwarsccg.org/cardlists/PremiumRarity.html#JPSD " style="color:Black">Jabba's Palace Sealed Deck</a><br/></b></td></tr>
+                          </tbody>
+                          </table>
+                          <br />
+                          </td>
+                      </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=RebelLeader></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#3366ff; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Rebel Leader Pack <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/RebelLeader-Light/large/goldleaderingold1.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/RebelLeader-Light/large/goldleaderingold1.gif',0,'Light');">Gold Leader In Gold 1</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/RebelLeader-Light/large/redleaderinred1.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/RebelLeader-Light/large/redleaderinred1.gif',0,'Light');">Red Leader In Red 1</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=Prem2Player></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#339999; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Premiere Introductory Two Player Game <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/deathstarlevel6coreshaftcorridor.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/deathstarlevel6coreshaftcorridor.gif',1,'Light');">Death Star: Level 6 Core Shaft Corridor</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/luke.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/luke.gif',0,'Light');">Luke</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/runlukerun.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Light/large/runlukerun.gif',0,'Light');">Run Luke, Run!</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#339999; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Premiere Introductory Two Player Game <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/deathstardockingcontrolroom327.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/deathstardockingcontrolroom327.gif',1,'Dark');">Death Star: Docking Control Room 327</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/vader.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/vader.gif',0,'Dark');">Vader</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/vadersobsession.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/PremiereIntroductoryTwoPlayerGame-Dark/large/vadersobsession.gif',0,'Dark');">Vader's Obsession</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=JediPack></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#ffffff; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Jedi Pack <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Light/large/forluck.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Light/large/forluck.gif',0,'Light');">For Luck</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Light/large/han.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Light/large/han.gif',0,'Light');">Han</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Light/large/leia.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Light/large/leia.gif',0,'Light');">Leia</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/vehicle.gif" height="21px" width="22px" alt="Vehicle" title="Vehicle" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Light/large/lukest16skyhopper.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Light/large/lukest16skyhopper.gif',0,'Light');">Luke's T-16 Skyhopper</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Light/large/tedndahai.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Light/large/tedndahai.gif',0,'Light');">Tedn Dahai</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#ffffff; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Jedi Pack <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/darkforces.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/darkforces.gif',0,'Dark');">Dark Forces</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/system.gif" height="21px" width="22px" alt="System" title="System" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/eriadu.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/eriadu.gif',0,'Dark');">Eriadu</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/gravityshadow.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/gravityshadow.gif',0,'Dark');">Gravity Shadow</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/objective.gif" height="21px" width="22px" alt="Game Aid" title="Game Aid" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/hyperoutenavigationchart.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/hyperoutenavigationchart.gif',0,'Dark');">Hyperoute Navigation Chart</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/motti.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/motti.gif',0,'Dark');">Motti</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JediPack-Dark/large/tarkin.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JediPack-Dark/large/tarkin.gif',0,'Dark');">Tarkin</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=ESB2Player></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#99ccff; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Empire Strikes Back Introductory Two Player Game <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/chewie.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/chewie.gif',0,'Light');">Chewie</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/lonerogue.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/lonerogue.gif',0,'Light');">Lone Rogue</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/vehicle.gif" height="21px" width="22px" alt="Vehicle" title="Vehicle" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/rebelsnowspeeder.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Light/large/rebelsnowspeeder.gif',0,'Light');">Rebel Snowspeeder</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#99ccff; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Empire Strikes Back Introductory Two Player Game <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/hothmountains.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/hothmountains.gif',1,'Dark');">Hoth: Mountains (6th Marker)</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/vehicle.gif" height="21px" width="22px" alt="Vehicle" title="Vehicle" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/imperialwalker.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/imperialwalker.gif',0,'Dark');">Imperial Walker</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/veers.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/veers.gif',0,'Dark');">Veers</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/walkergarrison.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/large/walkergarrison.gif',0,'Dark');">Walker Garrison</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=OTSD></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#9966cc; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Official Tournament Sealed Deck <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/arleilschous.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/arleilschous.gif',0,'Light');">Arleil Schous</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/system.gif" height="21px" width="22px" alt="System" title="System" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/corulag.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/corulag.gif',0,'Light');">Corulag</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/faithfulservice.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/faithfulservice.gif',0,'Light');">Faithful Service</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/goldsquadronywing.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/goldsquadronywing.gif',0,'Light');">Gold Squadron Y-wing</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/itsahit.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/itsahit.gif',0,'Light');">It's A Hit!</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/rebeltrooperrecruit.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/rebeltrooperrecruit.gif',0,'Light');">Rebel Trooper Recruit</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/redsquadronxwing.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/redsquadronxwing.gif',0,'Light');">Red Squadron X-wing</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/tatooinejundlandwastes.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/tatooinejundlandwastes.gif',1,'Light');">Tatooine: Jundland Wastes</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/z95headhunter.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Light/large/z95headhunter.gif',0,'Light');">Z-95 Headhunter</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#9966cc; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Official Tournament Sealed Deck <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/blacksquadrontie.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/blacksquadrontie.gif',0,'Dark');">Black Squadron TIE</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/challbekan.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/challbekan.gif',0,'Dark');">Chall Bekan</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/system.gif" height="21px" width="22px" alt="System" title="System" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/corulag.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/corulag.gif',0,'Dark');">Corulag</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/dreadnaughtclassheavycruiser.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/dreadnaughtclassheavycruiser.gif',0,'Dark');">Dreadnaught-Class Heavy Cruiser</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/forcedservitude.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/forcedservitude.gif',0,'Dark');">Forced Servitude</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/obsidiansquadrontie.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/obsidiansquadrontie.gif',0,'Dark');">Obsidian Squadron TIE</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/stormtroopercadet.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/stormtroopercadet.gif',0,'Dark');">Stormtrooper Cadet</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/tarkinsorders.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/tarkinsorders.gif',0,'Dark');">Tarkin's Orders</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/tatooinetuskencanyon.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/tatooinetuskencanyon.gif',1,'Dark');">Tatooine: Tusken Canyon</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=EPP></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#BDBDBD; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Premiere <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/hanwithheavyblasterpistol.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/hanwithheavyblasterpistol.gif',0,'Light');">Han With Heavy Blaster Pistol</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/leiawithblasterrifle.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/leiawithblasterrifle.gif',0,'Light');">Leia With Blaster Rifle</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/lukewithlightsaber.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/lukewithlightsaber.gif',0,'Light');">Luke With Lightsaber</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/obiwanwithlightsaber.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Light/large/obiwanwithlightsaber.gif',0,'Light');">Obi-Wan With Lightsaber</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#BDBDBD; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Premiere <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Dark/large/bobafettwithblasterrifle.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Dark/large/bobafettwithblasterrifle.gif',0,'Dark');">Boba Fett With Blaster Rifle</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/imperial.gif" height="21px" width="22px" alt="Imperial" title="Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedPremiere-Dark/large/darthvaderwithlightsaber.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedPremiere-Dark/large/darthvaderwithlightsaber.gif',0,'Dark');">Darth Vader With Lightsaber</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+
+
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=ECC></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#cc3333; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Cloud City <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/chewiewithblasterrifle.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/chewiewithblasterrifle.gif',0,'Light');">Chewie With Blaster Rifle</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/landoinmillenniumfalcon.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/landoinmillenniumfalcon.gif',0,'Light');">Lando In Millennium Falcon</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/landowithblasterpistol.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/landowithblasterpistol.gif',0,'Light');">Lando With Blaster Pistol</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/quietminingcolony.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/quietminingcolony.gif',0,'Light');">Quiet Mining Colony </a>
+              / <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/independentoperation.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/independentoperation.gif',0,'Light');">Independent Operation</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/z95bespindefensefighter.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/z95bespindefensefighter.gif',0,'Light');">Z-95 Bespin Defense Fighter</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#cc3333; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Cloud City <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/droid.gif" height="21px" width="22px" alt="Droid" title="Droid" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/4lomwithconcussionrifle.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/4lomwithconcussionrifle.gif',0,'Dark');">4-LOM With Concussion Rifle</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif" height="21px" width="22px" alt="Interrupt" title="Interrupt" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/anymethodsnecessary.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/anymethodsnecessary.gif',0,'Dark');">Any Methods Necessary</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/bobafettinslavei.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/bobafettinslavei.gif',0,'Dark');">Boba Fett In Slave I</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/crushtherebellion.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/crushtherebellion.gif',0,'Dark');">Crush The Rebellion</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/dengarinpunishingone.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/dengarinpunishingone.gif',0,'Dark');">Dengar In Punishing One</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/droid.gif" height="21px" width="22px" alt="Droid" title="Droid" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/ig88withriotgun.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/ig88withriotgun.gif',0,'Dark');">IG-88 With Riot Gun</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/thisdealisgettingworseallthetime.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/thisdealisgettingworseallthetime.gif',0,'Dark');">This Deal Is Getting Worse All The Time</a>
+              / <a href="https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/prayidontalteritanyfurther.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/prayidontalteritanyfurther.gif',0,'Dark');">Pray I Don't Alter It Any Further</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=EJP></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#cc9900; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Jabba's Palace <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/boushh.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/boushh.gif',0,'Light');">Boushh</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/masterluke.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/masterluke.gif',0,'Light');">Master Luke</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/droid.gif" height="21px" width="22px" alt="Droid" title="Droid" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/seethreepio.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/seethreepio.gif',0,'Light');">See-Threepio</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/youcaneitherprofitbythis.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/youcaneitherprofitbythis.gif',0,'Light');">You Can Either Profit By This... </a>
+              / <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/orbedestroyed.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/orbedestroyed.gif',0,'Light');">Or Be Destroyed</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#cc9900; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Enhanced Jabba's Palace <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/bosskwithmortargun.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/bosskwithmortargun.gif',0,'Dark');">Bossk With Mortar Gun</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/courtofthevilegangster.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/courtofthevilegangster.gif',0,'Dark');">Court Of The Vile Gangster</a>
+              / <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/ishallenjoywatchingyoudie.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/ishallenjoywatchingyoudie.gif',0,'Dark');">I Shall Enjoy Watching You Die</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/dengarwithblastercarbine.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/dengarwithblastercarbine.gif',0,'Dark');">Dengar With Blaster Carbine</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/ig88inig2000.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/ig88inig2000.gif',0,'Dark');">IG-88 In IG-2000</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/jodokast.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/jodokast.gif',0,'Dark');">Jodo Kast</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien_imperial.gif" height="21px" width="22px" alt="Alien/Imperial" title="Alien/Imperial" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/marajadetheemperorshand.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/marajadetheemperorshand.gif',0,'Dark');">Mara Jade, The Emperor's Hand</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/weapon.gif" height="21px" width="22px" alt="Weapon" title="Weapon" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/marajadeslightsaber.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/marajadeslightsaber.gif',0,'Dark');">Mara Jade's Lightsaber</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/zuckussinmisthunter.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/zuckussinmisthunter.gif',0,'Dark');">Zuckuss In Mist Hunter</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=3Anth></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#9AFE2E; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Third Anthology <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/anewsecretbase.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/anewsecretbase.gif',0,'Light');">A New Secret Base</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/starship.gif" height="21px" width="22px" alt="Starship" title="Starship" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/artoodetooinred5.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/artoodetooinred5.gif',0,'Light');">Artoo-Detoo In Red 5</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/echobasegarrison.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/echobasegarrison.gif',0,'Light');">Echo Base Garrison</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/massassibaseoperations.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/massassibaseoperations.gif',0,'Light');">Massassi Base Operations </a>
+              / <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/oneinamillion.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/oneinamillion.gif',0,'Light');">One In A Million</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/rebel.gif" height="21px" width="22px" alt="Rebel" title="Rebel" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/prisoner2187.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/prisoner2187.gif',0,'Light');">Prisoner 2187</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#9AFE2E; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Third Anthology <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/setyourcourseforalderaan.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/setyourcourseforalderaan.gif',0,'Dark');">Set Your Course For Alderaan</a>
+              / <a href="https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/theultimatepowerintheuniverse.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/theultimatepowerintheuniverse.gif',0,'Dark');">The Ultimate Power In The Universe</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+                      <tr>
+                      <td style="vertical-align:top">
+                      <a id=JPSD></a>
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#999900; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Jabba's Palace Sealed Deck <br /> Card List - Light Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/agentsinthecourt.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/agentsinthecourt.gif',0,'Light');">Agents In The Court </a>
+              / <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/nolovefortheempire.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/nolovefortheempire.gif',0,'Light');">No Love For The Empire</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/jabbaspalaceantechamber.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/jabbaspalaceantechamber.gif',1,'Light');">Jabba's Palace: Antechamber</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/landowithvibroax.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/landowithvibroax.gif',0,'Light');">Lando With Vibro-Ax</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/ouneeta.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/ouneeta.gif',0,'Light');">Ounee Ta</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/palaceraider.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/palaceraider.gif',0,'Light');">Palace Raider</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/vehicle.gif" height="21px" width="22px" alt="Vehicle" title="Vehicle" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/racingskiff.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/racingskiff.gif',0,'Light');">Racing Skiff</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/seekinganaudience.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/seekinganaudience.gif',0,'Light');">Seeking An Audience</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/weapon.gif" height="21px" width="22px" alt="Weapon" title="Weapon" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/stunblaster.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/stunblaster.gif',0,'Light');">Stun Blaster</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/tatooinehutttraderoutedesert.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/tatooinehutttraderoutedesert.gif',1,'Light');">Tatooine: Hutt Trade Route (Desert)</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/LS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/underworldcontacts.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/underworldcontacts.gif',0,'Light');">Underworld Contacts</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                      <td style="vertical-align:top">
+                      <table style="width:340px; border-spacing:0; border-color:#000000; border-width:medium; border-style: solid; margin-left: 1em; margin-right: 1em">
+                          <tbody>
+                          <tr style="text-align:center">
+                              <td style="background-color:#999900; height:38px"> 
+                                  <b style="color:Black; font-size: 16px; text-align: center">
+                                  Jabba's Palace Sealed Deck <br /> Card List - Dark Side</b>
+                              </td>
+                          </tr>
+                          <tr style="text-align:center">
+                              <td>
+                                  <table style="width:340px" >
+                                      <tbody>
+                                      <tr>
+                                          <td style="width:32px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black">Type</b>
+                                          </td>
+                                          <td style="width:227px; background-color:#D0D0D0; height: 6px">
+                                              <b style="color:Black">Card Name</b></td>
+                                          <td style="width:58px; background-color:#D0D0D0; height: 6px"> 
+                                              <b style="color:Black"> Rarity</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/huttinfluence.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/huttinfluence.gif',0,'Dark');">Hutt Influence</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/jabbaspalacelowerpassages.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/jabbaspalacelowerpassages.gif',1,'Dark');">Jabba's Palace: Lower Passages</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mercenarypilot.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mercenarypilot.gif',0,'Dark');">Mercenary Pilot</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/alien.gif" height="21px" width="22px" alt="Alien" title="Alien" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mightyjabba.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mightyjabba.gif',0,'Dark');">Mighty Jabba</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/objective.gif" height="21px" width="22px" alt="Objective" title="Objective" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mykindofscum.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mykindofscum.gif',0,'Dark');">My Kind Of Scum</a>
+              / <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/fearlessandinventive.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/fearlessandinventive.gif',0,'Dark');">Fearless And Inventive</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/noescape.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/noescape.gif',0,'Dark');">No Escape</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/effect.gif" height="21px" width="22px" alt="Effect" title="Effect" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/powerofthehutt.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/powerofthehutt.gif',0,'Dark');">Power Of The Hutt</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/vehicle.gif" height="21px" width="22px" alt="Vehicle" title="Vehicle" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/racingskiff.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/racingskiff.gif',0,'Dark');">Racing Skiff</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/weapon.gif" height="21px" width="22px" alt="Weapon" title="Weapon" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/stunblaster.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/stunblaster.gif',0,'Dark');">Stun Blaster</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="center" style="width:31"> 
+				                                <img src="https://res.starwarsccg.org/cardlists/images/DS/site.gif" height="21px" width="22px" alt="Site" title="Site" />
+                                          </td>
+                                          <td style="width:357px; text-align:left" >
+                                              <a href="https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/tatooinedesertheart.gif" target="_blank" onclick="return fnShowCard('https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/tatooinedesertheart.gif',1,'Dark');">Tatooine: Desert Heart</a>
+                                          </td>
+                                          <td class="center" style="width:43px"> 
+                                              PM
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <br />
+                      </td>
+                  </tr>
+          </tbody>
+          </table>
+          </td
+      </tr>
+      <tr>
+          <td colspan = "2" style="text-align:center">
+              <b ><a href="#Top">TOP</a></b> 
+          </td>
+      </tr>
+  </tbody>
+  </table>
+
+	<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container1 = $(".CardPopupLH");
+			var container2 = $(".CardPopupLV");
+			var container3 = $(".CardPopupDH");
+			var container4 = $(".CardPopupDV");
+			if( //if you didn't click on any of the 4 popup card divs or on a card link, hide the popup
+				!container1.is(e.target) && container1.has(e.target).length === 0 &&
+				!container2.is(e.target) && container2.has(e.target).length === 0 &&
+				!container3.is(e.target) && container3.has(e.target).length === 0 &&
+				!container4.is(e.target) && container4.has(e.target).length === 0 &&
+				!e.target.toString().includes('.gif')
+			)
+			{
+				container1.hide();
+				container2.hide();
+				container3.hide();
+				container4.hide();
+			}
+		});
+	</script>
+
+</body>
+</html>
