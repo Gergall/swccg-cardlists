@@ -5,6 +5,7 @@ Code used to generate the static html cardlists: https://res.starwarsccg.org/car
 ## TOC
 
 * <a href="#adding-a-new-set">Adding a New Set</a>
+* <a href="#updating-the-page-html">Updating the Page HTML</a>
 * <a href="#todo">To Do</a>
 
 
@@ -48,7 +49,7 @@ So, a new set has been released and isn't showing up on the card lists page, and
   - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 20 as an example): `/cardlists/images/SET19_title.gif`
 
 
-
+<a name="updating-the-page-html"></a>
 ## UPDATING THE PAGE HTML
 
  - `PagePart1.txt`, `PagePart2.txt`, and `PagePart3.txt` form a sort of template. Updating these files, _for example, adding text,_ will affect all pages produced by the program.
