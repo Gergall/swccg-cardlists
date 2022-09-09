@@ -1,0 +1,248 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Star Wars Cardlists - ~~SETNAME~~</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="https://res.starwarsccg.org/cardlists/swccg2.css" />
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <script language="javascript">
+
+  function fnLegacyToggle()
+  {
+   if (document.getElementById('divLegacy').style.display=='none')
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Hide';
+    document.getElementById('divLegacy').style.display='block';
+   }
+   else
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Show';
+    document.getElementById('divLegacy').style.display='none';
+   }
+
+   return false;
+  }
+
+ function waitForImage(imgElem) {
+    return new Promise(res => {
+        if (imgElem.complete) {
+            return res();
+        }
+        imgElem.onload = () => res();
+        imgElem.onerror = () => res();
+    });
+ }
+
+ function fnShowCard(imgUrl, horizontal, side)
+ {
+ (async () => {
+  var ext='';
+
+  if (side=='Dark')
+   ext+='D';
+  else
+   ext+='L';
+
+  if (horizontal==1)
+   ext+='H';
+  else
+   ext+='V';
+
+  const img = document.getElementById('imgCardPopup'+ext);
+  img.src = imgUrl;
+  await waitForImage(img);
+
+  switch (ext)
+  {
+   case 'LH':
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLH').style.display='block';
+	break;
+   case 'LV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='block';
+	break;
+   case 'DH':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='block';
+	break;
+   case 'DV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='block';
+	break;
+   default:
+	break;
+  }
+
+  document.getElementById('aCardPopup'+ext).href = imgUrl;
+ })();
+		
+  return false;
+ }
+
+ </script>
+</head>
+<body>
+
+ <div class="CardPopupLH" id="divCardPopupLH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:480px">
+  <a id="aCardPopupLH" href="#" target="_blank"><img id="imgCardPopupLH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupLV" id="divCardPopupLV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:600px">
+  <a id="aCardPopupLV" href="#" target="_blank"><img id="imgCardPopupLV" src="" width="350" /></a>
+ </div>
+
+ <div class="CardPopupDH" id="divCardPopupDH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:100px">
+  <a id="aCardPopupDH" href="#" target="_blank"><img id="imgCardPopupDH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupDV" id="divCardPopupDV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:240px">
+  <a id="aCardPopupDV" href="#" target="_blank"><img id="imgCardPopupDV" src="" width="350" /></a>
+ </div>
+
+  <table class="sw" style="width:890px">
+      <tbody>
+      <tr> 
+         <td> 
+              <a href="https://www.starwarsccg.org">
+                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+              </a>
+         </td> 
+         <td colspan="2" style="text-align:center;vertical-align:top;">
+			<table>
+				<tr><td style="text-align:left;"><a href="https://www.starwarsccg.org">Star Wars CCG Home</a></td><td style="text-align:center;"><a href="https://gemp.starwarsccg.org/gemp-swccg/">Play SWCCG Online</a></td><td style="text-align:right;"><a href="https://scomp.starwarsccg.org">&#128269; Advanced Search</a><br /></td></tr>
+				<tr><td colspan="3"><img src="https://res.starwarsccg.org/cardlists/images/~~BANNERFILE~~" height="93px" width="735px" alt="~~SETNAME~~ Card Set" title="~~SETNAME~~ Card Set" style="border-style: solid; border-color: black; border-width: 1px" /></td></tr>
+			</table>
+         </td>
+      </tr>
+      <tr >
+       <td class="smo" style="width:175px; vertical-align:top" rowspan="2">
+          <br/>
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Decipher Sets</span></b><br />
+
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Premiere~~SORT~~.html>Premiere</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/ANewHope~~SORT~~.html>A New Hope</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Hoth~~SORT~~.html>Hoth</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Dagobah~~SORT~~.html>Dagobah</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CloudCity~~SORT~~.html>Cloud City</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/JabbasPalace~~SORT~~.html>Jabba's Palace</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/SpecialEdition~~SORT~~.html>Special Edition</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Endor~~SORT~~.html>Endor</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DeathStar2~~SORT~~.html>Death Star II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections2~~SORT~~.html>Reflections II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Tatooine~~SORT~~.html>Tatooine</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Coruscant~~SORT~~.html>Coruscant</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections3~~SORT~~.html>Reflections III</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Theed~~SORT~~.html>Theed</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Premium~~SORT~~.html>Premium</a><br/>
+
+          <br />
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0~~SORT~~.html">Set 0</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1~~SORT~~.html">Set 1</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2~~SORT~~.html">Set 2</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3~~SORT~~.html">Set 3</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4~~SORT~~.html">Set 4</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5~~SORT~~.html">Set 5</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6~~SORT~~.html">Set 6</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7~~SORT~~.html">Set 7</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8~~SORT~~.html">Set 8</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9~~SORT~~.html">Set 9</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10~~SORT~~.html">Set 10</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11~~SORT~~.html">Set 11</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12~~SORT~~.html">Set 12</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13~~SORT~~.html">Set 13</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14~~SORT~~.html">Set 14</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15~~SORT~~.html">Set 15</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16~~SORT~~.html">Set 16</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17~~SORT~~.html">Set 17</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18~~SORT~~.html">Set 18</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19~~SORT~~.html">Set 19</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetD~~SORT~~.html">Set D</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetP~~SORT~~.html">Set P</a><br/>
+
+
+          <br />
+          &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">~~LEGACYLINK~~</a><br />
+
+	<div id="divLegacy" style="display:~~LEGACYDIV~~;">
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock1~~SORT~~.html">Virtual Block 1</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock2~~SORT~~.html">Virtual Block 2</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock3~~SORT~~.html">Virtual Block 3</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock4~~SORT~~.html">Virtual Block 4</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5~~SORT~~.html">Virtual Block 5</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock6~~SORT~~.html">Virtual Block 6</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock7~~SORT~~.html">Virtual Block 7</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock8~~SORT~~.html">Virtual Block 8</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock9~~SORT~~.html">Virtual Block 9</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VShields~~SORT~~.html">Virtual Shields</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VMaster~~SORT~~.html">Virtual Master</a><br/>
+	</div>
+
+          <br/>
+          <br/>
+    	</td>
+
+        <td colspan="2" style="padding-left:10px;">~~LEGACYWARNING~~</td></tr><tr>
+
+      <td  rowspan="1"  style="width:372px; vertical-align:top">
+        <table class="sw"  style="table-layout: auto; margin-left: 1em; margin-right: 1em; width: 329px" >
+          <tbody>
+          <tr class="center"> 
+            <td class="title" colspan="3"> 
+              <p>
+               <b>~~SETNAME~~ Card List &#8211; Light Side - By ~~SORTWITHDEFAULTTYPE~~ </b></p>
+            </td>
+          </tr>
+          <tr class="center">
+            <td colspan="3">
+              <p><b>&nbsp;</b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Rarity.html">Rarity</a>
+           </td>
+          </tr>

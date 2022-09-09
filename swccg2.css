@@ -1,0 +1,99 @@
+﻿body
+{
+    background-color: White;
+    font-family: Arial Narrow; 
+    font-size: 11px;
+    font-weight: bold;
+}
+td
+{
+    background-color: White;
+    font-family: Arial;  
+    font-size: 14px;
+    font-weight: normal;
+    border-width: 0px;
+    padding: 0px;   
+    
+}
+img
+{
+    border-width: 0px;
+    background-color: White;
+    display: block;   
+    margin-left: auto;
+    margin-right: auto 
+}
+
+a
+{
+    border-width: 0px;
+    color: #009999;
+    font-size: 14;
+}
+
+div
+{
+    border-width: 0px;
+}
+
+a.smo,a.smo:link{color: #009999;display: inline; text-decoration:  underline; font-size: 14; font-family: arial; text-align: center}
+a.smo:visited{color: #9999ff}
+a.smo:hover{color: #AAAAAA}
+
+b
+{
+    border-width: 0px;
+    color: #009999;
+    font-size: 14;
+}
+td.smo
+{
+    background-color:  #000000;
+    font-family: Arial Narrow;
+    font-size: 14px;
+    font-weight: normal;
+    border-width: 0px;
+    padding:0;
+}
+td.title
+{
+    background-color:  #000000;
+    font-family: Arial;  
+    font-size: 14px;
+    font-weight: normal;
+    border-width: 0px;
+    padding:0;
+}
+td.center
+{
+    text-align: center;
+}
+td.left
+{
+    text-align: left
+}
+td.right
+{
+    text-align: right;
+}
+tr.center
+{
+    text-align: center;
+}
+td.type
+{
+    text-align: left;
+    font-weight:bolder;
+}
+table.sw
+{
+    padding: 0;
+    border-collapse: collapse;
+    
+}
+id
+{
+    border-width: 0px;
+    color: #009999;
+    font-size: 14;
+}

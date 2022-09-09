@@ -1,0 +1,422 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Star Wars Cardlists - Tatooine</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="https://res.starwarsccg.org/cardlists/swccg2.css" />
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <script language="javascript">
+
+  function fnLegacyToggle()
+  {
+   if (document.getElementById('divLegacy').style.display=='none')
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Hide';
+    document.getElementById('divLegacy').style.display='block';
+   }
+   else
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Show';
+    document.getElementById('divLegacy').style.display='none';
+   }
+
+   return false;
+  }
+
+ function waitForImage(imgElem) {
+    return new Promise(res => {
+        if (imgElem.complete) {
+            return res();
+        }
+        imgElem.onload = () => res();
+        imgElem.onerror = () => res();
+    });
+ }
+
+ function fnShowCard(imgUrl, horizontal, side)
+ {
+ (async () => {
+  var ext='';
+
+  if (side=='Dark')
+   ext+='D';
+  else
+   ext+='L';
+
+  if (horizontal==1)
+   ext+='H';
+  else
+   ext+='V';
+
+  const img = document.getElementById('imgCardPopup'+ext);
+  img.src = imgUrl;
+  await waitForImage(img);
+
+  switch (ext)
+  {
+   case 'LH':
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLH').style.display='block';
+	break;
+   case 'LV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='block';
+	break;
+   case 'DH':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='block';
+	break;
+   case 'DV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='block';
+	break;
+   default:
+	break;
+  }
+
+  document.getElementById('aCardPopup'+ext).href = imgUrl;
+ })();
+		
+  return false;
+ }
+
+ </script>
+</head>
+<body>
+
+ <div class="CardPopupLH" id="divCardPopupLH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:480px">
+  <a id="aCardPopupLH" href="#" target="_blank"><img id="imgCardPopupLH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupLV" id="divCardPopupLV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:600px">
+  <a id="aCardPopupLV" href="#" target="_blank"><img id="imgCardPopupLV" src="" width="350" /></a>
+ </div>
+
+ <div class="CardPopupDH" id="divCardPopupDH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:100px">
+  <a id="aCardPopupDH" href="#" target="_blank"><img id="imgCardPopupDH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupDV" id="divCardPopupDV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:240px">
+  <a id="aCardPopupDV" href="#" target="_blank"><img id="imgCardPopupDV" src="" width="350" /></a>
+ </div>
+
+  <table class="sw" style="width:890px">
+      <tbody>
+      <tr> 
+         <td> 
+              <a href="https://www.starwarsccg.org">
+                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+              </a>
+         </td> 
+         <td colspan="2" style="text-align:center;vertical-align:top;">
+			<table>
+				<tr><td style="text-align:left;"><a href="https://www.starwarsccg.org">Star Wars CCG Home</a></td><td style="text-align:center;"><a href="https://gemp.starwarsccg.org/gemp-swccg/">Play SWCCG Online</a></td><td style="text-align:right;"><a href="https://scomp.starwarsccg.org">&#128269; Advanced Search</a><br /></td></tr>
+				<tr><td colspan="3"><img src="https://res.starwarsccg.org/cardlists/images/TATOOINE_title.gif" height="93px" width="735px" alt="Tatooine Card Set" title="Tatooine Card Set" style="border-style: solid; border-color: black; border-width: 1px" /></td></tr>
+			</table>
+         </td>
+      </tr>
+      <tr >
+       <td class="smo" style="width:175px; vertical-align:top" rowspan="2">
+          <br/>
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Decipher Sets</span></b><br />
+
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiereName.html>Premiere</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/ANewHopeName.html>A New Hope</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/HothName.html>Hoth</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DagobahName.html>Dagobah</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CloudCityName.html>Cloud City</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/JabbasPalaceName.html>Jabba's Palace</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/SpecialEditionName.html>Special Edition</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/EndorName.html>Endor</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DeathStar2Name.html>Death Star II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections2Name.html>Reflections II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TatooineName.html>Tatooine</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CoruscantName.html>Coruscant</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections3Name.html>Reflections III</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TheedName.html>Theed</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiumName.html>Premium</a><br/>
+
+          <br />
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0Name.html">Set 0</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1Name.html">Set 1</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2Name.html">Set 2</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3Name.html">Set 3</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4Name.html">Set 4</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5Name.html">Set 5</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6Name.html">Set 6</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7Name.html">Set 7</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8Name.html">Set 8</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9Name.html">Set 9</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10Name.html">Set 10</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11Name.html">Set 11</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12Name.html">Set 12</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13Name.html">Set 13</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14Name.html">Set 14</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15Name.html">Set 15</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16Name.html">Set 16</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17Name.html">Set 17</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18Name.html">Set 18</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19Name.html">Set 19</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetDName.html">Set D</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetPName.html">Set P</a><br/>
+
+
+          <br />
+          &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">Show</a><br />
+
+	<div id="divLegacy" style="display:none;">
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock1Name.html">Virtual Block 1</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock2Name.html">Virtual Block 2</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock3Name.html">Virtual Block 3</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock4Name.html">Virtual Block 4</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Name.html">Virtual Block 5</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock6Name.html">Virtual Block 6</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock7Name.html">Virtual Block 7</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock8Name.html">Virtual Block 8</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock9Name.html">Virtual Block 9</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VShieldsName.html">Virtual Shields</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VMasterName.html">Virtual Master</a><br/>
+	</div>
+
+          <br/>
+          <br/>
+    	</td>
+
+        <td colspan="2" style="padding-left:10px;"></td></tr><tr>
+
+      <td  rowspan="1"  style="width:372px; vertical-align:top">
+        <table class="sw"  style="table-layout: auto; margin-left: 1em; margin-right: 1em; width: 329px" >
+          <tbody>
+          <tr class="center"> 
+            <td class="title" colspan="3"> 
+              <p>
+               <b>Tatooine Card List &#8211; Light Side - By Name </b></p>
+            </td>
+          </tr>
+          <tr class="center">
+            <td colspan="3">
+              <p><b>&nbsp;</b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineType.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineName.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineRarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisconcentration.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisconcentration.gif',0,'Light');">&#8226;A Jedi's Concentration</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisfocus.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisfocus.gif',0,'Light');">&#8226;A Jedi's Focus</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedispatience.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedispatience.gif',0,'Light');">&#8226;A Jedi's Patience</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisresilience.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/ajedisresilience.gif',0,'Light');">&#8226;A Jedi's Resilience</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/astepbackward.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/astepbackward.gif',0,'Light');">&#8226;A Step Backward</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/podracer.gif' height='21px' width='21px' alt="Podracer" title="Podracer" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/anakinspodracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/anakinspodracer.gif',0,'Light');">&#8226;Anakin's Podracer</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/boontaevepodrace.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/boontaevepodrace.gif',0,'Light');">Boonta Eve Podrace</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/briskymorningmunchen.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/briskymorningmunchen.gif',0,'Light');">&#8226;Brisky Morning Munchen</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/calderarighim.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/calderarighim.gif',0,'Light');">&#8226;Caldera Righim</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/changingtheodds.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/changingtheodds.gif',0,'Light');">&#8226;Changing The Odds</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/denebboth.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/denebboth.gif',0,'Light');">&#8226;Deneb Both</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/dontdothatagain.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/dontdothatagain.gif',0,'Light');">&#8226;Don't Do That Again</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/eitherwayyouwin.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/eitherwayyouwin.gif',0,'Light');">&#8226;Either Way, You Win</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/endofareign.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/endofareign.gif',0,'Light');">&#8226;End Of A Reign</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/enteringthearena.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/enteringthearena.gif',0,'Light');">&#8226;Entering The Arena</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/vehicle.gif' height='21px' width='21px' alt="Vehicle" title="Vehicle" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/eopie.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/eopie.gif',0,'Light');">Eopie</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/eventuallyyoulllose.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/eventuallyyoulllose.gif',0,'Light');">&#8226;Eventually You'll Lose</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/greatshotkid.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/greatshotkid.gif',0,'Light');">&#8226;Great Shot, Kid!</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/grugnak.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/grugnak.gif',0,'Light');">&#8226;Grugnak</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/icantbelievehesgone.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/icantbelievehesgone.gif',0,'Light');">&#8226;I Can't Believe He's Gone</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/ididit.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/ididit.gif',0,'Light');">&#8226;I Did It!</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/jarjarbinks.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/jarjarbinks.gif',0,'Light');">&#8226;Jar Jar Binks</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/jediescape.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/jediescape.gif',0,'Light');">&#8226;Jedi Escape</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/keepingtheempireoutforever.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/keepingtheempireoutforever.gif',0,'Light');">&#8226;Keeping The Empire Out Forever</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/locirosen.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/locirosen.gif',0,'Light');">&#8226;Loci Rosen</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/losingtrack.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/losingtrack.gif',0,'Light');">&#8226;Losing Track</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/neckandneck.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/neckandneck.gif',0,'Light');">&#8226;Neck And Neck</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/obiwankenobipadawanlearner.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/obiwankenobipadawanlearner.gif',0,'Light');">&#8226;Obi-Wan Kenobi, Padawan Learner</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/obiwankenobipadawanlearnerai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/obiwankenobipadawanlearnerai.gif',0,'Light');">&#8226;Obi-Wan Kenobi, Padawan Learner (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/padmenaberrie.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/padmenaberrie.gif',0,'Light');">&#8226;Padme Naberrie</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/padmenaberrieai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/padmenaberrieai.gif',0,'Light');">&#8226;Padme Naberrie (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/podraceprep.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/podraceprep.gif',0,'Light');">&#8226;Podrace Prep</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinn.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinn.gif',0,'Light');">&#8226;Qui-Gon Jinn</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnai.gif',0,'Light');">&#8226;Qui-Gon Jinn (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnslightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnslightsaber.gif',0,'Light');">&#8226;Qui-Gon Jinn's Lightsaber</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnslightsaberai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/quigonjinnslightsaberai.gif',0,'Light');">&#8226;Qui-Gon Jinn's Lightsaber (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/shmiskywalker.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/shmiskywalker.gif',0,'Light');">&#8226;Shmi Skywalker</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinecityoutskirts.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinecityoutskirts.gif',1,'Light');">&#8226;Tatooine: City Outskirts</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinemosespa.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinemosespa.gif',1,'Light');">&#8226;Tatooine: Mos Espa</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinepodracearena.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinepodracearena.gif',1,'Light');">&#8226;Tatooine: Podrace Arena</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinepodracerbay.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooinepodracerbay.gif',1,'Light');">&#8226;Tatooine: Podracer Bay</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooineslavequarters.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooineslavequarters.gif',1,'Light');">&#8226;Tatooine: Slave Quarters</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/thecamp.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/thecamp.gif',0,'Light');">&#8226;The Camp</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/theshieldisdown.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/theshieldisdown.gif',0,'Light');">&#8226;The Shield Is Down!</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/threepiowithhispartsshowing.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/threepiowithhispartsshowing.gif',0,'Light');">&#8226;Threepio With His Parts Showing</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/threepiowithhispartsshowingai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/threepiowithhispartsshowingai.gif',0,'Light');">&#8226;Threepio With His Parts Showing (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/toocloseforcomfort.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/toocloseforcomfort.gif',0,'Light');">&#8226;Too Close For Comfort</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/whatwasit.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/whatwasit.gif',0,'Light');">&#8226;What Was It?</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/yottsorren.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/yottsorren.gif',0,'Light');">&#8226;Yotts Orren</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Light/large/youllfindimfullofsurprises.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Light/large/youllfindimfullofsurprises.gif',0,'Light');">&#8226;You'll Find I'm Full Of Surprises</a></td><td class='center' style='width:43px'>U</td></tr>
+          </tbody>
+        </table>
+       <td  rowspan="1" style="width:372px; vertical-align:top"> 
+       <table class="sw" style="table-layout: auto; margin-left: 1em; margin-right: 1em; width:329px" >
+          <tbody> 
+          <tr class="center">
+            <td class="title" colspan="3"> 
+              <p><b>Tatooine Card List &#8211; Dark Side - By Name </b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td colspan="3"> 
+              <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineType.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineName.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/TatooineRarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/amillionvoicescryingout.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/amillionvoicescryingout.gif',0,'Dark');">&#8226;A Million Voices Crying Out</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/aurrasing.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/aurrasing.gif',0,'Dark');">&#8226;Aurra Sing</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/aurrasingai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/aurrasingai.gif',0,'Dark');">&#8226;Aurra Sing (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/podracer.gif' height='21px' width='21px' alt="Podracer" title="Podracer" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/benquadinarospodracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/benquadinarospodracer.gif',0,'Dark');">&#8226;Ben Quadinaros' Podracer</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/boontaevepodrace.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/boontaevepodrace.gif',0,'Dark');">Boonta Eve Podrace</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/daroe.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/daroe.gif',0,'Dark');">&#8226;Daroe</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/sith.gif' height='21px' width='21px' alt="Sith" title="Sith" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/darthmaul.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/darthmaul.gif',0,'Dark');">&#8226;Darth Maul</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/sith.gif' height='21px' width='21px' alt="Sith" title="Sith" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/darthmaulai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/darthmaulai.gif',0,'Dark');">&#8226;Darth Maul (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/podracer.gif' height='21px' width='21px' alt="Podracer" title="Podracer" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/dudboltspodracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/dudboltspodracer.gif',0,'Dark');">&#8226;Dud Bolt's Podracer</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/fanfare.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/fanfare.gif',0,'Dark');">&#8226;Fanfare</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/gamallwironicc.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/gamallwironicc.gif',0,'Dark');">&#8226;Gamall Wironicc</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/ghanagleemort.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/ghanagleemort.gif',0,'Dark');">&#8226;Ghana Gleemort</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/gragra.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/gragra.gif',0,'Dark');">&#8226;Gragra</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/hisnameisanakin.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/hisnameisanakin.gif',0,'Dark');">&#8226;His Name Is Anakin</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/hitracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/hitracer.gif',0,'Dark');">&#8226;Hit Racer</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/iwillfindthemquicklymaster.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/iwillfindthemquicklymaster.gif',0,'Dark');">&#8226;I Will Find Them Quickly, Master</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/ifthetracewascorrect.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/ifthetracewascorrect.gif',0,'Dark');">&#8226;If The Trace Was Correct</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/imsorry.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/imsorry.gif',0,'Dark');">&#8226;I'm Sorry</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/joinme.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/joinme.gif',0,'Dark');">&#8226;Join Me!</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/lathe.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/lathe.gif',0,'Dark');">&#8226;Lathe</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/lightsaberparry.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/lightsaberparry.gif',0,'Dark');">&#8226;Lightsaber Parry</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/device.gif' height='21px' width='21px' alt="Device" title="Device" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/maulselectrobinoculars.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/maulselectrobinoculars.gif',0,'Dark');">&#8226;Maul's Electrobinoculars</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/maulslightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/maulslightsaber.gif',0,'Dark');">&#8226;Maul's Lightsaber</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/nichubana.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/nichubana.gif',0,'Dark');">&#8226;Ni Chuba Na??</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/pitcrews.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/pitcrews.gif',0,'Dark');">&#8226;Pit Crews</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/pitdroid.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/pitdroid.gif',0,'Dark');">Pit Droid</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/podracercollision.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/podracercollision.gif',0,'Dark');">&#8226;Podracer Collision</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/quietlyobserving.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/quietlyobserving.gif',0,'Dark');">&#8226;Quietly Observing</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/rachalthyst.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/rachalthyst.gif',0,'Dark');">&#8226;Rachalt Hyst</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulba.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulba.gif',0,'Dark');">&#8226;Sebulba</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulbaai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulbaai.gif',0,'Dark');">&#8226;Sebulba (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/podracer.gif' height='21px' width='21px' alt="Podracer" title="Podracer" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulbaspodracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/sebulbaspodracer.gif',0,'Dark');">&#8226;Sebulba's Podracer</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/sithfury.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/sithfury.gif',0,'Dark');">&#8226;Sith Fury</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/droid.gif' height='21px' width='21px' alt="Droid" title="Droid" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/sithprobedroid.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/sithprobedroid.gif',0,'Dark');">Sith Probe Droid</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/startyourengines.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/startyourengines.gif',0,'Dark');">&#8226;Start Your Engines!</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinedesertlandingsite.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinedesertlandingsite.gif',1,'Dark');">&#8226;Tatooine: Desert Landing Site</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinemosespa.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinemosespa.gif',1,'Dark');">&#8226;Tatooine: Mos Espa</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinepodracearena.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinepodracearena.gif',1,'Dark');">&#8226;Tatooine: Podrace Arena</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/podracer.gif' height='21px' width='21px' alt="Podracer" title="Podracer" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/teemtopagaliespodracer.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/teemtopagaliespodracer.gif',0,'Dark');">&#8226;Teemto Pagalies' Podracer</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/thereisnoconflict.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/thereisnoconflict.gif',0,'Dark');">&#8226;There Is No Conflict</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/vadersanger.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/vadersanger.gif',0,'Dark');">&#8226;Vader's Anger</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/watto.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/watto.gif',0,'Dark');">&#8226;Watto</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattoai.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattoai.gif',0,'Dark');">&#8226;Watto (AI)</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattosbox.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattosbox.gif',0,'Dark');">&#8226;Watto's Box</a></td><td class='center' style='width:43px'>C</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattoschancecube.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/wattoschancecube.gif',0,'Dark');">&#8226;Watto's Chance Cube</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/weshalldoubleourefforts.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/weshalldoubleourefforts.gif',0,'Dark');">&#8226;We Shall Double Our Efforts!</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/youmaystartyourlanding.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/youmaystartyourlanding.gif',0,'Dark');">&#8226;You May Start Your Landing</a></td><td class='center' style='width:43px'>R</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/youswindledme.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/youswindledme.gif',0,'Dark');">&#8226;You Swindled Me!</a></td><td class='center' style='width:43px'>U</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/Tatooine-Dark/large/youwantthisdontyou.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/Tatooine-Dark/large/youwantthisdontyou.gif',0,'Dark');">&#8226;You Want This, Don't You?</a></td><td class='center' style='width:43px'>C</td></tr>
+          </tbody> 
+        </table>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+          <b><a href="#Top">TOP</a></b> 
+      </td>
+    </tr>
+
+  </tbody>
+  </table>
+
+	<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container1 = $(".CardPopupLH");
+			var container2 = $(".CardPopupLV");
+			var container3 = $(".CardPopupDH");
+			var container4 = $(".CardPopupDV");
+			if( //if you didn't click on any of the 4 popup card divs or on a card link, hide the popup
+				!container1.is(e.target) && container1.has(e.target).length === 0 &&
+				!container2.is(e.target) && container2.has(e.target).length === 0 &&
+				!container3.is(e.target) && container3.has(e.target).length === 0 &&
+				!container4.is(e.target) && container4.has(e.target).length === 0 &&
+				!e.target.toString().includes('.gif')
+			)
+			{
+				container1.hide();
+				container2.hide();
+				container3.hide();
+				container4.hide();
+			}
+		});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+FUNCTIONAL
+-Program should automatically generate 4 "Reflections" pages that are simply identical to Reflections2 pages.  Just in case there are any links out there pointing to "Reflections", we may as well keep it maintained.
+--Reflections.html, ReflectionsName.html, ReflectionsRarity.html, ReflectionsType.html
+
+-Program should automatically generate the 4 "Premium" pages.  This will be done by saving them in a template TXT file and using a wildcard for the sidebar that needs updating.
+--Premium.html, PremiumRarity.html, PremiumName.html, PremiumType.html
+--Currently I have been updating the sidebar of the 4 premium pages manually.
+
+-Program should connect directly to the current JSON files online (can it access them via Scomp?) instead of requiring a local copy that could be outdated.
+
+-Update the How To Use.txt file after making some of these quality of life changes
+
+
+
+VISUAL
+-Improve upon weird Set List headings that are black rectangles above each list.  (One combined heading?)
+
+-Better color scheme and other styles
+
+-Better set banners (Set 19 is acceptable quality, Set 0 is not)
+--Set banners don't require the name of the set but we may wish to make it more prominent below the banner
+
+
+
+CODE CLEANUP
+-Replace hard-coded paths with config file variables
+
+-Replace hard-coded maxVSet variable with config info, or by pulling from Sets.json
+
+-Update the How To Use.txt file after making some of these quality of life changes
+
+-Update pages to use logo_swccgpc.gif from the /images folder instead of the /cardlists folder
+
+-Clean up unused Amazon S3 files, especially entire contents of /cardlists/images/starwars/ (do we think they are being linked from anywhere?)
+
+
+
+WISHLIST
+-JSON Rulings and other info overlay on right side (or left side? or under card?)
+--Or a tiny "More Info" link under the card that opens the card in Scomp
+
+-Separate banners for Reflections 2 and Reflections 3
+
+-Automatically update card lists

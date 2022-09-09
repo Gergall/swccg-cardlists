@@ -1,0 +1,423 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Star Wars Cardlists - Reflections III</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="https://res.starwarsccg.org/cardlists/swccg2.css" />
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <script language="javascript">
+
+  function fnLegacyToggle()
+  {
+   if (document.getElementById('divLegacy').style.display=='none')
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Hide';
+    document.getElementById('divLegacy').style.display='block';
+   }
+   else
+   {
+    document.getElementById('aLegacyToggle').innerHTML='Show';
+    document.getElementById('divLegacy').style.display='none';
+   }
+
+   return false;
+  }
+
+ function waitForImage(imgElem) {
+    return new Promise(res => {
+        if (imgElem.complete) {
+            return res();
+        }
+        imgElem.onload = () => res();
+        imgElem.onerror = () => res();
+    });
+ }
+
+ function fnShowCard(imgUrl, horizontal, side)
+ {
+ (async () => {
+  var ext='';
+
+  if (side=='Dark')
+   ext+='D';
+  else
+   ext+='L';
+
+  if (horizontal==1)
+   ext+='H';
+  else
+   ext+='V';
+
+  const img = document.getElementById('imgCardPopup'+ext);
+  img.src = imgUrl;
+  await waitForImage(img);
+
+  switch (ext)
+  {
+   case 'LH':
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLH').style.display='block';
+	break;
+   case 'LV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='block';
+	break;
+   case 'DH':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='block';
+	break;
+   case 'DV':
+	document.getElementById('divCardPopupLH').style.display='none';
+	document.getElementById('divCardPopupLV').style.display='none';
+	document.getElementById('divCardPopupDH').style.display='none';
+	document.getElementById('divCardPopupDV').style.display='block';
+	break;
+   default:
+	break;
+  }
+
+  document.getElementById('aCardPopup'+ext).href = imgUrl;
+ })();
+		
+  return false;
+ }
+
+ </script>
+</head>
+<body>
+
+ <div class="CardPopupLH" id="divCardPopupLH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:480px">
+  <a id="aCardPopupLH" href="#" target="_blank"><img id="imgCardPopupLH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupLV" id="divCardPopupLV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:600px">
+  <a id="aCardPopupLV" href="#" target="_blank"><img id="imgCardPopupLV" src="" width="350" /></a>
+ </div>
+
+ <div class="CardPopupDH" id="divCardPopupDH" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:100px">
+  <a id="aCardPopupDH" href="#" target="_blank"><img id="imgCardPopupDH" src="" width="490" /></a>
+ </div>
+
+ <div class="CardPopupDV" id="divCardPopupDV" style="display:none;position:fixed;background-color:#FFFFFF;top:0;left:240px">
+  <a id="aCardPopupDV" href="#" target="_blank"><img id="imgCardPopupDV" src="" width="350" /></a>
+ </div>
+
+  <table class="sw" style="width:890px">
+      <tbody>
+      <tr> 
+         <td> 
+              <a href="https://www.starwarsccg.org">
+                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+              </a>
+         </td> 
+         <td colspan="2" style="text-align:center;vertical-align:top;">
+			<table>
+				<tr><td style="text-align:left;"><a href="https://www.starwarsccg.org">Star Wars CCG Home</a></td><td style="text-align:center;"><a href="https://gemp.starwarsccg.org/gemp-swccg/">Play SWCCG Online</a></td><td style="text-align:right;"><a href="https://scomp.starwarsccg.org">&#128269; Advanced Search</a><br /></td></tr>
+				<tr><td colspan="3"><img src="https://res.starwarsccg.org/cardlists/images/REF3_title.gif" height="93px" width="735px" alt="Reflections III Card Set" title="Reflections III Card Set" style="border-style: solid; border-color: black; border-width: 1px" /></td></tr>
+			</table>
+         </td>
+      </tr>
+      <tr >
+       <td class="smo" style="width:175px; vertical-align:top" rowspan="2">
+          <br/>
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Decipher Sets</span></b><br />
+
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiereRarity.html>Premiere</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/ANewHopeRarity.html>A New Hope</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/HothRarity.html>Hoth</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DagobahRarity.html>Dagobah</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CloudCityRarity.html>Cloud City</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/JabbasPalaceRarity.html>Jabba's Palace</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/SpecialEditionRarity.html>Special Edition</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/EndorRarity.html>Endor</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/DeathStar2Rarity.html>Death Star II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections2Rarity.html>Reflections II</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TatooineRarity.html>Tatooine</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/CoruscantRarity.html>Coruscant</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/Reflections3Rarity.html>Reflections III</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/TheedRarity.html>Theed</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href=https://res.starwarsccg.org/cardlists/PremiumRarity.html>Premium</a><br/>
+
+          <br />
+          &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0Rarity.html">Set 0</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1Rarity.html">Set 1</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2Rarity.html">Set 2</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3Rarity.html">Set 3</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4Rarity.html">Set 4</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5Rarity.html">Set 5</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6Rarity.html">Set 6</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7Rarity.html">Set 7</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8Rarity.html">Set 8</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9Rarity.html">Set 9</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10Rarity.html">Set 10</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11Rarity.html">Set 11</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12Rarity.html">Set 12</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13Rarity.html">Set 13</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14Rarity.html">Set 14</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15Rarity.html">Set 15</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16Rarity.html">Set 16</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17Rarity.html">Set 17</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18Rarity.html">Set 18</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19Rarity.html">Set 19</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetDRarity.html">Set D</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetPRarity.html">Set P</a><br/>
+
+
+          <br />
+          &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">Show</a><br />
+
+	<div id="divLegacy" style="display:none;">
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock1Rarity.html">Virtual Block 1</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock2Rarity.html">Virtual Block 2</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock3Rarity.html">Virtual Block 3</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock4Rarity.html">Virtual Block 4</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock5Rarity.html">Virtual Block 5</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock6Rarity.html">Virtual Block 6</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock7Rarity.html">Virtual Block 7</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock8Rarity.html">Virtual Block 8</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VBlock9Rarity.html">Virtual Block 9</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VShieldsRarity.html">Virtual Shields</a><br/>
+           &nbsp;&nbsp;&gt 
+          <a class="smo" href="https://res.starwarsccg.org/cardlists/VMasterRarity.html">Virtual Master</a><br/>
+	</div>
+
+          <br/>
+          <br/>
+    	</td>
+
+        <td colspan="2" style="padding-left:10px;"></td></tr><tr>
+
+      <td  rowspan="1"  style="width:372px; vertical-align:top">
+        <table class="sw"  style="table-layout: auto; margin-left: 1em; margin-right: 1em; width: 329px" >
+          <tbody>
+          <tr class="center"> 
+            <td class="title" colspan="3"> 
+              <p>
+               <b>Reflections III Card List &#8211; Light Side - By Rarity </b></p>
+            </td>
+          </tr>
+          <tr class="center">
+            <td colspan="3">
+              <p><b>&nbsp;</b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Rarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/acloserace.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/acloserace.gif',0,'Light');">&#8226;A Close Race</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/aremoteplanet.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/aremoteplanet.gif',0,'Light');">&#8226;A Remote Planet</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/atragedyhasoccurred.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/atragedyhasoccurred.gif',0,'Light');">&#8226;A Tragedy Has Occurred</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/aimhigh.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/aimhigh.gif',0,'Light');">&#8226;Aim High</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/anunusualamountoffear.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/anunusualamountoffear.gif',0,'Light');">&#8226;An Unusual Amount Of Fear</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/anotherpatheticlifeform.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/anotherpatheticlifeform.gif',0,'Light');">&#8226;Another Pathetic Lifeform</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/armamentdismantled.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/armamentdismantled.gif',0,'Light');">&#8226;Armament Dismantled</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/battleplan.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/battleplan.gif',0,'Light');">&#8226;Battle Plan</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel.gif' height='21px' width='21px' alt="Rebel" title="Rebel" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/chewieenraged.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/chewieenraged.gif',0,'Light');">&#8226;Chewie, Enraged</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/clingingtotheedge.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/clingingtotheedge.gif',0,'Light');">&#8226;Clinging To The Edge</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/coloclawfish.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/coloclawfish.gif',0,'Light');">&#8226;Colo Claw Fish</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/darthmaulsdemise.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/darthmaulsdemise.gif',0,'Light');">&#8226;Darth Maul's Demise</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/desperatetimes.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/desperatetimes.gif',0,'Light');">&#8226;Desperate Times</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/diversionarytactics.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/diversionarytactics.gif',0,'Light');">&#8226;Diversionary Tactics</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/doordonot.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/doordonot.gif',0,'Light');">&#8226;Do, Or Do Not</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/dontdothatagain.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/dontdothatagain.gif',0,'Light');">&#8226;Don't Do That Again</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/echobasesensors.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/echobasesensors.gif',0,'Light');">&#8226;Echo Base Sensors</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/energywalls.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/energywalls.gif',0,'Light');">&#8226;Energy Walls</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ewokcelebration.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ewokcelebration.gif',0,'Light');">&#8226;Ewok Celebration</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/fallofajedi.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/fallofajedi.gif',0,'Light');">&#8226;Fall Of A Jedi</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/starship.gif' height='21px' width='21px' alt="Starship" title="Starship" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/hanchewieandthefalcon.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/hanchewieandthefalcon.gif',0,'Light');">&#8226;Han, Chewie, And The Falcon</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/hecangoabouthisbusiness.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/hecangoabouthisbusiness.gif',0,'Light');">&#8226;He Can Go About His Business</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/horacevancil.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/horacevancil.gif',0,'Light');">&#8226;Horace Vancil</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/innerstrength.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/innerstrength.gif',0,'Light');">&#8226;Inner Strength</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/jarjarselectropole.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/jarjarselectropole.gif',0,'Light');">&#8226;Jar Jar's Electropole</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/jedileap.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/jedileap.gif',0,'Light');">&#8226;Jedi Leap</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel.gif' height='21px' width='21px' alt="Rebel" title="Rebel" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/landocalrissianscoundrel.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/landocalrissianscoundrel.gif',0,'Light');">&#8226;Lando Calrissian, Scoundrel</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/landosnotasystemhesaman.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/landosnotasystemhesaman.gif',0,'Light');">&#8226;Lando's Not A System, He's A Man</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/rebel.gif' height='21px' width='21px' alt="Rebel" title="Rebel" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/leiarebelprincess.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/leiarebelprincess.gif',0,'Light');">&#8226;Leia, Rebel Princess</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/letskeepalittleoptimismhere.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/letskeepalittleoptimismhere.gif',0,'Light');">&#8226;Let's Keep A Little Optimism Here</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/nabootheedpalacegenerator.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/nabootheedpalacegenerator.gif',1,'Light');">&#8226;Naboo: Theed Palace Generator</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/nabootheedpalacegeneratorcore.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/nabootheedpalacegeneratorcore.gif',1,'Light');">&#8226;Naboo: Theed Palace Generator Core</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/obiwankenobijediknight.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/obiwankenobijediknight.gif',0,'Light');">&#8226;Obi-Wan Kenobi, Jedi Knight</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/obiwanslightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/obiwanslightsaber.gif',0,'Light');">&#8226;Obi-Wan's Lightsaber</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/onlyjedicarrythatweapon.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/onlyjedicarrythatweapon.gif',0,'Light');">&#8226;Only Jedi Carry That Weapon</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/opeeseakiller.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/opeeseakiller.gif',0,'Light');">&#8226;Opee Sea Killer</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ouneeta.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ouneeta.gif',0,'Light');">&#8226;Ounee Ta</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/planetarydefenses.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/planetarydefenses.gif',0,'Light');">&#8226;Planetary Defenses</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/quigonjinnjedimaster.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/quigonjinnjedimaster.gif',0,'Light');">&#8226;Qui-Gon Jinn, Jedi Master</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/quigonslightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/quigonslightsaber.gif',0,'Light');">&#8226;Qui-Gon's Lightsaber</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/sandoaquamonster.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/sandoaquamonster.gif',0,'Light');">&#8226;Sando Aqua Monster</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/republic.gif' height='21px' width='21px' alt="Republic" title="Republic" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/siobibble.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/siobibble.gif',0,'Light');">&#8226;Sio Bibble</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/strikeblocked.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/strikeblocked.gif',0,'Light');">&#8226;Strike Blocked</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ultimatum.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/ultimatum.gif',0,'Light');">&#8226;Ultimatum</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/weaponofafallenmentor.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/weaponofafallenmentor.gif',0,'Light');">&#8226;Weapon Of A Fallen Mentor</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/objective.gif' height='21px' width='21px' alt="Objective" title="Objective" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wellhandlethis.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wellhandlethis.gif',0,'Light');">We'll Handle This</a> / <a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/duelofthefates.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/duelofthefates.gif',0,'Light');">Duel Of The Fates</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wiseadvice.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wiseadvice.gif',0,'Light');">&#8226;Wise Advice</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/jedi_master.gif' height='21px' width='21px' alt="Jedi Master" title="Jedi Master" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yodamasteroftheforce.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yodamasteroftheforce.gif',0,'Light');">&#8226;Yoda, Master Of The Force</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yourinsightservesyouwell.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yourinsightservesyouwell.gif',0,'Light');">&#8226;Your Insight Serves You Well</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/LS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yourship.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yourship.gif',0,'Light');">&#8226;Your Ship?</a></td><td class='center' style='width:43px'>PM</td></tr>
+          </tbody>
+        </table>
+       <td  rowspan="1" style="width:372px; vertical-align:top"> 
+       <table class="sw" style="table-layout: auto; margin-left: 1em; margin-right: 1em; width:329px" >
+          <tbody> 
+          <tr class="center">
+            <td class="title" colspan="3"> 
+              <p><b>Reflections III Card List &#8211; Dark Side - By Rarity </b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td colspan="3"> 
+              <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/Reflections3Rarity.html">Rarity</a>
+           </td>
+          </tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/auselessgesture.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/auselessgesture.gif',0,'Dark');">&#8226;A Useless Gesture</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/allegationsofcorruption.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/allegationsofcorruption.gif',0,'Dark');">&#8226;Allegations Of Corruption</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/aurrasingsblasterrifle.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/aurrasingsblasterrifle.gif',0,'Dark');">&#8226;Aurra Sing's Blaster Rifle</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/battleorder.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/battleorder.gif',0,'Dark');">&#8226;Battle Order</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/bibfortuna.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/bibfortuna.gif',0,'Dark');">&#8226;Bib Fortuna</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/vehicle.gif' height='21px' width='21px' alt="Vehicle" title="Vehicle" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blizzard4.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blizzard4.gif',0,'Dark');">&#8226;Blizzard 4</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blockadeflagshiphallway.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blockadeflagshiphallway.gif',1,'Dark');">&#8226;Blockade Flagship: Hallway</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blowparried.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/blowparried.gif',0,'Dark');">&#8226;Blow Parried</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/bobafettbountyhunter.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/bobafettbountyhunter.gif',0,'Dark');">&#8226;Boba Fett, Bounty Hunter</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/coloclawfish.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/coloclawfish.gif',0,'Dark');">&#8226;Colo Claw Fish</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/comehereyoubigcoward.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/comehereyoubigcoward.gif',0,'Dark');">&#8226;Come Here You Big Coward</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/conductyoursearch.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/conductyoursearch.gif',0,'Dark');">&#8226;Conduct Your Search</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/crossfire.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/crossfire.gif',0,'Dark');">&#8226;Crossfire</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/darkrage.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/darkrage.gif',0,'Dark');">&#8226;Dark Rage</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/epic_event.gif' height='21px' width='21px' alt="Epic Event" title="Epic Event" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/deephatred.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/deephatred.gif',0,'Dark');">&#8226;Deep Hatred</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/dotheyhaveacodeclearance.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/dotheyhaveacodeclearance.gif',0,'Dark');">&#8226;Do They Have A Code Clearance?</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/energywalls.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/energywalls.gif',0,'Dark');">&#8226;Energy Walls</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/fanfare.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/fanfare.gif',0,'Dark');">&#8226;Fanfare</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/fearismyally.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/fearismyally.gif',0,'Dark');">&#8226;Fear Is My Ally</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/forcepush.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/forcepush.gif',0,'Dark');">&#8226;Force Push</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/jabbadesilijictiure.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/jabbadesilijictiure.gif',0,'Dark');">&#8226;Jabba Desilijic Tiure</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/leavethemtome.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/leavethemtome.gif',0,'Dark');">&#8226;Leave Them To Me</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/objective.gif' height='21px' width='21px' alt="Objective" title="Objective" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/letthemmakethefirstmove.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/letthemmakethefirstmove.gif',0,'Dark');">Let Them Make The First Move</a> / <a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/atlastwewillhaverevenge.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/atlastwewillhaverevenge.gif',0,'Dark');">At Last We Will Have Revenge</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/sith.gif' height='21px' width='21px' alt="Sith" title="Sith" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/lordmaul.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/lordmaul.gif',0,'Dark');">&#8226;Lord Maul</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/weapon.gif' height='21px' width='21px' alt="Weapon" title="Weapon" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/maulsdoublebladedlightsaber.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/maulsdoublebladedlightsaber.gif',1,'Dark');">&#8226;Maul's Double-Bladed Lightsaber</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nabootheedpalacegenerator.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nabootheedpalacegenerator.gif',1,'Dark');">&#8226;Naboo: Theed Palace Generator</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/site.gif' height='21px' width='21px' alt="Site" title="Site" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nabootheedpalacegeneratorcore.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nabootheedpalacegeneratorcore.gif',1,'Dark');">&#8226;Naboo: Theed Palace Generator Core</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/noescape.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/noescape.gif',0,'Dark');">&#8226;No Escape</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nomatchforasith.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/nomatchforasith.gif',0,'Dark');">&#8226;No Match For A Sith</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/opeeseakiller.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/opeeseakiller.gif',0,'Dark');">&#8226;Opee Sea Killer</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/oppressiveenforcement.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/oppressiveenforcement.gif',0,'Dark');">&#8226;Oppressive Enforcement</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/prepareforasurfaceattack.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/prepareforasurfaceattack.gif',0,'Dark');">&#8226;Prepare For A Surface Attack</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/quigonsend.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/quigonsend.gif',0,'Dark');">&#8226;Qui-Gon's End</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/resistance.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/resistance.gif',0,'Dark');">&#8226;Resistance</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/sandoaquamonster.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/sandoaquamonster.gif',0,'Dark');">&#8226;Sando Aqua Monster</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/secretplans.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/secretplans.gif',0,'Dark');">&#8226;Secret Plans</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/imperial.gif' height='21px' width='21px' alt="Imperial" title="Imperial" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/stormtroopergarrison.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/stormtroopergarrison.gif',0,'Dark');">Stormtrooper Garrison</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/theebbofbattle.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/theebbofbattle.gif',0,'Dark');">&#8226;The Ebb Of Battle</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thehuttsaregangsters.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thehuttsaregangsters.gif',0,'Dark');">&#8226;The Hutts Are Gangsters</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thereisnotry.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thereisnotry.gif',0,'Dark');">&#8226;There Is No Try</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/theymustneveragainleavethiscity.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/theymustneveragainleavethiscity.gif',0,'Dark');">&#8226;They Must Never Again Leave This City</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/alien.gif' height='21px' width='21px' alt="Alien" title="Alien" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thok&thug.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/thok&thug.gif',0,'Dark');">&#8226;Thok & Thug</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/throughthecorridor.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/throughthecorridor.gif',0,'Dark');">&#8226;Through The Corridor</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/interrupt.gif' height='21px' width='21px' alt="Interrupt" title="Interrupt" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/unsalvageable.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/unsalvageable.gif',0,'Dark');">&#8226;Unsalvageable</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/weaponofasith.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/weaponofasith.gif',0,'Dark');">&#8226;Weapon Of A Sith</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wellletfateadecidehuh.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wellletfateadecidehuh.gif',0,'Dark');">&#8226;We'll Let Fate-a Decide, Huh?</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/effect.gif' height='21px' width='21px' alt="Effect" title="Effect" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wherearethosedroidekas.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wherearethosedroidekas.gif',0,'Dark');">&#8226;Where Are Those Droidekas?!</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wipethemoutallofthem.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/wipethemoutallofthem.gif',0,'Dark');">&#8226;Wipe Them Out, All Of Them</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/youcannothideforever.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/youcannothideforever.gif',0,'Dark');">&#8226;You Cannot Hide Forever</a></td><td class='center' style='width:43px'>PM</td></tr>
+<tr><td class='center' style='width:31px'><img src='https://res.starwarsccg.org/cardlists/images/DS/defensive_shield.gif' height='21px' width='21px' alt="Defensive Shield" title="Defensive Shield" /></td><td class='left'><a href='https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/youveneverwonarace.gif' target='_blank' onclick="return fnShowCard('https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/youveneverwonarace.gif',0,'Dark');">&#8226;You've Never Won A Race?</a></td><td class='center' style='width:43px'>PM</td></tr>
+          </tbody> 
+        </table>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+          <b><a href="#Top">TOP</a></b> 
+      </td>
+    </tr>
+
+  </tbody>
+  </table>
+
+	<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container1 = $(".CardPopupLH");
+			var container2 = $(".CardPopupLV");
+			var container3 = $(".CardPopupDH");
+			var container4 = $(".CardPopupDV");
+			if( //if you didn't click on any of the 4 popup card divs or on a card link, hide the popup
+				!container1.is(e.target) && container1.has(e.target).length === 0 &&
+				!container2.is(e.target) && container2.has(e.target).length === 0 &&
+				!container3.is(e.target) && container3.has(e.target).length === 0 &&
+				!container4.is(e.target) && container4.has(e.target).length === 0 &&
+				!e.target.toString().includes('.gif')
+			)
+			{
+				container1.hide();
+				container2.hide();
+				container3.hide();
+				container4.hide();
+			}
+		});
+	</script>
+
+</body>
+</html>
