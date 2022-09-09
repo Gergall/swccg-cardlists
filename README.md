@@ -23,7 +23,7 @@ So, a new set has been released and isn't showing up on the card lists page, and
   - For example, `SWListMaker/Form1.cs` contains hard-coded: `D:\swccg\SWListMaker\cardlists\` references
   - `ProcessSet` function has 4 lines with hard-coded paths of where you want the HTML files to get dumped. Update to whatever works for you.
   - `BuildPage` function has 1 line with THREE paths in it, indicating the locations of `PagePart1.txt`, `PagePart2.txt`, and `PagePart3.txt`. Update ALL THREE accordingly.
-  - `GetCardList` function has 1 line indicating where your JSON files are. Make sure you have the latest JSON files _(get from swccg-card-json github)_ - `Dark.json`, `Light.json`, `DarkLegacy.json`, `LightLegacy.json`, and `sets.json`
+  - `GetCardList` function has 1 line indicating where your JSON files are. Make sure you have the latest JSON files _(get from [swccg-card-json github](https://github.com/swccgpc/swccg-card-json))_ - `Dark.json`, `Light.json`, `DarkLegacy.json`, `LightLegacy.json`, and `sets.json`
 
 4. Finally you can build the program with your changes (F6) and then run the program (F5).
   - When you run the program, a button appears. Click the button and wait a minute for the success message which says "File(s) Written"
