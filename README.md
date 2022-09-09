@@ -1,8 +1,14 @@
-# swccg-cardlists
+# SWCCG Card Lists
+
 Code used to generate the static html cardlists: https://res.starwarsccg.org/cardlists/Set19Type.html
 
+## TOC
+
+* <a href="#adding-a-new-set">Adding a New Set</a>
+* <a href="#todo">To Do</a>
 
 
+<a name="adding-a-new-set"></a>
 ## ADDING A NEW SET
 
 So, a new set has been released and isn't showing up on the card lists page, and you got stuck figuring out how to add it?
@@ -13,6 +19,7 @@ So, a new set has been released and isn't showing up on the card lists page, and
   - In the `button1_click` function, update the `maxVSet` variable. Currently its `219`, indicating **Set 19**. To add **Set 20**, you'd change this to `220`.
 
 3. The program also has some hard-coded file paths.
+  - For example, `SWListMaker/Form1.cs` contains hard-coded: `D:\swccg\SWListMaker\cardlists\` references
   - `ProcessSet` function has 4 lines with hard-coded paths of where you want the HTML files to get dumped. Update to whatever works for you.
   - `BuildPage` function has 1 line with THREE paths in it, indicating the locations of `PagePart1.txt`, `PagePart2.txt`, and `PagePart3.txt`. Update ALL THREE accordingly.
   - `GetCardList` function has 1 line indicating where your JSON files are. Make sure you have the latest JSON files _(get from swccg-card-json github)_ - `Dark.json`, `Light.json`, `DarkLegacy.json`, `LightLegacy.json`, and `sets.json`
@@ -51,7 +58,7 @@ So, a new set has been released and isn't showing up on the card lists page, and
 
 
 
-
+<a name="todo"></a>
 ## TODO
 
 ### FUNCTIONAL
