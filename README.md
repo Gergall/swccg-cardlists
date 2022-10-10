@@ -1,6 +1,9 @@
 # SWCCG Card Lists
 
-Code used to generate the static html cardlists: https://res.starwarsccg.org/cardlists/Set19Type.html
+Code used to generate the static html cardlists such as (for example):
+https://res.starwarsccg.org/cardlists/PremiereType.html
+https://res.starwarsccg.org/cardlists/Set19Type.html
+etc
 
 ## TOC
 
@@ -14,19 +17,20 @@ Code used to generate the static html cardlists: https://res.starwarsccg.org/car
 
 So, a new set has been released and isn't showing up on the card lists page, and you got stuck figuring out how to add it?
 
-1. As of **September 2022**, you have to edit the program to add a new set. Download and Install **Visual Studio 2019**.
+As of **October 2022**, there are no longer any hard-coded values in the program that would need to be changed for the purposes of basic maintenance such as simply adding a new set. If you are doing something more complex where you want to edit the program, use **Visual Studio 2019**.
 
-2. Update the program by open the .sln file in Visual Studio 2019 and make these upates in Form1.cs:
-  - In the `button1_click` function, update the `maxVSet` variable. Currently its `219`, indicating **Set 19**. To add **Set 20**, you'd change this to `220`.
+1. As of **October 2022**, you must manually load the latest JSON card database files into the JSON subfolder from the repo root. Without the latest JSON files, this program won't know what the new cards are.
 
-3. The program also has some hard-coded file paths.
-  - For example, `SWListMaker/Form1.cs` contains hard-coded: `D:\swccg\SWListMaker\cardlists\` references
-  - `ProcessSet` function has 4 lines with hard-coded paths of where you want the HTML files to get dumped. Update to whatever works for you.
-  - `BuildPage` function has 1 line with THREE paths in it, indicating the locations of `PagePart1.txt`, `PagePart2.txt`, and `PagePart3.txt`. Update ALL THREE accordingly.
-  - `GetCardList` function has 1 line indicating where your JSON files are. Make sure you have the latest JSON files _(get from [swccg-card-json github](https://github.com/swccgpc/swccg-card-json))_ - `Dark.json`, `Light.json`, `DarkLegacy.json`, `LightLegacy.json`, and `sets.json`
+2. Wherever you downloaded your local copy of this repository, navigate to the config file at \swccg-cardlists\SWListMaker\bin\Debug\SWListMaker.exe.config
+  - NOTE: You might need to set Windows to show file extensions.  If extensions are hidden it might appear as SWListMaker.exe, with the .config hidden.
 
-4. Finally you can build the program with your changes (F6) and then run the program (F5).
-  - When you run the program, a button appears. Click the button and wait a minute for the success message which says "File(s) Written"
+3. This SWListMaker.exe.config file has some settings we need to update (you can just edit it in Notepad):
+  - maxVSet: Change the value to the set code of the highest numbered VSet. For example if the most recent VSet is 19, then the code for that is 219. It always takes the format of 2xx (so Set 20 code = 220, etc).
+  - RepoPath: Adjust the filepath so it's accurate based on where you loaded your repository. If you keep your repo at D:\swccg\swccg-cardlists\ then that is your RepoPath.
+
+4. Now you can run SWListMaker.exe which is in the same directory as the config file you just edited.
+  - When you run the program, a button appears. Click the button and wait a minute for the success message which says "File(s) Written", then close the program.
+  - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
 
 5. The Premium pages are not auto-generated yet (sorry) but they are easy to update manually.
   - Premium.html, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
@@ -44,9 +48,9 @@ So, a new set has been released and isn't showing up on the card lists page, and
 
 8. Do some testing to see how the pages look. Good, hopefully!
 
-9. You need to make the new Vset page doesn't have an image banner? 
+9. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
   - Banner size is `735 x 93`
-  - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 20 as an example): `/cardlists/images/SET19_title.gif`
+  - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 19 as an example): `/cardlists/images/SET19_title.gif`
 
 
 <a name="updating-the-page-html"></a>
@@ -87,12 +91,6 @@ So, a new set has been released and isn't showing up on the card lists page, and
 
 
 ### CODE CLEANUP
-- Replace hard-coded paths with config file variables
-
-- Replace hard-coded `maxVSet` variable with config info, or by pulling from Sets.json
-
-- Update the `README.md` file after making some of these quality of life changes
-
 - Update pages to use `logo_swccgpc.gif` from the `/images` folder instead of the `/cardlists` folder
 
 - Clean up unused Amazon S3 files, especially entire contents of `/cardlists/images/starwars/` _(do we think they are being linked from anywhere?)_
