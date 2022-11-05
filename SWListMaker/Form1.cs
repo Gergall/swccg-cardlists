@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.IO;
+using System.Configuration;
 
 namespace SWListMaker
 {
     public partial class Form1 : Form
     {
+        static string strRepoPath = ConfigurationManager.AppSettings["RepoPath"].ToString();
+        static string strCardlistOutputPath = strRepoPath + @"cardlists\"; //card list output files go to the cardlists subfolder
+        static string strJSONFilePath = strRepoPath + @"JSON\"; //JSON source files are in the JSON subfolder
+        static string strPageTemplatePath = strRepoPath; //Page template files are in the root directory
+
         public Form1()
         {
             InitializeComponent();
@@ -15,7 +21,10 @@ namespace SWListMaker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int maxVSet = 219; //The current max vset is Set 19, coded as 219
+            //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
+            int maxVSet = 201; //default placeholder value
+            string strmaxVSet = ConfigurationManager.AppSettings["maxVSet"].ToString(); //get the actual correct value
+            int.TryParse(strmaxVSet, out maxVSet); //convert actual correct value to int
 
             //Decipher Sets
             ProcessSet("1", "Premiere", "PREMIERE_title.gif", "Premiere");
@@ -69,23 +78,23 @@ namespace SWListMaker
             LSCardResults = SortByRarity(LSCardResults);
             DSCardResults = SortByRarity(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Rarity", false);
-            File.WriteAllText(@"D:\swccg\SWListMaker\cardlists\" + strOutputFile+"Rarity.html", strPage);
+            File.WriteAllText(strCardlistOutputPath + strOutputFile+"Rarity.html", strPage);
 
             //Sorted By Title (aka Name)
             LSCardResults = SortByTitle(LSCardResults);
             DSCardResults = SortByTitle(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Name", false);
-            File.WriteAllText(@"D:\swccg\SWListMaker\cardlists\" + strOutputFile + "Name.html", strPage);
+            File.WriteAllText(strCardlistOutputPath + strOutputFile + "Name.html", strPage);
 
             //Sorted By Type
             LSCardResults = SortByType(LSCardResults);
             DSCardResults = SortByType(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Type", true);
-            File.WriteAllText(@"D:\swccg\SWListMaker\cardlists\" + strOutputFile + "Type.html", strPage);
+            File.WriteAllText(strCardlistOutputPath + strOutputFile + "Type.html", strPage);
 
             //Plain Jane (same as Type, no need to re-sort)
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "", true);
-            File.WriteAllText(@"D:\swccg\SWListMaker\cardlists\" + strOutputFile + ".html", strPage);
+            File.WriteAllText(strCardlistOutputPath + strOutputFile + ".html", strPage);
         }
 
         private string BuildPage(string strSetName, string strSetAbbr, string strBannerFile, List<SWCard> LSCards, List<SWCard> DSCards, string strSort, bool blTypeHeadings)
@@ -126,7 +135,7 @@ namespace SWListMaker
                 strHTMLDS += "<tr><td class='center' style='width:31px'><img src='" + currentCard.GetIconFullPath() + "' height='21px' width='21px' alt=\"" + currentCard.TypeText + "\" title=\"" + currentCard.TypeText + "\" /></td><td class='left'><a href='" + currentCard.FrontImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.FrontImageUrl + "'," + currentCard.Horizontal + ",'Dark');\">" + currentCard.FrontTitle + "</a>" + tmpBackString + "</td><td class='center' style='width:43px'>" + currentCard.Rarity + "</td></tr>" + System.Environment.NewLine;
             }
 
-            string strPage = File.ReadAllText(@"D:\swccg\SWListMaker\PagePart1.txt") + strHTMLLS + File.ReadAllText(@"D:\swccg\SWListMaker\PagePart2.txt") + strHTMLDS + File.ReadAllText(@"D:\swccg\SWListMaker\PagePart3.txt");
+            string strPage = File.ReadAllText(strPageTemplatePath + "PagePart1.txt") + strHTMLLS + File.ReadAllText(strPageTemplatePath + "PagePart2.txt") + strHTMLDS + File.ReadAllText(strPageTemplatePath + "PagePart3.txt");
 
             strPage = strPage.Replace("•", "&#8226;");
             strPage = strPage.Replace("~~SETABBR~~", strSetAbbr);
@@ -174,7 +183,7 @@ namespace SWListMaker
                 filename = side + ".json";
             }
 
-            string jsonFilePath = @"D:\swccg\SWListMaker\JSON\" + filename;
+            string jsonFilePath = strJSONFilePath + filename;
 
             string strJSON = File.ReadAllText(jsonFilePath);
             dynamic cardarray = JsonConvert.DeserializeObject(strJSON);
