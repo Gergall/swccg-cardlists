@@ -17,38 +17,38 @@ etc
 
 So, a new set has been released and isn't showing up on the card lists page, and you got stuck figuring out how to add it?
 
-As of **October 2022**, there are no longer any hard-coded values in the program that would need to be changed for the purposes of basic maintenance such as simply adding a new set. If you are doing something more complex where you want to edit the program, use **Visual Studio 2019**.
+You shouldn't need to edit the program for basic use such as simply adding a new set. If you are doing something more complex where you want to edit the program, use **Visual Studio 2022**.
 
-1. As of **October 2022**, you must manually load the latest JSON card database files into the JSON subfolder from the repo root. Without the latest JSON files, this program won't know what the new cards are.
-
-2. Wherever you downloaded your local copy of this repository, navigate to the config file at \swccg-cardlists\SWListMaker\bin\Debug\SWListMaker.exe.config
+1. Wherever you downloaded your local copy of this repository, navigate to the config file at \swccg-cardlists\SWListMaker\bin\Debug\SWListMaker.exe.config
   - NOTE: You might need to set Windows to show file extensions.  If extensions are hidden it might appear as SWListMaker.exe, with the .config hidden.
 
-3. This SWListMaker.exe.config file has some settings we need to update (you can just edit it in Notepad):
+2. This SWListMaker.exe.config file has some settings we need to update (you can just edit it in Notepad):
   - maxVSet: Change the value to the set code of the highest numbered VSet. For example if the most recent VSet is 19, then the code for that is 219. It always takes the format of 2xx (so Set 20 code = 220, etc).
   - RepoPath: Adjust the filepath so it's accurate based on where you loaded your repository. If you keep your repo at D:\swccg\swccg-cardlists\ then that is your RepoPath.
+  - DownloadLatestJSON: If set to Y, the program will first download the latest JSON card data before creating card lists. Y is the recommended setting.
+  - JSONRemotePath: This is the path where the program will download the latest JSON files from. You will never need to change this unless we decide to host the JSON files elsewhere.
 
-4. Now you can run SWListMaker.exe which is in the same directory as the config file you just edited.
-  - When you run the program, a button appears. Click the button and wait a minute for the success message which says "File(s) Written", then close the program.
+3. Now you can run SWListMaker.exe which is in the same directory as the config file you just edited.
+  - When you run the program, a button appears. Click the button and wait a minute for the success message which says "Done! Cardlist files written to...", then close the program.
   - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
 
-5. The Premium pages are not auto-generated yet (sorry) but they are easy to update manually.
+4. The Premium pages are not auto-generated yet (sorry) but they are easy to update manually.
   - Premium.html, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
   - Just download/open the existing file, scroll down to the part where the Vsets are listed in the sidebar (around line 186) and insert a line to link to the new Vset.
 
-6. Log into Amazon S3 and upload these HTML files, _you should have about 200 such files,_ to `/cardlists`
+5. Log into Amazon S3 and upload these HTML files, _you should have about 200 such files,_ to `/cardlists`
   - Yes, upload ALL ~200 of them, not just the new set. We need to update all the other pages sidebars
 
-7. Issue an invalidation to clear the old pages out of cache
+6. Issue an invalidation to clear the old pages out of cache
   - https://console.aws.amazon.com/cloudfront/v3/home?region=ca-central-1#/distributions/E4R02360UW5RJ/invalidations
   - Create Invalidation:
     ```
     /cardlists/*
     ```
 
-8. Do some testing to see how the pages look. Good, hopefully!
+7. Do some testing to see how the pages look. Good, hopefully!
 
-9. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
+8. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
   - Banner size is `735 x 93`
   - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 19 as an example): `/cardlists/images/SET19_title.gif`
 
@@ -74,9 +74,11 @@ As of **October 2022**, there are no longer any hard-coded values in the program
   - `Premium.html`, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
   - **Currently I have been updating the sidebar of the 4 premium pages manually**.
 
-- Program should connect directly to the current JSON files online by downloading from GitHub instead of requiring a local copy that could be outdated.
+- UI Improvements
+ - Better display of what the program is doing
+ - Better display of what the current app settings are
 
-- Update the `README.md` HowTo section after making some of these quality of life changes
+- Update the `README.md` HowTo section after making some of these changes
 
 
 
