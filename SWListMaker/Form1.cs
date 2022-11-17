@@ -4,15 +4,21 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.IO;
 using System.Configuration;
+using System.Net;
 
 namespace SWListMaker
 {
     public partial class Form1 : Form
     {
+        static string strmaxVSet = ConfigurationManager.AppSettings["maxVSet"].ToString(); //get the actual correct value
+        
         static string strRepoPath = ConfigurationManager.AppSettings["RepoPath"].ToString();
         static string strCardlistOutputPath = strRepoPath + @"cardlists\"; //card list output files go to the cardlists subfolder
         static string strJSONFilePath = strRepoPath + @"JSON\"; //JSON source files are in the JSON subfolder
         static string strPageTemplatePath = strRepoPath; //Page template files are in the root directory
+
+        static string strDownloadLatestJSON = ConfigurationManager.AppSettings["DownloadLatestJSON"].ToString();
+        static string strJSONRemotePath = ConfigurationManager.AppSettings["JSONRemotePath"].ToString();
 
         public Form1()
         {
@@ -21,9 +27,18 @@ namespace SWListMaker
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = false;
+            textBox1.Text = "Working, please wait...";
+
+            //Before we do anything else, lets get the latest JSON files (unless that setting is disabled)
+            if (strDownloadLatestJSON == "Y")
+            {
+                textBox1.Text = "Downloading JSON...";
+                RefreshJSON();
+            }
+
             //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
             int maxVSet = 201; //default placeholder value
-            string strmaxVSet = ConfigurationManager.AppSettings["maxVSet"].ToString(); //get the actual correct value
             int.TryParse(strmaxVSet, out maxVSet); //convert actual correct value to int
 
             //Decipher Sets
@@ -64,11 +79,13 @@ namespace SWListMaker
 
             ProcessSet("LEGACYMASTER", "Virtual Master", "VMaster-title.jpg", "VMaster");
 
-            textBox1.Text = "File(s) Written";
+            textBox1.Text = "Done! Cardlist files written to:" + System.Environment.NewLine + strCardlistOutputPath;
         }
 
         private void ProcessSet(string strSetID, string strSetName, string strBannerFile, string strOutputFile)
         {
+            textBox1.Text = "Processing Set " + strSetID + "...";
+
             List<SWCard> LSCardResults = GetCardList(strSetID, "Light");
             List<SWCard> DSCardResults = GetCardList(strSetID, "Dark");
 
@@ -278,6 +295,31 @@ namespace SWListMaker
                 return true;
             else
                 return false;
+        }
+
+        private void RefreshJSON()
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile(strJSONRemotePath + "Dark.json", strJSONFilePath + "Dark.json");
+                client.DownloadFile(strJSONRemotePath + "DarkLegacy.json", strJSONFilePath + "DarkLegacy.json");
+                client.DownloadFile(strJSONRemotePath + "Light.json", strJSONFilePath + "Light.json");
+                client.DownloadFile(strJSONRemotePath + "LightLegacy.json", strJSONFilePath + "LightLegacy.json");
+                client.DownloadFile(strJSONRemotePath + "sets.json", strJSONFilePath + "sets.json");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string strSettings = "";
+            strSettings += "These are the current settings. To modify them, close program and edit the App.config file." + System.Environment.NewLine;
+            strSettings += "Refresh JSON files with latest online copies? (Y/N): " + strDownloadLatestJSON + System.Environment.NewLine;
+            if (strDownloadLatestJSON == "Y")
+                strSettings += "Path to online JSON files: " + strJSONRemotePath + System.Environment.NewLine;
+            strSettings += "Local repository (root folder): " + strRepoPath + System.Environment.NewLine;
+            strSettings += "Max VSet ID: " + strmaxVSet + System.Environment.NewLine;
+
+            txtSettings.Text = strSettings;
         }
     }
 }

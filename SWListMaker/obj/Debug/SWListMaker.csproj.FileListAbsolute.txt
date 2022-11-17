@@ -24,3 +24,4 @@ D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.CoreCompileInp
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.CopyComplete
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.exe
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.pdb
+D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.SuggestedBindingRedirects.cache
