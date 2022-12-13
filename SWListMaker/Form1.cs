@@ -96,22 +96,26 @@ namespace SWListMaker
             DSCardResults = SortByRarity(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Rarity", false);
             File.WriteAllText(strCardlistOutputPath + strOutputFile+"Rarity.html", strPage);
+            if (strOutputFile == "Reflections2") { File.WriteAllText(strCardlistOutputPath + "Reflections" + "Rarity.html", strPage); } //When we make a Reflections2 page, we also make an identical Reflections page
 
             //Sorted By Title (aka Name)
             LSCardResults = SortByTitle(LSCardResults);
             DSCardResults = SortByTitle(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Name", false);
             File.WriteAllText(strCardlistOutputPath + strOutputFile + "Name.html", strPage);
+            if (strOutputFile == "Reflections2") { File.WriteAllText(strCardlistOutputPath + "Reflections" + "Name.html", strPage); } //When we make a Reflections2 page, we also make an identical Reflections page
 
             //Sorted By Type
             LSCardResults = SortByType(LSCardResults);
             DSCardResults = SortByType(DSCardResults);
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "Type", true);
             File.WriteAllText(strCardlistOutputPath + strOutputFile + "Type.html", strPage);
+            if (strOutputFile == "Reflections2") { File.WriteAllText(strCardlistOutputPath + "Reflections" + "Type.html", strPage); } //When we make a Reflections2 page, we also make an identical Reflections page
 
             //Plain Jane (same as Type, no need to re-sort)
             strPage = BuildPage(strSetName, strOutputFile, strBannerFile, LSCardResults, DSCardResults, "", true);
             File.WriteAllText(strCardlistOutputPath + strOutputFile + ".html", strPage);
+            if (strOutputFile == "Reflections2") { File.WriteAllText(strCardlistOutputPath + "Reflections" + ".html", strPage); } //When we make a Reflections2 page, we also make an identical Reflections page
         }
 
         private string BuildPage(string strSetName, string strSetAbbr, string strBannerFile, List<SWCard> LSCards, List<SWCard> DSCards, string strSort, bool blTypeHeadings)

@@ -28,6 +28,8 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - DownloadLatestJSON: If set to Y, the program will first download the latest JSON card data before creating card lists. Y is the recommended setting.
   - JSONRemotePath: This is the path where the program will download the latest JSON files from. You will never need to change this unless we decide to host the JSON files elsewhere.
 
+TEMPORARY STEP 2A: Open PagePart1.txt and manually add a line for the new virtual set.  This will be automated soon.
+
 3. Now you can run SWListMaker.exe which is in the same directory as the config file you just edited.
   - When you run the program, a button appears. Click the button and wait a minute for the success message which says "Done! Cardlist files written to...", then close the program.
   - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
@@ -36,8 +38,8 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - Premium.html, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
   - Just download/open the existing file, scroll down to the part where the Vsets are listed in the sidebar (around line 186) and insert a line to link to the new Vset.
 
-5. Log into Amazon S3 and upload these HTML files, _you should have about 200 such files,_ to `/cardlists`
-  - Yes, upload ALL ~200 of them, not just the new set. We need to update all the other pages sidebars
+5. Log into Amazon S3 and upload these HTML files, _you should have at least 200 such files,_ to `/cardlists`
+  - Yes, upload ALL 200+ files, not just the new set. We need to update all the other pages sidebars
 
 6. Issue an invalidation to clear the old pages out of cache
   - https://console.aws.amazon.com/cloudfront/v3/home?region=ca-central-1#/distributions/E4R02360UW5RJ/invalidations
@@ -51,6 +53,9 @@ You shouldn't need to edit the program for basic use such as simply adding a new
 8. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
   - Banner size is `735 x 93`
   - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 19 as an example): `/cardlists/images/SET19_title.gif`
+
+9. Check everything into Github.
+  - Don't forget to add the new cardlist pages and add the banner image!
 
 
 <a name="updating-the-page-html"></a>
@@ -67,9 +72,6 @@ You shouldn't need to edit the program for basic use such as simply adding a new
 ## TODO
 
 ### FUNCTIONAL
-- Program should automatically generate 4 "Reflections" pages that are simply identical to Reflections2 pages. Just in case there are any links out there pointing to "Reflections", we may as well keep it maintained.
-  - `Reflections.html`, `ReflectionsName.html`, `ReflectionsRarity.html`, `ReflectionsType.html`
-
 - Program should automatically generate the 4 "Premium" pages. This will be done by saving them in a template TXT file and using a wildcard for the sidebar that needs updating.
   - `Premium.html`, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
   - **Currently I have been updating the sidebar of the 4 premium pages manually**.
