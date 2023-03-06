@@ -241,7 +241,10 @@
         "If the droid's cover is broken (either voluntarily or by another card such as Lt. Pol Treidum), then A Gift is lost."
       ],
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "A Gift (V)"
+      ]
     },
     {
       "front": {
@@ -425,7 +428,10 @@
         "Passengers aboard starships or enclosed vehicles do not count towards the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, Mighty Jabba, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Rey, All Of The Jedi"
+      ]
     },
     {
       "abbr": [
@@ -501,7 +507,10 @@
         "Owner may choose any of these options to take into hand:<ul><li>1 Echo site</li><li>2 Echo sites</li><li>1 Echo Effect</li><li>1 Echo site and 1 Echo Effect</li><li>1 planet system with 2 Light icons</li></ul>"
       ],
       "set": "111",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"A New Secret Base (V)"
+      ]
     },
     {
       "abbr": [
@@ -732,7 +741,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "I Am Part Of The Living Force"
+      ]
     },
     {
       "counterpart": "Enter The Bureaucrat",
@@ -771,7 +783,10 @@
         "Can only place itself from table into Used Pile, not any other card."
       ],
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Your Thoughts Dwell On Your Mother"
+      ]
     },
     {
       "combo": [
@@ -813,7 +828,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tallie Lintra In Blue 1"
+      ]
     },
     {
       "front": {
@@ -846,7 +864,11 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Green Leader In Green Squadron 1",
+	"Green Leader In Green Squadron 1 (AI)"
+      ]
     },
     {
       "combo": [
@@ -1109,7 +1131,10 @@
       ],
       "rarity": "XR",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Admiral Ackbar (V)"
+      ]
     },
     {
       "combo": [
@@ -1168,7 +1193,8 @@
         "ability": "3",
         "characteristics": [
           "admiral",
-          "leader"
+          "leader",
+          "Mon Calamari"
         ],
         "deploy": "0",
         "destiny": "2",
@@ -1339,12 +1365,15 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Affect Mind (V)"
+      ]
     },
     {
-      "counterpart": "I Find Your Lack Of Faith Disturbing (V) - Defensive Shield",
+      "counterpart": "I Find Your Lack Of Faith Disturbing (V)",
       "front": {
-        "destiny": "5",
+        "destiny": "0",
         "gametext": "Plays on table. Bad Feeling Have I is canceled. Unless Inner Strength on table, opponent may use only one combat card per turn. Let Them Make The First Move may target only Undercover spies and R2-D2.",
         "icons": [
           "Defensive Shield",
@@ -1698,7 +1727,7 @@
           "Premium",
           "Set P"
         ],
-        "imageUrl": "https://res.starwarsccg.org/cards/DemoDeck-Light/large/ahsokatanowithlightsabers.gif",
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualPremium-Light/large/ahsokatanowithlightsabers.gif",
         "lore": "Female Togruta Padawan.",
         "power": "4",
         "subType": "Republic",
@@ -1948,7 +1977,11 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Bail Organa",
+        "Larma D'Acy"
+      ]
     },
     {
       "combo": [
@@ -2028,7 +2061,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yavin 4 Base Operations / The Time To Fight Is Now"
+      ]
     },
     {
       "canceledBy": [
@@ -2163,7 +2199,10 @@
         "Can be played as a response to the attempted deployment of an Effect or Utinni Effect. If successful, the target has no result."
       ],
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Alter (Coruscant) (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -2209,7 +2248,10 @@
         "Can be played as a response to the attempted deployment of an Effect or Utinni Effect. If successful, the target has no result."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Alter (Premiere) (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -2253,7 +2295,10 @@
         "A successful draw on either function causes Force loss to Do, Or Do Not or There Is No Try."
       ],
       "set": "10",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Alter & Friendly Fire (V)"
+      ]
     },
     {
       "front": {
@@ -2387,7 +2432,10 @@
         "The player playing Ambush chooses the order to send cards to Used Pile, including the 'cards on them' such as devices. However, if a card is selected to go to Used Pile while there are still other cards on it, place the selected card and the cards on it in owners' Used Pile(s) simultaneously (per Leaves Table rules, the owner of that group of cards then determines the order)."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ambush (V)"
+      ]
     },
     {
       "front": {
@@ -2493,7 +2541,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jedi Business"
+      ]
     },
     {
       "front": {
@@ -2525,7 +2576,10 @@
         "Only works if Luke is about to go to Lost Pile, not if Luke is about to go out of play."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Anakin Skywalker (V)"
+      ]
     },
     {
       "front": {
@@ -2671,7 +2725,10 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Anakin's Lightsaber (V)"
+      ]
     },
     {
       "front": {
@@ -2827,7 +2884,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Anger, Fear, Aggression (V)"
+      ]
     },
     {
       "abbr": [
@@ -2902,7 +2962,11 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Anoat (V)",
+        "Malachor"
+      ]
     },
     {
       "combo": [
@@ -2984,7 +3048,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ahsoka Tano"
+      ]
     },
     {
       "front": {
@@ -3075,7 +3142,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Antilles Maneuver (V)"
+      ]
     },
     {
       "abbr": [
@@ -3148,7 +3218,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Kamino"
+      ]
     },
     {
       "combo": [
@@ -3180,7 +3253,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Babu Frik"
+      ]
     },
     {
       "combo": [
@@ -3466,7 +3542,11 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rey With Lightsaber",
+	"Rey With Lightsaber (AI)"
+      ]
     },
     {
       "front": {
@@ -3557,7 +3637,10 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Artoo (V)"
+      ]
     },
     {
       "cancels": [
@@ -3873,7 +3956,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tobias Beckett"
+      ]
     },
     {
       "front": {
@@ -3903,7 +3989,10 @@
       ],
       "rarity": "U",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ascension Guns (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Pat Johnson)",
@@ -4002,7 +4091,10 @@
       ],
       "rarity": "F",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"K-2SO (Kay-Tuesso)"
+      ]
     },
     {
       "counterpart": "Asteroid Field",
@@ -4372,7 +4464,10 @@
         "Lost function - Will not 'steal back' a weapon that Dark has stolen from Light."
       ],
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Grogu"
+      ]
     },
     {
       "conceptBy": "(Original concept by Kevin Shannon)",
@@ -4579,7 +4674,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lightmaker"
+      ]
     },
     {
       "abbr": [
@@ -4747,7 +4845,10 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Crusher Roodown"
+      ]
     },
     {
       "counterpart": "Den Of Thieves",
@@ -4777,7 +4878,12 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Alien Rabble",
+        "Ancient Watering Hole",
+        "Steady, Steady & Bargaining Table"
+      ]
     },
     {
       "front": {
@@ -4804,7 +4910,10 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Republic No Longer Functions"
+      ]
     },
     {
       "counterpart": "Battle Order",
@@ -5089,7 +5198,11 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Beldon's Eye (V)",
+	"Beldon's Eye & All My Urchins"
+      ]
     },
     {
       "front": {
@@ -5261,7 +5374,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jyn Erso"
+      ]
     },
     {
       "front": {
@@ -5577,7 +5693,10 @@
         "Adds 1 to total weapon destiny, not to each draw."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke's Bionic Hand"
+      ]
     },
     {
       "canceledBy": [
@@ -5613,7 +5732,10 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Clone Trooper"
+      ]
     },
     {
       "front": {
@@ -5701,7 +5823,12 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Captain Rex, 501st Legion",
+	"Captain Rex, 501st Legion (AI)",
+	"Captain Rex, 501st Legion (Holo AI)"
+      ]
     },
     {
       "cancels": [
@@ -5809,7 +5936,11 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Blaster Rifle (V)",
+        "Stolen Stormtrooper Blaster Rifle"
+      ]
     },
     {
       "front": {
@@ -6034,7 +6165,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Bo-Katan"
+      ]
     },
     {
       "front": {
@@ -6396,7 +6530,10 @@
         "His lore does not make him a member of Rogue Squadron."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"BoShek (V)"
+      ]
     },
     {
       "front": {
@@ -6561,7 +6698,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Bodhi Rook"
+      ]
     },
     {
       "front": {
@@ -6725,7 +6865,10 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Bowcaster (V)"
+      ]
     },
     {
       "combo": [
@@ -6773,7 +6916,10 @@
         "Do not round unless required to do something that requires a whole number, in which case round to nearest whole number."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"BB-8 (Beebee-Ate)"
+      ]
     },
     {
       "combo": [
@@ -7043,7 +7189,10 @@
         "May not attempt to blow away Blockade Flagship unless its starship card is on table."
       ],
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Bravo Fighter (V)"
+      ]
     },
     {
       "front": {
@@ -7113,7 +7262,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Poe Dameron",
+	"Poe Dameron (AI)"
+      ]
     },
     {
       "front": {
@@ -7151,7 +7304,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Bright Hope (V)"
+      ]
     },
     {
       "front": {
@@ -7305,7 +7461,10 @@
         "A character may not be used in multiple pairs."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "C-3PO (See-Threepio) (V)"
+      ]
     },
     {
       "front": {
@@ -7387,7 +7546,10 @@
         "Light's vehicle moves for free as long as it is headed in Cal's direction when it starts to move."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Cal Alder (V)"
+      ]
     },
     {
       "counterpart": "Greedo (V)",
@@ -7481,7 +7643,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Be With Me"
+      ]
     },
     {
       "front": {
@@ -8238,7 +8403,10 @@
         "The battle ends immediately if either side has no presence, but the participating captives provide presence if applicable."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Grakchawwaa"
+      ]
     },
     {
       "canceledBy": [
@@ -8312,7 +8480,10 @@
         "The site(s) may be deployed even if the starting location was converted, or failed to convert an opponent's starting location."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Careful Planning (V)"
+      ]
     },
     {
       "abbr": [
@@ -8426,7 +8597,10 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Cell 2187 (V)"
+      ]
     },
     {
       "front": {
@@ -8528,7 +8702,10 @@
       ],
       "rarity": "C",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "The Destiny Of A Jedi"
+      ]
     },
     {
       "counterpart": "Abyss",
@@ -8561,7 +8738,10 @@
         "For a card to be considered 'duplicated on table', it must be active on table. Not inactive (e.g. Undercover, captive, missing) and not supporting (e.g. stacked on a grabber such as Tentacle)."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star II: Turbolift Walkway"
+      ]
     },
     {
       "front": {
@@ -8616,7 +8796,10 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Chewbacca (V)"
+      ]
     },
     {
       "front": {
@@ -8669,7 +8852,10 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Chewbacca, Defender Of Kashyyyk"
+      ]
     },
     {
       "front": {
@@ -8801,7 +8987,10 @@
       ],
       "rarity": "PM",
       "set": "104",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Chewie (V)"
+      ]
     },
     {
       "abbr": [
@@ -8908,7 +9097,11 @@
       ],
       "rarity": "PM",
       "set": "109",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Chewie With Bowcaster",
+	"Chewie With Bowcaster (AI)"
+      ]
     },
     {
       "abbr": [
@@ -9234,7 +9427,7 @@
           "Cloud City",
           "Set P"
         ],
-        "imageUrl": "https://res.starwarsccg.org/cards/DemoDeck-Light/large/youtrulybelongherewithus.gif",
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualPremium-Light/large/youtrulybelongherewithus.gif",
         "title": "City In The Clouds / You Truly Belong Here With Us",
         "type": "Objective"
       },
@@ -9248,7 +9441,7 @@
           "Cloud City",
           "Set P"
         ],
-        "imageUrl": "https://res.starwarsccg.org/cards/DemoDeck-Light/large/cityintheclouds.gif",
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualPremium-Light/large/cityintheclouds.gif",
         "title": "City In The Clouds / You Truly Belong Here With Us",
         "type": "Objective"
       },
@@ -9757,7 +9950,10 @@
         "The phrase 'on Cloud City' means at a Cloud City site, not the Bespin: Cloud City sector."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Captain Lando Calrissian"
+      ]
     },
     {
       "counterpart": "Cloud City Engineer",
@@ -9793,7 +9989,11 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"CT-5555 (Fives)",
+	"CT-5555 (Fives) (AI)"
+      ]
     },
     {
       "combo": [
@@ -9840,7 +10040,11 @@
         "The phrase 'on Cloud City' means at a Cloud City site, not the Bespin: Cloud City sector."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Cody",
+	"Commander Cody (AI)"
+      ]
     },
     {
       "counterpart": "Cloud City: Carbonite Chamber",
@@ -9946,7 +10150,11 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star: Central Core",
+        "Death Star II: Chasm Walkway"
+      ]
     },
     {
       "front": {
@@ -9980,7 +10188,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Scarif: Data Vault",
+	"Scarif: Data Vault (AI)"
+      ]
     },
     {
       "counterpart": "Cloud City: Downtown Plaza",
@@ -10087,14 +10299,16 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku: Rey's Encampment"
+      ]
     },
     {
       "counterpart": "Cloud City: Lower Corridor",
       "front": {
         "darkSideIcons": 2,
         "destiny": "0",
-        "errataSymbol": "E1",
         "gametext": "Light:  Your characters with lightsabers are each power +2 here.  Dark:  -",
         "icons": [
           "Interior",
@@ -10123,7 +10337,10 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Coruscant: Jedi Temple Meditation Room"
+      ]
     },
     {
       "front": {
@@ -10197,7 +10414,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lothal: Comm Tower E-272 (Ezra's Roost)"
+      ]
     },
     {
       "counterpart": "Cloud City: Upper Plaza Corridor",
@@ -10332,7 +10552,11 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Graveyard Of Giants",
+	"Vice Admiral Holdo"
+      ]
     },
     {
       "abbr": [
@@ -10425,7 +10649,10 @@
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Airen Cracken"
+      ]
     },
     {
       "front": {
@@ -10532,7 +10759,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ezra's Blaster Lightsaber"
+      ]
     },
     {
       "counterpart": "Battle Deployment",
@@ -10698,7 +10928,10 @@
       ],
       "rarity": "C1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lor San Tekka"
+      ]
     },
     {
       "abbr": [
@@ -10760,7 +10993,10 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Luke Skywalker (V)"
+      ]
     },
     {
       "front": {
@@ -10967,7 +11203,10 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Vanden Willard (V)"
+      ]
     },
     {
       "front": {
@@ -11056,7 +11295,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Wedge Antilles (V)"
+      ]
     },
     {
       "front": {
@@ -11207,7 +11449,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Computer Interface (V)"
+      ]
     },
     {
       "cancels": [
@@ -11328,7 +11573,7 @@
           "Coruscant"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Light/large/control.gif",
-        "lore": "Qui-Gon's sense of control assisted him in his final confrontation with Darth Maul. The ability to heal oneself in battle, mentally and physically, can be a huge advantage.",
+        "lore": "Qui-Gon's sense of control assisted him in his final confrontation with Darth Maul. The ability to heal one's self in battle, mentally and physically, can be a huge advantage.",
         "subType": "Lost",
         "title": "Control",
         "type": "Interrupt"
@@ -11351,7 +11596,10 @@
         "Can be played as a response to the completed deployment of an Immediate or Mobile Effect, after it has any automatic results."
       ],
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Qui-Gon Jinn, Serene Jedi"
+      ]
     },
     {
       "cancels": [
@@ -11482,7 +11730,10 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Corellia (V)"
+      ]
     },
     {
       "front": {
@@ -11522,7 +11773,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Galen Erso"
+      ]
     },
     {
       "front": {
@@ -11563,7 +11817,11 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rey",
+	"Rey (AI)"
+      ]
     },
     {
       "front": {
@@ -11697,7 +11955,10 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Corellian Slip (V)"
+      ]
     },
     {
       "front": {
@@ -11806,7 +12067,10 @@
         "The device may deploy on (for example) a character at the location."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Jannah"
+      ]
     },
     {
       "front": {
@@ -11844,7 +12108,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Corporal Delevar (V)"
+      ]
     },
     {
       "front": {
@@ -12045,7 +12312,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Ruescott Melshi"
+      ]
     },
     {
       "front": {
@@ -12238,7 +12508,11 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Nar Shaddaa",
+	"Nar Shaddaa (AI)"
+      ]
     },
     {
       "counterpart": "Coruscant",
@@ -12308,7 +12582,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Restore Freedom To The Galaxy"
+      ]
     },
     {
       "counterpart": "Coruscant Guard",
@@ -12625,7 +12902,10 @@
         "The USED function works even if the shuttle (or shuttle vehicle) is landed or unpiloted."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"They Have No Idea We're Coming / Until We Win, Or The Chances Are Spent"
+      ]
     },
     {
       "counterpart": "Precision Targeting",
@@ -12723,8 +13003,8 @@
       ],
       "rarity": "C",
       "rulings": [
-        "If a player loses Force from hand to stack here, it is first revealed to both players.",
-        "If a player loses Force from Life Force to stack here, it is not revealed.",
+        "If a player loses Force from hand to stack here, it is first revealed to both players, then stacked face down.",
+        "If a player loses Force from Life Force to stack here, it is not revealed to anyone. Stack it face down, unseen.",
         "Text referring to cards stacked 'on'/'under'/'beneath' this Effect all means the same thing.",
         "Neither player may view Dark's cards after they are stacked face down here."
       ],
@@ -12761,7 +13041,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Rebel Leadership & Critical Error Revealed"
+      ]
     },
     {
       "front": {
@@ -12954,7 +13237,10 @@
         "If stolen, place the previous owner's cards underneath in the owner's Used Pile."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Cyborg Construct (V)"
+      ]
     },
     {
       "front": {
@@ -13092,7 +13378,11 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ahch-To",
+        "Dagobah (V)"
+      ]
     },
     {
       "front": {
@@ -13130,7 +13420,10 @@
         "Unpiloted starfighters may deploy here simultaneously with a pilot character only if that character was already permitted to deploy to Dagobah."
       ],
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ahch-To: Jedi Temple"
+      ]
     },
     {
       "front": {
@@ -13163,7 +13456,11 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ahch-To: Luke's Hut",
+        "Ajan Kloss: Training Course"
+      ]
     },
     {
       "front": {
@@ -13196,7 +13493,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ahch-To: Jedi Village"
+      ]
     },
     {
       "front": {
@@ -13238,7 +13538,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ahch-To: Cliffs"
+      ]
     },
     {
       "front": {
@@ -13272,7 +13575,12 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ahch-To: Saddle",
+        "Ahch-To: Saddle (AI)",
+        "Dagobah: Yoda's Hut (V)"
+      ]
     },
     {
       "front": {
@@ -13471,7 +13779,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Cal Kestis"
+      ]
     },
     {
       "front": {
@@ -13598,7 +13909,7 @@
           "Reflections 2"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsII-Light/large/dashrendar.gif",
-        "lore": "Emperor banished Rendar family from Coruscant. Became gambler and smuggler. Brought down AT-AT at the Battle of Hoth. Works for Rebel Alliance from time to time. Corellian.",
+        "lore": "Emperor banished Rendar family from Coruscant. Became gambler and smuggler. Brought down AT-AT at the Battle of Hoth. Works for Rebel Alliance from time to time.",
         "power": "3",
         "subType": "Alien",
         "title": "•Dash Rendar",
@@ -13622,11 +13933,19 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Dash Rendar (V)"
+      ]
     },
     {
       "front": {
         "ability": "3",
+        "characteristics": [
+          "gambler",
+          "smuggler",
+          "Corellian"
+        ],
         "deploy": "3",
         "destiny": "3",
         "extraText": [
@@ -13640,7 +13959,7 @@
           "Set 10"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Light/large/dashrendar.gif",
-        "lore": "Emperor banished Rendar family from Coruscant. Became gambler and smuggler. Brought down AT-AT at the Battle of Hoth. Works for Rebel Alliance from time to time. Corellian.",
+        "lore": "Emperor banished Rendar family from Coruscant. Became gambler and smuggler. Brought down AT-AT at the Battle of Hoth. Works for Rebel Alliance from time to time.",
         "power": "3",
         "subType": "Alien",
         "title": "•Dash Rendar (V)",
@@ -13732,7 +14051,10 @@
         "Both sides of the Objective are retargeted to Leia instead of Luke."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Daughter Of Skywalker (V)"
+      ]
     },
     {
       "abbr": [
@@ -13888,13 +14210,18 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Stolen Data Tapes",
+	"Stolen Data Tapes (AI)"
+      ]
     },
     {
       "counterpart": "Death Star: Detention Block Control Room",
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
+        "errataSymbol": "D-E1",
         "gametext": "Light:  If you control, Force Drain +1 here and all imprisoned characters on Death Star are released.  Dark:  -",
         "icons": [
           "Interior",
@@ -13918,7 +14245,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kamino: Clone Training Center"
+      ]
     },
     {
       "counterpart": "Death Star: Detention Block Corridor",
@@ -13955,7 +14285,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star: Detention Block Corridor (V)"
+      ]
     },
     {
       "counterpart": "Death Star: Docking Bay 327",
@@ -13993,12 +14326,17 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star: Hangar 327",
+        "Kamino: Clone Birthing Center"
+      ]
     },
     {
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
+        "errataSymbol": "D-E1",
         "gametext": "Light:  If you control, Luke and Obi-Wan are power +2 on Death Star.  Dark:  If you control, opponent needs 2 ability to control each Death Star site.",
         "icons": [
           "Interior",
@@ -14024,7 +14362,10 @@
       ],
       "rarity": "PM",
       "set": "101",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star: Level 6 Core Shaft Corridor (V)"
+      ]
     },
     {
       "front": {
@@ -14052,7 +14393,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Death Star: Trash Compactor (V)"
+      ]
     },
     {
       "combo": [
@@ -14302,7 +14646,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Depa Billaba (V)"
+      ]
     },
     {
       "front": {
@@ -14388,7 +14735,10 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Derek 'Hobbie' Klivian (V)"
+      ]
     },
     {
       "front": {
@@ -14656,7 +15006,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Dice Ibegon (V)"
+      ]
     },
     {
       "combo": [
@@ -14768,7 +15121,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Admiral Raddus"
+      ]
     },
     {
       "combo": [
@@ -14930,6 +15286,7 @@
       ],
       "front": {
         "destiny": "4",
+        "errataSymbol": "D-E1",
         "gametext": "Deploy on table. Sense and Alter are now Lost Interrupts. Also, when and player makes a destiny draw for Sense or Alter, and that destiny draw is successful, that player loses 2 Force. (Immune to Alter.)",
         "icons": [
           "Dagobah"
@@ -15149,6 +15506,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "DDTA"
+      ],
       "counterpart": "Fanfare - Defensive Shield",
       "front": {
         "destiny": "0",
@@ -15192,10 +15552,19 @@
         "What're You Tryin' To Push On Us?"
       ],
       "rarity": "PM",
+      "rulings": [
+        "This will suspend the entire You Cannot Hide Forever & Mobilization Points combo card."
+      ],
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Don't Do That Again (V)"
+      ]
     },
     {
+      "abbr": [
+        "DDTA"
+      ],
       "front": {
         "destiny": "4",
         "gametext": "Deploy on table. Once per game may take any Immediate Effect into hand from Reserve Deck; reshuffle. While opponent occupies no battleground systems, Mobilization Points is suspended. (Immune to Alter.)",
@@ -15241,12 +15610,21 @@
         "What're You Tryin' To Push On Us?"
       ],
       "rarity": "C",
+      "rulings": [
+        "This will suspend the entire You Cannot Hide Forever & Mobilization Points combo card."
+      ],
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Don't Do That Again (Tatooine) (V)"
+      ]
     },
     {
+      "abbr": [
+        "DDTA"
+      ],
       "front": {
-        "destiny": "4",
+        "destiny": "0",
         "gametext": "Plays on table. Always Thinking With Your Stomach, Ice Storm, and Sandwhirl are canceled. Once per game, may take an Immediate Effect into hand from Reserve Deck; reshuffle. Unless opponent occupies a battleground system, Mobilization Points is suspended.",
         "icons": [
           "Defensive Shield",
@@ -15271,11 +15649,17 @@
         }
       ],
       "rarity": "PM",
+      "rulings": [
+        "This will suspend the entire You Cannot Hide Forever & Mobilization Points combo card."
+      ],
       "set": "200d",
       "side": "Light",
       "sourceType": "effect"
     },
     {
+      "abbr": [
+        "DDTA"
+      ],
       "counterpart": "Fanfare (V) - Defensive Shield",
       "front": {
         "destiny": "0",
@@ -15323,6 +15707,9 @@
         "What're You Tryin' To Push On Us?"
       ],
       "rarity": "PM",
+      "rulings": [
+        "This will suspend the entire You Cannot Hide Forever & Mobilization Points combo card."
+      ],
       "set": "200d",
       "side": "Light",
       "sourceType": "defensive shield"
@@ -15423,7 +15810,10 @@
         "May be played even if the battleground has been converted."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Don't Tread On Me (V)"
+      ]
     },
     {
       "abbr": [
@@ -15600,7 +15990,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Down With The Emperor! (V)"
+      ]
     },
     {
       "abbr": [
@@ -15713,7 +16106,11 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Baze Malbus With Cannon",
+        "Corporal Pao"
+      ]
     },
     {
       "canceledBy": [
@@ -15960,7 +16357,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Dutch (V)"
+      ]
     },
     {
       "front": {
@@ -16153,7 +16553,10 @@
       ],
       "rarity": "C3",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Taidu Sefla"
+      ]
     },
     {
       "abbr": [
@@ -16227,7 +16630,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"CT-5385 (Tup)"
+      ]
     },
     {
       "counterpart": "Stormtrooper Backpack",
@@ -16260,7 +16666,10 @@
         "Does not allow the character to use weapons/devices that they cannot use otherwise."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Everything We Need"
+      ]
     },
     {
       "cancels": [
@@ -16362,7 +16771,10 @@
         "Does not double attrition."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rio Durant"
+      ]
     },
     {
       "canceledBy": [
@@ -16435,7 +16847,10 @@
         "If the activation option is chosen, each player may still decline to activate anything."
       ],
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Master Qui-Gon Jinn, An Old Friend"
+      ]
     },
     {
       "counterpart": "Come With Me",
@@ -16495,7 +16910,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Maz Kanata"
+      ]
     },
     {
       "front": {
@@ -16598,12 +17016,21 @@
         "If canceled while character is piloting, character moves to a passenger slot if available, otherwise character is placed in Used Pile."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Best Starpilot In The Galaxy",
+        "Ellorrs Madak, Pilot Instructor"
+      ]
     },
     {
       "conceptBy": "(Original concept by Brian Fred)",
       "front": {
         "ability": "2",
+        "characteristics": [
+          "Duros",
+          "scout",
+          "smuggler"
+        ],
         "deploy": "3",
         "destiny": "3",
         "forfeit": "4",
@@ -16769,7 +17196,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Prophecy Of The Force"
+      ]
     },
     {
       "combo": [
@@ -16809,7 +17239,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Endor (V)"
+      ]
     },
     {
       "combo": [
@@ -17011,7 +17444,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Scarif: Turbolift Complex"
+      ]
     },
     {
       "counterpart": "Endor: Bunker",
@@ -17046,7 +17482,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Endor: Bunker (V)"
+      ]
     },
     {
       "counterpart": "Endor: Bunker",
@@ -17117,7 +17556,10 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Endor: Chief Chirpa's Hut (V)"
+      ]
     },
     {
       "counterpart": "Endor: Dense Forest",
@@ -17152,7 +17594,10 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kashyyyk: Forest Depths"
+      ]
     },
     {
       "combo": [
@@ -17192,7 +17637,11 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Endor: Ewok Village (V)",
+        "Kashyyyk: Kachirho"
+      ]
     },
     {
       "front": {
@@ -17303,7 +17752,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kashyyyk: Sacred Falls"
+      ]
     },
     {
       "counterpart": "Endor: Landing Platform (Docking Bay)",
@@ -17344,7 +17796,12 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kashyyyk: Work Settlement #121",
+        "Scarif: Landing Pad Nine (Docking Bay)",
+        "Scarif: Landing Pad Nine (Docking Bay) (AI)"
+      ]
     },
     {
       "front": {
@@ -17610,13 +18067,16 @@
         "May not relocate weapons and devices deployed directly upon a starship or vehicle (e.g. Rectenna or Heavy Turbolaser Battery)."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Escape Pod (V)"
+      ]
     },
     {
       "front": {
         "destiny": "5",
         "errataSymbol": "E1",
-        "gametext": "Use 1 Force to take a dejarik into hand from Reserve Deck; reshuffle. OR For remainder of turn, you lose no Force to Cloud City Occupation, Rebel Base Occupation, Tatooine Occupation, That Thing's Operational, You May Start Your Landing, or You'll Be Dead!.",
+        "gametext": "Use 1 Force to take a dejarik into hand from Reserve Deck; reshuffle. OR For remainder of turn, you lose no Force to Cloud City Occupation, Rebel Base Occupation, Tatooine Occupation, That Thing's Operational, You May Start Your Landing, or You'll Be Dead!",
         "icons": [
           "Set 4"
         ],
@@ -18155,7 +18615,10 @@
         "If prevented from being used to satisfy attrition (e.g. by Precision Targeting), his text will not satisfy all remaining attrition."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Sagwa"
+      ]
     },
     {
       "front": {
@@ -18216,7 +18679,10 @@
         "Baragwin may repeatedly check the top card of Lost Pile to see if it is an eligible target for retrieval (unless his action has already retrieved that turn)."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kanan Jarrus, Jedi Knight"
+      ]
     },
     {
       "front": {
@@ -18285,7 +18751,10 @@
       ],
       "rarity": "PM",
       "set": "106",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"I've Got A Bad Feeling About..."
+      ]
     },
     {
       "front": {
@@ -18315,7 +18784,10 @@
         "Characters inside open vehicles will automatically disembark to move away. Characters inside starships and enclosed vehicles are not present and so do not move away."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lieutenant Kaydel Connix"
+      ]
     },
     {
       "front": {
@@ -18406,7 +18878,11 @@
         "The character needs to have been lost from the battle (or duel) on Cloud City."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Fall Of The Legend (V)",
+        "Master Windu"
+      ]
     },
     {
       "canceledBy": [
@@ -18519,7 +18995,10 @@
         "Hydroponics Station and Vaporator may deploy here even if it's not on Tatooine (only when using this site to deploy them from Reserve Deck)."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tatooine: Skywalker Hut"
+      ]
     },
     {
       "front": {
@@ -18667,7 +19146,10 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Make Ten Men Feel Like A Hundred"
+      ]
     },
     {
       "front": {
@@ -18742,7 +19224,10 @@
       ],
       "rarity": "F",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Odin Nesloor & First Aid"
+      ]
     },
     {
       "front": {
@@ -18926,7 +19411,10 @@
         "If Alter is played in response to the attempted deployment of this Effect, this Effect's game text may not be used yet."
       ],
       "set": "102",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"For Luck (V)"
+      ]
     },
     {
       "front": {
@@ -19074,7 +19562,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Found Someone You Have (V)"
+      ]
     },
     {
       "front": {
@@ -19130,7 +19621,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Libertine"
+      ]
     },
     {
       "cancels": [
@@ -19164,7 +19658,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Free Ride & Endor Celebration (V)"
+      ]
     },
     {
       "cancels": [
@@ -19224,7 +19721,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Endor: Anakin's Funeral Pyre"
+      ]
     },
     {
       "counterpart": "Frostbite",
@@ -19385,7 +19885,10 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Major Harter Kalonia"
+      ]
     },
     {
       "front": {
@@ -19697,7 +20200,10 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Carlist Rieekan (V)"
+      ]
     },
     {
       "front": {
@@ -19880,7 +20386,11 @@
         "This text does not increase (or double) the deploy cost or destiny number on Rebel Planners."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Dodonna (V)",
+	"Major Caluan Ematt"
+      ]
     },
     {
       "front": {
@@ -20265,7 +20775,10 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Solo (V)"
+      ]
     },
     {
       "front": {
@@ -20376,7 +20889,10 @@
         "Deploying to a Home One site counts as deploying to a Star Cruiser only if Home One is on table."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Walex Blissex (V)"
+      ]
     },
     {
       "front": {
@@ -20508,6 +21024,7 @@
     {
       "front": {
         "characteristics": [
+          "freighter",
           "Rebel (starship)"
         ],
         "deploy": "3",
@@ -20524,7 +21041,7 @@
         "lore": "Phoenix Squadron",
         "maneuver": "4",
         "power": "4",
-        "subType": "Starfighter: Modified VCX Feighter",
+        "subType": "Starfighter: Modified VCX Freighter",
         "title": "•Ghost",
         "type": "Starship",
         "uniqueness": "*"
@@ -20847,7 +21364,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ghost"
+      ]
     },
     {
       "front": {
@@ -20889,7 +21409,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Phantom"
+      ]
     },
     {
       "front": {
@@ -20973,7 +21496,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Liswarr"
+      ]
     },
     {
       "abbr": [
@@ -21014,9 +21540,15 @@
         "The permanent pilot <u>is</u> the same persona as the character card Dutch, so both cannot be on table at same time."
       ],
       "set": "103",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Gold Leader In Gold 1 (V)"
+      ]
     },
     {
+      "abbr": [
+        "GLiG1v"
+      ],
       "cancels": [
         "A 'react' at same system"
       ],
@@ -21127,7 +21659,10 @@
         "This <u>is not</u> the same starship persona as Gold 1, so both could be on table at same time."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Falcon"
+      ]
     },
     {
       "front": {
@@ -21312,8 +21847,8 @@
       "counterpart": "Tentacle",
       "front": {
         "destiny": "5",
-        "errataSymbol": "E1",
-        "gametext": "If opponent just played an Interrupt, use 1 Force to deploy on table. That Interrupt is played out but is then 'grappled' (placed here but is out of play). Any new Interrupts of the same name are now unique (•). (Immune to Control.)",
+        "errataSymbol": "D-E2",
+        "gametext": "If opponent just played an Interrupt, use 1 Force to deploy on table and stack that Interrupt here. All Interrupts of that title are unique (•). (Immune to Control.)",
         "icons": [
           "A New Hope",
           "Grabber"
@@ -21454,7 +21989,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Plo Koon's Jedi Starfighter"
+      ]
     },
     {
       "front": {
@@ -21607,7 +22145,11 @@
         "For example, if LS Force drains at the DS site Cloud City: Interrogation Room, the +1 bonus in the site's game text is not canceled because it is a LS Force drain."
       ],
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Chirrut Imwe",
+	"Chirrut Imwe (AI)"
+      ]
     },
     {
       "front": {
@@ -21829,7 +22371,10 @@
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tycho In Green Squadron 3"
+      ]
     },
     {
       "combo": [
@@ -22281,7 +22826,10 @@
       ],
       "rarity": "PM",
       "set": "102",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Han (V)"
+      ]
     },
     {
       "combo": [
@@ -22512,7 +23060,10 @@
         "Gravity Shadow targets Han's 3 ability."
       ],
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Han, Chewie, And The Falcon (V)"
+      ]
     },
     {
       "abbr": [
@@ -22607,7 +23158,10 @@
         "Both functions of this Interrupt are top level actions."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"I've Got A Really Good Feeling About This"
+      ]
     },
     {
       "front": {
@@ -22629,7 +23183,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Han's Dice (V)"
+      ]
     },
     {
       "front": {
@@ -22668,7 +23225,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Han's Heavy Blaster Pistol (V)"
+      ]
     },
     {
       "front": {
@@ -22795,7 +23355,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Harc Seff (V)"
+      ]
     },
     {
       "front": {
@@ -22904,7 +23467,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rebellions Are Built On Hope"
+      ]
     },
     {
       "cancels": [
@@ -22942,7 +23508,7 @@
       ],
       "back": {
         "destiny": "7",
-        "gametext": "He Is The Chosen One: Deploy Anakin’s Funeral Pyre (with Prophecy Of The Force there), Ewok Village, and I Feel The Conflict. For remainder of game, you may not deploy [Episode I] or [Episode VII] characters or locations (except Obi-Wan, Yoda, and Lars' Moisture Farm). If Luke just won a battle, may re-circulate and shuffle Reserve Deck. Emperor’s Power does not increase deploy costs at battlegrounds. While this side up, you may initiate battles for free. Flip this card if Luke or a Jedi at a battleground site (unless an opponent's character of ability > 4 is). He Will Bring Balance:{While} this side up, once during your control phase, may peek at up to X cards from the top of your Reserve Deck, where X = number of battlegrounds you occupy; take one into hand and shuffle your Reserve Deck. During your draw phase, may retrieve any one card; opponent may stack a card from hand on I Feel The Conflict to place that out of play instead.{Flip} this card (unless Vader crossed over) if opponent's character of ability > 4 at a battleground site or you do not have Luke (or a Jedi) at a battleground site.",
+        "gametext": "He Is The Chosen One: Deploy Anakin's Funeral Pyre (with Prophecy Of The Force there), Ewok Village, and I Feel The Conflict. For remainder of game, you may not deploy [Episode I] or [Episode VII] characters or locations (except Obi-Wan, Yoda, and Lars' Moisture Farm). If Luke just won a battle, may re-circulate and shuffle Reserve Deck. Emperor's Power does not increase deploy costs at battlegrounds. While this side up, you may initiate battles for free. Flip this card if Luke or a Jedi at a battleground site (unless an opponent's character of ability > 4 is). He Will Bring Balance:{While} this side up, once during your control phase, may peek at up to X cards from the top of your Reserve Deck, where X = number of battlegrounds you occupy; take one into hand and shuffle your Reserve Deck. During your draw phase, may retrieve any one card; opponent may stack a card from hand on I Feel The Conflict to place that out of play instead.{Flip} this card (unless Vader crossed over) if opponent's character of ability > 4 at a battleground site or you do not have Luke (or a Jedi) at a battleground site.",
         "icons": [
           "Set 8"
         ],
@@ -22955,7 +23521,7 @@
         "errataDate": "2022-12-12",
         "errataNotes": "E1 Text: Deploy Jedi Council Chamber (with Prophecy Of The Force there), Ewok Village, and I Feel The Conflict. For remainder of game, you may not deploy [Episode I] or [Episode VII] characters or locations (except Obi-Wan and Yoda). Luke may not be captured by Bring Him Before Me unless there are two cards stacked on Insignificant Rebellion during any move phase. While this side up, you may initiate battles for free. Flip this card if Luke or a Jedi at a battleground site (unless an opponent's character of ability > 4 is).",
         "errataSymbol": "E2",
-        "gametext": "He Is The Chosen One: Deploy Anakin’s Funeral Pyre (with Prophecy Of The Force there), Ewok Village, and I Feel The Conflict. For remainder of game, you may not deploy [Episode I] or [Episode VII] characters or locations (except Obi-Wan, Yoda, and Lars' Moisture Farm). If Luke just won a battle, may re-circulate and shuffle Reserve Deck. Emperor’s Power does not increase deploy costs at battlegrounds. While this side up, you may initiate battles for free. Flip this card if Luke or a Jedi at a battleground site (unless an opponent's character of ability > 4 is). He Will Bring Balance:{While} this side up, once during your control phase, may peek at up to X cards from the top of your Reserve Deck, where X = number of battlegrounds you occupy; take one into hand and shuffle your Reserve Deck. During your draw phase, may retrieve any one card; opponent may stack a card from hand on I Feel The Conflict to place that out of play instead.{Flip} this card (unless Vader crossed over) if opponent's character of ability > 4 at a battleground site or you do not have Luke (or a Jedi) at a battleground site.",
+        "gametext": "He Is The Chosen One: Deploy Anakin's Funeral Pyre (with Prophecy Of The Force there), Ewok Village, and I Feel The Conflict. For remainder of game, you may not deploy [Episode I] or [Episode VII] characters or locations (except Obi-Wan, Yoda, and Lars' Moisture Farm). If Luke just won a battle, may re-circulate and shuffle Reserve Deck. Emperor's Power does not increase deploy costs at battlegrounds. While this side up, you may initiate battles for free. Flip this card if Luke or a Jedi at a battleground site (unless an opponent's character of ability > 4 is). He Will Bring Balance:{While} this side up, once during your control phase, may peek at up to X cards from the top of your Reserve Deck, where X = number of battlegrounds you occupy; take one into hand and shuffle your Reserve Deck. During your draw phase, may retrieve any one card; opponent may stack a card from hand on I Feel The Conflict to place that out of play instead.{Flip} this card (unless Vader crossed over) if opponent's character of ability > 4 at a battleground site or you do not have Luke (or a Jedi) at a battleground site.",
         "icons": [
           "Set 8"
         ],
@@ -23004,7 +23570,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Admiral Kilian"
+      ]
     },
     {
       "abbr": [
@@ -23065,7 +23634,10 @@
         "If played against a repeating weapon, all repeated firings (even against another target) are also affected."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Hear Me Baby, Hold Together (V)"
+      ]
     },
     {
       "cancels": [
@@ -23157,7 +23729,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Help Me Obi-Wan Kenobi (V)"
+      ]
     },
     {
       "front": {
@@ -23271,7 +23846,10 @@
         "Cannot forfeit opponent's devices."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Hero Of A Thousand Devices (V)"
+      ]
     },
     {
       "front": {
@@ -23330,7 +23908,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ezra, Hero Of Phoenix Squadron"
+      ]
     },
     {
       "front": {
@@ -23615,7 +24196,11 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ahsoka Tano With Lightsabers",
+	"Ahsoka Tano With Lightsabers (AI)"
+      ]
     },
     {
       "front": {
@@ -23649,7 +24234,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Temmin 'Snap' Wexley"
+      ]
     },
     {
       "front": {
@@ -23689,7 +24277,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Beaumont Kin"
+      ]
     },
     {
       "combo": [
@@ -23782,7 +24373,10 @@
         "If Home One is lost from table, this site remains on table."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Profundity: Docking Bay"
+      ]
     },
     {
       "front": {
@@ -23850,7 +24444,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Like My Father Before Me"
+      ]
     },
     {
       "front": {
@@ -24267,7 +24864,10 @@
         "When you deploy this location (even at start of game), if there is no 4th, 5th, or 6th marker site on table already, you must immediately deploy the 4th marker from Reserve Deck. If it is not found there, Main Power Generators does not deploy."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Hoth: Main Power Generators (1st Marker) (V)"
+      ]
     },
     {
       "front": {
@@ -24464,7 +25064,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"R2-D2 & C-3PO"
+      ]
     },
     {
       "front": {
@@ -24603,7 +25206,10 @@
         "These cards do <u>not</u> work: Nick Of Time, Skull."
       ],
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "I Can't Believe He's Gone (V)"
+      ]
     },
     {
       "combo": [
@@ -24701,8 +25307,8 @@
       ],
       "rarity": "U",
       "rulings": [
-        "If a player loses Force from hand to stack here, it is first revealed to both players.",
-        "If a player loses Force from Life Force to stack here, it is not revealed.",
+        "If a player loses Force from hand to stack here, it is first revealed to both players, then stacked face down.",
+        "If a player loses Force from Life Force to stack here, it is not revealed to anyone. Stack it face down, unseen.",
         "Text referring to cards stacked 'on'/'under'/'beneath' this Effect all means the same thing.",
         "Neither player may view Dark's cards after they are stacked face down here."
       ],
@@ -24924,7 +25530,11 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "I Must Be Allowed To Speak (V)",
+        "I Must Be Allowed To Speak & Smuggler's Blues"
+      ]
     },
     {
       "abbr": [
@@ -25396,7 +26006,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"What Chance Do We Have?"
+      ]
     },
     {
       "front": {
@@ -25422,7 +26035,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Impressive, Most Impressive (V)"
+      ]
     },
     {
       "cancels": [
@@ -25592,7 +26208,10 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Master Qui-Gon With Lightsaber"
+      ]
     },
     {
       "front": {
@@ -25691,7 +26310,11 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Heavy Infantry Mandalorian",
+        "Sabine Wren"
+      ]
     },
     {
       "front": {
@@ -25911,7 +26534,10 @@
         "The movement is unlimited and is not restricted by landspeed."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Garbage Will Do"
+      ]
     },
     {
       "front": {
@@ -26076,7 +26702,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"I Think I Can Handle Myself"
+      ]
     },
     {
       "abbr": [
@@ -26227,7 +26856,10 @@
         "The USED function is not immune to Sense."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Fleet Admiral Gial Ackbar"
+      ]
     },
     {
       "front": {
@@ -26343,7 +26975,10 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"You Assume Too Much"
+      ]
     },
     {
       "front": {
@@ -26464,7 +27099,10 @@
       ],
       "rarity": "PM",
       "set": "112",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Maz's Castle: Antechamber"
+      ]
     },
     {
       "cancels": [
@@ -26537,7 +27175,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Maz's Castle: Hidden Recess"
+      ]
     },
     {
       "back": {
@@ -26578,7 +27219,7 @@
           "Carbon-Frozen"
         ],
         "forfeit": "0",
-        "gametext": "The Mythrol’s game text may not be canceled. If about to leave table, place out of play. Plays only during start of game by revealing from outside your deck to replace a just-deployed Jabba's Prize imprisoned in Security Tower. If not revealed, place this card under your Starting Effect. [Set 1] Despair targets The Mythrol instead of Jabba's Prize. Cancels Stunning Leader here. If just released, either flip this card or place it out of play.",
+        "gametext": "The Mythrol's game text may not be canceled. If about to leave table, place out of play. Plays only during start of game by revealing from outside your deck to replace a just-deployed Jabba's Prize imprisoned in Security Tower. If not revealed, place this card under your Starting Effect. [Set 1] Despair targets The Mythrol instead of Jabba's Prize. Cancels Stunning Leader here. If just released, either flip this card or place it out of play.",
         "icons": [
           "Set 0"
         ],
@@ -27132,7 +27773,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Offworld Jawas"
+      ]
     },
     {
       "front": {
@@ -27246,7 +27890,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jedi Levitation (V)"
+      ]
     },
     {
       "counterpart": "Sith Fury (V)",
@@ -27320,7 +27967,11 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jedi Lightsaber (V)",
+	"Mace Windu's Lightsaber"
+      ]
     },
     {
       "front": {
@@ -27375,7 +28026,10 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jedi Mind Trick (V)"
+      ]
     },
     {
       "front": {
@@ -27432,7 +28086,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Coruscant: Jedi Temple"
+      ]
     },
     {
       "front": {
@@ -28181,7 +28838,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Paige Tico"
+      ]
     },
     {
       "counterpart": "Kashyyyk",
@@ -28222,7 +28882,10 @@
         "(Dark side text) Passengers do not count towards the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, IG-88 In IG-2000, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Wookiee Homestead"
+      ]
     },
     {
       "counterpart": "Kashyyyk Operative",
@@ -28264,7 +28927,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tarfful"
+      ]
     },
     {
       "combo": [
@@ -28392,7 +29058,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Keep Your Eyes Open (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -28531,7 +29200,12 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lothal",
+        "Kessel (V)",
+        "Polis Massa"
+      ]
     },
     {
       "canceledBy": [
@@ -28571,7 +29245,10 @@
         "When the smuggler returns to the first system to make this card lost by its own game text, this Kessel Run is 'completed' (e.g. for purposes of Captain Lando Calrissian, Leebo, etc)."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Kessel Run (V)"
+      ]
     },
     {
       "front": {
@@ -28609,7 +29286,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ketwol (V)"
+      ]
     },
     {
       "combo": [
@@ -28783,7 +29463,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Kin Kian (V)"
+      ]
     },
     {
       "front": {
@@ -28930,7 +29613,11 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Captain Hera Syndulla",
+	"Captain Hera Syndulla (AI)"
+      ]
     },
     {
       "front": {
@@ -29126,7 +29813,10 @@
         "If using multiple Force to raise total power (e.g. using 3 Force to raise total power by 3), it is still a single weapons segment action (not multiple separate actions of 1 Force each)."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"K'lor'slug (V)"
+      ]
     },
     {
       "counterpart": "N'gok War Beast",
@@ -29253,7 +29943,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Qi'ra"
+      ]
     },
     {
       "front": {
@@ -29381,7 +30074,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lando Calrissian (V)"
+      ]
     },
     {
       "cancels": [
@@ -29936,7 +30632,10 @@
         "This character is female."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Leesub Sirln (V)"
+      ]
     },
     {
       "combo": [
@@ -30011,7 +30710,11 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Falcon, Junkyard Garbage",
+	"The Falcon, Junkyard Garbage (AI)"
+      ]
     },
     {
       "combo": [
@@ -30055,7 +30758,10 @@
       ],
       "rarity": "PM",
       "set": "102",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Leia (V)"
+      ]
     },
     {
       "cancels": [
@@ -30139,7 +30845,11 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"City In The Clouds / You Truly Belong Here With Us",
+	"Leia Of Alderaan (V)"
+      ]
     },
     {
       "front": {
@@ -30230,7 +30940,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Leia Organa (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Hayes Hunter)",
@@ -30345,7 +31058,6 @@
         "A Force drain at a related site (twice per game)"
       ],
       "combo": [
-        "Leia, Rebel Princess+",
         "Leia, Rebel Princess + Jerus Jannick",
         "Leia, Rebel Princess + Warrior's Courage Add two battle destinies if Leia is defending a battle alone at a site."
       ],
@@ -30396,7 +31108,9 @@
       "rarity": "PM",
       "rulings": [
         "Mara Jade, The Emperor's Hand is an alien (not a non-alien).",
-        "If a non-alien is excluded and this causes Leia's text to make Light control the site, the excluded character is still active for the purposes of Objective flip conditions (e.g. Imperial Entanglements) and for the purposes of preventing cards like Search And Destroy from leaving table."
+        "If a non-alien is <u>excluded from battle</u> and this causes Leia's text to make Light control the site <u>during that battle</u>, the excluded character is still active for the purposes of Objective flip conditions (e.g. Imperial Entanglements) and for the purposes of preventing cards like Search And Destroy from leaving table.",
+        "First sentence - Leia at a system or cloud sector may cancel a force drain at a related site.",
+        "Second sentence - Due to her errata, opponent only needs a non-alien at the location (not necessarily present at the location) to avoid having total ability = 0."
       ],
       "set": "13",
       "side": "Light"
@@ -30567,7 +31281,10 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Leslomy Tacema (V)"
+      ]
     },
     {
       "front": {
@@ -30643,7 +31360,10 @@
         "After being stacked on a character, this card is in a Supporting (not Active) state and thus may no longer be targeted by Sense, grabbers, etc."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Let The Wookiee Win (V)"
+      ]
     },
     {
       "counterpart": "Nothing Can Get Through Our Shield",
@@ -30704,7 +31424,12 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Han Solo, Optimistic General",
+        "It's True, All Of It",
+        "Phoenix Squadron Operations"
+      ]
     },
     {
       "counterpart": "Leave Them To Me - Defensive Shield",
@@ -30768,7 +31493,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Force Levitation"
+      ]
     },
     {
       "front": {
@@ -31462,7 +32190,10 @@
         "Lift Tubes are never considered unpiloted."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "The Rise Of Skywalker"
+      ]
     },
     {
       "abbr": [
@@ -31686,7 +32417,11 @@
         "May defuse any number of mines per turn, whether 'laid' or 'buried.'"
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Azure Angel",
+	"Azure Angel (AI)"
+      ]
     },
     {
       "combo": [
@@ -31728,7 +32463,10 @@
         "Uniqueness rules prevent LS Lobot and DS Lobot (same card title) from being on table at the same time."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lobot (V)"
+      ]
     },
     {
       "front": {
@@ -31808,7 +32546,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ahsoka's Shoto Lightsaber",
+        "Fenn Rau"
+      ]
     },
     {
       "abbr": [
@@ -31849,7 +32591,10 @@
         "If a ♢ site says it may not deploy to a Subjugated planet, it may not be deployed by this Objective at start of game."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Zero Hour / Liberation Of Lothal"
+      ]
     },
     {
       "front": {
@@ -31885,7 +32630,10 @@
       ],
       "rarity": "U",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Mon Calamari Admiral"
+      ]
     },
     {
       "canceledBy": [
@@ -32140,7 +32888,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Stolen First Order TIE Fighter"
+      ]
     },
     {
       "counterpart": "Direct Hit",
@@ -32272,7 +33023,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke Skywalker (V)"
+      ]
     },
     {
       "abbr": [
@@ -32461,7 +33215,10 @@
         "Luke is counted as a character when determining the Dark Side destiny draw required for Always Thinking With Your Stomach. If the draw is successful, Luke cannot be chosen to be missing."
       ],
       "set": "10",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke Skywalker, Rebel Scout (V)"
+      ]
     },
     {
       "abbr": [
@@ -32723,7 +33480,10 @@
         "Both functions of this Interrupt are top level actions."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke Skywalker, The Last Jedi"
+      ]
     },
     {
       "front": {
@@ -32844,7 +33604,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke's Blaster Pistol (V)"
+      ]
     },
     {
       "front": {
@@ -32966,7 +33729,10 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke's Hunting Rifle (V)"
+      ]
     },
     {
       "front": {
@@ -33134,7 +33900,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"V-4X-D Ski Speeder"
+      ]
     },
     {
       "front": {
@@ -33211,7 +33980,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Leia's Resistance Transport"
+      ]
     },
     {
       "front": {
@@ -33294,7 +34066,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Mace Windu (V)"
+      ]
     },
     {
       "front": {
@@ -33329,7 +34104,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Mace Windu (V) (AI)"
+      ]
     },
     {
       "combo": [
@@ -33617,7 +34395,10 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Major Bren Derlin (V)"
+      ]
     },
     {
       "cancels": [
@@ -33805,7 +34586,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Major Taslin Brance"
+      ]
     },
     {
       "front": {
@@ -34018,7 +34802,11 @@
         "Works with either player's Boba Fett."
       ],
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Mandalore",
+        "Mandalorian Mishap (V)"
+      ]
     },
     {
       "front": {
@@ -34102,7 +34890,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Maneuvering Flaps (V)"
+      ]
     },
     {
       "front": {
@@ -34254,7 +35045,10 @@
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Masanya (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Jonathan Wilkerson)",
@@ -34388,7 +35182,10 @@
       ],
       "rarity": "PM",
       "set": "110",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Master Luke (V)"
+      ]
     },
     {
       "front": {
@@ -34431,7 +35228,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Master Qui-Gon (V)"
+      ]
     },
     {
       "front": {
@@ -34466,7 +35266,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Master Qui-Gon (V) (AI)"
+      ]
     },
     {
       "abbr": [
@@ -34603,7 +35406,10 @@
         "This card is not a leader. A common online 'misprint' incorrectly says leader in lore, but physical copies do not."
       ],
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Mythrol"
+      ]
     },
     {
       "front": {
@@ -34764,7 +35570,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Meditation (V)"
+      ]
     },
     {
       "front": {
@@ -34805,7 +35614,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Wild Karrde",
+	"Wild Karrde (AI)"
+      ]
     },
     {
       "front": {
@@ -34847,7 +35660,10 @@
         "This weapon is a blaster."
       ],
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Captain Yutani With Blaster Cannon"
+      ]
     },
     {
       "combo": [
@@ -34889,7 +35705,11 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rogue One",
+	"Rogue One (AI)"
+      ]
     },
     {
       "front": {
@@ -34929,7 +35749,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Melas (V)"
+      ]
     },
     {
       "front": {
@@ -35007,7 +35830,10 @@
         "For example, if LS Force drains at the DS site Cloud City: Interrogation Room, the +1 bonus in the site's game text is not canceled because it is a LS Force drain."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kef Bir: Oceanic Wreckage"
+      ]
     },
     {
       "counterpart": "Swilla Corey",
@@ -35190,7 +36016,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Millennium Falcon (V)"
+      ]
     },
     {
       "abbr": [
@@ -35230,7 +36059,10 @@
         "The 'deploy -2' text only applies when using this objective to deploy Yoda from Reserve Deck."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Galaxy May Need A Legend / We Need Luke Skywalker"
+      ]
     },
     {
       "counterpart": "Neimoidian Advisor",
@@ -35368,7 +36200,10 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Mindful Of The Future (V)"
+      ]
     },
     {
       "cancels": [
@@ -35486,7 +36321,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Cliegg Lars"
+      ]
     },
     {
       "combo": [
@@ -35564,7 +36402,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Kef Bir: Oceanic Ruins"
+      ]
     },
     {
       "front": {
@@ -35762,7 +36603,10 @@
         "'Former member of the Imperial Senate' in lore makes her a senator."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Senator Mon Mothma"
+      ]
     },
     {
       "combo": [
@@ -35798,7 +36642,10 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Uncivilized Blaster"
+      ]
     },
     {
       "combo": [
@@ -35884,7 +36731,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"This Is MY Ship!"
+      ]
     },
     {
       "front": {
@@ -36247,6 +37097,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "BNC"
+      ],
       "front": {
         "darkSideIcons": 0,
         "destiny": "0",
@@ -36460,7 +37313,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Naboo: Theed Palace Generator (V)"
+      ]
     },
     {
       "abbr": [
@@ -36536,7 +37392,10 @@
       ],
       "rarity": "U",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Naboo: Theed Palace Hallway (V)"
+      ]
     },
     {
       "front": {
@@ -36952,7 +37811,10 @@
         "This movement is not a 'react'."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ezra Bridger"
+      ]
     },
     {
       "front": {
@@ -36982,7 +37844,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ilco Munica"
+      ]
     },
     {
       "front": {
@@ -37023,7 +37888,11 @@
         "X-wing Laser Cannon may <u>not</u> deploy on Nebulon-B Frigate."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Profundity",
+	"Profundity (AI)"
+      ]
     },
     {
       "front": {
@@ -37054,7 +37923,8 @@
     },
     {
       "abbr": [
-        "NTMTO"
+        "NTMTO",
+        "Numbers"
       ],
       "canceledBy": [
         "Torture",
@@ -37091,7 +37961,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"CC-2237 (Odd Ball)"
+      ]
     },
     {
       "front": {
@@ -37244,7 +38117,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "The Force Is Strong In My Family"
+      ]
     },
     {
       "canceledBy": [
@@ -37365,7 +38241,10 @@
         "On rare occasions, when this Interrupt attempts to place a character out of the play, another action may cause the character to instead end up at a different location, or returned to hand, or to a stack or pile. In such cases, this Interrupt simply fails and is placed in the Lost Pile."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Val"
+      ]
     },
     {
       "canceledBy": [
@@ -37531,7 +38410,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Obi-Wan Kenobi (V)"
+      ]
     },
     {
       "abbr": [
@@ -37690,7 +38572,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Obi-Wan Kenobi, Padawan Learner (V)"
+      ]
     },
     {
       "front": {
@@ -37725,7 +38610,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Obi-Wan Kenobi, Padawan Learner (V) (AI)"
+      ]
     },
     {
       "front": {
@@ -37889,7 +38777,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Master Kenobi"
+      ]
     },
     {
       "front": {
@@ -38317,13 +39208,16 @@
       "rarity": "C2",
       "rulings": [
         "It is not possible to revive a character and forfeit them again in the same battle.",
-        "A character who has been made 'forfeit = 0' can still be forfeited, and therefore, can still be revived by Old Ben.",
+        "A character who has been made 'forfeit = 0' can still be forfeited, and therefore, can still be revived.",
         "The revived character is a 'fresh copy' unaffected by any previously applied status effects such as 'forfeit = 0' or 'game text canceled for remainder of turn'.",
         "The revived character could even battle again this turn (e.g. by moving to another site with Nabrun Leids and battling there).",
-        "Old Ben only allows the revival of the exact card that was forfeited, not another copy of that card or persona."
+        "Can only revive the exact card that was forfeited, not another copy of that card or persona."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Are You Okay?"
+      ]
     },
     {
       "cancels": [
@@ -38534,7 +39428,11 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Aayla Secura",
+	"Aayla Secura (AI)"
+      ]
     },
     {
       "canceledBy": [
@@ -38641,7 +39539,10 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Scarif"
+      ]
     },
     {
       "canceledBy": [
@@ -38713,7 +39614,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "This Is Our Rebellion"
+      ]
     },
     {
       "front": {
@@ -38832,7 +39736,11 @@
         "If deployed during the start of game, may take top card of Lost Pile (if any) into hand. In this case Light's starting hand will have 1 more card than usual."
       ],
       "set": "112",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ounee Ta (V)",
+        "Ounee Ta (Jabba's Palace Sealed Deck) (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -38861,7 +39769,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Ounee Ta (V)"
+      ]
     },
     {
       "abbr": [
@@ -38894,7 +39805,10 @@
         "Must be deployed upon the Alderaan system location, not a site or sector."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Diplomatic Mission To Alderaan / A Weakness Can Be Found"
+      ]
     },
     {
       "front": {
@@ -38923,7 +39837,10 @@
         "The Lost function is played during weapons segment, scheduling the -2 modifier(s) for later."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Our Only Hope (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -38952,7 +39869,10 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "A Power Loss"
+      ]
     },
     {
       "abbr": [
@@ -39100,7 +40020,10 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Outrider (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Angelo Consoli - World Champion 2002)",
@@ -39292,7 +40215,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Padme Naberrie (V)"
+      ]
     },
     {
       "front": {
@@ -39327,7 +40253,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Padme Naberrie (V) (AI)"
+      ]
     },
     {
       "combo": [
@@ -39452,7 +40381,10 @@
         "This card is <u>not</u> an Ishi Tib."
       ],
       "set": "112",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Palace Raider (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Brian Fred)",
@@ -39738,7 +40670,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Paploo (V)"
+      ]
     },
     {
       "front": {
@@ -39914,7 +40849,10 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Perimeter Scan (V)"
+      ]
     },
     {
       "cancels": [
@@ -40102,7 +41040,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Planetary Defenses (V)"
+      ]
     },
     {
       "front": {
@@ -40297,7 +41238,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Plo Koon (V)"
+      ]
     },
     {
       "front": {
@@ -40503,7 +41447,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Jedi Holocron"
+      ]
     },
     {
       "front": {
@@ -40637,7 +41584,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Stardust"
+      ]
     },
     {
       "combo": [
@@ -40797,7 +41747,10 @@
         "'Former member of the Imperial Senate' in lore makes her a senator."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Princess Leia (V)"
+      ]
     },
     {
       "front": {
@@ -41052,7 +42005,11 @@
       ],
       "rarity": "PM",
       "set": "111",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Prisoner 2187 (V)",
+        "There Is Another"
+      ]
     },
     {
       "front": {
@@ -41175,7 +42132,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Force Projection"
+      ]
     },
     {
       "front": {
@@ -41427,7 +42387,10 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Booster In Pulsar Skate"
+      ]
     },
     {
       "combo": [
@@ -41457,7 +42420,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lando, Hero Of The Rebellion"
+      ]
     },
     {
       "cancels": [
@@ -41489,7 +42455,11 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Local Defense & Put That Down",
+        "Put That Down (V)"
+      ]
     },
     {
       "front": {
@@ -41551,7 +42521,10 @@
         "This weapon is NOT a blaster."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"I'm Getting Pretty Good At This"
+      ]
     },
     {
       "combo": [
@@ -41765,7 +42738,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ric in Queen's Royal Starship"
+      ]
     },
     {
       "cancels": [
@@ -42160,7 +43136,11 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Boba",
+        "Quite A Mercenary (V)"
+      ]
     },
     {
       "front": {
@@ -42195,7 +43175,10 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"R-3PO (Ar-Threepio) (V)"
+      ]
     },
     {
       "front": {
@@ -42365,7 +43348,10 @@
         "If a draw doesn't fit any range, such as Brainiac (3.14), no result."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"R2-D2 (Artoo-Detoo) (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -42496,7 +43482,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "C1-10P (Chopper)",
+        "R3-A2 (Arthree-Aytoo) (V)"
+      ]
     },
     {
       "counterpart": "R3-T6 (Arthree-Teesix)",
@@ -42832,7 +43822,10 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Obi-Wan in Radiant VII"
+      ]
     },
     {
       "counterpart": "Raithal",
@@ -42905,7 +43898,10 @@
       ],
       "rarity": "C1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Takodana"
+      ]
     },
     {
       "combo": [
@@ -42990,7 +43986,11 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tuanul Villager",
+	"Zeb Orrelios"
+      ]
     },
     {
       "front": {
@@ -43022,7 +44022,10 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Endor Commando Team"
+      ]
     },
     {
       "counterpart": "Heavy Fire Zone",
@@ -43066,7 +44069,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Cara Dune With Heavy Blaster Rifle"
+      ]
     },
     {
       "combo": [
@@ -43234,7 +44240,11 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Admiral U.O. Statura",
+	"Captain Cassian Andor"
+      ]
     },
     {
       "counterpart": "Dreaded Imperial Starfleet",
@@ -43293,7 +44303,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rebel Flight Suit (V)"
+      ]
     },
     {
       "cancels": [
@@ -43324,6 +44337,7 @@
       ],
       "rarity": "C",
       "rulings": [
+        "Only deploys on a pilot with a Rebel icon or a Resistance icon.  An alien (e.g. Harc Seff) piloting a Rebel starship (e.g. Red 2) is not a 'Rebel pilot'.",
         "Only check if the currently played Interrupt function is immune to Sense. If not, it may be canceled."
       ],
       "set": "205",
@@ -43386,7 +44400,10 @@
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rebel Leadership (V)"
+      ]
     },
     {
       "combo": [
@@ -43477,7 +44494,10 @@
         "Two copies of this card piloting the same starship only increases the starship's power by 2, not 4."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Puck"
+      ]
     },
     {
       "canceledBy": [
@@ -43534,7 +44554,10 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rebel Trooper Reinforcements"
+      ]
     },
     {
       "front": {
@@ -43605,7 +44628,10 @@
       ],
       "rarity": "PM",
       "set": "104",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Dash in Rogue 12"
+      ]
     },
     {
       "counterpart": "Imperial Squad Leader",
@@ -43654,7 +44680,10 @@
         "Suspends the 'cannot move' text on Rebel Guards at same site."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Clone Squad Leader"
+      ]
     },
     {
       "abbr": [
@@ -43729,7 +44758,10 @@
       ],
       "rarity": "C1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rose Tico"
+      ]
     },
     {
       "combo": [
@@ -43771,7 +44803,10 @@
       ],
       "rarity": "C3",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ensign Chad Hilse"
+      ]
     },
     {
       "front": {
@@ -43981,7 +45016,11 @@
         "This <u>is not</u> the same starship persona as Red Squadron 1, so both could be on table at same time."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Red 1 (V)",
+	"Red 12"
+      ]
     },
     {
       "front": {
@@ -44086,7 +45125,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Blue Squadron 1"
+      ]
     },
     {
       "combo": [
@@ -44246,7 +45288,11 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Corran Horn In Rogue 9",
+	"Red 5 (V)"
+      ]
     },
     {
       "front": {
@@ -44334,7 +45380,10 @@
         "This <u>is not</u> the same starship persona as Red Squadron 6, so both could be on table at same time."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Red Squadron 6"
+      ]
     },
     {
       "combo": [
@@ -44429,7 +45478,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Red 8 (V)"
+      ]
     },
     {
       "counterpart": "Onyx 2 (V)",
@@ -44517,7 +45569,11 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Mara Jade",
+        "Odd Ball's Torrent Starfighter"
+      ]
     },
     {
       "front": {
@@ -44659,7 +45715,10 @@
         "When deploying to Endor, only Wedge is free, not this starship card."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Wedge In Red Squadron 1"
+      ]
     },
     {
       "combo": [
@@ -44705,7 +45764,11 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"BB-8 In Black Squadron 1",
+	"BB-8 In Black Squadron 1 (AI)"
+      ]
     },
     {
       "front": {
@@ -44888,7 +45951,10 @@
         "Characters using the deployment text must still obey any deployment restrictions."
       ],
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Redemption (V)"
+      ]
     },
     {
       "front": {
@@ -44960,7 +46026,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"General Leia Organa"
+      ]
     },
     {
       "front": {
@@ -45081,7 +46150,10 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rendezvous Point On Tatooine (V)"
+      ]
     },
     {
       "front": {
@@ -45185,7 +46257,11 @@
       ],
       "rarity": "U",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Kit Fisto",
+	"Kit Fisto (AI)"
+      ]
     },
     {
       "canceledBy": [
@@ -45292,7 +46368,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rescue In The Clouds (V)"
+      ]
     },
     {
       "abbr": [
@@ -45365,7 +46444,10 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Rescue The Princess / Sometimes I Amaze Even Myself (V)"
+      ]
     },
     {
       "abbr": [
@@ -45395,8 +46477,8 @@
         "When Light Force drains, Dark gets first optional response, and may cancel the drain (e.g. with Control), preventing Light from responding with a destiny draw attempt to liberate the system.",
         "When Light liberates a system, the Force drain +1 bonus is immediately applied to the very same Force drain that triggered the liberation.",
         "When Dark Force drains, placing the stacked card in owner's Used Pile is an automatic response, occurring before optional responses such as Light using Control or Blue Squadron 1 to cancel the drain.",
-        "If a player loses Force from hand to stack under a system, it is first revealed to both players.",
-        "If a player loses Force from Life Force to stack under a system, it is not revealed.",
+        "If a player loses Force from hand to stack under a system, it is first revealed to both players, then stacked face down.",
+        "If a player loses Force from Life Force to stack under a system, it is not revealed to anyone. Stack it face down, unseen.",
         "Only Dark may view Dark's cards after they are stacked face down under a system."
       ],
       "set": "208",
@@ -45467,7 +46549,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "A Good Blaster At Your Side & Restricted Deployment"
+      ]
     },
     {
       "front": {
@@ -45533,7 +46618,12 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "General Kenobi",
+        "General Kenobi (AI)",
+        "Return Of A Jedi (V)"
+      ]
     },
     {
       "counterpart": "Kill Them Immediately",
@@ -45993,7 +47083,10 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"R'kik D'nec, Hero Of The Dune Sea (V)"
+      ]
     },
     {
       "front": {
@@ -46672,7 +47765,10 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Part Of The Tribe"
+      ]
     },
     {
       "cancels": [
@@ -46729,7 +47825,10 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"He's The Best Smuggler Around"
+      ]
     },
     {
       "front": {
@@ -46793,7 +47892,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Commander Narra"
+      ]
     },
     {
       "canceledBy": [
@@ -46956,7 +48058,10 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Sabotage (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -47032,7 +48137,10 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Dorme"
+      ]
     },
     {
       "combo": [
@@ -47093,7 +48201,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Sai'torr Kal Fas (V)"
+      ]
     },
     {
       "counterpart": "Blaster Rack (V)",
@@ -47314,7 +48425,11 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"I Don't Like Sand",
+	"Why Does Everyone Want To Go Back To Jakku?!"
+      ]
     },
     {
       "front": {
@@ -47836,7 +48951,11 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Another Pathetic Lifeform & Secutiry Control",
+        "We'll Take The Long Way"
+      ]
     },
     {
       "front": {
@@ -47903,7 +49022,10 @@
       ],
       "rarity": "PM",
       "set": "110",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Kanan Jarrus"
+      ]
     },
     {
       "front": {
@@ -47955,7 +49077,10 @@
       ],
       "rarity": "PM",
       "set": "112",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Seeking An Audience (V)"
+      ]
     },
     {
       "counterpart": "Jabba's Haven",
@@ -48270,7 +49395,10 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yoda, Keeper Of The Peace"
+      ]
     },
     {
       "canceledBy": [
@@ -48736,7 +49864,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Lak Sivrak"
+      ]
     },
     {
       "abbr": [
@@ -48823,7 +49954,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Dexter Jettster"
+      ]
     },
     {
       "cancels": [
@@ -48925,7 +50059,10 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Ello Asty"
+      ]
     },
     {
       "cancels": [
@@ -49185,7 +50322,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Slight Weapons Malfunction (V)"
+      ]
     },
     {
       "canceledBy": [
@@ -49250,7 +50390,11 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Solo",
+	"Solo (AI)"
+      ]
     },
     {
       "front": {
@@ -49406,7 +50550,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Han... Solo"
+      ]
     },
     {
       "front": {
@@ -49436,7 +50583,10 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Cloning Cylinders"
+      ]
     },
     {
       "cancels": [
@@ -49591,7 +50741,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Acclamator-Class Assault Ship"
+      ]
     },
     {
       "abbr": [
@@ -49631,7 +50784,10 @@
         "Surprise may retarget to a different weapon that can fire, but cannot choose a new target to fire at (because no target to fire at has been selected yet)."
       ],
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"A Good Blaster At Your Side"
+      ]
     },
     {
       "abbr": [
@@ -49859,7 +51015,10 @@
       "pulledBy": [],
       "rarity": "F",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lothal: Capital City"
+      ]
     },
     {
       "counterpart": "Spaceport Docking Bay",
@@ -50033,7 +51192,10 @@
         "If the Han/Chewie/Lando pilot(s) are forfeited first, the starship is no longer forfeit +2 when it is forfeited afterwards (as such, the forfeit +2 text is rarely utilized except via permanent pilots)."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"L3-37 (Elthree-Threeseven)"
+      ]
     },
     {
       "counterpart": "Speeder Bike",
@@ -50144,7 +51306,10 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Squadron Assignments (V)"
+      ]
     },
     {
       "front": {
@@ -50296,7 +51461,12 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Effective Repairs & Starship Levitation",
+        "My Parents Were Strong",
+        "Starship Levitation (V)"
+      ]
     },
     {
       "counterpart": "TIE Sentry Ships (V)",
@@ -50380,7 +51550,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Saw Gerrera"
+      ]
     },
     {
       "front": {
@@ -50570,7 +51743,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Rock"
+      ]
     },
     {
       "combo": [
@@ -50670,19 +51846,26 @@
         "General Carlist Rieekan (V)",
         "General Crix Madine",
         "General Dodonna",
+        "General Dodonna (V)",
         "General Jar Jar",
+        "General Kenobi",
         "General Leia Organa",
         "General McQuarrie",
         "General Solo",
         "General Solo (V)",
         "General Walex Blissex",
+        "General Walex Blissex (V)",
         "Gungan General",
+        "Han Solo, Optimistic General",
         "Mon Mothma",
         "Senator Mon Mothma"
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Strike Planning (V)"
+      ]
     },
     {
       "front": {
@@ -50713,7 +51896,11 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Mon Calamari Dockyards",
+	"Strikeforce (V)"
+      ]
     },
     {
       "counterpart": "Something Special Planned For Them (V)",
@@ -50817,7 +52004,11 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku",
+	"Jakku (AI)"
+      ]
     },
     {
       "canceledBy": [
@@ -50856,7 +52047,10 @@
         "Causes all of your forfeited weapons go to Used Pile, even if not forfeited via this Effect (e.g. artillery weapons being forfeited normally)."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Beskar Deflection"
+      ]
     },
     {
       "front": {
@@ -50886,7 +52080,10 @@
         "Most automated weapons do not 'fire' and as such cannot be fired by this card. The only automated weapon that fires is Laser Projector. So to utilize the automated weapon firing function of this card, Light would need to obtain a Laser Projector (e.g. via Cloud City Sabacc) or Dark would need to obtain Suppressive Fire (e.g. via Treva Horme)."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Suppressive Fire (V)"
+      ]
     },
     {
       "front": {
@@ -51057,7 +52254,10 @@
         "This is not a 'battle' and cards may not be forfeited."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"A Brave Resistance"
+      ]
     },
     {
       "cancels": [
@@ -51832,7 +53032,11 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tantive IV (V)",
+	"Tantive IV (V) (AI)"
+      ]
     },
     {
       "front": {
@@ -51970,7 +53174,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lothal: Tarkintown"
+      ]
     },
     {
       "combo": [
@@ -52216,7 +53423,11 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Coruscant: Night Club",
+	"Coruscant: Night Club (AI)"
+      ]
     },
     {
       "front": {
@@ -52311,7 +53522,11 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku: Docking Bay",
+	"Jakku: Ravager Crash Site"
+      ]
     },
     {
       "counterpart": "Tatooine: Docking Bay 94",
@@ -52386,7 +53601,11 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku: Starship Graveyard",
+	"Scarif: Beach"
+      ]
     },
     {
       "combo": [
@@ -52502,7 +53721,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Takodana: Maz's Castle"
+      ]
     },
     {
       "counterpart": "Tatooine: Jawa Camp",
@@ -52651,7 +53873,10 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tatooine: Lars' Moisture Farm (V)"
+      ]
     },
     {
       "counterpart": "Tatooine: Lars' Moisture Farm",
@@ -52770,7 +53995,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tatooine: Mos Eisley (V)"
+      ]
     },
     {
       "counterpart": "Tatooine: Mos Espa",
@@ -52849,7 +54077,11 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku: Niima Outpost Shipyard",
+	"Jakku: Niima Outpost Shipyard (AI)"
+      ]
     },
     {
       "combo": [
@@ -52883,7 +54115,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tatooine: Obi-Wan's Hut (V)"
+      ]
     },
     {
       "counterpart": "Tatooine: Podrace Arena",
@@ -52996,7 +54231,10 @@
       ],
       "rarity": "U",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tatooine: Slave Quarters (V)"
+      ]
     },
     {
       "front": {
@@ -53031,7 +54269,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Jakku: Tuanul Village"
+      ]
     },
     {
       "counterpart": "Tatooine: Watto's Junkyard",
@@ -53511,7 +54752,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Figrin D'an & The Modal Nodes"
+      ]
     },
     {
       "cancels": [
@@ -53742,7 +54986,7 @@
     {
       "front": {
         "destiny": "5",
-        "gametext": "If Luke and an Imperial with ability > 2 are involved in the same battle, you may add one battle destiny (add 2 if Imperial is Vader).",
+        "gametext": "If Luke and an Imperial with ability > 2 are involved in the same battle, you may add one battle destiny (add two destiny if Imperial is Vader).",
         "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/theforceisstrongwiththisone.gif",
         "lore": "Luke's piloting skills and Force abilities made his X-wing a difficult target for Darth Vader as they raced down the Death Star trench.",
         "subType": "Lost",
@@ -53762,7 +55006,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Force Is Strong With This One (V)"
+      ]
     },
     {
       "cancels": [
@@ -53949,7 +55196,10 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Hyperdrive Generator's Gone / We'll Need A New One (V)"
+      ]
     },
     {
       "abbr": [
@@ -54025,7 +55275,10 @@
         "For example, if LS Force drains at the DS site Cloud City: Interrogation Room, the +1 modifier in the site's game text is not canceled because it is a LS Force drain."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Luke Skywalker, The Rebellion's Hope"
+      ]
     },
     {
       "canceledBy": [
@@ -54058,7 +55311,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Goldenrod"
+      ]
     },
     {
       "front": {
@@ -54121,7 +55377,10 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"The Shield Is Down! (V)"
+      ]
     },
     {
       "front": {
@@ -54197,7 +55456,10 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"See You Around, Kid"
+      ]
     },
     {
       "front": {
@@ -54234,7 +55496,10 @@
         "May deploy on a Star Destroyer/vehicle that does not have any immunity to attrition."
       ],
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Relatively Unprotected"
+      ]
     },
     {
       "cancels": [
@@ -54268,7 +55533,10 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Master Yoda"
+      ]
     },
     {
       "front": {
@@ -54324,7 +55592,7 @@
           "Set D"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual9-Light/large/thereisanother.gif",
-        "lore": "Princess Leia Organa. Alderaanian senator. Targeted by Vader for capture and interrogation. The Datk Lord of the Sith wanted her alive.",
+        "lore": "Princess Leia Organa. Alderaanian senator. Targeted by Vader for capture and interrogation. The Dark Lord of the Sith wanted her alive.",
         "title": "•There Is Another",
         "type": "Defensive Shield",
         "uniqueness": "*"
@@ -54424,7 +55692,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Theron Nett (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Tom Kelly)",
@@ -54639,7 +55910,10 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"They're Tracking Us (V)"
+      ]
     },
     {
       "cancels": [
@@ -55075,7 +56349,10 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Where's Han?"
+      ]
     },
     {
       "counterpart": "Drop!",
@@ -55106,7 +56383,10 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Thrown Back (V)"
+      ]
     },
     {
       "combo": [
@@ -55148,7 +56428,10 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Finn"
+      ]
     },
     {
       "combo": [
@@ -55316,7 +56599,11 @@
         "Timer Mines are not allowed to use docking bay transit."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Anakin Skywalker, Padawan Learner",
+	"Anakin Skywalker, Padawan Learner (AI)"
+      ]
     },
     {
       "front": {
@@ -55404,7 +56691,10 @@
         "May be persona replaced (will no longer be Undercover)."
       ],
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "TK-422 (V)"
+      ]
     },
     {
       "cancels": [
@@ -55441,7 +56731,10 @@
       ],
       "rarity": "U",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Now, This Is Podracing!"
+      ]
     },
     {
       "front": {
@@ -55476,7 +56769,10 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Toryn Farr (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Camden Yanaga)",
@@ -55636,7 +56932,10 @@
       ],
       "rarity": "F",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "For The Republic!"
+      ]
     },
     {
       "combo": [
@@ -55746,7 +57045,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Han's Medal"
+      ]
     },
     {
       "abbr": [
@@ -55855,7 +57157,10 @@
       ],
       "rarity": "R",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Tycho Celchu (V)"
+      ]
     },
     {
       "front": {
@@ -55983,7 +57288,10 @@
         "This starship is always considered to be stolen (e.g. for Bodhi Rook)."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Tydirium (V)"
+      ]
     },
     {
       "front": {
@@ -56297,7 +57605,10 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Utinni! (V)"
+      ]
     },
     {
       "front": {
@@ -56426,7 +57737,10 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Anakin Skywalker, Jedi Knight"
+      ]
     },
     {
       "combo": [
@@ -56578,7 +57892,10 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Old Allies / We Need Your Help"
+      ]
     },
     {
       "counterpart": "Vote Now!",
@@ -56675,7 +57992,10 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Walker Sighting (V)"
+      ]
     },
     {
       "cancels": [
@@ -56741,7 +58061,10 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Captain Raymus Antilles"
+      ]
     },
     {
       "front": {
@@ -56772,7 +58095,11 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Knights Of The Old Republic",
+        "Take A Seat, Young Skywalker"
+      ]
     },
     {
       "abbr": [
@@ -57050,7 +58377,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Savareen Standoff"
+      ]
     },
     {
       "front": {
@@ -57151,7 +58481,10 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Weather Vane (V)"
+      ]
     },
     {
       "front": {
@@ -57277,7 +58610,10 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Wedge Antilles (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by James Barnes)",
@@ -57582,7 +58918,10 @@
         "Insert cards prevent a player from counting their Reserve Deck, but a judge may be called to state whether We're Doomed is a legal play or not."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Escape Pod & We're Doomed"
+      ]
     },
     {
       "counterpart": "Mind Tricks Don't Work On Me",
@@ -57617,7 +58956,10 @@
         "Cards that cannot be forfeited (such as a character not participating in battle, or a Vaporator) do not prevent a player from canceling all remaining battle damage."
       ],
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"We're Leaving (V)"
+      ]
     },
     {
       "front": {
@@ -58025,7 +59367,10 @@
       ],
       "rarity": "C",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "This Is Where The Fun Begins"
+      ]
     },
     {
       "cancels": [
@@ -58354,7 +59699,10 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Communing"
+      ]
     },
     {
       "front": {
@@ -58383,7 +59731,10 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Wokling (V)"
+      ]
     },
     {
       "conceptBy": "(Original concept by Eric Hunter - Gen Con Winner 2002)",
@@ -58459,7 +59810,10 @@
       ],
       "rarity": "F",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Wookiee Warrior"
+      ]
     },
     {
       "front": {
@@ -58485,7 +59839,10 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Wookiee Guide (V)"
+      ]
     },
     {
       "front": {
@@ -58520,7 +59877,10 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Wookiee Roar (V)"
+      ]
     },
     {
       "combo": [
@@ -58863,7 +60223,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "ARC-170 Starfighter"
+      ]
     },
     {
       "front": {
@@ -58938,7 +60301,10 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yane (V)"
+      ]
     },
     {
       "front": {
@@ -59053,7 +60419,10 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yarna d'al' Gargan (V)"
+      ]
     },
     {
       "front": {
@@ -59130,7 +60499,10 @@
       ],
       "rarity": "U",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Yarua (V)"
+      ]
     },
     {
       "counterpart": "Yavin 4",
@@ -59166,7 +60538,10 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yavin 4 (V)"
+      ]
     },
     {
       "front": {
@@ -59427,7 +60802,11 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Lothal: Jedi Temple",
+        "Yavin 4: Massassi Ruins (V)"
+      ]
     },
     {
       "front": {
@@ -59516,7 +60895,10 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yavin 4: Massassi War Room (V)"
+      ]
     },
     {
       "front": {
@@ -59622,7 +61004,10 @@
         "Also increases any special requirements such as on A Jedi's Strength."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yavin Sentry (V)"
+      ]
     },
     {
       "cancels": [
@@ -59726,7 +61111,10 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yoda (V)"
+      ]
     },
     {
       "front": {
@@ -59916,7 +61304,10 @@
         "If a card has multiple sources of immunity to attrition (such as their own game text in addition to Yoda, MOTF), the highest immunity is used."
       ],
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yoda, Master Of The Force (V)"
+      ]
     },
     {
       "combo": [
@@ -60100,7 +61491,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        "Din Djarin"
+      ]
     },
     {
       "front": {
@@ -60239,7 +61633,10 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"You Do Have Your Moments (V)"
+      ]
     },
     {
       "counterpart": "Close Call (V)",
@@ -60292,7 +61689,10 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Clumsy And Stupid"
+      ]
     },
     {
       "abbr": [
@@ -60381,7 +61781,10 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Simple Tricks And Nonsense"
+      ]
     },
     {
       "front": {
@@ -60474,7 +61877,11 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"He Is The Chosen One / He Will Bring Balance",
+	"Your Insight Serves You Well (Death Star II) (V)"
+      ]
     },
     {
       "abbr": [
@@ -60519,7 +61926,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Your Insight Serves You Well (V)"
+      ]
     },
     {
       "cancels": [
@@ -60584,7 +61994,7 @@
     },
     {
       "front": {
-        "destiny": "5",
+        "destiny": "0",
         "gametext": "Plays on table. Scanning Crew is canceled. If an 'insert' card was just inserted or revealed, it is canceled. You lose no Force to Boonta Eve Podrace. While you occupy three battlegrounds, Watto's Box is suspended.",
         "icons": [
           "Death Star II",
@@ -60687,7 +62097,10 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Your Ship? (V)"
+      ]
     },
     {
       "cancels": [
@@ -60791,7 +62204,10 @@
         "The phrase 'on Cloud City' means at a Cloud City site, not the Bespin: Cloud City sector."
       ],
       "set": "6",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Yoxgit (V)"
+      ]
     },
     {
       "front": {
@@ -60938,7 +62354,10 @@
       ],
       "rarity": "PM",
       "set": "109",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Overseer"
+      ]
     },
     {
       "combo": [
@@ -60983,7 +62402,10 @@
       ],
       "rarity": "PM",
       "set": "106",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+	"Blue 11"
+      ]
     },
     {
       "front": {
@@ -61435,7 +62857,7 @@
           "Set 13"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Light/large/quigonjinnserenejedi.gif",
-        "lore": "Qui-Gon's sense of control assisted him in his final confrontation with Darth Maul. The ability to heal oneself in battle, mentally and physically, can be a huge advantage.",
+        "lore": "Qui-Gon's sense of control assisted him in his final confrontation with Darth Maul. The ability to heal one's self in battle, mentally and physically, can be a huge advantage.",
         "power": "6",
         "subType": "Jedi Master",
         "title": "•Qui-Gon Jinn, Serene Jedi",
@@ -61578,8 +63000,9 @@
       ],
       "rarity": "PM",
       "rulings": [
+        "'Two Jedi' counts himself.",
+        "'Two Jedi' does not count inactive Jedi such as a missing Jedi, a captive Jedi, or a Jedi who is excluded from the battle.",
         "Yoda's relocation is free.",
-        "'Two jedi' counts himself.",
         "Relocating does not allow Yoda to embark or disembark."
       ],
       "set": "213",
@@ -63766,8 +65189,8 @@
       ],
       "rarity": "C",
       "rulings": [
-        "If a player loses Force from hand to stack here, it is first revealed to both players.",
-        "If a player loses Force from Life Force to stack here, it is not revealed.",
+        "If a player loses Force from hand to stack here, it is first revealed to both players, then stacked face down.",
+        "If a player loses Force from Life Force to stack here, it is not revealed to anyone. Stack it face down, unseen.",
         "Increases the typical '4 ability' requirement for drawing battle destiny.",
         "Also increases any special requirements such as on A Jedi's Strength.",
         "A training destiny draw is 'at' the location of the apprentice."
@@ -65088,6 +66511,10 @@
       ],
       "front": {
         "ability": "5",
+        "characteristics": [
+          "female",
+          "smuggler"
+        ],
         "deploy": "5",
         "destiny": "1",
         "extraText": [
@@ -67583,7 +69010,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual20-Light/large/nabootheedpalacegenerator.gif",
         "lightSideIcons": 2,
         "subType": "Site",
-        "title": "•Naboo: Theed Palace Generator",
+        "title": "•Naboo: Theed Palace Generator (V)",
         "type": "Location",
         "uniqueness": "*"
       },
@@ -68092,6 +69519,151 @@
         "This weapon is a blaster (e.g. for Blaster Proficiency)."
       ],
       "set": "200",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "AGv"
+      ],
+      "front": {
+        "destiny": "4",
+        "gametext": "If you just moved a droid to Audience Chamber, deploy on table. You may not cancel battles. Force loss from Or Be Destroyed may not be reduced and is limited to 3. While Han with your non-'hit' Chewie, Lando, or Luke, Han may not be targeted by weapons. [Immune to Control.]",
+        "icons": [
+          "Jabba's Palace",
+          "Set 21"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/agift.gif",
+        "lore": "'As a token of my good will, I present to you a gift: these two droids. Both are hardworking and will serve you well.'",
+        "subType": "Immediate",
+        "title": "•A Gift (V)",
+        "type": "Effect",
+        "uniqueness": "*"
+      },
+      "gempId": "221_3",
+      "id": 7151,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "221"
+        }
+      ],
+      "rarity": "U",
+      "set": "221",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "HM"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "Deploy on Han or a Wookiee. Once per game, when deployed, may take any one card into hand from Force Pile; reshuffle. If on Chewie, may place this device in Used Pile to cancel a just drawn destiny targeting the ability or defense value of a Wookiee here.",
+        "icons": [
+          "Episode VII",
+          "Set 21"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/hansmedal.gif",
+        "lore": "Blank",
+        "title": "•Han's Medal",
+        "type": "Device",
+        "uniqueness": "*"
+      },
+      "gempId": "221_4",
+      "id": 7152,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "221"
+        }
+      ],
+      "rarity": "U",
+      "set": "221",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "ICBHGv"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "If Obi-Wan 'communing,' deploy on table. Once per battle, may activate 1 Force or add 1 to a just drawn destiny. Once per game, if a battle at a Tatooine site just ended, may 'revive' (return to that site from Lost Pile) a Rebel forfeited from that site this turn. [Immune to Alter.]",
+        "icons": [
+          "Tatooine",
+          "Set 21"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/icantbelievehesgone.gif",
+        "lore": "Even though Luke felt the pain of losing his mentor, Obi-Wan continued to give him strength and guidance through the Force.",
+        "title": "•I Can't Believe He's Gone (V)",
+        "type": "Effect",
+        "uniqueness": "*"
+      },
+      "gempId": "221_5",
+      "id": 7153,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "221"
+        }
+      ],
+      "rarity": "C",
+      "rulings": [
+        "It is not possible to revive a character and forfeit them again in the same battle.",
+        "A character who has been made 'forfeit = 0' can still be forfeited, and therefore, can still be revived.",
+        "The revived character is a 'fresh copy' unaffected by any previously applied status effects such as 'forfeit = 0' or 'game text canceled for remainder of turn'.",
+        "The revived character could even battle again this turn (e.g. by moving to another site with Nabrun Leids and battling there).",
+        "Can only revive the exact card that was forfeited, not another copy of that card or persona."
+      ],
+      "set": "221",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "SPv"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "If an [A New Hope] objective on table, deploy on table. Twice per game, may take Mon Mothma or any general into hand from Reserve Deck; reshuffle. During your first turn, while Stolen Data Tapes at Dune Sea, [Set 1] Obi-Wan deploys -6 there. [Immune to Alter.]",
+        "icons": [
+          "Death Star II",
+          "Set 21"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/strikeplanning.gif",
+        "lore": "'General Solo, is your strike team assembled?'",
+        "title": "•Strike Planning (V)",
+        "type": "Effect",
+        "uniqueness": "*"
+      },
+      "gempId": "221_6",
+      "id": 7154,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "221"
+        }
+      ],
+      "pulls": [
+        "General Airen Cracken",
+        "General Calrissian",
+        "General Carlist Rieekan",
+        "General Carlist Rieekan (V)",
+        "General Crix Madine",
+        "General Dodonna",
+        "General Dodonna (V)",
+        "General Jar Jar",
+        "General Kenobi",
+        "General Leia Organa",
+        "General McQuarrie",
+        "General Solo",
+        "General Solo (V)",
+        "General Walex Blissex",
+        "General Walex Blissex (V)",
+        "Gungan General",
+        "Han Solo, Optimistic General",
+        "Mon Mothma",
+        "Senator Mon Mothma"
+      ],
+      "rarity": "R",
+      "set": "221",
       "side": "Light"
     }
   ]

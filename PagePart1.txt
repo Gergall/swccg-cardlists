@@ -184,6 +184,7 @@
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18~~SORT~~.html">Set 18</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19~~SORT~~.html">Set 19</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set20~~SORT~~.html">Set 20</a><br/>
+           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set21~~SORT~~.html">Set 21</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetD~~SORT~~.html">Set D</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetP~~SORT~~.html">Set P</a><br/>
 
