@@ -10,8 +10,12 @@ namespace SWListMaker
 {
     public partial class Form1 : Form
     {
+        //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
         static string strmaxVSet = ConfigurationManager.AppSettings["maxVSet"].ToString(); //get the actual correct value
-        
+        static int maxVSet = GetMaxVSet(strmaxVSet);
+
+        static string strVSETMENULINKS = GetVSETMENULINKS(maxVSet);
+
         static string strRepoPath = ConfigurationManager.AppSettings["RepoPath"].ToString();
         static string strCardlistOutputPath = strRepoPath + @"cardlists\"; //card list output files go to the cardlists subfolder
         static string strJSONFilePath = strRepoPath + @"JSON\"; //JSON source files are in the JSON subfolder
@@ -38,8 +42,8 @@ namespace SWListMaker
             }
 
             //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
-            int maxVSet = 201; //default placeholder value
-            int.TryParse(strmaxVSet, out maxVSet); //convert actual correct value to int
+            //int maxVSet = 201; //default placeholder value
+            //int.TryParse(strmaxVSet, out maxVSet); //convert actual correct value to int
 
             //Decipher Sets
             ProcessSet("1", "Premiere", "PREMIERE_title.gif", "Premiere");
@@ -162,6 +166,7 @@ namespace SWListMaker
             strPage = strPage.Replace("~~SETABBR~~", strSetAbbr);
             strPage = strPage.Replace("~~SETNAME~~", strSetName);
             strPage = strPage.Replace("~~BANNERFILE~~", strBannerFile);
+            strPage = strPage.Replace("~~VSETMENULINKS~~", strVSETMENULINKS); //It's important that this be done before ~~SORT~~ which is the next line
             strPage = strPage.Replace("~~SORT~~", strSort);
 
             if (strSort == "")
@@ -187,6 +192,26 @@ namespace SWListMaker
             }
 
             return strPage;
+        }
+
+        private static int GetMaxVSet(string strMaxVSet)
+        {
+            int maxVSet = 201; //201 is just a momentary placeholder value
+            int.TryParse(strMaxVSet, out maxVSet); //now maxVSet has the correct value
+            return maxVSet;
+        }
+
+        private static string GetVSETMENULINKS(int maxVSet)
+        {
+            int maxVSetFriendly = maxVSet - 200;
+            string strResult = "";
+
+            for (int i=0; i<=maxVSetFriendly; i++)
+            {
+                strResult += "           &nbsp;&nbsp;&gt <a class=\"smo\" href=\"https://res.starwarsccg.org/cardlists/Set" + i.ToString() + "~~SORT~~.html\">Set " + i.ToString() + "</a><br/>\n";
+            }
+
+            return strResult;
         }
 
         private List<SWCard> GetCardList(string theSet, string side)

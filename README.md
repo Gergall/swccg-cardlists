@@ -28,8 +28,6 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - DownloadLatestJSON: If set to Y, the program will first download the latest JSON card data before creating card lists. Y is the recommended setting.
   - JSONRemotePath: This is the path where the program will download the latest JSON files from. You will never need to change this unless we decide to host the JSON files elsewhere.
 
-TEMPORARY STEP 2A: Open PagePart1.txt and manually add a line for the new virtual set.  This will be automated soon.
-
 3. Now you can run SWListMaker.exe which is in the same directory as the config file you just edited.
   - When you run the program, a button appears. Click the button and wait a minute for the success message which says "Done! Cardlist files written to...", then close the program.
   - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
