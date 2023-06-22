@@ -163,28 +163,9 @@
 
           <br />
           &nbsp;&nbsp;<b><span style="font-size:20px;">Virtual Sets</span></b><br />
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set0~~SORT~~.html">Set 0</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set1~~SORT~~.html">Set 1</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set2~~SORT~~.html">Set 2</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set3~~SORT~~.html">Set 3</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set4~~SORT~~.html">Set 4</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set5~~SORT~~.html">Set 5</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set6~~SORT~~.html">Set 6</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set7~~SORT~~.html">Set 7</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set8~~SORT~~.html">Set 8</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set9~~SORT~~.html">Set 9</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set10~~SORT~~.html">Set 10</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set11~~SORT~~.html">Set 11</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set12~~SORT~~.html">Set 12</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set13~~SORT~~.html">Set 13</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set14~~SORT~~.html">Set 14</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set15~~SORT~~.html">Set 15</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set16~~SORT~~.html">Set 16</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set17~~SORT~~.html">Set 17</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set18~~SORT~~.html">Set 18</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set19~~SORT~~.html">Set 19</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set20~~SORT~~.html">Set 20</a><br/>
-           &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/Set21~~SORT~~.html">Set 21</a><br/>
+
+~~VSETMENULINKS~~
+
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetD~~SORT~~.html">Set D</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetP~~SORT~~.html">Set P</a><br/>
 
