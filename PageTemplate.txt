@@ -169,7 +169,6 @@
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetD~~SORT~~.html">Set D</a><br/>
            &nbsp;&nbsp;&gt <a class="smo" href="https://res.starwarsccg.org/cardlists/SetP~~SORT~~.html">Set P</a><br/>
 
-
           <br />
           &nbsp;&nbsp;<b>Legacy Virtual Cards</b> <a href="#" id='aLegacyToggle' onclick="return fnLegacyToggle();">~~LEGACYLINK~~</a><br />
 
@@ -229,3 +228,84 @@
              <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Rarity.html">Rarity</a>
            </td>
           </tr>
+
+~~LSCARDLIST~~
+
+          </tbody>
+        </table>
+       <td  rowspan="1" style="width:372px; vertical-align:top"> 
+       <table class="sw" style="table-layout: auto; margin-left: 1em; margin-right: 1em; width:329px" >
+          <tbody> 
+          <tr class="center">
+            <td class="title" colspan="3"> 
+              <p><b>~~SETNAME~~ Card List &#8211; Dark Side - By ~~SORTWITHDEFAULTTYPE~~ </b></p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td colspan="3"> 
+              <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr class="center"> 
+            <td class="center" style="width:43px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Type.html">Type</a>
+           </td>
+            <td class="center"  style="background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Name.html">Card Name</a>
+           </td>
+            <td class="center" style="width:58px; background-color:#D0D0D0">
+             <a style="color:Black" class="smo" href="https://res.starwarsccg.org/cardlists/~~SETABBR~~Rarity.html">Rarity</a>
+           </td>
+          </tr>
+
+~~DSCARDLIST~~
+
+          </tbody> 
+        </table>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:center">
+          <b><a href="#Top">TOP</a></b> 
+      </td>
+    </tr>
+
+  </tbody>
+  </table>
+
+	<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container1 = $(".CardPopupLH");
+			var container2 = $(".CardPopupLV");
+			var container3 = $(".CardPopupDH");
+			var container4 = $(".CardPopupDV");
+			if( //if you didn't click on any of the 4 popup card divs or on a card link, hide the popup
+				!container1.is(e.target) && container1.has(e.target).length === 0 &&
+				!container2.is(e.target) && container2.has(e.target).length === 0 &&
+				!container3.is(e.target) && container3.has(e.target).length === 0 &&
+				!container4.is(e.target) && container4.has(e.target).length === 0 &&
+				!e.target.toString().includes('.gif')
+			)
+			{
+				container1.hide();
+				container2.hide();
+				container3.hide();
+				container4.hide();
+			}
+		});
+	</script>
+
+</body>
+</html>
