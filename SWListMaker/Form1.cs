@@ -19,7 +19,8 @@ namespace SWListMaker
         static string strRepoPath = ConfigurationManager.AppSettings["RepoPath"].ToString();
         static string strCardlistOutputPath = strRepoPath + @"cardlists\"; //card list output files go to the cardlists subfolder
         static string strJSONFilePath = strRepoPath + @"JSON\"; //JSON source files are in the JSON subfolder
-        static string strPageTemplatePath = strRepoPath; //Page template files are in the root directory
+        static string strPageTemplatePath = strRepoPath + "PageTemplate.txt"; //Page template file found in the root directory
+        static string strPremiumTemplatePath = strRepoPath + "PremiumTemplate.txt"; //Page template file found in the root directory
 
         static string strDownloadLatestJSON = ConfigurationManager.AppSettings["DownloadLatestJSON"].ToString();
         static string strJSONRemotePath = ConfigurationManager.AppSettings["JSONRemotePath"].ToString();
@@ -41,10 +42,6 @@ namespace SWListMaker
                 RefreshJSON();
             }
 
-            //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
-            //int maxVSet = 201; //default placeholder value
-            //int.TryParse(strmaxVSet, out maxVSet); //convert actual correct value to int
-
             //Decipher Sets
             ProcessSet("1", "Premiere", "PREMIERE_title.gif", "Premiere");
             ProcessSet("2", "A New Hope", "ANEWHOPE_title.gif", "ANewHope");
@@ -60,6 +57,8 @@ namespace SWListMaker
             ProcessSet("12", "Coruscant", "CORUSCANT_title.gif", "Coruscant");
             ProcessSet("13", "Reflections III", "REF3_title.gif", "Reflections3");
             ProcessSet("14", "Theed Palace", "THEED_title.gif", "Theed");
+            //Decipher Premium
+            ProcessSet("101", "Premium", "PREMIUM_title.gif", "Premium");
 
             string strSet;
             int i;
@@ -82,7 +81,7 @@ namespace SWListMaker
             ProcessSet("1000d", "Virtual Block D", "vd_title.jpg", "VShields");
 
             ProcessSet("LEGACYMASTER", "Virtual Master", "VMaster-title.jpg", "VMaster");
-
+            
             textBox1.Text = "Done! Cardlist files written to:" + System.Environment.NewLine + strCardlistOutputPath;
         }
 
@@ -160,8 +159,16 @@ namespace SWListMaker
                 strHTMLDS += "<tr><td class='center' style='width:31px'><img src='" + currentCard.GetIconFullPath() + "' height='21px' width='21px' alt=\"" + currentCard.TypeText + "\" title=\"" + currentCard.TypeText + "\" /></td><td class='left'><a href='" + currentCard.FrontImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.FrontImageUrl + "'," + currentCard.Horizontal + ",'Dark');\">" + currentCard.FrontTitle + "</a>" + tmpBackString + "</td><td class='center' style='width:43px'>" + currentCard.Rarity + "</td></tr>" + System.Environment.NewLine;
             }
 
-            string strPage = File.ReadAllText(strPageTemplatePath + "PagePart1.txt") + strHTMLLS + File.ReadAllText(strPageTemplatePath + "PagePart2.txt") + strHTMLDS + File.ReadAllText(strPageTemplatePath + "PagePart3.txt");
+            //string strPage = File.ReadAllText(strPageTemplatePath + "PagePart1.txt") + strHTMLLS + File.ReadAllText(strPageTemplatePath + "PagePart2.txt") + strHTMLDS + File.ReadAllText(strPageTemplatePath + "PagePart3.txt");
 
+            string strPage = "";
+            if (strSetName == "Premium")
+                strPage = File.ReadAllText(strPremiumTemplatePath);
+            else
+                strPage = File.ReadAllText(strPageTemplatePath);
+
+            strPage = strPage.Replace("~~LSCARDLIST~~", strHTMLLS);
+            strPage = strPage.Replace("~~DSCARDLIST~~", strHTMLDS);
             strPage = strPage.Replace("•", "&#8226;");
             strPage = strPage.Replace("~~SETABBR~~", strSetAbbr);
             strPage = strPage.Replace("~~SETNAME~~", strSetName);

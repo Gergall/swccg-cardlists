@@ -32,35 +32,32 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - When you run the program, a button appears. Click the button and wait a minute for the success message which says "Done! Cardlist files written to...", then close the program.
   - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
 
-4. The Premium pages are not auto-generated yet (sorry) but they are easy to update manually.
-  - Premium.html, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
-  - Just download/open the existing file, scroll down to the part where the Vsets are listed in the sidebar (around line 186) and insert a line to link to the new Vset.
-
-5. Log into Amazon S3 and upload these HTML files, _you should have at least 200 such files,_ to `/cardlists`
+4. Log into Amazon S3 and upload these HTML files, _you should have at least 200 such files,_ to `/cardlists`
   - Yes, upload ALL 200+ files, not just the new set. We need to update all the other pages sidebars
 
-6. Issue an invalidation to clear the old pages out of cache
+5. Issue an invalidation to clear the old pages out of cache
   - https://console.aws.amazon.com/cloudfront/v3/home?region=ca-central-1#/distributions/E4R02360UW5RJ/invalidations
   - Create Invalidation:
     ```
     /cardlists/*
     ```
 
-7. Do some testing to see how the pages look. Good, hopefully!
+6. Do some testing to see how the pages look. Good, hopefully!
 
-8. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
+7. You will find that the new Vset page is missing an image banner.  You'll need to create one and upload it.
   - Banner size is `735 x 93`
   - Upload banner to Amazon S3. File name and path must be exactly like this (using Set 19 as an example): `/cardlists/images/SET19_title.gif`
 
-9. Check everything into Github.
+8. Check everything into Github.
   - Don't forget to add the new cardlist pages and add the banner image!
 
 
 <a name="updating-the-page-html"></a>
 ## UPDATING THE PAGE HTML
 
- - `PagePart1.txt`, `PagePart2.txt`, and `PagePart3.txt` form a sort of template. Updating these files, _for example, adding text,_ will affect all pages produced by the program.
- - Additionally, updating `swccg2.css` will allow for simple things like swapping colors etc.
+ - `PageTemplate.txt` is the template. Updating this file (for example, adding text), will affect all pages (except the Premium page) produced by the program.
+ - `PremiumTemplate.txt` is the template for the Premium page which is different from the rest.
+ - `swccg2.css` stylesheet can be edited for some things like swapping colors etc.
 
 
 
@@ -70,15 +67,9 @@ You shouldn't need to edit the program for basic use such as simply adding a new
 ## TODO
 
 ### FUNCTIONAL
-- Program should automatically generate the 4 "Premium" pages. This will be done by saving them in a template TXT file and using a wildcard for the sidebar that needs updating.
-  - `Premium.html`, `PremiumRarity.html`, `PremiumName.html`, `PremiumType.html`
-  - **Currently I have been updating the sidebar of the 4 premium pages manually**.
-
 - UI Improvements
  - Better display of what the program is doing
  - Better display of what the current app settings are
-
-- Update the `README.md` HowTo section after making some of these changes
 
 
 
@@ -106,3 +97,7 @@ You shouldn't need to edit the program for basic use such as simply adding a new
 - Separate banners for Reflections 2 and Reflections 3
 
 - Automatically update card lists
+
+- More mobile friendly especially when user zooms in
+
+- More intuitive buttons for pop-out and dismiss ("X out")
