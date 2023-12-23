@@ -115,7 +115,7 @@
       <tr> 
          <td> 
               <a href="https://www.starwarsccg.org">
-                  <img src="https://res.starwarsccg.org/cardlists/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
+                  <img src="https://res.starwarsccg.org/cardlists/images/logo_swccgpc.gif" height="169" width="221px" alt="Star Wars CCG Logo" />
               </a>
          </td> 
          <td colspan="2" style="text-align:center;vertical-align:top;">
