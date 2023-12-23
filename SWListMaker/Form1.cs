@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.IO;
 using System.Configuration;
 using System.Net;
@@ -10,20 +11,23 @@ namespace SWListMaker
 {
     public partial class Form1 : Form
     {
-        //We need to identify the highest numbered VSet. It will be stored in App.Config for easy changing
-        static string strmaxVSet = ConfigurationManager.AppSettings["maxVSet"].ToString(); //get the actual correct value
-        static int maxVSet = GetMaxVSet(strmaxVSet);
-
-        static string strVSETMENULINKS = GetVSETMENULINKS(maxVSet);
-
+        //Various file paths
         static string strRepoPath = ConfigurationManager.AppSettings["RepoPath"].ToString();
         static string strCardlistOutputPath = strRepoPath + @"cardlists\"; //card list output files go to the cardlists subfolder
         static string strJSONFilePath = strRepoPath + @"JSON\"; //JSON source files are in the JSON subfolder
         static string strPageTemplatePath = strRepoPath + "PageTemplate.txt"; //Page template file found in the root directory
         static string strPremiumTemplatePath = strRepoPath + "PremiumTemplate.txt"; //Page template file found in the root directory
-
-        static string strDownloadLatestJSON = ConfigurationManager.AppSettings["DownloadLatestJSON"].ToString();
         static string strJSONRemotePath = ConfigurationManager.AppSettings["JSONRemotePath"].ToString();
+
+        //A yes/no setting that determines whether to use download the latest JSON from online
+        static string strDownloadLatestJSON = ConfigurationManager.AppSettings["DownloadLatestJSON"].ToString();
+        static bool blJSONHasBeenDownloaded = RefreshJSON();
+
+        //Identify the highest numbered VSet by reading it from sets.json
+        static int maxVSet = GetMaxVSet();
+
+        //Get the left side menu links. Obviously, we needed to determine the maxVSet first (above)
+        static string strVSETMENULINKS = GetVSETMENULINKS(maxVSet);
 
         public Form1()
         {
@@ -34,13 +38,6 @@ namespace SWListMaker
         {
             button1.Enabled = false;
             textBox1.Text = "Working, please wait...";
-
-            //Before we do anything else, lets get the latest JSON files (unless that setting is disabled)
-            if (strDownloadLatestJSON == "Y")
-            {
-                textBox1.Text = "Downloading JSON...";
-                RefreshJSON();
-            }
 
             //Decipher Sets
             ProcessSet("1", "Premiere", "PREMIERE_title.gif", "Premiere");
@@ -128,34 +125,45 @@ namespace SWListMaker
             string strHTMLDS = "";
             string tmpBackString = "";
 
+            if (LSCards.Count == 0)
+            {
+                strHTMLLS += "<tr><td class='left' colspan='3'>No Light Side cards in " + strSetName + "</td></tr>";
+            }
             foreach (SWCard currentCard in LSCards)
             {
-                if (blTypeHeadings && currentCard.FrontType != previousCardType)
+                if (blTypeHeadings && currentCard.FrontType != previousCardType) //we need to print a heading before this card
                 {
                     strHTMLLS += "<tr><td>&nbsp;</td><td class='type'> " + currentCard.FrontType.ToUpper() + " </td><td>&nbsp;</td></tr>" + System.Environment.NewLine;
                     previousCardType = currentCard.FrontType;
                 }
 
-                if (currentCard.BackTitle == "")
+                if (currentCard.BackTitle == "") //minor prep work for 2-sided cards
                     tmpBackString = "";
                 else
                     tmpBackString = " / <a href='" + currentCard.BackImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.BackImageUrl + "'," + currentCard.Horizontal + ",'Light');\">" + currentCard.BackTitle + "</a>";
 
+                //time to print a card
                 strHTMLLS += "<tr><td class='center' style='width:31px'><img src='" + currentCard.GetIconFullPath() + "' height='21px' width='21px' alt=\"" + currentCard.TypeText + "\" title=\"" + currentCard.TypeText + "\" /></td><td class='left'><a href='" + currentCard.FrontImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.FrontImageUrl + "'," + currentCard.Horizontal + ",'Light');\">" + currentCard.FrontTitle + "</a>" + tmpBackString + "</td><td class='center' style='width:43px'>" + currentCard.Rarity + "</td></tr>" + System.Environment.NewLine;
+            }
+
+            if (DSCards.Count == 0)
+            {
+                strHTMLLS += "<tr><td class='left' colspan='3'>No Dark Side cards in " + strSetName + "</td></tr>";
             }
             foreach (SWCard currentCard in DSCards)
             {
-                if (blTypeHeadings && currentCard.FrontType != previousCardType)
+                if (blTypeHeadings && currentCard.FrontType != previousCardType) //we need to print a heading before this card
                 {
                     strHTMLDS += "<tr><td>&nbsp;</td><td class='type'> " + currentCard.FrontType.ToUpper() + " </td><td>&nbsp;</td></tr>" + System.Environment.NewLine;
                     previousCardType = currentCard.FrontType;
                 }
 
-                if (currentCard.BackTitle == "")
+                if (currentCard.BackTitle == "") //minor prep work for 2-sided cards
                     tmpBackString = "";
                 else
                     tmpBackString = " / <a href='" + currentCard.BackImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.BackImageUrl + "'," + currentCard.Horizontal + ",'Dark');\">" + currentCard.BackTitle + "</a>";
 
+                //time to print a card
                 strHTMLDS += "<tr><td class='center' style='width:31px'><img src='" + currentCard.GetIconFullPath() + "' height='21px' width='21px' alt=\"" + currentCard.TypeText + "\" title=\"" + currentCard.TypeText + "\" /></td><td class='left'><a href='" + currentCard.FrontImageUrl + "' target='_blank' onclick=\"return fnShowCard('" + currentCard.FrontImageUrl + "'," + currentCard.Horizontal + ",'Dark');\">" + currentCard.FrontTitle + "</a>" + tmpBackString + "</td><td class='center' style='width:43px'>" + currentCard.Rarity + "</td></tr>" + System.Environment.NewLine;
             }
 
@@ -201,10 +209,30 @@ namespace SWListMaker
             return strPage;
         }
 
-        private static int GetMaxVSet(string strMaxVSet)
+        private static int GetMaxVSet()
         {
+            //this function reads sets.json and figures out the highest vset number.
             int maxVSet = 201; //201 is just a momentary placeholder value
-            int.TryParse(strMaxVSet, out maxVSet); //now maxVSet has the correct value
+
+            string jsonFilePath = strJSONFilePath + "sets.json";
+            string strJSON = File.ReadAllText(jsonFilePath);
+            string strCurrentID = "";
+            int currentID = 201;
+
+            List<JObject> dataItems = JsonConvert.DeserializeObject<List<JObject>>(strJSON);
+
+            if (dataItems != null && dataItems.Count > 0)
+            {
+                foreach (JObject item in dataItems)
+                {
+                    strCurrentID = item["id"].ToString();
+                    int.TryParse(strCurrentID, out currentID);
+
+                    if (currentID < 300 && currentID > maxVSet) //vsets are in the 200s, so we igore anything 300 or higher
+                        maxVSet = currentID;
+                }
+            }
+
             return maxVSet;
         }
 
@@ -333,27 +361,36 @@ namespace SWListMaker
                 return false;
         }
 
-        private void RefreshJSON()
+        private static bool RefreshJSON()
         {
-            using (var client = new WebClient())
+            if (strDownloadLatestJSON == "Y")
             {
-                client.DownloadFile(strJSONRemotePath + "Dark.json", strJSONFilePath + "Dark.json");
-                client.DownloadFile(strJSONRemotePath + "DarkLegacy.json", strJSONFilePath + "DarkLegacy.json");
-                client.DownloadFile(strJSONRemotePath + "Light.json", strJSONFilePath + "Light.json");
-                client.DownloadFile(strJSONRemotePath + "LightLegacy.json", strJSONFilePath + "LightLegacy.json");
-                client.DownloadFile(strJSONRemotePath + "sets.json", strJSONFilePath + "sets.json");
+                using (var client = new WebClient())
+                {
+                    client.DownloadFile(strJSONRemotePath + "Dark.json", strJSONFilePath + "Dark.json");
+                    client.DownloadFile(strJSONRemotePath + "DarkLegacy.json", strJSONFilePath + "DarkLegacy.json");
+                    client.DownloadFile(strJSONRemotePath + "Light.json", strJSONFilePath + "Light.json");
+                    client.DownloadFile(strJSONRemotePath + "LightLegacy.json", strJSONFilePath + "LightLegacy.json");
+                    client.DownloadFile(strJSONRemotePath + "sets.json", strJSONFilePath + "sets.json");
+                }
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             string strSettings = "";
+            strSettings += "Latest VSet identified as: Set " + maxVSet.ToString().Substring(1) + System.Environment.NewLine + System.Environment.NewLine;
+
             strSettings += "These are the current settings. To modify them, close program and edit the App.config file." + System.Environment.NewLine;
             strSettings += "Refresh JSON files with latest online copies? (Y/N): " + strDownloadLatestJSON + System.Environment.NewLine;
             if (strDownloadLatestJSON == "Y")
                 strSettings += "Path to online JSON files: " + strJSONRemotePath + System.Environment.NewLine;
             strSettings += "Local repository (root folder): " + strRepoPath + System.Environment.NewLine;
-            strSettings += "Max VSet ID: " + strmaxVSet + System.Environment.NewLine;
 
             txtSettings.Text = strSettings;
         }

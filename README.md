@@ -23,7 +23,6 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - NOTE: You might need to set Windows to show file extensions.  If extensions are hidden it might appear as SWListMaker.exe, with the .config hidden.
 
 2. This SWListMaker.exe.config file has some settings we need to update (you can just edit it in Notepad):
-  - maxVSet: Change the value to the set code of the highest numbered VSet. For example if the most recent VSet is 19, then the code for that is 219. It always takes the format of 2xx (so Set 20 code = 220, etc).
   - RepoPath: Adjust the filepath so it's accurate based on where you loaded your repository. If you keep your repo at D:\swccg\swccg-cardlists\ then that is your RepoPath.
   - DownloadLatestJSON: If set to Y, the program will first download the latest JSON card data before creating card lists. Y is the recommended setting.
   - JSONRemotePath: This is the path where the program will download the latest JSON files from. You will never need to change this unless we decide to host the JSON files elsewhere.
@@ -32,7 +31,7 @@ You shouldn't need to edit the program for basic use such as simply adding a new
   - When you run the program, a button appears. Click the button and wait a minute for the success message which says "Done! Cardlist files written to...", then close the program.
   - The updated card list HTML files you just generated can be found in the "cardlists" subfolder from the repo root. You can even open them in a web browser to see how they look.
 
-4. Log into Amazon S3 and upload these HTML files, _you should have at least 200 such files,_ to `/cardlists`
+4. Log into Amazon S3 and upload these HTML files, _you should have over 200 such files,_ to `/cardlists`
   - Yes, upload ALL 200+ files, not just the new set. We need to update all the other pages sidebars
 
 5. Issue an invalidation to clear the old pages out of cache
@@ -84,8 +83,6 @@ You shouldn't need to edit the program for basic use such as simply adding a new
 
 
 ### CODE CLEANUP
-- Update pages to use `logo_swccgpc.gif` from the `/images` folder instead of the `/cardlists` folder
-
 - Clean up unused Amazon S3 files, especially entire contents of `/cardlists/images/starwars/` _(do we think they are being linked from anywhere?)_
 
 
