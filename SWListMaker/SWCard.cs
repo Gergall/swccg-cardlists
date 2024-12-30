@@ -19,10 +19,12 @@ namespace SWListMaker
         public string FrontImageUrl { get; set; }
         public string FrontType { get; set; }
         public string FrontSubType { get; set; }
+        public string FrontPrintableSlipUrl { get; set; }
 
         public string BackImageUrl { get; set; }
         public string BackType { get; set; }
         public string BackSubType { get; set; }
+        public string BackPrintableSlipUrl { get; set; }
 
         public string TypeIcon { get; set; }
         public string TypeText { get; set; }
