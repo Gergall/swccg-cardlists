@@ -492,7 +492,7 @@
     "cycle_code": "full",
     "date_release": "2022-04-21",
     "position": 218,
-    "size": 32
+    "size": 31
   },
   {
     "id": "219",
@@ -545,9 +545,20 @@
     "abbr": "V23",
     "legacy": false,
     "cycle_code": "full",
-    "date_release": "2023-12-22",
+    "date_release": "2024-07-22",
     "position": 223,
-    "size": 6
+    "size": 44
+  },
+  {
+    "id": "224",
+    "name": "Virtual Set 24",
+    "gempName": "Set 24",
+    "abbr": "V24",
+    "legacy": false,
+    "cycle_code": "full",
+    "date_release": "2024-12-30",
+    "position": 224,
+    "size": 23
   },
   {
     "id": "301",
@@ -591,7 +602,7 @@
     "cycle_code": "shields",
     "date_release": "2014-09-24",
     "position": 200,
-    "size": 17
+    "size": 19
   },
   {
     "id": "1001",

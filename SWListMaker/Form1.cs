@@ -6,6 +6,8 @@ using Newtonsoft.Json.Linq;
 using System.IO;
 using System.Configuration;
 using System.Net;
+using System.Drawing; //only used by the Scott Folders code
+using static System.Windows.Forms.AxHost;
 
 namespace SWListMaker
 {
@@ -251,8 +253,6 @@ namespace SWListMaker
 
         private List<SWCard> GetCardList(string theSet, string side)
         {
-            //TO DO: Add code with special treatment if theSet==LEGACYMASTER
-
             string filename;
             //if (theSet == "1001" || theSet == "1002" || theSet == "1003" || theSet == "1004" || theSet == "1005" || theSet == "1006" || theSet == "1007" || theSet == "1008" || theSet == "1009" || theSet == "1000d" || theSet == "LEGACYMASTER")
             if (IsSetLegacy(theSet))
@@ -290,6 +290,7 @@ namespace SWListMaker
                     theNewCard.Side = card.side;
                     theNewCard.Title = card.front.title;
                     theNewCard.FrontImageUrl = card.front.imageUrl;
+                    theNewCard.FrontPrintableSlipUrl = card.front.printableSlipUrl;
 
                     if (card.back is null)
                     {
@@ -297,7 +298,7 @@ namespace SWListMaker
                         backSubType = "";
                         backTitle = "";
                         theNewCard.BackImageUrl = "";
-
+                        theNewCard.BackPrintableSlipUrl = "";
                     }
                     else
                     {
@@ -305,13 +306,18 @@ namespace SWListMaker
                         backSubType = card.back.subType;
                         backTitle = card.back.title;
                         theNewCard.BackImageUrl = card.back.imageUrl;
+                        theNewCard.BackPrintableSlipUrl = card.back.printableSlipUrl;
                     }
+
+                    if (theNewCard.FrontPrintableSlipUrl is null)
+                        theNewCard.FrontPrintableSlipUrl = "";
+                    if (theNewCard.BackPrintableSlipUrl is null)
+                        theNewCard.BackPrintableSlipUrl = "";
 
                     theNewCard.setRarity(rarity);
                     theNewCard.setTitle(frontTitle, backTitle);
                     theNewCard.setType(frontType, frontSubType, backType, backSubType, frontTitle);
                     
-
                     SWCardResults.Add(theNewCard);
                 }
             }
@@ -394,5 +400,228 @@ namespace SWListMaker
 
             txtSettings.Text = strSettings;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MakeFoldersFromCardList(GetDecipherErrataCardList("Dark"));
+            MakeFoldersFromCardList(GetDecipherErrataCardList("Light"));
+
+            //MakeFoldersFromCardList(GetCardList("214", "Dark"));
+            //MakeFoldersFromCardList(GetCardList("214", "Light"));
+
+            //MakeFoldersFromCardList(GetAICardList("Dark"));
+            //MakeFoldersFromCardList(GetAICardList("Light"));
+
+            MessageBox.Show("Done!");
+        }
+
+        static void MakeFoldersFromCardList(List<SWCard> CardResults)
+        {
+            string strFrom = "";
+            string strTo = "";
+            string directoryPath = "";
+
+            using (var client = new WebClient())
+            {
+                foreach (SWCard currentCard in CardResults)
+                {
+                    //front of card, if applicable
+                    strFrom = currentCard.FrontImageUrl.Replace("/large/", "/hires/").Replace(".gif", ".png");
+                    strTo = currentCard.FrontPrintableSlipUrl.Replace(@"https://res.starwarsccg.org/vkit/cards/standard", @"D:\swccg\Advocate\ScottsCubeV19AndNewer_V2").Replace(@"/", @"\");
+                    if (strFrom != "" && strTo != "") //checking if applicable
+                    {
+                        if (UrlExists(strFrom))
+                        {
+                            directoryPath = Path.GetDirectoryName(strTo);
+                            if (!Directory.Exists(directoryPath))
+                                Directory.CreateDirectory(directoryPath);
+                            client.DownloadFile(strFrom, strTo);
+                            if (currentCard.Horizontal == 1)
+                                RotateCard(strTo, currentCard.Side);
+                        }
+                    }
+
+                    //back of card, if applicable                    
+                    strFrom = currentCard.BackImageUrl.Replace("/large/", "/hires/").Replace(".gif", ".png");
+                    strTo = currentCard.BackPrintableSlipUrl.Replace(@"https://res.starwarsccg.org/vkit/cards/standard", @"D:\swccg\Advocate\ScottsCubeV19AndNewer_V2").Replace(@"/", @"\");
+                    if (strFrom != "" && strTo != "") //checking if applicable
+                    {
+                        if (UrlExists(strFrom))
+                        {
+                            directoryPath = Path.GetDirectoryName(strTo);
+                            if (!Directory.Exists(directoryPath))
+                                Directory.CreateDirectory(directoryPath);
+                            client.DownloadFile(strFrom, strTo);
+                            if (currentCard.Horizontal == 1)
+                                RotateCard(strTo, currentCard.Side);
+                        }
+                    }
+                }
+            }
+        }
+
+        private List<SWCard> GetAICardList(string side)
+        {
+            string filename = side + ".json";            
+
+            string jsonFilePath = strJSONFilePath + filename;
+
+            string strJSON = File.ReadAllText(jsonFilePath);
+            dynamic cardarray = JsonConvert.DeserializeObject(strJSON);
+            var cards = cardarray.cards;
+
+            string set, rarity, frontType, frontSubType, frontTitle, backType, backSubType, backTitle, title;
+
+            List<SWCard> SWCardResults = new List<SWCard>();
+            SWCard theNewCard;
+
+            foreach (var card in cards)
+            {
+                set = card.set;
+                title = card.front.title.ToString();
+                if ((set.Length == 3) && set.Substring(0,1) == "2" && (title.IndexOf("(AI)")>0 || title.IndexOf("(Holo AI)") > 0))
+                {
+                    rarity = card.rarity;
+                    frontType = card.front.type;
+                    frontSubType = card.front.subType;
+                    frontTitle = card.front.title;
+
+                    theNewCard = new SWCard();
+                    theNewCard.Side = card.side;
+                    theNewCard.Title = card.front.title;
+                    theNewCard.FrontImageUrl = card.front.imageUrl;
+                    theNewCard.FrontPrintableSlipUrl = card.front.printableSlipUrl;
+
+                    if (card.back is null)
+                    {
+                        backType = "";
+                        backSubType = "";
+                        backTitle = "";
+                        theNewCard.BackImageUrl = "";
+                        theNewCard.BackPrintableSlipUrl = "";
+                    }
+                    else
+                    {
+                        backType = card.back.type;
+                        backSubType = card.back.subType;
+                        backTitle = card.back.title;
+                        theNewCard.BackImageUrl = card.back.imageUrl;
+                        theNewCard.BackPrintableSlipUrl = card.back.printableSlipUrl;
+                    }
+
+                    if (theNewCard.FrontPrintableSlipUrl is null)
+                        theNewCard.FrontPrintableSlipUrl = "";
+                    if (theNewCard.BackPrintableSlipUrl is null)
+                        theNewCard.BackPrintableSlipUrl = "";
+
+                    theNewCard.setRarity(rarity);
+                    theNewCard.setTitle(frontTitle, backTitle);
+                    theNewCard.setType(frontType, frontSubType, backType, backSubType, frontTitle);
+
+                    SWCardResults.Add(theNewCard);
+                }
+            }
+
+            return SWCardResults;
+
+        }
+
+        private List<SWCard> GetDecipherErrataCardList(string side)
+        {
+            string filename = side + ".json";
+
+            string jsonFilePath = strJSONFilePath + filename;
+
+            string strJSON = File.ReadAllText(jsonFilePath);
+            dynamic cardarray = JsonConvert.DeserializeObject(strJSON);
+            var cards = cardarray.cards;
+
+            string set, rarity, frontType, frontSubType, frontTitle, backType, backSubType, backTitle, title;
+
+            List<SWCard> SWCardResults = new List<SWCard>();
+            SWCard theNewCard;
+
+            foreach (var card in cards)
+            {
+                set = card.set;
+                title = card.front.title.ToString();
+                if ((set.Length < 3) || (set.Length == 3 && set.Substring(0, 1) == "1"))
+                {
+                    rarity = card.rarity;
+                    frontType = card.front.type;
+                    frontSubType = card.front.subType;
+                    frontTitle = card.front.title;
+
+                    theNewCard = new SWCard();
+                    theNewCard.Side = card.side;
+                    theNewCard.Title = card.front.title;
+                    theNewCard.FrontImageUrl = card.front.imageUrl;
+                    theNewCard.FrontPrintableSlipUrl = card.front.printableSlipUrl;
+
+                    if (card.back is null)
+                    {
+                        backType = "";
+                        backSubType = "";
+                        backTitle = "";
+                        theNewCard.BackImageUrl = "";
+                        theNewCard.BackPrintableSlipUrl = "";
+                    }
+                    else
+                    {
+                        backType = card.back.type;
+                        backSubType = card.back.subType;
+                        backTitle = card.back.title;
+                        theNewCard.BackImageUrl = card.back.imageUrl;
+                        theNewCard.BackPrintableSlipUrl = card.back.printableSlipUrl;
+                    }
+
+                    if (theNewCard.FrontPrintableSlipUrl is null)
+                        theNewCard.FrontPrintableSlipUrl = "";
+                    if (theNewCard.BackPrintableSlipUrl is null)
+                        theNewCard.BackPrintableSlipUrl = "";
+
+                    theNewCard.setRarity(rarity);
+                    theNewCard.setTitle(frontTitle, backTitle);
+                    theNewCard.setType(frontType, frontSubType, backType, backSubType, frontTitle);
+
+                    SWCardResults.Add(theNewCard);
+                }
+            }
+
+            return SWCardResults;
+
+        }
+
+        static void RotateCard(string imagePath, string side)
+        {
+            using (var image = Image.FromFile(imagePath))
+            {
+                if (side == "Dark")
+                    image.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                else
+                    image.RotateFlip(RotateFlipType.Rotate270FlipNone);
+
+                image.Save(imagePath);
+            }
+        }
+
+        static bool UrlExists(string url)
+        {
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+                request.Method = "HEAD";
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
+                    return response.StatusCode == HttpStatusCode.OK;
+                }
+            }
+            catch
+            {
+                // Any exception means the URL is not accessible or the resource doesn't exist
+                return false;
+            }
+        }
+
     }
 }

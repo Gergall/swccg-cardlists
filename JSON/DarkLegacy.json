@@ -5610,7 +5610,7 @@
         "icons": [
           "Dagobah"
         ],
-        "imageUrl": "https://res.starwarsccg.org/cards/legacy/VirtualBlock2-Dark/large/Fear.gif",
+        "imageUrl": "https://res.starwarsccg.org/cards/legacy/VirtualBlock2-Dark/large/fear.gif",
         "lore": "'I'm not afraid.' 'Oh. You will be.' One of the lessons Luke learned was that fear of the unknown can be stronger than fear of the known.",
         "subType": "Used",
         "title": "•Fear (V)",
@@ -6150,7 +6150,7 @@
         "lore": "Well-known as a gambler and a gangster. Gardulla was a former owner of Shmi and Anakin Skywalker, before losing them in a bet to the Toydarian junk dealer, Watto.",
         "power": "3",
         "subType": "Alien",
-        "title": "•Gardulla The Hutt (v)",
+        "title": "•Gardulla The Hutt (V)",
         "type": "Character"
       },
       "id": 6318,
@@ -8224,7 +8224,7 @@
           "Warrior"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/legacy/VirtualBlock7-Dark/large/isbcentralcommander.gif",
-        "lore": "Imperial council member. ISB agent. Leader.",
+        "lore": "Imperial council member. ISB leader.",
         "power": "3",
         "subType": "Imperial",
         "title": "•ISB Central Commander",
@@ -9158,7 +9158,7 @@
         "destiny": "4",
         "gametext": "Deploy on table.  Unless Emperor Palpatine on table, Black Sun agents are defense value +1 and forfeit +2.  Once per turn, may use 1 Force to deploy one Beedo, Dannik Jerriko, Greedo, Hem Dazon, Reegesk, or a docking bay from Reserve Deck; reshuffle. (Immune to Alter.)",
         "imageUrl": "https://res.starwarsccg.org/cards/legacy/VirtualBlock1-Dark/large/ketmaliss.gif",
-        "lore": "Assassins are highly valued by Jabba the Hutt and other gangsters. Prince Xizor's 'shadow killer,' has unknown but undoubtably lethal business in Mos Eisley.",
+        "lore": "Assassins are highly valued by Jabba the Hutt and other gangsters. Ket Maliss, Prince Xizor's 'shadow killer,' has unknown but undoubtedly lethal business in Mos Eisley.",
         "title": "Ket Maliss (V)",
         "type": "Effect"
       },
@@ -14173,7 +14173,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/legacy/VirtualBlock4-Dark/large/thrawnsysalamir.gif",
         "power": "3",
         "subType": "Force Eater",
-        "title": "•Thrawn's Ysalami",
+        "title": "•Thrawn's Ysalamir",
         "type": "Creature"
       },
       "id": 6702,
