@@ -290,7 +290,13 @@
       ],
       "rarity": "C",
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "A Cunning Warrior",
+          "cardId": 7345
+        }
+      ]
     },
     {
       "combo": [
@@ -422,7 +428,7 @@
       "rarity": "U",
       "rulings": [
         "Character keeps power +1 after becoming a Jedi.",
-        "Passengers aboard starships or enclosed vehicles do not count towards the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, Mighty Jabba, etc). However, 'draws if unable to otherwise' still works without 6 ability."
+        "Passengers aboard starships or enclosed vehicles do not count toward the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, Mighty Jabba, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "4",
       "side": "Light",
@@ -2735,6 +2741,7 @@
       "matchingWeapon": [
         "Anakin Skywalker, Jedi Knight",
         "Anakin Skywalker, Padawan Learner",
+        "Ben Solo",
         "Boushh",
         "Commander Luke Skywalker",
         "Commander Luke Skywalker (V)",
@@ -2753,10 +2760,13 @@
         "Luke With Lightsaber",
         "Mara Jade",
         "Master Luke",
+        "Master Luke (V)",
         "Princess Leia",
         "Princess Leia (V)",
         "Princess Leia Organa",
-        "Son Of Skywalker"
+        "Son Of Skywalker",
+        "Son Of Skywalker (V)",
+        "Young Skywalker"
       ],
       "printings": [
         {
@@ -2764,6 +2774,7 @@
         }
       ],
       "pulledBy": [
+        "A Cunning Warrior",
         "Gift Of The Mentor",
         "I Know",
         "Son Of Skywalker",
@@ -2773,7 +2784,14 @@
       "set": "3",
       "side": "Light",
       "underlyingCardFor": [
-        "Anakin's Lightsaber (V)"
+        {
+          "title": "Anakin's Lightsaber (V)",
+          "cardId": 5343
+        },
+        {
+          "title": "Anakin's Lightsaber (V) (AI)",
+          "cardId": 7373
+        }
       ]
     },
     {
@@ -2813,10 +2831,12 @@
         "Luke With Lightsaber",
         "Mara Jade",
         "Master Luke",
+        "Master Luke (V)",
         "Rey",
         "Rey, All Of The Jedi",
-        "Master Luke",
-        "Son Of Skywalker"
+        "Son Of Skywalker",
+        "Son Of Skywalker (V)",
+        "Young Skywalker"
       ],
       "printings": [
         {
@@ -2824,8 +2844,10 @@
         }
       ],
       "pulledBy": [
+        "A Cunning Warrior",
         "Gift Of The Mentor",
         "Son Of Skywalker",
+        "Son Of Skywalker (V)",
         "Your Thoughts Dwell On Your Mother"
       ],
       "rarity": "R1",
@@ -2871,7 +2893,10 @@
       ],
       "front": {
         "destiny": "5",
-        "gametext": "Deploy on table. Maz and your Rep are immune to attrition. While you have alien characters of five different species on table: your Force drains are +1, your total battle destiny is +1 (+2 if Maz or your Rep in battle), and your aliens are forfeit +1. (Immune to Alter.)",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Deploy on table. Maz and your Rep are immune to attrition. While you have alien characters of five different species on table: your Force drains are +1, your total battle destiny is +1 (+2 if Maz or your Rep in battle), and your aliens are forfeit +1. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on table. Your Rep is immune to attrition. While you have alien characters of five different species on table, at locations where you have an alien: Your total battle destiny is +1, your aliens are forfeit +1 and, if location is a battleground, your Force drains are +1. [Immune to Alter.]",
         "icons": [
           "Episode VII",
           "Set 10"
@@ -2887,6 +2912,7 @@
       "gempId": "210_7",
       "id": 5344,
       "legacy": false,
+      "previousId": 40072,
       "printings": [
         {
           "set": "210"
@@ -3356,7 +3382,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -3404,7 +3430,7 @@
       ],
       "front": {
         "destiny": "5",
-        "gametext": "USED: Target your [Episode I] Jedi defending a battle. Target is immune to attrition for rest of turn (unless Dark Jedi present).  LOST: In a battle you lost, place a Jedi Council Member you just forfeited in Used Pile to cancel all battle damage and attrition against you.",
+        "gametext": "USED: Target your [Episode I] Jedi defending a battle. Target is immune to attrition for rest of turn (unless Dark Jedi present).  LOST: In a battle you lost, place a Jedi Council member you just forfeited in Used Pile to cancel all battle damage and attrition against you.",
         "icons": [
           "Episode I",
           "Coruscant"
@@ -3918,9 +3944,7 @@
         "Artoo, Brave Little Droid",
         "Hero Of A Thousand Devices",
         "R2-D2 (Artoo-Detoo)",
-        "R2-D2 (Artoo-Detoo) (V)",
-        "R2-D2",
-        "Subversive Droid (V)"
+        "R2-D2 (Artoo-Detoo) (V)"
       ],
       "rarity": "R",
       "rulings": [
@@ -4086,6 +4110,7 @@
     },
     {
       "conceptBy": "(Original concept by Pat Johnson)",
+      "counterpart": "Blast Points (V)",
       "front": {
         "destiny": "5",
         "gametext": "During your deploy phase, use X Force (minimum 1) to relocate X of your characters at an interior Theed Palace site to Theed Palace Throne Room. (Immune to Sense.) OR If opponent occupies your location, peek at top two cards of your Reserve Deck and take one into hand.",
@@ -4116,6 +4141,10 @@
         "Naboo: Theed Palace Hallway (V)"
       ],
       "rarity": "U",
+      "rulings": [
+        "Last function: Cannot be played if Reserve Deck is empty.",
+        "Last function: If only one card in Reserve Deck, peek at it but do not take it into hand."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -4155,7 +4184,7 @@
       "side": "Light"
     },
     {
-      "abbr": [
+      "combo": [
         "ASP-707 + Falcon + Intruder Missile"
       ],
       "front": {
@@ -4221,7 +4250,13 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "StarSpeeder 3000",
+          "cardId": 7358
+        }
+      ]
     },
     {
       "canceledBy": [
@@ -6204,7 +6239,7 @@
         "gametext": "May add 1 pilot and 2 passengers. Permanent pilot provides ability of 2. Once per turn, may deploy a non-pilot Rebel of ability < 5 aboard from Reserve Deck; reshuffle. Immune to attrition < 4.",
         "icons": [
           "Scomp Link",
-          "Permanent Pilot",
+          "Pilot",
           "Set 9"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual9-Light/large/blue11.gif",
@@ -6441,8 +6476,11 @@
         ],
         "deploy": "2",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Adds 2 to the power of anything he pilots, 3 if Rogue One or a stolen starship. May be deployed simultaneously with a piloted starship from hand to a system even without presence or Force icons. If about to be lost, your Rebel or Rebel starship at a related location may make a regular move.",
+        "errataSymbol": "E1",
         "forfeit": "4",
-        "gametext": "Adds 2 to the power of anything he pilots, 3 if Rogue One or a stolen starship. May be deployed simultaneously with a piloted starship from hand to a system even without presence or Force icons. If about to be lost, your Rebel or Rebel starship at a related location may make a regular move.",
+        "gametext": "Adds 2 to the power of anything he pilots, 3 if Rogue One or a stolen starship. Once per game, during battle, may peek at opponent's hand. If about to be lost, your Rebel or Rebel starship at a related location may make a regular move.",
         "icons": [
           "Pilot",
           "Warrior",
@@ -6461,6 +6499,7 @@
       "gempId": "206_1",
       "id": 5146,
       "legacy": false,
+      "previousId": 40052,
       "matching": [
         "Rogue One"
       ],
@@ -6728,6 +6767,9 @@
     {
       "front": {
         "ability": "4",
+        "characteristics": [
+          "smuggler"
+        ],
         "deploy": "3",
         "destiny": "1",
         "errataDate": "2024-12-30",
@@ -6763,7 +6805,8 @@
       ],
       "rarity": "U1",
       "rulings": [
-        "His lore does not make him a member of Rogue Squadron."
+        "His lore does not make him a member of Rogue Squadron.",
+        "Both of BoShek's actions (subtracing 1 or canceling an attempt) cost 1 Force to use, and BoShek may only use one of them once per battle, not once each."
       ],
       "set": "210",
       "side": "Light"
@@ -6887,7 +6930,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -7027,8 +7070,7 @@
         }
       ],
       "pulledBy": [
-        "Leia's Back",
-        "Seeking An Audience (V)"
+        "Leia's Back"
       ],
       "rarity": "PM",
       "rulings": [
@@ -8062,7 +8104,7 @@
       "side": "Light"
     },
     {
-      "conceptBy": "(Original concept by Matt Schmaltz)",
+      "conceptBy": "Original concept by Matt Schmaltz",
       "front": {
         "ability": "3",
         "characteristics": [
@@ -8104,7 +8146,7 @@
         }
       ],
       "pulledBy": [
-        "This Is MY Ship!",
+        "Lothal",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "C",
@@ -8112,7 +8154,7 @@
       "side": "Light"
     },
     {
-      "conceptBy": "(Original concept by Matt Schmaltz)",
+      "conceptBy": "Original concept by Matt Schmaltz",
       "front": {
         "ability": "3",
         "characteristics": [
@@ -8154,7 +8196,7 @@
         }
       ],
       "pulledBy": [
-        "This Is MY Ship!",
+        "Lothal",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "C",
@@ -8872,7 +8914,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -9033,8 +9075,7 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Wookiee Roar"
       ],
       "rarity": "R2",
@@ -9085,13 +9126,14 @@
       ],
       "pulledBy": [
         "General Crix Madine",
+        "General Crix Madine (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "pulls": [
         "Lumat",
-        "Wuta"
+        "Wuta",
+        "Wuta (V)"
       ],
       "rarity": "R",
       "set": "8",
@@ -9146,7 +9188,6 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "rarity": "PM",
@@ -9286,7 +9327,6 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "rarity": "PM",
@@ -9337,7 +9377,6 @@
       ],
       "pulledBy": [
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "rarity": "PM",
@@ -9398,7 +9437,6 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "rarity": "PM",
@@ -10417,6 +10455,9 @@
         "Quiet Mining Colony"
       ],
       "rarity": "C",
+      "rulings": [
+        "When this site prevents a character from being hit by relocating them to the Weather Vane, it also prevents any other weapon results, such as the Force loss from P-59."
+      ],
       "set": "5",
       "side": "Light",
       "underlyingCardFor": [
@@ -10601,6 +10642,7 @@
         }
       ],
       "pulledBy": [
+        "A Cunning Warrior",
         "Mindful Of The Future",
         "Quiet Mining Colony"
       ],
@@ -10608,7 +10650,14 @@
       "set": "5",
       "side": "Light",
       "underlyingCardFor": [
-        "Coruscant: Jedi Temple Meditation Room"
+        {
+          "title": "Cloud City: Lower Corridor (V)",
+          "cardId": 7350
+        },
+        {
+          "title": "Coruscant: Jedi Temple Meditation Room",
+          "cardId": 6928
+        }
       ]
     },
     {
@@ -10716,6 +10765,7 @@
         }
       ],
       "pulledBy": [
+        "A Cunning Warrior",
         "Quiet Mining Colony"
       ],
       "rarity": "C",
@@ -11218,7 +11268,14 @@
       "set": "2",
       "side": "Light",
       "underlyingCardFor": [
-        "Lor San Tekka"
+        {
+          "title": "Lor San Tekka",
+          "cardId": 5083
+        },
+        {
+          "title": "Lor San Tekka (AI)",
+          "cardId": 7377
+        }
       ]
     },
     {
@@ -12124,7 +12181,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -12174,7 +12231,13 @@
         "This card is <u>not</u> a transport."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Liberator",
+          "cardId": 7356
+        }
+      ]
     },
     {
       "abbr": [
@@ -12357,7 +12420,7 @@
         "Landing Claw",
         "Lando's Wrist Comlink",
         "Luke's Backpack",
-        "Luke's Bionic Hand (V)",
+        "Luke's Bionic Hand",
         "Magnetic Suction Tube",
         "Mercenary Armor",
         "Motivator (V)",
@@ -12675,7 +12738,13 @@
       ],
       "rarity": "U",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Corporal Rushing (V)",
+          "cardId": 7351
+        }
+      ]
     },
     {
       "combo": [
@@ -12917,7 +12986,14 @@
       "set": "7",
       "side": "Light",
       "underlyingCardFor": [
-        "Restore Freedom To The Galaxy"
+        {
+          "title": "Restore Freedom To The Galaxy",
+          "cardId": 5235
+        },
+        {
+          "title": "Restore Freedom To The Galaxy (AI)",
+          "cardId": 7381
+        }
       ]
     },
     {
@@ -13394,7 +13470,14 @@
       "set": "9",
       "side": "Light",
       "underlyingCardFor": [
-        "Rebel Leadership & Critical Error Revealed"
+        {
+          "title": "Critical Error Revealed (V)",
+          "cardId": 7391
+        },
+        {
+          "title": "Rebel Leadership & Critical Error Revealed",
+          "cardId": 7045
+        }
       ]
     },
     {
@@ -13823,8 +13906,18 @@
       "set": "4",
       "side": "Light",
       "underlyingCardFor": [
-        "Ahch-To: Luke's Hut",
-        "Ajan Kloss: Training Course"
+        {
+          "title": "Ahch-To: Luke's Hut",
+          "cardId": 5325
+        },
+        {
+          "title": "Ajan Kloss: Training Course",
+          "cardId": 6979
+        },
+        {
+          "title": "Ajan Kloss: Training Course (AI)",
+          "cardId": 7371
+        }
       ]
     },
     {
@@ -13942,9 +14035,22 @@
       "set": "4",
       "side": "Light",
       "underlyingCardFor": [
-        "Ahch-To: Saddle",
-        "Ahch-To: Saddle (AI)",
-        "Dagobah: Yoda's Hut (V)"
+        {
+          "title": "Ahch-To: Saddle",
+          "cardId": 5326
+        },
+        {
+          "title": "Ahch-To: Saddle (AI)",
+          "cardId": 7020
+        },
+        {
+          "title": "Dagobah: Yoda's Hut (V)",
+          "cardId": 6929
+        },
+        {
+          "title": "Dagobah: Yoda's Hut (V) (AI)",
+          "cardId": 7375
+        }
       ]
     },
     {
@@ -14149,7 +14255,14 @@
       "set": "7",
       "side": "Light",
       "underlyingCardFor": [
-        "Cal Kestis"
+        {
+          "title": "Balanced Attack & Darklighter Spin",
+          "cardId": 7346
+        },
+        {
+          "title": "Cal Kestis",
+          "cardId": 6878
+        }
       ]
     },
     {
@@ -14222,15 +14335,19 @@
         ],
         "deploy": "3",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Added Hoth icon. Previous lore: 'Enclosed.' Previous text: May add 1 pilot. Permanent pilot is •Dash, who provides ability of 3. During battle, if with another T-47 and about to draw battle destiny, may draw two and choose one. Immune to attrition < 4.",
+        "errataSymbol": "E2",
         "forfeit": "5",
-        "gametext": "May add 1 pilot. Permanent pilot is •Dash, who provides ability of 3. During battle, if with another T-47 and about to draw battle destiny, may draw two and choose one. Immune to attrition < 4.",
+        "gametext": "May add 1 pilot. Permanent pilot is •Dash, who provides ability of 3. Unless this card 'hit', other T-47s here may not be targeted by Crash Landing, High-speed Tactics, or weapons. Immune to attrition < 4.",
         "icons": [
+          "Hoth",
           "Pilot",
           "Set 1"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual1-Light/large/dashinrogue12.gif",
         "landspeed": "4",
-        "lore": "Enclosed.",
+        "lore": "Technicians at the Rebel Base on Hoth modified T-47 airspeeders to fly in the frigid atmosphere of the ice planet. Enclosed.",
         "maneuver": "5",
         "power": "5",
         "subType": "Combat: T-47 Snowspeeder",
@@ -14243,6 +14360,7 @@
       "gempId": "201_20",
       "id": 4118,
       "legacy": false,
+      "previousId": 40094,
       "printings": [
         {
           "set": "201"
@@ -14256,9 +14374,7 @@
       "rarity": "PM",
       "rulings": [
         "Not a Rogue Squadron pilot (e.g. does not work for Wedge Antilles, Red Squadron Leader).",
-        "Dash is a matching pilot, so this vehicle is immune to attrition < 6 with Echo Base Garrison.",
-        "The 'draw two and choose one' text does <u>not</u> play nice with 'draws two battle destiny if unable to otherwise' (e.g. Commander Luke Skywalker (V)). These texts cannot be combined. It's almost always best for Light to just draw two battle destiny with Luke, and ignore Dash's text.",
-        "When using 'draw two and choose one', any response to an individual destiny draw (such as adding 1 with Heading To The Medical Frigate, or canceling a draw with Grand Moff Tarkin) is a response to a draw immediately after it is made, not a response to a draw being chosen. For example, if Dark cancels a draw or subtracts from a draw, Light can then simply choose the other draw."
+        "Dash is a matching pilot, so this vehicle is immune to attrition < 6 with Echo Base Garrison."
       ],
       "set": "201",
       "side": "Light"
@@ -14307,7 +14423,7 @@
       ],
       "pulledBy": [
         "Beldon's Eye (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "set": "10",
@@ -14423,7 +14539,6 @@
         "Anakin Skywalker (V)",
         "I Know",
         "Leia's Back",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "R",
@@ -14490,7 +14605,6 @@
         "Anakin Skywalker (V)",
         "I Know",
         "Leia's Back",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "R",
@@ -15051,7 +15165,7 @@
       "front": {
         "ability": "7",
         "characteristics": [
-          "Jedi Council Member",
+          "Jedi Council member",
           "female"
         ],
         "deploy": "4",
@@ -15472,38 +15586,55 @@
       "back": {
         "destiny": "7",
         "errataSymbol": "E1",
-        "gametext": "Diplomatic Mission To Alderaan:Deploy Tatooine system (with Tantive IV, non-[Reflections 2] R2-D2, and Stolen Data Tapes there) and Dune Sea.{For} remainder of game, you may not deploy Sandwhirl or [Episode I] Jedi.{While} this side up, your Force drains at Tatooine system are -1. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Until the start of your turn, Tantive IV may be forfeited to satisfy all battle damage against you.{Flip} this card if Stolen Data Tapes 'delivered' and Rebels control two battlegrounds (a site and a system).A Weakness Can Be Found:{While} this this side up, your total battle destiny is +X, where X = number of battlegrounds occupied by Rebels of ability < 4. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Once per turn, if you just won a battle, may retrieve 1 Force.{Flip} this card if you do not occupy a battleground site and a battleground system (or you do not control any locations).",
+        "gametext": "Diplomatic Mission To Alderaan: Deploy Tatooine system (with Tantive IV, non-[Reflections II] R2-D2, and Stolen Data Tapes there) and Dune Sea. For remainder of game, you may not deploy Sandwhirl, Strike Planning, Admiral's Orders, or [Episode I] Jedi. While this side up, your Force drains at Tatooine system are -2. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Until the start of your first turn, Tantive IV may be forfeited to cancel all remaining battle damage. Flip this card if Stolen Data Tapes 'delivered' and Rebels control two battlegrounds (a site and a system). A Weakness Can Be Found: While this this side up, your total battle destiny is +X, where X = number of battlegrounds occupied by Rebels of ability < 4. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Once per turn, if you just won a battle, may retrieve 1 Force. Flip this card if you do not occupy a battleground site and a battleground system (or you do not control any locations).",
         "icons": [
+          "A New Hope",
           "Set 3"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual3-Light/large/aweaknesscanbefound.gif",
         "title": "Diplomatic Mission To Alderaan / A Weakness Can Be Found",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Diplomatic Mission To Alderaan/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/A Weakness Can Be Found/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "front": {
         "destiny": "0",
-        "errataSymbol": "E1",
-        "gametext": "Diplomatic Mission To Alderaan:Deploy Tatooine system (with Tantive IV, non-[Reflections 2] R2-D2, and Stolen Data Tapes there) and Dune Sea.{For} remainder of game, you may not deploy Sandwhirl or [Episode I] Jedi.{While} this side up, your Force drains at Tatooine system are -1. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Until the start of your turn, Tantive IV may be forfeited to satisfy all battle damage against you.{Flip} this card if Stolen Data Tapes 'delivered' and Rebels control two battlegrounds (a site and a system).A Weakness Can Be Found:{While} this this side up, your total battle destiny is +X, where X = number of battlegrounds occupied by Rebels of ability < 4. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Once per turn, if you just won a battle, may retrieve 1 Force.{Flip} this card if you do not occupy a battleground site and a battleground system (or you do not control any locations).",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Compared to E1 version, the E2 version bans Strike Planning and Admiral's Orders and increases the Tatooine Force drain penalty from -1 to -2.",
+        "errataSymbol": "E2",
+        "gametext": "Diplomatic Mission To Alderaan: Deploy Tatooine system (with Tantive IV, non-[Reflections II] R2-D2, and Stolen Data Tapes there) and Dune Sea. For remainder of game, you may not deploy Sandwhirl, Strike Planning, Admiral's Orders, or [Episode I] Jedi. While this side up, your Force drains at Tatooine system are -2. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Until the start of your first turn, Tantive IV may be forfeited to cancel all remaining battle damage. Flip this card if Stolen Data Tapes 'delivered' and Rebels control two battlegrounds (a site and a system). A Weakness Can Be Found: While this this side up, your total battle destiny is +X, where X = number of battlegrounds occupied by Rebels of ability < 4. Once per turn, may deploy Alderaan or a Tatooine battleground site from Reserve Deck; reshuffle. Once per turn, if you just won a battle, may retrieve 1 Force. Flip this card if you do not occupy a battleground site and a battleground system (or you do not control any locations).",
         "icons": [
+          "A New Hope",
           "Set 3"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual3-Light/large/diplomaticmissiontoalderaan.gif",
         "title": "Diplomatic Mission To Alderaan / A Weakness Can Be Found",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/A Weakness Can Be Found/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Diplomatic Mission To Alderaan/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "203_19",
       "id": 5487,
       "legacy": false,
+      "previousId": 40087,
       "printings": [
         {
           "set": "203"
         }
       ],
+      "pulls": [
+        "Alderaan",
+        "Any Tatooine battleground site",
+        "Artoo (V)",
+        "R2-D2 (Artoo-Detoo) (V)",
+        "R2-D2 & C-3PO",
+        "Tantive IV (V)",
+        "Tatooine: Dune Sea (V)"
+      ],
       "rarity": "R1",
+      "rulings": [
+        "Pulls Alderaan system, and Tatooine battleground sites."
+      ],
       "set": "203",
       "side": "Light"
     },
@@ -19031,7 +19162,7 @@
       "pulledBy": [
         "Chief Chirpa",
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Surprise Counter Assault",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
@@ -20637,7 +20768,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "pulls": [
         "Related exterior planet site"
@@ -20746,7 +20877,6 @@
         "Cloud City: Security Tower",
         "Lobot (V) as a 'react'",
         "Rebel Leadership (V)",
-        "Seeking An Audience (V)",
         "Strike Planning",
         "Yavin 4: Massassi War Room (V)"
       ],
@@ -20887,6 +21017,7 @@
         "Balanced Attack",
         "Rebel Leadership (V)",
         "Strike Planning",
+        "Strike Planning (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "pulls": [
@@ -20938,7 +21069,13 @@
         "His lore does not make him a member of Rogue Squadron."
       ],
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "General Crix Madine (V)",
+          "cardId": 7352
+        }
+      ]
     },
     {
       "cancels": [
@@ -21125,7 +21262,7 @@
         "ability": "6",
         "characteristics": [
           "General",
-          "Jedi Council Member",
+          "Jedi Council member",
           "Leader"
         ],
         "deploy": "6",
@@ -21176,7 +21313,7 @@
         "ability": "6",
         "characteristics": [
           "General",
-          "Jedi Council Member",
+          "Jedi Council member",
           "Leader"
         ],
         "deploy": "6",
@@ -21267,7 +21404,6 @@
         "I Know",
         "Leia's Back",
         "Rebel Leadership (V)",
-        "Seeking An Audience (V)",
         "Strike Planning"
       ],
       "rarity": "R",
@@ -21364,8 +21500,6 @@
         "Tydirium"
       ],
       "matchingWeapon": [
-        "Han's Blaster",
-        "So Uncivilized (V)",
         "Han's Heavy Blaster Pistol",
         "Han's Heavy Blaster Pistol (V)"
       ],
@@ -21428,7 +21562,8 @@
         "Millennium Falcon"
       ],
       "matchingWeapon": [
-        "Han's Heavy Blaster Pistol"
+        "Han's Heavy Blaster Pistol",
+        "Han's Heavy Blaster Pistol (V)"
       ],
       "printings": [
         {
@@ -21641,8 +21776,11 @@
         ],
         "deploy": "3",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Added 'Deploys -2 to Lothal.'",
+        "errataSymbol": "E1",
         "forfeit": "6",
-        "gametext": "May add 2 pilots, 3 passengers, and Phantom. Has ship-docking capability. May deploy Phantom here from reserve deck; reshuffle. While Hera piloting, immune to attrition < 5 (may not be canceled).",
+        "gametext": "Deploys -2 to Lothal. May add 2 pilots, 3 passengers, and Phantom. Has ship-docking capability. May deploy Phantom here from Reserve Deck; reshuffle. While Hera piloting, immune to attrition < 5 (may not be canceled).",
         "hyperspeed": "5",
         "icons": [
           "Nav Computer",
@@ -21666,6 +21804,7 @@
       "matching": [
         "Captain Hera Syndulla"
       ],
+      "previousId": 40089,
       "printings": [
         {
           "set": "207"
@@ -22229,6 +22368,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "Millennium Falcon"
+      ],
       "front": {
         "characteristics": [
           "Rebel (starship)"
@@ -23570,7 +23712,13 @@
         "You may not cancel and redraw a destiny that has already been canceled."
       ],
       "set": "1",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Han Solo (V)",
+          "cardId": 7353
+        }
+      ]
     },
     {
       "abbr": [
@@ -23634,7 +23782,8 @@
     {
       "abbr": [
         "HCATF",
-        "HCF"
+        "HCF",
+        "Millennium Falcon"
       ],
       "combo": [
         "Han, Chewie, And The Falcon + Life Debt Adds two destinies, bringing it to a total of 4.",
@@ -23689,8 +23838,9 @@
     },
     {
       "abbr": [
-        "HCATFV",
-        "HCFV"
+        "HCATFv",
+        "HCFv",
+        "Millennium Falcon"
       ],
       "combo": [
         "Han, Chewie, And The Falcon + Punch It! Adds two destinies in a defending battle."
@@ -23736,8 +23886,7 @@
       ],
       "pulledBy": [
         "Han's Back",
-        "Life Debt",
-        "Seeking An Audience (V)"
+        "Life Debt"
       ],
       "rarity": "PM",
       "rulings": [
@@ -23825,7 +23974,7 @@
         "errataSymbol": "E1",
         "gametext": "Use 1 Force to deploy on Han, or 3 on your warrior. May target a character, creature or vehicle using 1 Force. Draw destiny. Target hit if destiny +1 > defense value. If hit by Han, target's forfeit = 0.",
         "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/hansheavyblasterpistol.gif",
-        "lore": "BlasTech DL-44 heavy pistol. Short range, but relatively powerful. Carries energy for 25 shots. Illegal or restricted in most systems.",
+        "lore": "BlasTech DL-44 heavy blaster pistol. Short range, but relatively powerful. Carries energy for 25 shots. Illegal or restricted in most systems.",
         "subType": "Character",
         "title": "•Han's Heavy Blaster Pistol",
         "type": "Weapon",
@@ -23866,13 +24015,15 @@
           "blaster"
         ],
         "destiny": "2",
-        "errataSymbol": "E1",
-        "gametext": "Deploy on Beckett or non-spy Han. May target a character. Draw destiny. Target hit, and its forfeit = 0, if destiny +2 > defense value. If on Han, may fire once during your control phase, and may place this weapon in Used Pile to cancel a weapon destiny targeting Han.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Deploy on Beckett or non-spy Han. May target a character. Draw destiny. Target hit, and its forfeit = 0, if destiny +2 > defense value. If on Han, may fire once during your control phase, and may place this weapon in Used Pile to cancel a weapon destiny targeting Han.",
+        "errataSymbol": "E2",
+        "gametext": "Deploy on Han or a smuggler. Greedo's gametext is canceled here. May target a character. Draw destiny. Target hit if destiny +2 > defense value. If hit by Han or Beckett, target's forfeit = 0. If on Han (unless Undercover), may fire once during your control phase.",
         "icons": [
           "Set 0"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual0-Light/large/hansheavyblasterpistol.gif",
-        "lore": "BlasTech DL-44 heavy pistol. Short range, but relatively powerful. Carries energy for 25 shots. Illegal or restricted in most systems.",
+        "lore": "BlasTech DL-44 heavy blaster pistol. Short range, but relatively powerful. Carries energy for 25 shots. Illegal or restricted in most systems.",
         "subType": "Character",
         "title": "•Han's Heavy Blaster Pistol (V)",
         "type": "Weapon",
@@ -23890,8 +24041,13 @@
         "Han",
         "Han (V)",
         "Han Solo",
-        "Solo"
+        "Han Solo (V)",
+        "Han Solo, Optimistic General",
+        "Han... Solo",
+        "Solo",
+        "Tobias Beckett"
       ],
+      "previousId": 40096,
       "printings": [
         {
           "set": "200"
@@ -23901,6 +24057,10 @@
         "Portable Scanner"
       ],
       "rarity": "R2",
+      "rulings": [
+        "Matching weapon for Han or Beckett, but not for smugglers in general.",
+        "This weapon will not prevent Greedo (V) from deploying as a react. He deploys as a react, and then it will cancel his game text as soon as he arrives."
+      ],
       "set": "200",
       "side": "Light"
     },
@@ -25126,7 +25286,14 @@
       "set": "9",
       "side": "Light",
       "underlyingCardFor": [
-        "Like My Father Before Me"
+        {
+          "title": "Like My Father Before Me",
+          "cardId": 5015
+        },
+        {
+          "title": "Like My Father Before Me (AI)",
+          "cardId": 7376
+        }
       ]
     },
     {
@@ -25166,7 +25333,13 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Jaxxon T. Tumperakki",
+          "cardId": 7354
+        }
+      ]
     },
     {
       "combo": [
@@ -25995,7 +26168,13 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "I Don't Need Their Scum, Either (V)",
+          "cardId": 7392
+        }
+      ]
     },
     {
       "counterpart": "Insignificant Rebellion",
@@ -28195,7 +28374,7 @@
       ],
       "pulledBy": [
         "Mindful Of The Future",
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "rarity": "C",
       "set": "204",
@@ -28231,7 +28410,7 @@
         }
       ],
       "pulledBy": [
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "pulls": [
         "Rey"
@@ -28271,7 +28450,7 @@
       ],
       "pulledBy": [
         "Mindful Of The Future",
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "rarity": "C1",
       "set": "204",
@@ -28282,7 +28461,7 @@
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "gametext": "Light:  Lor San Tekka is power +4 and defense value -2 here.  Dark:  If your First Order character here, your total power here is +2.",
+        "gametext": "Light: Lor San Tekka is power +4 and defense value -2 here. Dark: If your First Order character here, your total power here is +2.",
         "icons": [
           "Exterior",
           "Planet",
@@ -28308,7 +28487,7 @@
       ],
       "pulledBy": [
         "Mindful Of The Future",
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "rarity": "C",
       "set": "204",
@@ -28758,8 +28937,18 @@
       "set": "1",
       "side": "Light",
       "underlyingCardFor": [
-        "Jedi Lightsaber (V)",
-        "Mace Windu's Lightsaber"
+        {
+          "title": "Jedi Lightsaber (V)",
+          "cardId": 5631
+        },
+        {
+          "title": "Mace Windu's Lightsaber",
+          "cardId": 1387
+        },
+        {
+          "title": "Mace Windu's Lightsaber (AI)",
+          "cardId": 7378
+        }
       ]
     },
     {
@@ -29074,7 +29263,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "rulings": [
@@ -29167,11 +29356,14 @@
         ],
         "deploy": "4",
         "destiny": "3",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Forfeit increased from 4 to 5. Previous text: Adds 2 to the power of anything he pilots. Draws one battle destiny if unable to otherwise. While with Cassian, attrition against opponent is +1 here. If just lost, place out of play; if lost from a site, opponent may not move from there for remainder of turn.",
+        "errataSymbol": "E1",
         "extraText": [
           "Security Droid"
         ],
-        "forfeit": "4",
-        "gametext": "Adds 2 to the power of anything he pilots. Draws one battle destiny if unable to otherwise. While with Cassian, attrition against opponent is +1 here. If just lost, place out of play; if lost from a site, opponent may not move from there for remainder of turn.",
+        "forfeit": "5",
+        "gametext": "Adds 2 to the power of anything he pilots. Deploys -1 to Data Vault. Draws one battle destiny if unable to otherwise. While with Cassian or at Data Vault, your total battle destiny here is +1. If just lost from a site, may take Jyn into hand from Reserve Deck; reshuffle.",
         "icons": [
           "Pilot",
           "Warrior",
@@ -29191,13 +29383,14 @@
       "gempId": "206_5",
       "id": 5150,
       "legacy": false,
+      "previousId": 40056,
       "printings": [
         {
           "set": "206"
         }
       ],
       "pulledBy": [
-        "I've Got A Bad Feeling About"
+        "I've Got A Bad Feeling About..."
       ],
       "rarity": "F",
       "set": "206",
@@ -29306,7 +29499,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "U1",
       "set": "1",
@@ -29706,7 +29899,7 @@
       "rarity": "C1",
       "rulings": [
         "(Light side text) A Wookiee who is also a smuggler would be deploy -2, not deploy -4.",
-        "(Dark side text) Passengers do not count towards the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, IG-88 In IG-2000, etc). However, 'draws if unable to otherwise' still works without 6 ability."
+        "(Dark side text) Passengers do not count toward the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, IG-88 In IG-2000, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "2",
       "side": "Light",
@@ -30115,7 +30308,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "7",
@@ -30450,15 +30643,25 @@
       "set": "7",
       "side": "Light",
       "underlyingCardFor": [
-        "Captain Hera Syndulla",
-        "Captain Hera Syndulla (AI)"
+        {
+          "title": "Captain Hera Syndulla",
+          "cardId": 5087
+        },
+        {
+          "title": "Captain Hera Syndulla (AI)",
+          "cardId": 7022
+        },
+        {
+          "title": "Captain Hera Syndulla (Border Breaker AI)",
+          "cardId": 7383
+        }
       ]
     },
     {
       "front": {
         "ability": "7",
         "characteristics": [
-          "Jedi Council Member",
+          "Jedi Council member",
           "Nautolan"
         ],
         "deploy": "6",
@@ -30503,7 +30706,7 @@
       "front": {
         "ability": "7",
         "characteristics": [
-          "Jedi Council Member",
+          "Jedi Council member",
           "Nautolan"
         ],
         "deploy": "6",
@@ -30923,8 +31126,7 @@
         }
       ],
       "pulledBy": [
-        "Lobot (V) as a 'react'",
-        "Seeking An Audience (V)"
+        "Lobot (V) as a 'react'"
       ],
       "rarity": "R",
       "set": "5",
@@ -30983,8 +31185,7 @@
         }
       ],
       "pulledBy": [
-        "Lobot (V) as a 'react'",
-        "Seeking An Audience (V)"
+        "Lobot (V) as a 'react'"
       ],
       "pulls": [
         "Cloud City Trooper",
@@ -31100,8 +31301,7 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Local Defense",
-        "Seeking An Audience (V)"
+        "Local Defense"
       ],
       "rarity": "PM",
       "set": "109",
@@ -31158,8 +31358,7 @@
       ],
       "pulledBy": [
         "Lobot (V) as a 'react'",
-        "Seeking An Audience (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "rulings": [
@@ -31222,8 +31421,7 @@
       ],
       "pulledBy": [
         "Lobot (V) as a 'react'",
-        "Seeking An Audience (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "rulings": [
@@ -31620,7 +31818,6 @@
       "pulledBy": [
         "I Know",
         "Leia's Back",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "PM",
@@ -31806,7 +32003,6 @@
         "I Know",
         "Leia's Back",
         "Might Of The Republic",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "R1",
@@ -31916,7 +32112,6 @@
       "pulledBy": [
         "I Know",
         "Leia's Back",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "rarity": "PM",
@@ -33160,12 +33355,22 @@
         "LM",
         "Hammerhead Corvette"
       ],
+      "cancels": [
+        "Opponent's immunity to attrition"
+      ],
+      "counterpart": "Dengar In Punishing One",
       "front": {
         "armor": "5",
+        "characteristics": [
+          "Rebel (starship)"
+        ],
         "deploy": "5",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Permanent pilot provides ability of 2. Cancels opponent's immunity to attrition here. While at Scarif, adds 2 to attempts to 'blow away' Shield Gate.",
+        "errataSymbol": "E1",
         "forfeit": "5",
-        "gametext": "Permanent pilot provides ability of 2. Cancels opponent's immunity to attrition here. While at Scarif, adds 2 to attempts to 'blow away' Shield Gate.",
+        "gametext": "Permanent pilot provides ability of 2. When in battle, adds 1 to attrition against opponent for each opponent's starship present. Cancels opponent's immunity to attrition here.",
         "hyperspeed": "3",
         "icons": [
           "Pilot",
@@ -33186,12 +33391,13 @@
       "gempId": "209_30",
       "id": 5689,
       "legacy": false,
+      "previousId": 40092,
       "printings": [
         {
           "set": "209"
         }
       ],
-      "rarity": "R",
+      "rarity": "C",
       "set": "209",
       "side": "Light"
     },
@@ -33241,7 +33447,7 @@
       "combo": [
         "Like My Father Before Me + Luke Skywalker, Jedi Knight"
       ],
-      "conceptBy": "(Original concept by Chris Kelly)",
+      "conceptBy": "Original concept by Chris Kelly",
       "front": {
         "destiny": "4",
         "errataSymbol": "E1",
@@ -34445,9 +34651,15 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "LBH"
+      ],
       "front": {
         "destiny": "7",
-        "gametext": "Deploy on Luke. Luke's power and immunity to attrition are +2. During battle at a battleground, may exchange a card in hand with an Interrupt in Lost Pile. This device lost if Luke Disarmed.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Original needed to be at a battleground to swap cards, but could swap once per battle it was in (instead of once per game).",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on Luke. Luke's power and immunity to attrition are +2. Once per game, during battle, may exchange a card in hand with an Interrupt in Lost Pile. This device lost if Luke Disarmed.",
         "icons": [
           "Cloud City",
           "Set 0"
@@ -34463,6 +34675,7 @@
       "gempId": "200_33",
       "id": 245,
       "legacy": false,
+      "previousId": 40069,
       "printings": [
         {
           "set": "200"
@@ -34473,11 +34686,12 @@
         "Portable Scanner"
       ],
       "pulls": [
-        "Any Interrupt from Lost Pile (exchange with card from hand)"
+        "Any Interrupt from Lost Pile"
       ],
       "rarity": "R",
       "rulings": [
-        "May deploy on a Luke that does not have any immunity to attrition."
+        "May deploy on a Luke that does not have any immunity to attrition.",
+        "Must be participating in the battle to exchange a card."
       ],
       "set": "200",
       "side": "Light"
@@ -35149,6 +35363,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "Mace Windu (V) (AI)"
+      ],
       "front": {
         "ability": "7",
         "deploy": "7",
@@ -35192,6 +35409,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "Mace Windu (V) (AI)"
+      ],
       "front": {
         "ability": "7",
         "deploy": "7",
@@ -35281,7 +35501,13 @@
       ],
       "rarity": "R",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Mace Windu (V) (C-Slip AI)",
+          "cardId": 7227
+        }
+      ]
     },
     {
       "front": {
@@ -35316,7 +35542,13 @@
       ],
       "rarity": "R",
       "set": "14",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Mace Windu (V) (C-Slip AI 2)",
+          "cardId": 7230
+        }
+      ]
     },
     {
       "front": {
@@ -35326,6 +35558,7 @@
         "destiny": "1",
         "gametext": "Deploy on Mace. May add 1 to Force drain where present. Mace may add 1 to his duel total. May target a character or creature for free. Draw two destiny. Target hit, and its forfeit = 0, if total destiny > defense value.",
         "icons": [
+          "Episode I",
           "Set 1"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual1-Light/large/macewinduslightsaber.gif",
@@ -36070,7 +36303,7 @@
         "deploy": "5",
         "destiny": "2",
         "forfeit": "8",
-        "gametext": "Deploys -4 to same system as any non-unique Star Cruiser. May add 3 pilots, 4 passengers and 1 vehicle. Has ship docking capability. Permanent pilot provides ability of 1. Cannot be 'hit' by missiles.",
+        "gametext": "Deploys -4 to same system as any non-unique Star Cruiser. May add 3 pilots, 4 passengers and 1 vehicle. Has ship-docking capability. Permanent pilot provides ability of 1. Cannot be 'hit' by missiles.",
         "hyperspeed": "3",
         "icons": [
           "Pilot",
@@ -36332,7 +36565,7 @@
         "Master Qui-Gon + matching lightsaber + A Jedi's Resilience",
         "Master Qui-Gon (V) + Credits Will Do Fine"
       ],
-      "conceptBy": "(Original concept by James Booker - Worlds 2005)",
+      "conceptBy": "Original concept by James Booker - Worlds 2005",
       "front": {
         "ability": "7",
         "deploy": "7",
@@ -36818,7 +37051,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "7",
@@ -36835,11 +37068,14 @@
         ],
         "deploy": "3",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Adds 2 to power of anything he pilots. Opponent's starships here may not 'cloak.' Smoke Screen is a Used Interrupt when targeting Melas.",
+        "errataSymbol": "E1",
         "extraText": [
           "Force-Sensitive"
         ],
         "forfeit": "4",
-        "gametext": "Adds 2 to power of anything he pilots. Opponent's starships here may not 'cloak.' Smoke Screen is a Used Interrupt when targeting Melas.",
+        "gametext": "Adds 2 to power of anything he pilots. Your StarSpeeders are destiny +2 and move for free. Once per turn, may place a card from hand on Used Pile to 'smoke pipe' (for remainder of turn, Melas is power and defense value +2 and may not move).",
         "icons": [
           "Pilot",
           "Special Edition",
@@ -36858,15 +37094,19 @@
       "gempId": "201_3",
       "id": 3065,
       "legacy": false,
+      "previousId": 40057,
       "printings": [
         {
           "set": "201"
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
+      "rulings": [
+        "Causing your StarSpeeders to move for free includes making their relocate action free."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -37363,7 +37603,7 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Booster In Pulsar Skate (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "set": "10",
@@ -37441,7 +37681,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "U2",
       "set": "1",
@@ -37866,7 +38106,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "12",
@@ -38461,6 +38701,9 @@
         "Mindful Of The Future"
       ],
       "rarity": "PM",
+      "rulings": [
+        "When this site prevents a character from being hit, it also prevents any other weapon results, such as the Force loss from P-59."
+      ],
       "set": "13",
       "side": "Light"
     },
@@ -39493,6 +39736,10 @@
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "The 'may not cloak' text works against both Maul's Sith Infiltrator and Maul In Scimitar.",
+        "The total battle destiny reset protection text works against Zuckuss In Mist Hunter."
+      ],
       "set": "200",
       "side": "Light"
     },
@@ -39563,13 +39810,16 @@
         "characteristics": [
           "general"
         ],
-        "deploy": "6",
+        "deploy": "5",
         "destiny": "1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Deploy reduced from 6 to 5. Previous text: Obi-Wan's deploy cost may not be increased. Power +1 for each Dark Jedi here. Once per game, may exchange two cards in hand with any one card in Lost Pile. Immune to attrition < 5.",
+        "errataSymbol": "E1",
         "extraText": [
           "Jedi Knight"
         ],
         "forfeit": "9",
-        "gametext": "Obi-Wan's deploy cost may not be increased. Power +1 for each Dark Jedi here. Once per game, may exchange two cards in hand with any one card in Lost Pile. Immune to attrition < 5.",
+        "gametext": "Obi-Wan's deploy cost may not be increased. Power +1 for each Dark Jedi or Skywalker here. Your 'hit' characters here may not be targeted to be lost. Once per game, may exchange two cards in hand with any one card in Lost Pile. Immune to attrition < 5.",
         "icons": [
           "Warrior",
           "Set 1"
@@ -39590,6 +39840,7 @@
       "matchingWeapon": [
         "Obi-Wan's Lightsaber"
       ],
+      "previousId": 40058,
       "printings": [
         {
           "set": "201"
@@ -39603,6 +39854,9 @@
         "Tatooine: City Outskirts"
       ],
       "rarity": "R1",
+      "rulings": [
+        "For example, if with Vader, Emperor, and Luke, then Obi-Wan Kenobi (V) is power +3."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -40746,7 +41000,13 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Jedi Marshal Avar Kriss",
+          "cardId": 7355
+        }
+      ]
     },
     {
       "canceledBy": [
@@ -41204,7 +41464,14 @@
       "set": "10",
       "side": "Light",
       "underlyingCardFor": [
-        "Outrider (V)"
+        {
+          "title": "Outrider (V)",
+          "cardId": 7068
+        },
+        {
+          "title": "Outrider (V) (AI)",
+          "cardId": 7379
+        }
       ]
     },
     {
@@ -41564,7 +41831,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -41865,7 +42132,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "pulls": [
         "Free Ride",
@@ -42459,7 +42726,6 @@
       "gempId": "12_21",
       "id": 1916,
       "legacy": false,
-      "matchingWeapon": [],
       "printings": [
         {
           "set": "12"
@@ -42473,12 +42739,22 @@
       "set": "12",
       "side": "Light",
       "underlyingCardFor": [
-        "Plo Koon (V)"
+        {
+          "title": "Plo Koon (V)",
+          "cardId": 5804
+        },
+        {
+          "title": "Plo Koon (V) (AI)",
+          "cardId": 7380
+        }
       ]
     },
     {
       "front": {
         "ability": "7",
+        "characteristics": [
+          "Jedi Council member"
+        ],
         "deploy": "5",
         "destiny": "2",
         "extraText": [
@@ -42487,6 +42763,7 @@
         "forfeit": "5",
         "gametext": "Adds 2 to power of anything he pilots. Deploys -2 to same location as Ahsoka (or vice versa). Once per turn, may lose top card of Force Pile to make your character (or piloted [Episode I] starfighter) here forfeit +2 and immune to attrition for remainder of turn.",
         "icons": [
+          "Coruscant",
           "Pilot",
           "Warrior",
           "Episode I",
@@ -42736,7 +43013,7 @@
         "Landing Claw",
         "Lando's Wrist Comlink",
         "Luke's Backpack",
-        "Luke's Bionic Hand (V)",
+        "Luke's Bionic Hand",
         "Magnetic Suction Tube",
         "Mercenary Armor",
         "Motivator (V)",
@@ -42782,8 +43059,6 @@
         "Ewok Spear",
         "Explosive Charge",
         "Golan Laser Battery",
-        "Han's Blaster",
-        "So Uncivilized (V)",
         "Han's Heavy Blaster Pistol",
         "Han's Heavy Blaster Pistol (V)",
         "Heavy Turbolaser Battery",
@@ -42982,8 +43257,7 @@
       "pulledBy": [
         "I Know",
         "Leia's Back",
-        "Might Of The Republic",
-        "Seeking An Audience (V)"
+        "Might Of The Republic"
       ],
       "rarity": "R",
       "rulings": [
@@ -43044,7 +43318,6 @@
         "I Know",
         "Leia's Back",
         "Might Of The Republic",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "pulls": [
@@ -43164,7 +43437,6 @@
         "I Know",
         "Leia's Back",
         "Might Of The Republic",
-        "Seeking An Audience (V)",
         "Yavin 4: Massassi War Room (V)"
       ],
       "pulls": [
@@ -44668,12 +44940,14 @@
           2,
           5
         ],
-        "errataSymbol": "E2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "E2 version text: While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While present with a Scomp link, adds one [Light Side] icon here. Immune to Fire Extinguisher and Restraining Bolt.",
+        "errataSymbol": "E3",
         "extraText": [
           "Astromech Droid"
         ],
         "forfeit": "4",
-        "gametext": "While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While with a Scomp link, adds one [Light Side] icon here. Immune to Fire Extinguisher and Restraining Bolt.",
+        "gametext": "While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While present with a Scomp link, adds one [Light Side] icon here and, during battles at same and related interior sites, once per turn may use 1 Force to subtract 1 from a just drawn destiny.",
         "icons": [
           "Nav Computer",
           "A New Hope",
@@ -44692,6 +44966,7 @@
       "gempId": "201_6",
       "id": 1993,
       "legacy": false,
+      "previousId": 40060,
       "printings": [
         {
           "set": "201"
@@ -44704,6 +44979,9 @@
         "Seeking An Audience (V)"
       ],
       "rarity": "R2",
+      "rulings": [
+        "For R2-D2 (V) to use his 'subtract 1' action, the following conditions must be met: First, the battle must be at an interior site. Second, R2-D2 (V) must be at the same site or at a related site (not necessarily an interior one, but R2-D2 (V) must be at a site - not a system or sector)."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -45016,7 +45294,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "U",
       "set": "8",
@@ -45252,7 +45530,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -45425,7 +45703,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "6",
@@ -48139,8 +48417,11 @@
         ],
         "deploy": "4",
         "destiny": "1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Added 'Once per game' to the Used Pile pull.",
+        "errataSymbol": "E1",
         "forfeit": "7",
-        "gametext": "Adds 3 to power of anything she pilots. When deployed, may take any card from Used Pile into hand; reshuffle. Your total battle destiny here is +1. Once per turn, may draw bottom card of your Force Pile. Immune to attrition < 3 (< 6 if on Jakku).",
+        "gametext": "Adds 3 to power of anything she pilots. Once per game, when deployed, may take any card into hand from Used Pile; reshuffle. Your total battle destiny here is +1. Once per turn, may draw bottom card of your Force Pile. Immune to attrition < 3 (< 6 if on Jakku).",
         "icons": [
           "Pilot",
           "Warrior",
@@ -48167,6 +48448,7 @@
       "matchingWeapon": [
         "Anakin's Lightsaber (V)"
       ],
+      "previousId": 40063,
       "printings": [
         {
           "set": "204"
@@ -48177,7 +48459,8 @@
       ],
       "rarity": "C2",
       "rulings": [
-        "When searching Used Pile, it includes the Force that was just used to pay for deploying Rey."
+        "When searching Used Pile, it includes the Force that was just used to pay for deploying Rey.",
+        "If Rey is at the Jakku system location, she is not 'on' Jakku."
       ],
       "set": "204",
       "side": "Light"
@@ -48191,8 +48474,11 @@
         ],
         "deploy": "4",
         "destiny": "1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Added 'Once per game' to the Used Pile pull.",
+        "errataSymbol": "E1",
         "forfeit": "7",
-        "gametext": "Adds 3 to power of anything she pilots. When deployed, may take any card from Used Pile into hand; reshuffle. Your total battle destiny here is +1. Once per turn, may draw bottom card of your Force Pile. Immune to attrition < 3 (< 6 if on Jakku).",
+        "gametext": "Adds 3 to power of anything she pilots. Once per game, when deployed, may take any card into hand from Used Pile; reshuffle. Your total battle destiny here is +1. Once per turn, may draw bottom card of your Force Pile. Immune to attrition < 3 (< 6 if on Jakku).",
         "icons": [
           "Pilot",
           "Warrior",
@@ -48219,6 +48505,7 @@
       "matchingWeapon": [
         "Anakin's Lightsaber (V)"
       ],
+      "previousId": 40064,
       "printings": [
         {
           "set": "204"
@@ -48229,7 +48516,8 @@
       ],
       "rarity": "C2",
       "rulings": [
-        "When searching Used Pile, it includes the Force that was just used to pay for deploying Rey."
+        "When searching Used Pile, it includes the Force that was just used to pay for deploying Rey.",
+        "If Rey is at the Jakku system location, she is not 'on' Jakku."
       ],
       "set": "204",
       "side": "Light"
@@ -48700,7 +48988,13 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Zev In Rogue 2",
+          "cardId": 7360
+        }
+      ]
     },
     {
       "combo": [
@@ -49070,7 +49364,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "8",
@@ -50569,7 +50863,6 @@
         "Tamtel Skreej",
         "Underworld Contacts",
         "Underworld Contacts (V)",
-        "Underworld Contacts & Uncharted Settlements (V)",
         "Artoo",
         "Artoo (V)",
         "Artoo & Threepio",
@@ -50577,12 +50870,9 @@
         "Artoo, Brave Little Droid",
         "R2-D2 (Artoo-Detoo)",
         "R2-D2 (Artoo-Detoo) (V)",
-        "R2-D2",
-        "Subversive Droid (V)",
         "C-3PO (See-Threepio)",
         "C-3PO (See-Threepio) (V)",
         "See-Threepio",
-        "See-Threepio (V)",
         "Threepio",
         "Threepio With His Parts Showing"
       ],
@@ -50597,8 +50887,13 @@
       "counterpart": "Jabba's Haven",
       "front": {
         "destiny": "4",
-        "gametext": "If a Jabba's Palace site on table, deploy on table. His Name Is Anakin is canceled. Once per turn, if Han frozen, may use 2 Force to deploy a non-[Reflections 3]: C-3PO, Chewie, Lando, Leia or R2-D2 from Reserve Deck; reshuffle. Once per game, may place this Effect out of play to retrieve an alien or [Independent] starship into hand. (Immune to Alter.)",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Gained [Jabba's Palace] and [Personal Force] icons. Previous text: If a Jabba's Palace site on table, deploy on table. His Name Is Anakin is canceled. Once per turn, if Han frozen, may use 2 Force to deploy a non-[Reflections 3]: C-3PO, Chewie, Lando, Leia or R2-D2 from Reserve Deck; reshuffle. Once per game, may place this Effect out of play to retrieve an alien or [Independent] starship into hand. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If Han is frozen, deploy on table. Your personal Force generation = 2. Once per turn, may ▼ C-3PO, R2-D2, [Jabba's Palace] Lando, or [Jabba's Palace] Leia to a Jabba's Palace site. Once per game, may retrieve R2-D2. [Immune to Alter.]",
         "icons": [
+          "Jabba's Palace",
+          "Personal Force",
           "Premium",
           "Set 1"
         ],
@@ -50613,6 +50908,7 @@
       "gempId": "201_9",
       "id": 2205,
       "legacy": false,
+      "previousId": 40071,
       "printings": [
         {
           "set": "201"
@@ -50625,45 +50921,26 @@
       ],
       "pulls": [
         "Artoo",
+        "Artoo (V)",
         "Artoo & Threepio",
         "Artoo-Detoo In Red 5",
         "Artoo, Brave Little Droid",
         "R2-D2 & C-3PO",
         "R2-D2 (Artoo-Detoo)",
         "R2-D2 (Artoo-Detoo) (V)",
-        "Boushh",
-        "Daughter Of Skywalker",
-        "Daughter Of Skywalker (V)",
-        "General Leia Organa",
-        "Leia",
-        "Leia (V)",
-        "Leia Organa",
-        "Leia Organa (V)",
-        "Leia With Blaster Rifle",
-        "Princess Leia",
-        "Princess Leia (V)",
+        "Boushh (V)",
         "Princess Leia Organa",
-        "Princess Organa",
-        "Chewbacca",
-        "Chewbacca Of Kashyyyk",
-        "Chewbacca, Protector",
-        "Chewie",
-        "Chewie (V)",
-        "Chewie With Blaster Rifle",
-        "Chewie With Bowcaster",
-        "General Calrissian",
-        "Lando Calrissian",
-        "Lando Calrissian (V)",
-        "Lando In Millennium Falcon",
-        "Lando With Blaster Pistol",
-        "Lando With Vibro-Ax",
         "Tamtel Skreej",
         "C-3PO (See-Threepio)",
+        "C-3PO (See-Threepio) (V)",
         "See-Threepio",
         "Threepio",
         "Threepio With His Parts Showing"
       ],
       "rarity": "PM",
+      "rulings": [
+        "This card increases the Force a player activates for themselves from 1 to 2. It does not interfere with cards that increase total Force generation (e.g. the Premiere version of Luke Skywalker still works with this Effect on table)."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -51376,7 +51653,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -51588,6 +51865,7 @@
         "Opponent's Force drains at non-battlegrounds",
         "Opponent's Force retrieval"
       ],
+      "counterpart": "Come Here You Big Coward (V)",
       "front": {
         "destiny": "0",
         "gametext": "Plays on table.  While you occupy a battleground and opponent occupies less than two battlegrounds, cancel opponent's Force drains at non-battleground locations and opponent's Force retrieval.",
@@ -51952,7 +52230,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -52250,7 +52528,13 @@
         "In brief: Son Of Skywalker may deploy to Dagobah sites, Dagobah clouds, and Cloud City sites."
       ],
       "set": "4",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Son Of Skywalker (V)",
+          "cardId": 7357
+        }
+      ]
     },
     {
       "front": {
@@ -54455,7 +54739,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "rulings": [
@@ -54587,7 +54871,7 @@
       "pulledBy": [
         "Seeking An Audience",
         "Seeking An Audience (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "pulls": [
         "Undercover"
@@ -54720,7 +55004,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "6",
@@ -55201,17 +55485,29 @@
         }
       ],
       "pulledBy": [
-        "A Weakness Can Be Found",
-        "Diplomatic Mission To Alderaan",
+        "Diplomatic Mission To Alderaan / A Weakness Can Be Found",
         "Mindful Of The Future",
         "Yarna d'al' Gargan (V)"
       ],
       "rarity": "C1",
+      "rulings": [
+        "(Dark side text) Passengers do not count toward the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, Mighty Jabba, etc). However, 'draws if unable to otherwise' still works without 6 ability."
+      ],
       "set": "1",
       "side": "Light",
       "underlyingCardFor": [
-        "Jakku: Starship Graveyard",
-        "Scarif: Beach"
+        {
+          "title": "Jakku: Starship Graveyard",
+          "cardId": 5064
+        },
+        {
+          "title": "Scarif: Beach",
+          "cardId": 5888
+        },
+        {
+          "title": "Tatooine: Dune Sea (V)",
+          "cardId": 7359
+        }
       ]
     },
     {
@@ -55748,7 +56044,14 @@
       "set": "1",
       "side": "Light",
       "underlyingCardFor": [
-        "Tatooine: Obi-Wan's Hut (V)"
+        {
+          "title": "Tatooine: Obi-Wan's Hut (V)",
+          "cardId": 6946
+        },
+        {
+          "title": "Tatooine: Obi-Wan's Hut (V) (AI)",
+          "cardId": 7382
+        }
       ]
     },
     {
@@ -56131,7 +56434,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "PM",
       "set": "102",
@@ -56468,6 +56771,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "Millennium Falcon"
+      ],
       "front": {
         "characteristics": [
           "Resistance (starship)"
@@ -56532,7 +56838,8 @@
     },
     {
       "abbr": [
-        "Flip Falcon"
+        "Flip Falcon",
+        "Millennium Falcon"
       ],
       "back": {
         "deploy": "0",
@@ -57687,7 +57994,13 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "My Sister Has It",
+          "cardId": 7393
+        }
+      ]
     },
     {
       "counterpart": "Self-Destruct Mechanism",
@@ -57784,10 +58097,10 @@
     {
       "front": {
         "destiny": "4",
-        "errataDate": "2023-06-01",
-        "errataNotes": "Original card accidentally omitted the word 'reshuffle' although it was always intended to be there.",
-        "errataSymbol": "E1",
-        "gametext": "USED: Deploy Ghost and Hera simultaneously (for -1 Force each) from your hand and/or Reserve Deck; reshuffle.  LOST: If Chopper, Ezra, Hera, Kanan, Sabine or Zeb in a battle, they each add 1 to your total battle destiny.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "The LOST function has never changed. Previous (E1 version) USED function: Deploy Ghost and Hera simultaneously (for -1 Force each) from your hand and/or Reserve Deck; reshuffle. Original card accidentally omitted the word 'reshuffle' although it was always intended to be there.",
+        "errataSymbol": "E2",
+        "gametext": "USED: If Hera is piloting Ghost in battle, draw one destiny and subtract it from opponent's attrition against you. LOST: If Chopper, Ezra, Hera, Kanan, Sabine or Zeb in a battle, they each add 1 to your total battle destiny.",
         "icons": [
           "Set 7"
         ],
@@ -57802,7 +58115,7 @@
       "gempId": "207_15",
       "id": 5177,
       "legacy": false,
-      "previousId": 40021,
+      "previousId": 40081,
       "printings": [
         {
           "set": "207"
@@ -57814,10 +58127,9 @@
       ],
       "rarity": "C",
       "rulings": [
-        "May choose to deploy both cards from hand only, without even searching Reserve Deck. But if that is not possible then Reserve Deck must be searched.",
-        "If Reserve Deck is not searched, do not reshuffle it.",
-        "If one or both cards cannot be found, opponent only verifies Reserve Deck. A judge may be required to verify combined contents of hand and Reserve Deck to check for the cards.",
-        "May search Reserve Deck, then decide to deploy both cards entirely from hand (this does not trigger verification)."
+        "The USED function can only be initiated if attrition exists (opponent successfully completed a battle destiny draw, even if it was a 0).",
+        "The USED function is initiated in the power segment after battle destinies (and any attrition destinies) are drawn.",
+        "The LOST function is played during the weapons segment and requires at least one of the named characters to be participating in the battle."
       ],
       "set": "207",
       "side": "Light"
@@ -58150,8 +58462,18 @@
       "set": "5",
       "side": "Light",
       "underlyingCardFor": [
-        "Finn",
-        "Finn (AI)"
+        {
+          "title": "Beilert Valance",
+          "cardId": 7347
+        },
+        {
+          "title": "Finn",
+          "cardId": 5084
+        },
+        {
+          "title": "Finn (AI)",
+          "cardId": 7277
+        }
       ]
     },
     {
@@ -59410,7 +59732,7 @@
       ],
       "pulledBy": [
         "Aved Luun to deploy to same location",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "7",
@@ -59511,7 +59833,14 @@
       "set": "3",
       "side": "Light",
       "underlyingCardFor": [
-        "Anakin Skywalker, Jedi Knight"
+        {
+          "title": "Anakin Skywalker, Jedi Knight",
+          "cardId": 6924
+        },
+        {
+          "title": "Anakin Skywalker, Jedi Knight (Holo AI)",
+          "cardId": 7372
+        }
       ]
     },
     {
@@ -59561,7 +59890,8 @@
         "ability": "3",
         "characteristics": [
           "admiral",
-          "female"
+          "female",
+          "leader"
         ],
         "deploy": "3",
         "destiny": "2",
@@ -60662,7 +60992,10 @@
     {
       "front": {
         "destiny": "4",
-        "gametext": "If We Have A Plan on table, deploy on table. Imperials deploy +1 to Theed Palace Throne Room and, while you occupy that site, you may ignore your Objective's location deployment restrictions. Once per game, may take an [Episode I] system and/or a [Theed Palace] leader into hand from Reserve Deck; reshuffle. (Immune to Alter.)",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: If We Have A Plan on table, deploy on table. Imperials deploy +1 to Theed Palace Throne Room and, while you occupy that site, you may ignore your Objective's location deployment restrictions. Once per game, may take an [Episode I] system and/or a [Theed Palace] leader into hand from Reserve Deck; reshuffle. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If We Have A Plan on table, deploy on table. Wokling is canceled. While you occupy Theed Palace Throne Room, you may ignore your Objective's location deployment restrictions. Once per game, may take an [Episode I] system and/or [Theed Palace] leader into hand from Reserve Deck; reshuffle. [Immune to Alter.]",
         "icons": [
           "Episode I",
           "Set 1"
@@ -60678,6 +61011,7 @@
       "gempId": "201_10",
       "id": 4112,
       "legacy": false,
+      "previousId": 40074,
       "printings": [
         {
           "set": "201"
@@ -60690,6 +61024,9 @@
         "Wokling (V)"
       ],
       "rarity": "U",
+      "rulings": [
+        "This card can allow you to deploy cards to interior Naboo sites while We Have A Plan is on the 0 side. It does not allow you to ignore the restrictions regarding cards with ability."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -60830,7 +61167,6 @@
         "R-3PO (Ar-Threepio)",
         "R-3PO (Ar-Threepio) (V)",
         "See-Threepio",
-        "See-Threepio (V)",
         "Threepio",
         "Threepio With His Parts Showing"
       ],
@@ -61296,7 +61632,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "set": "8",
@@ -61567,10 +61903,13 @@
       "conceptBy": "(Original concept by Eric Hunter - Gen Con Winner 2002)",
       "front": {
         "destiny": "2",
-        "errataSymbol": "E1",
-        "gametext": "Unless Massassi Throne Room on table, deploy on table.  Your total Force generation is +1.  Once per game, may use 3 Force to take an Effect that has no deploy cost and deploys on another card into hand from Reserve Deck; reshuffle.  May place this Effect out of play to retrieve 1 Force. (Immune to Alter.)",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Added [Personal Force] icon. Previous (E1 version) text: Unless Massassi Throne Room on table, deploy on table. Your total Force generation is +1. Once per game, may use 3 Force to take an Effect that has no deploy cost and deploys on another card into hand from Reserve Deck; reshuffle. May place this Effect out of play to retrieve 1 Force. [Immune to Alter.]",
+        "errataSymbol": "E2",
+        "gametext": "Unless Massassi Throne Room on table, deploy on table. Your personal Force generation = 2. Once per game, may use 3 Force to take an Effect that has no deploy cost and deploys on another card into hand from Reserve Deck; reshuffle. May place this Effect out of play to retrieve 1 Force. [Immune to Alter.]",
         "icons": [
           "Endor",
+          "Personal Force",
           "Set 0"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual0-Light/large/wokling.gif",
@@ -61584,6 +61923,7 @@
       "gempId": "200_47",
       "id": 2820,
       "legacy": false,
+      "previousId": 40076,
       "printings": [
         {
           "set": "200"
@@ -61600,6 +61940,10 @@
         "An effect that has no deploy cost and deploys on another card"
       ],
       "rarity": "R",
+      "rulings": [
+        "This card increases the Force a player activates for themselves from 1 to 2. It does not interfere with cards that increase total Force generation (e.g. the Premiere version of Luke Skywalker still works with this Effect on table).",
+        "This card can only pull a normal Effect (not an Immediate Effect, Utinni Effect, etc)."
+      ],
       "set": "200",
       "side": "Light"
     },
@@ -61815,7 +62159,13 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Bo-Katan's Gauntlet Starfighter",
+          "cardId": 7349
+        }
+      ]
     },
     {
       "combo": [
@@ -61853,9 +62203,11 @@
       "pulledBy": [
         "Chewbacca Of Kashyyyk",
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "General Crix Madine (V)",
+        "Soth Petikkin"
       ],
       "pulls": [
+        "Endor: Anakin's Funeral Pyre",
         "Endor: Back Door",
         "Endor: Bunker",
         "Endor: Bunker (V)",
@@ -61870,7 +62222,13 @@
       ],
       "rarity": "U",
       "set": "8",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Wuta (V)",
+          "cardId": 7394
+        }
+      ]
     },
     {
       "combo": [
@@ -62226,7 +62584,7 @@
       "pulledBy": [
         "General Crix Madine",
         "Might Of The Republic",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Arleil Schous",
         "Nar Shaddaa Wind Chimes",
         "Nar Shaddaa Wind Chimes & Out Of Somewhere"
@@ -62437,7 +62795,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/thetimetofightisnow.gif",
         "title": "Yavin 4 Base Operations / The Time To Fight Is Now",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Yavin 4 Base Operations/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Time To Fight Is Now/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "front": {
@@ -62450,7 +62808,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/yavin4baseoperations.gif",
         "title": "Yavin 4 Base Operations / The Time To Fight Is Now",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Time To Fight Is Now/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Yavin 4 Base Operations/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "208_26",
@@ -62695,7 +63053,7 @@
           "set": "209"
         }
       ],
-      "rarity": "C",
+      "rarity": "U1",
       "set": "209",
       "side": "Light"
     },
@@ -63036,23 +63394,28 @@
       "side": "Light"
     },
     {
-      "conceptBy": "(Original concept by Sean Miller)",
+      "abbr": [
+        "YKOTP"
+      ],
+      "conceptBy": "Original concept by Sean Miller",
       "front": {
         "ability": "7",
         "deploy": "5",
         "destiny": "1",
-        "errataSymbol": "E1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "E1 version limited battle destinies even if at a system or sector. E1 version optionally canceled Force Lightning at Yoda's location by losing 1 Force.",
+        "errataSymbol": "E2",
         "extraText": [
           "Jedi Master"
         ],
         "forfeit": "7",
-        "gametext": "Deploys -1 to Coruscant. May lose 1 Force to cancel Force Lightning targeting your character present. Neither player may draw more than one battle destiny here (those destiny draws may not be modified or canceled). Immune to attrition.",
+        "gametext": "Deploys -1 to Coruscant. At same site, your characters are immune to Force Lightning, and players may not draw more than one battle destiny (those destiny draws may not be modified or canceled). Immune to attrition.",
         "icons": [
           "Episode I",
           "Set 2"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual2-Light/large/yodakeeperofthepeace.gif",
-        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council Member.",
+        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council member.",
         "power": "3",
         "subType": "Jedi Master",
         "title": "•Yoda, Keeper Of The Peace",
@@ -63064,6 +63427,7 @@
       "gempId": "202_4",
       "id": 5014,
       "legacy": false,
+      "previousId": 40066,
       "printings": [
         {
           "set": "202"
@@ -63071,6 +63435,7 @@
       ],
       "rarity": "U",
       "rulings": [
+        "Must be at a site to limit players to one battle destiny and to prevent those draws from being modified or canceled.",
         "Preventing destiny draws from being modified even prevents global modifiers such as from the Silence Is Golden (V) and the Senate Objective.",
         "Preventing destiny draws from being modified can be circumvented with a substituted destiny that has been modified <u>before</u> the substitution (e.g. Darklighter Spin on a modified maneuver value, or a senator on Sando Aqua Monster that is already receiving a global modifier from the Senate Objective)."
       ],
@@ -63078,23 +63443,29 @@
       "side": "Light"
     },
     {
-      "conceptBy": "(Original concept by Sean Miller)",
+      "abbr": [
+        "YKOTP",
+        "Yoda, Keeper Of The Peace (AI)"
+      ],
+      "conceptBy": "Original concept by Sean Miller",
       "front": {
         "ability": "7",
         "deploy": "5",
         "destiny": "1",
-        "errataSymbol": "E1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "E1 version limited battle destinies even if at a system or sector. E1 version optionally canceled Force Lightning at Yoda's location by losing 1 Force.",
+        "errataSymbol": "E2",
         "extraText": [
           "Jedi Master"
         ],
         "forfeit": "7",
-        "gametext": "Deploys -1 to Coruscant. May lose 1 Force to cancel Force Lightning targeting your character present. Neither player may draw more than one battle destiny here (those destiny draws may not be modified or canceled). Immune to attrition.",
+        "gametext": "Deploys -1 to Coruscant. At same site, your characters are immune to Force Lightning, and players may not draw more than one battle destiny (those destiny draws may not be modified or canceled). Immune to attrition.",
         "icons": [
           "Episode I",
           "Set 2"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual2-Light/large/yodakeeperofthepeace_ai.gif",
-        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council Member.",
+        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council member.",
         "power": "3",
         "subType": "Jedi Master",
         "title": "•Yoda, Keeper Of The Peace (C-Slip AI)",
@@ -63106,6 +63477,7 @@
       "gempId": "202_4",
       "id": 7224,
       "legacy": false,
+      "previousId": 40067,
       "printings": [
         {
           "set": "202"
@@ -63113,6 +63485,7 @@
       ],
       "rarity": "R",
       "rulings": [
+        "Must be at a site to limit players to one battle destiny and to prevent those draws from being modified or canceled.",
         "Preventing destiny draws from being modified even prevents global modifiers such as from the Silence Is Golden (V) and the Senate Objective.",
         "Preventing destiny draws from being modified can be circumvented with a substituted destiny that has been modified <u>before</u> the substitution (e.g. Darklighter Spin on a modified maneuver value, or a senator on Sando Aqua Monster that is already receiving a global modifier from the Senate Objective)."
       ],
@@ -63120,23 +63493,29 @@
       "side": "Light"
     },
     {
-      "conceptBy": "(Original concept by Sean Miller)",
+      "abbr": [
+        "YKOTP",
+        "Yoda, Keeper Of The Peace (AI)"
+      ],
+      "conceptBy": "Original concept by Sean Miller",
       "front": {
         "ability": "7",
         "deploy": "5",
         "destiny": "1",
-        "errataSymbol": "E1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "E1 version limited battle destinies even if at a system or sector. E1 version optionally canceled Force Lightning at Yoda's location by losing 1 Force.",
+        "errataSymbol": "E2",
         "extraText": [
           "Jedi Master"
         ],
         "forfeit": "7",
-        "gametext": "Deploys -1 to Coruscant. May lose 1 Force to cancel Force Lightning targeting your character present. Neither player may draw more than one battle destiny here (those destiny draws may not be modified or canceled). Immune to attrition.",
+        "gametext": "Deploys -1 to Coruscant. At same site, your characters are immune to Force Lightning, and players may not draw more than one battle destiny (those destiny draws may not be modified or canceled). Immune to attrition.",
         "icons": [
           "Episode I",
           "Set 2"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual2-Light/large/yodakeeperofthepeace_ai2.gif",
-        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council Member.",
+        "lore": "Yoda calls upon the Force often to try and foresee what destiny has in store. Jedi Council member.",
         "power": "3",
         "subType": "Jedi Master",
         "title": "•Yoda, Keeper Of The Peace (C-Slip AI 2)",
@@ -63146,6 +63525,7 @@
       "gempId": "202_4",
       "id": 7231,
       "legacy": false,
+      "previousId": 40068,
       "printings": [
         {
           "set": "202"
@@ -63153,6 +63533,7 @@
       ],
       "rarity": "R",
       "rulings": [
+        "Must be at a site to limit players to one battle destiny and to prevent those draws from being modified or canceled.",
         "Preventing destiny draws from being modified even prevents global modifiers such as from the Silence Is Golden (V) and the Senate Objective.",
         "Preventing destiny draws from being modified can be circumvented with a substituted destiny that has been modified <u>before</u> the substitution (e.g. Darklighter Spin on a modified maneuver value, or a senator on Sando Aqua Monster that is already receiving a global modifier from the Senate Objective)."
       ],
@@ -63161,8 +63542,7 @@
     },
     {
       "abbr": [
-        "Yoda",
-        "MOTF"
+        "YMOTF"
       ],
       "combo": [
         "Yoda, Master Of The Force + Are You Brain Dead?! Yoda, Master Of The Force + Encampment Deploy regardless of location deployment restrictions."
@@ -63184,7 +63564,7 @@
           "Reflections 3"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/yodamasteroftheforce.gif",
-        "lore": "Jedi Council Member. 'More to say have you?'",
+        "lore": "Jedi Council member. 'More to say have you?'",
         "power": "3",
         "subType": "Jedi Master",
         "title": "•Yoda, Master Of The Force",
@@ -63275,7 +63655,13 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Yoda, Keeper Of The Peace (C-Slip AI)",
+          "cardId": 7224
+        }
+      ]
     },
     {
       "front": {
@@ -63309,7 +63695,13 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "title": "Yoda, Keeper Of The Peace (C-Slip AI 2)",
+          "cardId": 7231
+        }
+      ]
     },
     {
       "front": {
@@ -63447,7 +63839,7 @@
         }
       ],
       "pulledBy": [
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "pulls": [
         "Free Ride",
@@ -63558,7 +63950,14 @@
       "set": "4",
       "side": "Light",
       "underlyingCardFor": [
-        "You Do Have Your Moments (V)"
+        {
+          "title": "Ben Solo",
+          "cardId": 7348
+        },
+        {
+          "title": "You Do Have Your Moments (V)",
+          "cardId": 5069
+        }
       ]
     },
     {
@@ -64662,8 +65061,7 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
-        "Soth Petikkin (when at a Jabba's Palace site you control)",
+        "Soth Petikkin",
         "Wookiee Roar"
       ],
       "rarity": "R2",
@@ -64804,8 +65202,11 @@
     {
       "front": {
         "ability": "7",
-        "deploy": "6",
+        "deploy": "7",
         "destiny": "1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Deploy increased from 6 to 7.",
+        "errataSymbol": "E1",
         "extraText": [
           "Jedi Master"
         ],
@@ -64829,12 +65230,16 @@
       "gempId": "213_40",
       "id": 6829,
       "legacy": false,
+      "previousId": 40062,
       "printings": [
         {
           "set": "213"
         }
       ],
       "rarity": "C",
+      "rulings": [
+        "Counts weapon destiny draws completed by both players."
+      ],
       "set": "213",
       "side": "Light"
     },
@@ -64943,7 +65348,7 @@
           "Set 13"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Light/large/yodamasteroftheforce.gif",
-        "lore": "Jedi Council Member. 'More to say have you?'",
+        "lore": "Jedi Council member. 'More to say have you?'",
         "power": "3",
         "subType": "Jedi Master",
         "title": "•Yoda, Master Of The Force (V)",
@@ -65347,8 +65752,11 @@
         ],
         "deploy": "3",
         "destiny": "3",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard for free from Reserve Deck; reshuffle.",
+        "errataSymbol": "E1",
         "forfeit": "5",
-        "gametext": "May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard for free from Reserve Deck; reshuffle.",
+        "gametext": "May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard (deploy -2 if a leader).",
         "hyperspeed": "3",
         "icons": [
           "Pilot",
@@ -65371,6 +65779,7 @@
       "gempId": "213_58",
       "id": 6846,
       "legacy": false,
+      "previousId": 40090,
       "printings": [
         {
           "set": "213"
@@ -65745,7 +66154,10 @@
       "front": {
         "darkSideIcons": 0,
         "destiny": "0",
-        "gametext": "Light: You may not generate more than 2 Force at non-battlegrounds. Ewoks deploy -2 here.  Dark: Force generation here may not be prevented by Objectives.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Light: You may not generate more than 2 Force at non-battlegrounds. Ewoks deploy -2 here.  Dark: Force generation here may not be prevented by Objectives.",
+        "errataSymbol": "E1",
+        "gametext": "Light: Deploys only if a [Death Star II] objective on table. During opponent's turn, if an Imperial at Landing Platform, Luke may move from here to there for free. Dark: ",
         "icons": [
           "Interior",
           "Planet",
@@ -65763,6 +66175,7 @@
       "gempId": "214_19",
       "id": 6868,
       "legacy": false,
+      "previousId": 40083,
       "printings": [
         {
           "set": "214"
@@ -65772,6 +66185,10 @@
         "Wuta"
       ],
       "rarity": "R",
+      "rulings": [
+        "Light may move Luke during any phase of Dark's turn, as a top-level action.",
+        "This is a regular move (so for example, it would prevent Light from also using Run Luke, Run! in the same turn)."
+      ],
       "set": "214",
       "side": "Light"
     },
@@ -65891,8 +66308,11 @@
     },
     {
       "front": {
-        "destiny": "2",
-        "gametext": "Deploy on Ahsoka or a non-[Episode I] Padawan. May target a character or creature for free. Draw two destiny. Target hit, and may not be used to satisfy attrition, if total destiny > defense value (if hit target is an Inquisitor, opponent also loses 1 Force).",
+        "destiny": "5",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Deploy on Ahsoka or a non-[Episode I] Padawan. May target a character or creature for free. Draw two destiny. Target hit, and may not be used to satisfy attrition, if total destiny > defense value (if hit target is an Inquisitor, opponent also loses 1 Force).",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on a Jedi or Padawan. May target a character or creature for free. Draw two destiny. Target hit, and may not be used to satisfy attrition, if total destiny > defense value. If hit by Ahsoka or a Padawan, opponent loses 1 Force.",
         "icons": [
           "Set 14"
         ],
@@ -65908,19 +66328,29 @@
       "gempId": "214_15",
       "id": 6872,
       "legacy": false,
+      "previousId": 40095,
       "printings": [
         {
           "set": "214"
         }
       ],
       "rarity": "U",
+      "rulings": [
+        "Jedi: Light Side character with 6 ability or higher.",
+        "Padawan: A character defined as a Padawan by their title, lore, or game text. Must also have ability less than 6.",
+        "If Dark steals this weapon, note that a Dark Jedi is not a Jedi.",
+        "This is a matching weapon for Ahsoka, but not for other Jedi or Padawans in general."
+      ],
       "set": "214",
       "side": "Light"
     },
     {
       "front": {
         "destiny": "0",
-        "gametext": "Deploy on Central Core. Leia may not modify Force drains. Once per game, opponent may stack up to two cards from hand face-down here. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, power 'shut down' (place this card out of play; your movement between Death Star locations is free this turn).",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Adds [A New Hope] icon. Previous text: Deploy on Central Core. Leia may not modify Force drains. Once per game, opponent may stack up to two cards from hand face-down here. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, power 'shut down' (place this card out of play; your movement between Death Star locations is free this turn).",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on Central Core. Once per game, opponent may stack up to two cards from hand face-down here. All This Sneaking Around: Path Of Least Resistance is canceled. While no cards stacked here, Leia moves using landspeed for free. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, for remainder of game, power 'shut down.'",
         "icons": [
           "Set 15"
         ],
@@ -65934,6 +66364,7 @@
       "gempId": "215_2",
       "id": 6876,
       "legacy": false,
+      "previousId": 40077,
       "printings": [
         {
           "set": "215"
@@ -65941,9 +66372,7 @@
       ],
       "rarity": "U2",
       "rulings": [
-        "Causes all forms of movement between two Death Star locations to be free.",
-        "When using Nabrun Leids for free, draw destiny but do not pay any cost.",
-        "After placing this card out of play, it is possible for Light to deploy a 2nd copy of this card on Central Core later in the game."
+        "When Light initiates a Force drain here, a stacked card is removed (automatic response) before Dark can play an optional Force drain canceler (e.g. Control)."
       ],
       "set": "215",
       "side": "Light"
@@ -66042,11 +66471,12 @@
     {
       "front": {
         "destiny": "5",
-        "errataDate": "2022-12-12",
-        "errataNotes": "Original did not require Leia to have a [Set 20] icon. Original only protected Han, Leia, and Luke. Original did not protect against Physical Choke.",
-        "errataSymbol": "E1",
-        "gametext": "If [Set 20] Leia imprisoned, deploy on table. [Set 8] Luke is a spy and stormtrooper. Chewie, Leia, and stormtroopers are immune to Nevar Yalnal, Physical Choke, and Put All Sections On Alert. Once per turn, may deploy a Death Star site from Reserve Deck; reshuffle. Immune to This Is Some Rescue! [Immune to Alter.]",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous (E1) text: If [Set 20] Leia imprisoned, deploy on table. [Set 8] Luke is a spy and stormtrooper. Chewie, Leia, and stormtroopers are immune to Nevar Yalnal, Physical Choke, and Put All Sections On Alert. Once per turn, may deploy a Death Star site from Reserve Deck; reshuffle. Immune to This Is Some Rescue! [Immune to Alter.] Original did not require Leia to have a [Set 20] icon. Original only protected Han, Leia, and Luke. Original did not protect against Physical Choke.",
+        "errataSymbol": "E2",
+        "gametext": "If [A New Hope] Leia imprisoned, deploy on table. [Set 8] Luke is a spy and stormtrooper. Chewie, Leia, and stormtroopers are immune to Nevar Yalnal, Physical Choke, and Put All Sections On Alert. Once per turn, may deploy a blaster or rifle from Reserve Deck; reshuffle. Immune to This Is Some Rescue! [Immune to Alter.]",
         "icons": [
+          "A New Hope",
           "Set 15"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual15-Light/large/cell2187.gif",
@@ -66060,7 +66490,7 @@
       "gempId": "215_5",
       "id": 6879,
       "legacy": false,
-      "previousId": 40001,
+      "previousId": 40070,
       "printings": [
         {
           "set": "215"
@@ -66127,14 +66557,15 @@
         ],
         "darkSideIcons": 1,
         "destiny": "0",
-        "errataDate": "2022-12-12",
-        "errataNotes": "Original Dark text worked with any Leia, but did not protect against 'all cards' situations: If Leia is about to be lost from a Death Star site, imprison her here instead (even if inactive).",
-        "errataSymbol": "E1",
-        "gametext": "Light:  If you control with a spy, may use 2 Force to release Leia here (retrieve 1 Force).  Dark:  If [Set 20] Leia is about to leave table (for any reason, even if inactive), imprison her here instead.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "LS text has never changed. E1 DS text: If [Set 20] Leia is about to leave table (for any reason, even if inactive), imprison her here instead. Original DS text: If Leia is about to be lost from a Death Star site, imprison her here instead (even if inactive).",
+        "errataSymbol": "E2",
+        "gametext": "Light: If you control with a spy, may use 2 Force to release Leia here (retrieve 1 Force). Dark: Once per game, may deploy a non-[Maintenance] Imperial trooper here from Reserve Deck; reshuffle.",
         "icons": [
           "Interior",
           "Mobile",
           "Scomp Link",
+          "Special Edition",
           "Set 15"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual15-Light/large/deathstardetentionblockcorridor.gif",
@@ -66149,19 +66580,13 @@
       "gempId": "215_7",
       "id": 6881,
       "legacy": false,
-      "previousId": 40003,
+      "previousId": 40082,
       "printings": [
         {
           "set": "215"
         }
       ],
       "rarity": "C",
-      "rulings": [
-        "When Dark's text imprisons Leia, she is restored to normal (no longer hit or forfeit = 0, etc).",
-        "When Dark's text imprisons Leia, any weapons and other cards on Leia remain on her (she did not leave table).",
-        "When Dark's text imprisons Leia from another site, she is placed here but it is not considered movement. It is not blocked by e.g. You Are Beaten.",
-        "The 'for any reason' text will even work against an 'all cards' situation, e.g. Program Trap will send Leia here instead of the Lost Pile."
-      ],
       "set": "215",
       "side": "Light"
     },
@@ -66194,8 +66619,8 @@
         }
       ],
       "pulledBy": [
-        "Cell 2187 (V)",
-        "Mindful Of The Future"
+        "Mindful Of The Future",
+        "Rescue The Princess (V)"
       ],
       "rarity": "C2",
       "rulings": [
@@ -66291,12 +66716,14 @@
         ],
         "deploy": "4",
         "destiny": "1",
-        "errataSymbol": "E2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "The E3 version is the same as E2 except that E3 adds 'Draws one battle destiny if unable to otherwise.'",
+        "errataSymbol": "E3",
         "extraText": [
           "Force-Attuned"
         ],
         "forfeit": "6",
-        "gametext": "Adds 3 to power of anything he pilots. Cancels Kylo's game text here. When deployed, may reveal the top two cards of your Reserve Deck; take one into hand. During battle with Chewie or [Endor] Leia, may add one destiny to total power.",
+        "gametext": "Adds 3 to power of anything he pilots. When deployed, may reveal the top two cards of your Reserve Deck; take one into hand. Cancels Kylo's game text here. Draws one battle destiny if unable to otherwise. During battle with Chewie or [Endor] Leia, may add one destiny to total power.",
         "icons": [
           "Endor",
           "Pilot",
@@ -66319,6 +66746,7 @@
       "matchingWeapon": [
         "Han's Heavy Blaster Pistol"
       ],
+      "previousId": 40055,
       "printings": [
         {
           "set": "215"
@@ -66555,9 +66983,14 @@
       ],
       "back": {
         "destiny": "7",
-        "gametext": "Rescue The Princess:Deploy Central Core, A Power Loss, Detention Block Corridor (with Prisoner 2187 imprisoned there), and Trash Compactor.{For} remainder of game, Path Of Least Resistance is canceled. Your Force generation is +1 at your Death Star sites. Your Death Star sites are immune to Set Your Course For Alderaan. Death Star sites may not be converted. Jedi (except Obi-Wan) are lost.{Flip} this card if Leia is present at a Death Star site and A Power Loss has been 'shut down' this game.Sometimes I Amaze Even Myself:{For} remainder of game, I Can't Believe He's Gone may only add power in battles involving Leia or Luke.{While} this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Whenever you 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force.{Flip} this card if Leia is not at a Death Star site.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Adds [A New Hope] icon. Previous text: Rescue The Princess: Deploy Central Core, A Power Loss, Detention Block Corridor (with Prisoner 2187 imprisoned there), and Trash Compactor. For remainder of game, Path Of Least Resistance is canceled. Your Force generation is +1 at your Death Star sites. Your Death Star sites are immune to Set Your Course For Alderaan. Death Star sites may not be converted. Jedi (except Obi-Wan) are lost. Flip this card if Leia is present at a Death Star site and A Power Loss has been 'shut down' this game. Sometimes I Amaze Even Myself: For remainder of game, I Can't Believe He's Gone may only add power in battles involving Leia or Luke. While this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Whenever you 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force. Flip this card if Leia is not at a Death Star site.",
+        "errataSymbol": "E1",
+        "gametext": "Rescue The Princess: Deploy Central Core, A Power Loss, Detention Block Corridor (with [A New Hope] Leia imprisoned there), and Trash Compactor. For remainder of game, your Death Star sites generate +1 Force for you. You may not deploy Luke of ability > 4 or [Episode I] (or [Episode VII]) Jedi. If Leia is about to leave table (for any reason, even if inactive), imprison her in Detention Block Corridor (cards on her are placed in owner's Used Pile). Once per turn, may deploy a Death Star site from Reserve Deck; reshuffle. Flip this card if Leia occupies a Death Star site and A Power Loss is 'shut down.' Sometimes I Amaze Even Myself: While this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Your Death Star sites are immune to Set Your Course For Alderaan. Once per turn, if you just 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. I Can't Believe He's Gone is canceled. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force. Flip this card if Leia is not at a Death Star site.",
         "icons": [
-          "Set 15"
+          "A New Hope",
+          "Set 15",
+          "Special Edition"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual15-Light/large/sometimesiamazeevenmyself.gif",
         "title": "Rescue The Princess / Sometimes I Amaze Even Myself (V)",
@@ -66567,9 +67000,14 @@
       },
       "front": {
         "destiny": "0",
-        "gametext": "Rescue The Princess:Deploy Central Core, A Power Loss, Detention Block Corridor (with Prisoner 2187 imprisoned there), and Trash Compactor.{For} remainder of game, Path Of Least Resistance is canceled. Your Death Star sites generate +1 Force for you and are immune to Set Your Course For Alderaan. Death Star sites may not be converted. You may not deploy Luke of ability > 4 or [Episode I] (or [Episode VII]) Jedi.{Flip} this card if Leia is present at a Death Star site and A Power Loss has been 'shut down' this game.Sometimes I Amaze Even Myself:{For} remainder of game, I Can't Believe He's Gone may only add power in battles involving Leia or Luke.{While} this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Whenever you 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force.{Flip} this card if Leia is not at a Death Star site.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Adds [A New Hope] icon. Previous text: Rescue The Princess: Deploy Central Core, A Power Loss, Detention Block Corridor (with Prisoner 2187 imprisoned there), and Trash Compactor. For remainder of game, Path Of Least Resistance is canceled. Your Force generation is +1 at your Death Star sites. Your Death Star sites are immune to Set Your Course For Alderaan. Death Star sites may not be converted. Jedi (except Obi-Wan) are lost. Flip this card if Leia is present at a Death Star site and A Power Loss has been 'shut down' this game. Sometimes I Amaze Even Myself: For remainder of game, I Can't Believe He's Gone may only add power in battles involving Leia or Luke. While this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Whenever you 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force. Flip this card if Leia is not at a Death Star site.",
+        "errataSymbol": "E1",
+        "gametext": "Rescue The Princess: Deploy Central Core, A Power Loss, Detention Block Corridor (with [A New Hope] Leia imprisoned there), and Trash Compactor. For remainder of game, your Death Star sites generate +1 Force for you. You may not deploy Luke of ability > 4 or [Episode I] (or [Episode VII]) Jedi. If Leia is about to leave table (for any reason, even if inactive), imprison her in Detention Block Corridor (cards on her are placed in owner's Used Pile). Once per turn, may deploy a Death Star site from Reserve Deck; reshuffle. Flip this card if Leia occupies a Death Star site and A Power Loss is 'shut down.' Sometimes I Amaze Even Myself: While this side up, for opponent to initiate a Force drain, opponent must use +1 Force. Your Death Star sites are immune to Set Your Course For Alderaan. Once per turn, if you just 'hit' a character with a blaster, opponent loses 1 Force. May place Obi-Wan out of play from a Death Star site to cancel a battle just initiated anywhere on Death Star. I Can't Believe He's Gone is canceled. During opponent's draw phase, if opponent did not initiate a battle this turn, may retrieve 1 Force. Flip this card if Leia is not at a Death Star site.",
         "icons": [
-          "Set 15"
+          "A New Hope",
+          "Set 15",
+          "Special Edition"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual15-Light/large/rescuetheprincess.gif",
         "title": "Rescue The Princess / Sometimes I Amaze Even Myself (V)",
@@ -66580,6 +67018,7 @@
       "gempId": "215_17",
       "id": 6891,
       "legacy": false,
+      "previousId": 40086,
       "printings": [
         {
           "set": "215"
@@ -66587,10 +67026,14 @@
       ],
       "rarity": "R",
       "rulings": [
-        "At Death Star sites that are 'immune to SYCFA', Dark Side's Force drains and battle damage are not canceled by SYCFA.",
-        "Excluding Leia from battle will not flip the objective back to the 0-side.",
-        "Capturing and siezing Leia (such as with IG-88 With Riot Gun) will flip the objective back to the 0-side.",
-        "On the 7-side, Leia's Blaster Rifle creates competing automatic actions. The player whose turn it is chooses whether the 1 Force loss or the character being lost happens first. If the character is lost first, the 1 Force loss does not occur."
+        "When the 'For remainder of game' text re-imprisons Leia, she is restored to normal (no longer hit or forfeit = 0, etc).",
+        "When the 'For remainder of game' text re-imprisons Leia, it is not considered movement. It is not blocked by e.g. You Are Beaten.",
+        "The 'for any reason' text will even work against an 'all cards' situation, e.g. Program Trap will send Leia to prison instead of the Lost Pile.",
+        "(7-side) At Death Star sites that are 'immune to SYCFA', Dark Side's Force drains and battle damage are not canceled by SYCFA.",
+        "(7-side) Leia's Blaster Rifle creates competing automatic actions. The player whose turn it is chooses whether the 1 Force loss or the character being lost happens first. If the character is lost first, the 1 Force loss does not occur.",
+        "(7-side) If Light cancels a battle (e.g. using It's A Trap!) that was initiated by Dark, then Dark has 'initiated a battle' and prevents Light from retrieving 1 Force with this Objective.",
+        "(7-side) Excluding Leia from battle will not flip the objective back to the 0-side.",
+        "(7-side) Capturing and seizing Leia (such as with IG-88 With Riot Gun) will flip the objective back to the 0-side."
       ],
       "set": "215",
       "side": "Light"
@@ -66807,6 +67250,9 @@
       "side": "Light"
     },
     {
+      "abbr": [
+        "ASJK"
+      ],
       "front": {
         "ability": "6",
         "characteristics": [
@@ -66840,7 +67286,8 @@
       "id": 6924,
       "legacy": false,
       "matchingWeapon": [
-        "Anakin's Lightsaber"
+        "Anakin's Lightsaber",
+        "Anakin's Lightsaber (V)"
       ],
       "printings": [
         {
@@ -66934,7 +67381,6 @@
       "pulledBy": [
         "General Crix Madine",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Guide (V)",
         "Wookiee Roar"
       ],
@@ -67010,7 +67456,7 @@
       "rarity": "U",
       "rulings": [
         "Light may not attempt to deploy Theed Palace Generator if it is already on table.",
-        "Light may only attempt to deploy Theed Palace Generator once per turn (during their own deploy phase)."
+        "Light may only attempt to deploy Theed Palace Generator during their own deploy phase."
       ],
       "set": "216",
       "side": "Light"
@@ -67151,13 +67597,16 @@
     {
       "front": {
         "ability": "4",
-        "deploy": "4",
+        "deploy": "3",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Deploy/Forfeit changed from 4/6 to 3/4. Previous text: While defending a battle, Interrupts may not be played unless they are [Immune to Sense]. Opponent may not target Grogu with weapons unless each of your Mandalorians and non-[Episode I] Jedi present are 'hit.' Immune to attrition < 3.",
+        "errataSymbol": "E1",
         "extraText": [
           "Force-Sensitive"
         ],
-        "forfeit": "6",
-        "gametext": "While defending a battle, Interrupts may not be played unless they are [Immune to Sense]. Opponent may not target Grogu with weapons unless each of your Mandalorians and non-[Episode I] Jedi present are 'hit.' Immune to attrition < 3.",
+        "forfeit": "4",
+        "gametext": "May deploy Foundling on Grogu from Reserve Deck (reshuffle) or Lost Pile. Once per game, if present during battle, may cancel a non-[Immune to Sense] Interrupt or place your just lost Mandalorian in Used Pile. Immune to attrition < 3.",
         "icons": [
           "Set 16"
         ],
@@ -67174,6 +67623,7 @@
       "gempId": "216_29",
       "id": 6932,
       "legacy": false,
+      "previousId": 40054,
       "printings": [
         {
           "set": "216"
@@ -67181,7 +67631,8 @@
       ],
       "rarity": "U",
       "rulings": [
-        "If an Interrupt is partially immune to Sense, only the immune functions may be played."
+        "If an Interrupt is partially immune to Sense, Grogu may cancel it only if a non-immune function is being played.",
+        "May only save a Mandalorian just lost from an active or inactive state on table."
       ],
       "set": "216",
       "side": "Light"
@@ -67369,7 +67820,7 @@
       ],
       "pulledBy": [
         "General Crix Madine",
-        "Soth Petikkin (when at a Jabba's Palace site you control)"
+        "Soth Petikkin"
       ],
       "rarity": "R",
       "rulings": [
@@ -67483,7 +67934,7 @@
         "deploy": "7",
         "destiny": "1",
         "errataDate": "2022-12-12",
-        "errataNotes": "Original card allowed all Jedi to be deployed. Only Jedi Council Members got destiny +1.",
+        "errataNotes": "Original card allowed all Jedi to be deployed. Only Jedi Council members got destiny +1.",
         "errataSymbol": "E1",
         "extraText": [
           "Jedi Master"
@@ -67912,11 +68363,14 @@
         ],
         "deploy": "4",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Power increased from 2 to 4. Previous text: During battle at a site, may add one destiny to total power. Once during battle, unless 'hit,' may lose this character to restore your 'hit' character here to normal.",
+        "errataSymbol": "E1",
         "extraText": [
           "Roar 4"
         ],
         "forfeit": "4",
-        "gametext": "During battle at a site, may add one destiny to total power. Once during battle, unless 'hit,' may lose this character to restore your 'hit' character here to normal.",
+        "gametext": "Power +1 at a Kashyyyk site. While present at a Kashyyyk site, opponent may not cancel or modify your Force drains here. Unless 'hit,' may forfeit in place of your other 'hit' character at same site, restoring that character to normal.",
         "icons": [
           "Warrior",
           "Episode I",
@@ -67924,7 +68378,7 @@
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/wookieewarrior.gif",
         "lore": "Blank.",
-        "power": "2",
+        "power": "4",
         "subType": "Alien",
         "title": "•••Wookiee Warrior",
         "type": "Character",
@@ -67935,6 +68389,7 @@
       "gempId": "216_48",
       "id": 6951,
       "legacy": false,
+      "previousId": 40065,
       "printings": [
         {
           "set": "216"
@@ -67945,7 +68400,8 @@
       ],
       "rarity": "F",
       "rulings": [
-        "If K'lor'slug (V) is on table, attempting to use this card's text to lose itself will fail to restore the 'hit' character to normal, but will still cause Wookiee Warrior to be lost at end of battle per K'lor'slug (and if forfeited, forfeit for 0)."
+        "Wookiee Warrior prevents your Force drains from being canceled (e.g. by Control) or modified (e.g. by In The Hands Of The Empire), but does not prevent your Force drain bonuses from being canceled (e.g. by Imperial Decree).",
+        "When Wookiee Warrior forfeits in place of your other 'hit' character, any other results of the weapon (e.g. 'forfeit = 0' or 'may not be used to satisfy attrition') are restored to normal - they do not affect the original target or the Wookiee Warrior."
       ],
       "set": "216",
       "side": "Light"
@@ -68051,7 +68507,7 @@
       "front": {
         "darkSideIcons": 0,
         "destiny": "0",
-        "gametext": "Dark:  Light: Deploys only as a starting location. If you just chose You Have That Power, Too on your [Skywalker] Epic Event, deploy My Parents Were Strong from Reserve Deck; reshuffle.",
+        "gametext": "Light: Deploys only as a starting location. If you just chose You Have That Power, Too on your [Skywalker] Epic Event, deploy My Parents Were Strong from Reserve Deck; reshuffle. Dark:",
         "icons": [
           "Exterior",
           "Planet",
@@ -68607,7 +69063,10 @@
       "front": {
         "darkSideIcons": 2,
         "destiny": "0",
-        "gametext": "Dark: Unless you occupy, Kylo and Sidious deploy -1 here.  Light: Unless Ben Solo, Han, or Rey here, Force drain -1 here.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Light: Unless Ben Solo, Han, or Rey here, Force drain -1 here. Dark: Unless you occupy, Kylo and Sidious deploy -1 here.",
+        "errataSymbol": "E1",
+        "gametext": "Light: While Rey alone here, she is immune to attrition. Dark: While Rey alone here, you may not Force drain at Kylo's location.",
         "icons": [
           "Exterior",
           "Planet",
@@ -68626,6 +69085,7 @@
       "gempId": "217_39",
       "id": 6991,
       "legacy": false,
+      "previousId": 40085,
       "printings": [
         {
           "set": "217"
@@ -68736,7 +69196,7 @@
         "The Falcon initially stacks here 0-side up, and only deploys from here 0-side up.",
         "The Falcon stacked here <u>can</u> be deployed by Best Starpilot In The Galaxy.",
         "The Falcon stacked here <u>cannot</u> be revealed via Squadron Assignments.",
-        "The Falcon stacked here from outside the deck does not count towards the 60-card deck limit.",
+        "The Falcon stacked here from outside the deck does not count toward the 60-card deck limit.",
         "If the [Set 4] Falcon is bounced to hand by I'd Just As Soon Kiss A Wookiee, it instead goes out of play via its own game text."
       ],
       "set": "217",
@@ -69563,9 +70023,9 @@
         }
       ],
       "pulledBy": [
-        "Cell 2187 (V)",
         "Computer Interface (V)",
-        "Mindful Of The Future"
+        "Mindful Of The Future",
+        "Rescue The Princess (V)"
       ],
       "rarity": "PM",
       "rulings": [
@@ -70241,11 +70701,14 @@
           1,
           6
         ],
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Once per game, may use 1 Force to shuffle opponent's Reserve Deck or place opponent's just-played Interrupt out of play. If in battle with Anakin or Luke, may draw one destiny and subtract that amount from opponent's attrition.",
+        "errataSymbol": "E1",
         "extraText": [
           "Astromech Droid"
         ],
         "forfeit": "4",
-        "gametext": "Once per game, may use 1 Force to shuffle opponent's Reserve Deck or place opponent's just-played Interrupt out of play. If in battle with Anakin or Luke, may draw one destiny and subtract that amount from opponent's attrition.",
+        "gametext": "When deployed, may play a Defensive Shield from under your Starting Effect (as if from hand). Once per game, may use 1 Force to place opponent's just-played Interrupt out of play. While with Anakin, C-3PO, or Luke, attrition against you here is -2.",
         "icons": [
           "Jabba's Palace",
           "Nav Computer",
@@ -70264,6 +70727,7 @@
       "gempId": "219_28",
       "id": 7101,
       "legacy": false,
+      "previousId": 40051,
       "printings": [
         {
           "set": "219"
@@ -70271,9 +70735,7 @@
       ],
       "rarity": "R",
       "rulings": [
-        "Artoo's action to draw destiny and subtract from attrition can only be initiated if attrition exists (opponent successfully completed a battle destiny draw, even if it was a 0).",
-        "Artoo's action to draw destiny and subtract from attrition is initiated in the power segment after battle destinies (and any attrition destinies) are drawn.",
-        "Artoo's action subtracts from attrition against his owner (Light, assuming he hasn't been stolen)."
+        "Artoo placing an Interrupt out of play is global (e.g. he can do this during a battle at another location)."
       ],
       "set": "219",
       "side": "Light"
@@ -70532,8 +70994,11 @@
         "armor": "5",
         "deploy": "4",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Adds 3 to power of anything he pilots. During battle, if another Mandalorian here, opponent's total power is -3. At the end of a battle here, may return Fenn Rau to hand to activate 2 Force (if Fenn Rau won a battle this turn, may also retrieve 1 Force).",
+        "errataSymbol": "E1",
         "forfeit": "5",
-        "gametext": "[Pilot] 3. During battle, if another Mandalorian here, opponent's total power is -3. At the end of a battle here, may return Fenn Rau to hand to activate 2 Force (if Fenn Rau won a battle this turn, may also retrieve 1 Force).",
+        "gametext": "Adds 3 to power of anything he pilots. During battle, if another Mandalorian here, opponent's total power is -2. Once per game, at the end of a battle here, may return Fenn Rau to hand to activate 2 Force (if Fenn Rau won a battle this turn, may also retrieve 1 Force).",
         "icons": [
           "Pilot",
           "Warrior",
@@ -70552,6 +71017,7 @@
       "gempId": "219_35",
       "id": 7108,
       "legacy": false,
+      "previousId": 40053,
       "printings": [
         {
           "set": "219"
@@ -70559,7 +71025,9 @@
       ],
       "rarity": "U",
       "rulings": [
-        "If Fenn Rau was excluded from the battle, he cannot return to hand."
+        "If Fenn Rau was excluded from the battle, he cannot return to hand.",
+        "You require at least 1 card in Reserve Deck to initiate the action that returns Fenn to hand.",
+        "To retrieve, you need to successfully complete activating 2 Force. If you activate 1 and hit an empty Reserve, the rest of the action fails."
       ],
       "set": "219",
       "side": "Light"
@@ -70568,10 +71036,10 @@
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "errataDate": "2022-12-12",
-        "errataNotes": "Original Text: Light: Ghost deploys -2 here. While Ghost piloted here, opponent's battle destiny draws are -1 here. Dark: Unless Chimaera or Thrawn here, Force drain -1 here.",
-        "errataSymbol": "E1",
-        "gametext": "Light: Hera deploys -1 here. Once per game, may take This is MY Ship! into hand from Reserve Deck; reshuffle. Dark: Unless Thrawn here, Force drain -1 here and This Is MY Ship! is [Immune to Sense]. While Lothal converted, gains one [Dark Side] icon.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous (E1 version) text: Light: Hera deploys -1 here. Once per game, may take This is MY Ship! into hand from Reserve Deck; reshuffle. Dark: Unless Thrawn here, Force drain -1 here and This Is MY Ship! is [Immune to Sense]. While Lothal converted, gains one [Dark Side] icon. Original Text: Light: Ghost deploys -2 here. While Ghost piloted here, opponent's battle destiny draws are -1 here. Dark: Unless Chimaera or Thrawn here, Force drain -1 here.",
+        "errataSymbol": "E2",
+        "gametext": "Light: Once per game, may simultaneously deploy Ghost and Hera here from hand and/or Reserve Deck; reshuffle. Dark: Thrawn and Pryce deploy -1 (and shuttle for free) to here. While Lothal converted, gains one [Dark Side] icon.",
         "icons": [
           "Planet",
           "Set 19"
@@ -70589,7 +71057,7 @@
       "gempId": "219_38",
       "id": 7109,
       "legacy": false,
-      "previousId": 40010,
+      "previousId": 40084,
       "printings": [
         {
           "set": "219"
@@ -70598,7 +71066,11 @@
       "rarity": "U2",
       "rulings": [
         "Only follow the 'While Lothal converted' text of the topmost (active) Lothal system card.  It is applicable if there exists one (or more) converted copies of Lothal underneath.",
-        "Disregard the text of the copies of Lothal underneath."
+        "Disregard the text of the copies of Lothal underneath.",
+        "May choose to deploy both cards from hand only, without even searching Reserve Deck. But if that is not possible then Reserve Deck must be searched.",
+        "If Reserve Deck is not searched, do not reshuffle it.",
+        "If one or both cards cannot be found, opponent only verifies Reserve Deck. A judge may be required to verify combined contents of hand and Reserve Deck to check for the cards.",
+        "May search Reserve Deck, then decide to deploy both cards entirely from hand (this does not trigger verification)."
       ],
       "set": "219",
       "side": "Light"
@@ -70989,31 +71461,35 @@
       "back": {
         "destiny": "7",
         "errataSymbol": "E1",
-        "gametext": "Zero Hour: Deploy Lothal system and a Lothal site. For remainder of game, Menace Fades and Projection Of A Skywalker are canceled. Jedi (except Ahsoka and Kanan), Resistance characters, and [Resistance] starships are deploy +1. Chopper, Ezra, Hera, Kanan, Sabine, and Zeb gain Phoenix Squadron. Once per turn, may deploy a Lothal site from Reserve Deck; reshuffle. Flip this card if Rebels control three Lothal locations (or you occupy three Lothal locations with Phoenix Squadron characters) and opponent controls no Lothal locations. Liberation Of Lothal: While this side up, if you Force drained at a battleground this turn, your other Force drains at battlegrounds are +1. Once per turn during battle, may add or subtract X from a just drawn battle destiny (or opponent's weapon destiny), where X = number of battlegrounds you occupy with Phoenix Squadron characters. At Lothal system, the number of battle destiny draws may not be limited for either player. Flip this card if opponent controls more Lothal locations than you.",
+        "gametext": "Zero Hour: Deploy Lothal system and a Lothal site. For remainder of game, Menace Fades and Projection Of A Skywalker are canceled. Harc, Jedi (except Ahsoka and Kanan), and your [Episode I] (and [Episode VII]) cards with ability are deploy +2. Chopper, Ezra, Hera, Kanan, Sabine, and Zeb gain Phoenix Squadron. Once per turn, may deploy a Lothal site from Reserve Deck; reshuffle. Flip this card if Rebels control three Lothal locations (or you occupy three Lothal locations with Phoenix Squadron characters) and opponent controls no Lothal locations. Liberation Of Lothal: While this side up, if you Force drained at a battleground this turn, your other Force drains at battlegrounds are +1. Once per turn during battle, may add or subtract X from a just drawn battle destiny (or opponent's weapon destiny), where X = number of battlegrounds you occupy with Phoenix Squadron characters. At Lothal system, the number of battle destiny draws may not be limited for either player. Flip this card if opponent controls more Lothal locations than you.",
         "icons": [
           "Set 19"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Light/large/liberationoflothal.gif",
         "title": "Zero Hour / Liberation Of Lothal",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Zero Hour/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Liberation Of Lothal/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "front": {
         "destiny": "0",
-        "gametext": "Zero Hour: Deploy Lothal system and a Lothal site. For remainder of game, Menace Fades and Projection Of A Skywalker are canceled. Jedi (except Ahsoka and Kanan), Resistance characters, and [Resistance] starships are deploy +1. Chopper, Ezra, Hera, Kanan, Sabine, and Zeb gain Phoenix Squadron. Once per turn, may deploy a Lothal site from Reserve Deck; reshuffle. Flip this card if Rebels control three Lothal locations (or you occupy three Lothal locations with Phoenix Squadron characters) and opponent controls no Lothal locations. Liberation Of Lothal: While this side up, if you Force drained at a battleground this turn, your other Force drains at battlegrounds are +1. Once per turn during battle, may add or subtract X from a just drawn battle destiny (or opponent's weapon destiny), where X = number of battlegrounds you occupy with Phoenix Squadron characters. At Lothal system, the number of battle destiny draws may not be limited for either player. Flip this card if opponent controls more Lothal locations than you.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: Zero Hour: Deploy Lothal system and a Lothal site. For remainder of game, Menace Fades and Projection Of A Skywalker are canceled. Jedi (except Ahsoka and Kanan), Resistance characters, and [Resistance] starships are deploy +1. Chopper, Ezra, Hera, Kanan, Sabine, and Zeb gain Phoenix Squadron. Once per turn, may deploy a Lothal site from Reserve Deck; reshuffle. Flip this card if Rebels control three Lothal locations (or you occupy three Lothal locations with Phoenix Squadron characters) and opponent controls no Lothal locations. Liberation Of Lothal: While this side up, if you Force drained at a battleground this turn, your other Force drains at battlegrounds are +1. Once per turn during battle, may add or subtract X from a just drawn battle destiny (or opponent's weapon destiny), where X = number of battlegrounds you occupy with Phoenix Squadron characters. At Lothal system, the number of battle destiny draws may not be limited for either player. Flip this card if opponent controls more Lothal locations than you.",
+        "errataSymbol": "E1",
+        "gametext": "Zero Hour: Deploy Lothal system and a Lothal site. For remainder of game, Menace Fades and Projection Of A Skywalker are canceled. Harc, Jedi (except Ahsoka and Kanan), and your [Episode I] (and [Episode VII]) cards with ability are deploy +2. Chopper, Ezra, Hera, Kanan, Sabine, and Zeb gain Phoenix Squadron. Once per turn, may deploy a Lothal site from Reserve Deck; reshuffle. Flip this card if Rebels control three Lothal locations (or you occupy three Lothal locations with Phoenix Squadron characters) and opponent controls no Lothal locations. Liberation Of Lothal: While this side up, if you Force drained at a battleground this turn, your other Force drains at battlegrounds are +1. Once per turn during battle, may add or subtract X from a just drawn battle destiny (or opponent's weapon destiny), where X = number of battlegrounds you occupy with Phoenix Squadron characters. At Lothal system, the number of battle destiny draws may not be limited for either player. Flip this card if opponent controls more Lothal locations than you.",
         "icons": [
           "Set 19"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Light/large/zerohour.gif",
         "title": "Zero Hour / Liberation Of Lothal",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Liberation Of Lothal/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Zero Hour/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "219_48",
       "id": 7121,
       "legacy": false,
+      "previousId": 40088,
       "printings": [
         {
           "set": "219"
@@ -71073,10 +71549,14 @@
         ],
         "deploy": "3",
         "destiny": "2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: May add 2 pilots and 2 passengers. Once per game, if your [Reflections II] or [Skywalker] site on table, may deploy Han or Chewie aboard from Reserve Deck; reshuffle. While Han or Chewie piloting, immune to attrition < 5 (< 7 if both).",
+        "errataSymbol": "E1",
         "forfeit": "7",
-        "gametext": "May add 2 pilots and 2 passengers. Once per game, if your [Reflections II] or [Skywalker] site on table, may deploy Han or Chewie aboard from Reserve Deck; reshuffle. While Han or Chewie piloting, immune to attrition < 5 (< 7 if both).",
+        "gametext": "May add 2 pilots and 2 passengers. Once per game, may deploy Han or Chewie aboard from Reserve Deck; reshuffle. While [A New Hope] Han piloting, Force drain +1 here. While Han or Chewie piloting, immune to attrition < 5 (< 7 if both).",
         "hyperspeed": "6",
         "icons": [
+          "A New Hope",
           "Scomp Link",
           "Nav Computer",
           "Set 20"
@@ -71103,6 +71583,7 @@
         "Lando Calrissian",
         "Lando Calrissian, Scoundrel"
       ],
+      "previousId": 40093,
       "printings": [
         {
           "set": "220"
@@ -71111,13 +71592,17 @@
       "pulledBy": [
         "All Wings Report In & Darklighter Spin",
         "Best Starpilot In The Galaxy",
-        "Life Debt"
+        "Life Debt",
+        "Passage To The Alderaan System"
       ],
       "pulls": [
         "Any Han",
         "Any Chewie"
       ],
       "rarity": "R1",
+      "rulings": [
+        "May deploy Han or Chewie aboard from Reserve Deck even if Falcon is landed and/or unpiloted."
+      ],
       "set": "220",
       "side": "Light"
     },
@@ -71168,15 +71653,20 @@
           "senator",
           "female"
         ],
-        "deploy": "6",
+        "deploy": "4",
         "destiny": "1",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Deploy reduced from 6 to 4. Adds [A New Hope] icon. Previous text: While on Death Star (even if imprisoned): Force drain +1 where you have a Rebel stormtrooper, Leia may not be transferred, moves using landspeed for free, draws one battle destiny if unable to otherwise, and her game text may not be canceled.",
+        "errataSymbol": "E1",
         "extraText": [
           "Force-Attuned"
         ],
         "forfeit": "6",
-        "gametext": "While on Death Star (even if imprisoned): Force drain +1 where you have a Rebel stormtrooper, Leia may not be transferred, moves using landspeed for free, draws one battle destiny if unable to otherwise, and her game text may not be canceled.",
+        "gametext": "Draws one battle destiny if unable to otherwise. While present at a Death Star site, Force drain +1 where you have a Rebel stormtrooper. While on Death Star (even if imprisoned), Leia may not be transferred and her gametext may not be canceled.",
         "icons": [
+          "A New Hope",
           "Premium",
+          "Set 20",
           "Warrior"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual20-Light/large/prisoner2187.gif",
@@ -71196,6 +71686,7 @@
         "Leia's Blaster Rifle",
         "Leia's Sporting Blaster"
       ],
+      "previousId": 40059,
       "printings": [
         {
           "set": "220"
@@ -71208,7 +71699,8 @@
       ],
       "rarity": "PM",
       "rulings": [
-        "Prisoner 2187 (V)'s text works while in prison, but does not work while she is an escorted captive."
+        "The 'While present at a Death Star site' text does not work while she is a captive.",
+        "The 'even if imprisoned' text does not work while she is an escorted captive."
       ],
       "set": "220",
       "side": "Light"
@@ -71346,7 +71838,6 @@
       "pulledBy": [
         "Beldon's Eye (V)",
         "Life Debt",
-        "Seeking An Audience (V)",
         "Wookiee Roar"
       ],
       "rarity": "PM",
@@ -71559,7 +72050,8 @@
     },
     {
       "abbr": [
-        "Flip Falcon"
+        "Flip Falcon",
+        "Millennium Falcon"
       ],
       "back": {
         "deploy": "0",
@@ -71839,6 +72331,9 @@
         "Gold Squadron 1"
       ],
       "rarity": "R",
+      "rulings": [
+        "When using this Effect to deploy the empty starship Gold Squadron 1 to the Endor system, it may deploy simultaneously with a pilot from hand. It may either deploy aboard another starship with capacity (e.g. Home One) or directly to the system (a pilot is required to deploy directly to the system)."
+      ],
       "set": "221",
       "side": "Light"
     },
@@ -71848,7 +72343,10 @@
       ],
       "front": {
         "destiny": "5",
-        "gametext": "If His Destiny on table, choose: USED: If a character of ability > 4 was just 'hit' during battle, opponent loses 1 Force. OR Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Cancel game text of a Dark Jedi with Luke for remainder of turn.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: If His Destiny on table, choose: USED: If a character of ability > 4 was just 'hit' during battle, opponent loses 1 Force. OR Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Cancel game text of a Dark Jedi with Luke for remainder of turn.",
+        "errataSymbol": "E1",
+        "gametext": "USED: Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Steal Luke's Lightsaber into hand (immune to Weapon Of A Sith). OR If His Destiny on table, cancel game text of a Dark Jedi with Luke for remainder of turn.",
         "icons": [
           "Death Star II",
           "Set 21"
@@ -71865,12 +72363,17 @@
       "gempId": "221_43",
       "id": 7191,
       "legacy": false,
+      "previousId": 40080,
       "printings": [
         {
           "set": "221"
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "May only steal Luke's Lightsaber into hand from table, not from opponent's hand, Lost Pile, etc.",
+        "May steal back a stolen Luke's Lightsaber from table even if it is inactive (e.g. carried by a Vader who cannot use it)."
+      ],
       "set": "221",
       "side": "Light"
     },
@@ -72640,7 +73143,10 @@
       ],
       "front": {
         "destiny": "0",
-        "gametext": "If He Is The Chosen One on table, deploy on table. Opponent's total Force generation is -1 (and your total power everywhere is +1) for each [Endor] or [Death Star II] battleground you occupy (limit 2). Once per turn, if a card was just stacked on I Feel The Conflict, may peek at the top two cards of your Reserve Deck; take one into hand and shuffle your Reserve Deck. May lose 2 Force to cancel You Are Beaten or an attempt to steal Luke's Lightsaber. During your move phase, may turn a card stacked on I Feel The Conflict face up to relocate Luke between a battleground site and your Death Star II site.",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: If He Is The Chosen One on table, deploy on table. Opponent's total Force generation is -1 (and your total power everywhere is +1) for each [Endor] or [Death Star II] battleground you occupy (limit 2). Once per turn, if a card was just stacked on I Feel The Conflict, may peek at the top two cards of your Reserve Deck; take one into hand and shuffle your Reserve Deck. May lose 2 Force to cancel You Are Beaten or an attempt to steal Luke's Lightsaber. During your move phase, may turn a card stacked on I Feel The Conflict face up to relocate Luke between a battleground site and your Death Star II site.",
+        "errataSymbol": "E1",
+        "gametext": "If He Is The Chosen One on table, deploy on table. Indeed You Are Powerful: Once per turn, if you just won a battle or duel, may peek at the top two cards of your Reserve Deck; take one into hand and shuffle your Reserve Deck. I Have To Face Him: Once per game, during your move phase, may relocate Luke to same battleground as Prophecy Of The Force. Father, Please!: Non-[Set 13] Anakin Skywalker does not cause Force loss and, once per game, you may lose 1 Force to play it from outside your deck as if from hand.",
         "icons": [
           "Death Star II",
           "Set 21"
@@ -72655,12 +73161,17 @@
       "gempId": "221_66",
       "id": 7214,
       "legacy": false,
+      "previousId": 40079,
       "printings": [
         {
           "set": "221"
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "When Light wins a battle or duel, handle I Feel The Conflict (automatic response) before His Destiny (optional response).",
+        "The last function plays only the non-virtual [Death Star II] Anakin Skywalker Interrupt (not an Anakin character card). The usual conditions and timing stated on the Interrupt must be met. As it is a Used Interrupt, it is played in Used Pile after being played, even though it originated outside the deck."
+      ],
       "set": "221",
       "side": "Light"
     },
@@ -72680,7 +73191,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/hesacoward.gif",
         "title": "Hunt For The Droid General / He's A Coward",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Hunt For The Droid General/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/He's A Coward/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "front": {
@@ -72694,7 +73205,7 @@
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/huntforthedroidgeneral.gif",
         "title": "Hunt For The Droid General / He's A Coward",
         "type": "Objective",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/He's A Coward/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Hunt For The Droid General/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "221_67",
@@ -73367,9 +73878,13 @@
       ],
       "front": {
         "destiny": "5",
-        "gametext": "If His Destiny on table, deploy on table. Unless Wokling on table, your total Force generation is +1. Once per turn, may deploy a mobile docking bay from Reserve Deck; reshuffle. Once per game, during your move phase, may relocate Luke to same battleground as Prophecy Of The Force. [Immune to Alter.]",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: If His Destiny on table, deploy on table. Unless Wokling on table, your total Force generation is +1. Once per turn, may deploy a mobile docking bay from Reserve Deck; reshuffle. Once per game, during your move phase, may relocate Luke to same battleground as Prophecy Of The Force. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If His Destiny on table, deploy on table. Your personal Force generation = 2. Once per turn, may deploy a mobile docking bay from Reserve Deck; reshuffle. Your total power everywhere is +1 for each [Endor] or [Death Star II] battleground you occupy (limit +2). [Immune to Alter.]",
         "icons": [
           "Death Star II",
+          "Personal Force",
           "Set 22"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual22-Light/large/twilightisuponme.gif",
@@ -73383,12 +73898,16 @@
       "gempId": "222_28",
       "id": 7259,
       "legacy": false,
+      "previousId": 40075,
       "printings": [
         {
           "set": "222"
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "This card increases the Force a player activates for themselves from 1 to 2. It does not interfere with cards that increase total Force generation (e.g. the Premiere version of Luke Skywalker still works with this Effect on table)."
+      ],
       "set": "222",
       "side": "Light"
     },
@@ -73439,7 +73958,10 @@
     {
       "front": {
         "destiny": "0",
-        "gametext": "Deploy on Central Core. Leia may not modify Force drains. Once per game, opponent may stack up to two cards from hand face-down here. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, power 'shut down' (place this card out of play; your movement between Death Star locations is free this turn).",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Adds [A New Hope] icon. Previous text: Deploy on Central Core. Leia may not modify Force drains. Once per game, opponent may stack up to two cards from hand face-down here. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, power 'shut down' (place this card out of play; your movement between Death Star locations is free this turn).",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on Central Core. Once per game, opponent may stack up to two cards from hand face-down here. All This Sneaking Around: Path Of Least Resistance is canceled. While no cards stacked here, Leia moves using landspeed for free. Allow The Ship To Leave: If you just won a battle at a Death Star site (or initiated a Force drain here), place a card stacked here in owner's Lost Pile. That Old Man Did It!: If you occupy this site and another Death Star site while no cards stacked here, for remainder of game, power 'shut down.'",
         "icons": [
           "Set 15"
         ],
@@ -73453,6 +73975,7 @@
       "gempId": "215_2",
       "id": 7274,
       "legacy": false,
+      "previousId": 40078,
       "printings": [
         {
           "set": "215"
@@ -73460,9 +73983,7 @@
       ],
       "rarity": "U2",
       "rulings": [
-        "Causes all forms of movement between two Death Star locations to be free.",
-        "When using Nabrun Leids for free, draw destiny but do not pay any cost.",
-        "After placing this card out of play, it is possible for Light to deploy a 2nd copy of this card on Central Core later in the game."
+        "When Light initiates a Force drain here, a stacked card is removed (automatic response) before Dark can play an optional Force drain canceler (e.g. Control)."
       ],
       "set": "215",
       "side": "Light"
@@ -73652,7 +74173,6 @@
         "I Know",
         "Leia's Back",
         "Rebel Leadership (V)",
-        "Seeking An Audience (V)",
         "Strike Planning"
       ],
       "rarity": "R",
@@ -73689,7 +74209,7 @@
         }
       ],
       "pulledBy": [
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "pulls": [
         "Rey"
@@ -73703,7 +74223,7 @@
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "gametext": "Light:  Lor San Tekka is power +4 and defense value -2 here.  Dark:  If your First Order character here, your total power here is +2.",
+        "gametext": "Light: Lor San Tekka is power +4 and defense value -2 here. Dark: If your First Order character here, your total power here is +2.",
         "icons": [
           "Exterior",
           "Planet",
@@ -73729,7 +74249,7 @@
       ],
       "pulledBy": [
         "Mindful Of The Future",
-        "Old Allies/We Need Your Help"
+        "Old Allies / We Need Your Help"
       ],
       "rarity": "C",
       "set": "204",
@@ -73790,8 +74310,11 @@
         ],
         "deploy": "3",
         "destiny": "3",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard for free from Reserve Deck; reshuffle.",
+        "errataSymbol": "E1",
         "forfeit": "5",
-        "gametext": "May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard for free from Reserve Deck; reshuffle.",
+        "gametext": "May add 2 pilots and 5 passengers. Permanent pilot provides ability of 2. Deploys and moves like a starfighter. When deployed, may deploy a female Resistance character aboard (deploy -2 if a leader).",
         "hyperspeed": "3",
         "icons": [
           "Pilot",
@@ -73814,6 +74337,7 @@
       "gempId": "213_58",
       "id": 7282,
       "legacy": false,
+      "previousId": 40091,
       "printings": [
         {
           "set": "213"
@@ -73934,12 +74458,14 @@
           2,
           5
         ],
-        "errataSymbol": "E2",
+        "errataDate": "2024-12-30",
+        "errataNotes": "E2 version text: While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While present with a Scomp link, adds one [Light Side] icon here. Immune to Fire Extinguisher and Restraining Bolt.",
+        "errataSymbol": "E3",
         "extraText": [
           "Astromech Droid"
         ],
         "forfeit": "4",
-        "gametext": "While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While with a Scomp link, adds one [Light Side] icon here. Immune to Fire Extinguisher and Restraining Bolt.",
+        "gametext": "While aboard a starfighter, adds 2 to power, maneuver, and hyperspeed. While present with a Scomp link, adds one [Light Side] icon here and, during battles at same and related interior sites, once per turn may use 1 Force to subtract 1 from a just drawn destiny.",
         "icons": [
           "Nav Computer",
           "A New Hope",
@@ -73958,6 +74484,7 @@
       "gempId": "201_6",
       "id": 7285,
       "legacy": false,
+      "previousId": 40061,
       "printings": [
         {
           "set": "201"
@@ -73970,6 +74497,9 @@
         "Seeking An Audience (V)"
       ],
       "rarity": "R2",
+      "rulings": [
+        "For R2-D2 (V) to use his 'subtract 1' action, the following conditions must be met: First, the battle must be at an interior site. Second, R2-D2 (V) must be at the same site or at a related site (not necessarily an interior one, but R2-D2 (V) must be at a site - not a system or sector)."
+      ],
       "set": "201",
       "side": "Light"
     },
@@ -74675,7 +75205,10 @@
       ],
       "front": {
         "destiny": "3",
-        "gametext": "If Stolen Data Tapes on table, deploy on table. Once per game, may simultaneously deploy non-[Episode VII] Falcon and non-[Episode VII] Han (for -1 Force each) from hand and/or Reserve Deck; reshuffle. At Tatooine system, Imperial starships may not have their deploy cost modified. [Immune to Alter.]",
+        "errataDate": "2024-12-30",
+        "errataNotes": "Previous text: If Stolen Data Tapes on table, deploy on table. Once per game, may simultaneously deploy non-[Episode VII] Falcon and non-[Episode VII] Han (for -1 Force each) from hand and/or Reserve Deck; reshuffle. At Tatooine system, Imperial starships may not have their deploy cost modified. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If Stolen Data Tapes on table, deploy on table. Twice per game, may take a general or a senator into hand from Reserve Deck; reshuffle. Once per game, may simultaneously deploy [A New Hope] Falcon (deploy -1) and [A New Hope] Han from hand and/or Reserve Deck; reshuffle. Falcon is immune to Gravity Shadow. [Immune to Alter.]",
         "icons": [
           "Set 23"
         ],
@@ -74690,10 +75223,15 @@
       "gempId": "223_42",
       "id": 7330,
       "legacy": false,
+      "previousId": 40073,
       "printings": [
         {
           "set": "223"
         }
+      ],
+      "pulls": [
+        "Han Solo (V)",
+        "Millennium Falcon (V)"
       ],
       "rarity": "C2",
       "set": "223",
@@ -74974,6 +75512,13 @@
           "set": "224"
         }
       ],
+      "pulls": [
+        "Anakin's Lightsaber",
+        "Anakin's Lightsaber (V)",
+        "Cloud City: Lower Corridor",
+        "Cloud City: Lower Corridor (V)",
+        "Cloud City: Upper Plaza Corridor"
+      ],
       "rarity": "C",
       "set": "224",
       "side": "Light"
@@ -74981,6 +75526,9 @@
     {
       "abbr": [
         "BA & DS"
+      ],
+      "combo": [
+        "Ability 7 pilots: Jedi Marshal Avar Kriss, Kit Fisto, Plo Koon (V)"
       ],
       "front": {
         "destiny": "5",
@@ -75002,6 +75550,9 @@
           "set": "224"
         }
       ],
+      "pulls": [
+        "A unique unpiloted starfighter"
+      ],
       "rarity": "C",
       "set": "224",
       "side": "Light"
@@ -75012,6 +75563,12 @@
       ],
       "front": {
         "ability": "2",
+        "characteristics": [
+          "Chorin",
+          "cyborg",
+          "mercenary",
+          "miner"
+        ],
         "armor": "5",
         "deploy": "5",
         "destiny": "2",
@@ -75041,12 +75598,19 @@
         }
       ],
       "rarity": "C",
+      "rulings": [
+        "If Beilert hits multiple characters in a single battle (e.g. via a repeating weapon) he can make all of them lost."
+      ],
       "set": "224",
       "side": "Light"
     },
     {
       "abbr": [
         "BS"
+      ],
+      "combo": [
+        "[Episode VII] Epic Event options: Be With Me or The Force Is Strong In My Family",
+        "Get Interrupts out of play with Rey, All Of The Jedi (also consider Solo or General Solo (V))"
       ],
       "front": {
         "ability": "5",
@@ -75076,12 +75640,18 @@
       "gempId": "224_11",
       "id": 7348,
       "legacy": false,
+      "matchingWeapon": [
+        "Anakin's Lightsaber"
+      ],
       "printings": [
         {
           "set": "224"
         }
       ],
       "rarity": "U",
+      "rulings": [
+        "All Light Side versions of Ben Solo are Skywalkers (e.g. for Anakin's Lightsaber), while Dark Side versions (Kylo Ren) are not Skywalkers."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75119,7 +75689,19 @@
           "set": "224"
         }
       ],
+      "pulls": [
+        "Bo-Katan",
+        "Boba",
+        "Din Djarin",
+        "Fenn Rau",
+        "Heavy Infantry Mandalorian",
+        "Sabine Wren",
+        "Sabine, Padawan Learner"
+      ],
       "rarity": "C",
+      "rulings": [
+        "While Bo-Katan piloting, cancels Imperial Barrier globally."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75155,6 +75737,11 @@
           "set": "224"
         }
       ],
+      "pulledBy": [
+        "A Cunning Warrior",
+        "Mindful Of The Future",
+        "Quiet Mining Colony"
+      ],
       "rarity": "U",
       "set": "224",
       "side": "Light"
@@ -75163,8 +75750,12 @@
       "abbr": [
         "CRv"
       ],
+      "conceptBy": "Original concept by Dan Tartaglione",
       "front": {
         "ability": "2",
+        "characteristics": [
+          "Royal Naboo Security"
+        ],
         "deploy": "2",
         "destiny": "3",
         "forfeit": "5",
@@ -75203,6 +75794,12 @@
       ],
       "front": {
         "ability": "3",
+        "characteristics": [
+          "general",
+          "leader",
+          "Corellian",
+          "scout"
+        ],
         "deploy": "3",
         "destiny": "1",
         "extraText": [
@@ -75234,6 +75831,10 @@
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "Remains a scout if his game text is canceled.",
+        "When Light plays Critical Error Revealed, Dark gets first response (e.g. to cancel it with Sense). If canceled, Light can no longer respond to retrieve."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75243,6 +75844,12 @@
       ],
       "front": {
         "ability": "3",
+        "characteristics": [
+          "Corellian",
+          "gambler",
+          "pirate",
+          "smuggler"
+        ],
         "deploy": "3",
         "destiny": "1",
         "extraText": [
@@ -75274,6 +75881,9 @@
           "set": "224"
         }
       ],
+      "pulledBy": [
+        "Passage To The Alderaan System"
+      ],
       "rarity": "R1",
       "set": "224",
       "side": "Light"
@@ -75282,8 +75892,17 @@
       "abbr": [
         "JTT"
       ],
+      "conceptBy": "Original concept by Angelo Consoli & Chris Menzel",
       "front": {
         "ability": "3",
+        "characteristics": [
+          "gambler",
+          "Lepi",
+          "mercenary",
+          "smuggler",
+          "thief",
+          "Star-Hopper"
+        ],
         "deploy": "3",
         "destiny": "3",
         "extraText": [
@@ -75293,8 +75912,7 @@
         "gametext": "Deploys -1 to Cloud City. Any blaster may deploy on Jaxxon. Once per game, may deploy a blaster on Jaxxon from Lost Pile (or Jaxxon may steal one from opponent's Lost Pile). While at opponent's battleground, Imperial Enforcement is suspended.",
         "icons": [
           "Pilot",
-          "Warrior",
-          "Warrior",
+          "Warrior x2",
           "Set 24"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual24-Light/large/jaxxonttumperakki.gif",
@@ -75316,6 +75934,10 @@
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "Jaxxon may use (fire) any blaster deployed on him (stolen or not).",
+        "A stolen blaster deploying on Jaxxon must still obey uniqueness rules."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75323,8 +75945,14 @@
       "abbr": [
         "JMAK"
       ],
+      "conceptBy": "Original concept by Kris Van Beurden & Chris Menzel",
       "front": {
         "ability": "7",
+        "characteristics": [
+          "female",
+          "High Republic",
+          "musician"
+        ],
         "deploy": "5",
         "destiny": "2",
         "extraText": [
@@ -75393,6 +76021,10 @@
         }
       ],
       "rarity": "U2",
+      "rulings": [
+        "Characters piloting this starship functionally become Phoenix Squadron pilots. However, to deploy -1 aboard, the pilot must already be Phoenix Squadron beforehand (e.g. from title, lore, or the text of Zero Hour).",
+        "Although 'Force drains here may not be reduced or canceled', Force drain bonuses can still be canceled (e.g. Imperial Decree can cancel the Force drain +1 at Kessel)."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75435,6 +76067,10 @@
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "May even deploy Anakin's Lightsaber onto another character (e.g. Princess Leia) at his location.",
+        "The phrase 'exclude all other characters' means exclude all characters except for the targeted Dark Jedi and Son Of Skywalker himself."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75475,6 +76111,10 @@
         }
       ],
       "rarity": "C",
+      "rulings": [
+        "Can relocate site-to-site, site-to-system, system-to-site, or system-to-system.",
+        "Can't get to interior sites or violate special rules (e.g. Ahch-To or Dagobah rules). Cannot go to/from Death Star II sectors. Otherwise, can go almost anywhere-to-anywhere."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75509,7 +76149,15 @@
           "set": "224"
         }
       ],
+      "pulledBy": [
+        "Diplomatic Mission To Alderaan / A Weakness Can Be Found",
+        "Mindful Of The Future",
+        "Yarna d'al' Gargan (V)"
+      ],
       "rarity": "C1",
+      "rulings": [
+        "(Dark side text) Passengers do not count toward the 6 ability requirement. If the requirement is not met, Dark does not get any battle destiny draws (even if they have multiple battle destiny adders such as Boba Fett Bounty Hunter, Mighty Jabba, etc). However, 'draws if unable to otherwise' still works without 6 ability."
+      ],
       "set": "224",
       "side": "Light"
     },
@@ -75518,6 +76166,10 @@
         "ZIR2"
       ],
       "front": {
+        "characteristics": [
+          "speeder",
+          "enclosed"
+        ],
         "deploy": "6",
         "destiny": "2",
         "forfeit": "6",
@@ -75548,7 +76200,802 @@
         }
       ],
       "rarity": "R2",
+      "rulings": [
+        "Not a Rogue Squadron pilot (e.g. does not work for Wedge Antilles, Red Squadron Leader).",
+        "Zev is a matching pilot, so this vehicle is immune to attrition < 6 with Echo Base Garrison."
+      ],
       "set": "224",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "AKTC"
+      ],
+      "front": {
+        "darkSideIcons": 0,
+        "destiny": "0",
+        "gametext": "Light: Deploys only as a starting location. If you just chose You Have That Power, Too on your [Skywalker] Epic Event, deploy My Parents Were Strong from Reserve Deck; reshuffle. Dark:",
+        "icons": [
+          "Exterior",
+          "Planet",
+          "Skywalker",
+          "Episode VII",
+          "Set 17"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/ajanklosstrainingcourse_ai.gif",
+        "lightSideIcons": 2,
+        "subType": "Site",
+        "title": "•Ajan Kloss: Training Course (AI)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Ajan Kloss Training Course (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "217_27",
+      "id": 7371,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "217"
+        }
+      ],
+      "pulls": [
+        "My Parents Were Strong"
+      ],
+      "rarity": "U",
+      "rulings": [
+        "Cannot be deployed by another card (such as an Objective or Starting Interrupt)."
+      ],
+      "set": "217",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "Anakin Skywalker, Jedi Knight (AI)",
+        "ASJK"
+      ],
+      "front": {
+        "ability": "6",
+        "characteristics": [
+          "Jedi Council member"
+        ],
+        "deploy": "8",
+        "destiny": "1",
+        "extraText": [
+          "Jedi Knight"
+        ],
+        "forfeit": "8",
+        "gametext": "Adds 3 to power of anything he pilots. While armed with a lightsaber, adds 2 to his defense value. During battle, may lose 2 Force to add one battle destiny. Immune to attrition < 6.",
+        "icons": [
+          "Pilot",
+          "Warrior",
+          "Episode I",
+          "Clone Army",
+          "Set 16"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/anakinskywalkerjediknight_ai.gif",
+        "lore": "Jedi Council member",
+        "power": "7",
+        "subType": "Republic",
+        "title": "•Anakin Skywalker, Jedi Knight (Holo AI)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Anakin Skywalker Jedi Knight (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "216_21",
+      "id": 7372,
+      "legacy": false,
+      "matchingWeapon": [
+        "Anakin's Lightsaber",
+        "Anakin's Lightsaber (V)"
+      ],
+      "printings": [
+        {
+          "set": "216"
+        }
+      ],
+      "rarity": "C2",
+      "rulings": [
+        "Losing 2 Force is a cost to add a battle destiny; this cost cannot be reduced such as by It Could Be Worse. Likewise if We're Doomed has been played, it is simply ignored and Light still loses 2, not 1."
+      ],
+      "set": "216",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "destiny": "1",
+        "gametext": "Deploy on Anakin, Luke, or Rey. May add 1 to Force drain where present. May target a character or creature for free. Draw two destiny. Target hit, and its forfeit = 0, if total destiny > defense value.",
+        "icons": [
+          "Hoth",
+          "Episode I",
+          "Episode VII",
+          "Set 10"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/anakinslightsaber_ai.gif",
+        "lore": "Constructed by Anakin Skywalker. Kept by Obi-Wan Kenobi until given to Luke.",
+        "subType": "Character",
+        "title": "•Anakin's Lightsaber (V) (AI)",
+        "type": "Weapon",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Anakins Lightsaber (V) (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "210_3",
+      "id": 7373,
+      "legacy": false,
+      "matchingWeapon": [
+        "Anakin Skywalker, Jedi Knight",
+        "Anakin Skywalker, Padawan Learner",
+        "Commander Luke Skywalker",
+        "Commander Luke Skywalker (V)",
+        "Luke",
+        "Luke Skywalker",
+        "Luke Skywalker (V)",
+        "Luke Skywalker, Jedi Knight",
+        "Luke Skywalker, Rebel Scout",
+        "Luke Skywalker, Rebel Scout (V)",
+        "Luke Skywalker, The Rebellion's Hope",
+        "Luke With Lightsaber",
+        "Mara Jade",
+        "Master Luke",
+        "Master Luke (V)",
+        "Rey",
+        "Rey, All Of The Jedi",
+        "Son Of Skywalker",
+        "Son Of Skywalker (V)",
+        "Young Skywalker"
+      ],
+      "printings": [
+        {
+          "set": "210"
+        }
+      ],
+      "pulledBy": [
+        "A Cunning Warrior",
+        "Gift Of The Mentor",
+        "Son Of Skywalker",
+        "Son Of Skywalker (V)",
+        "Your Thoughts Dwell On Your Mother"
+      ],
+      "rarity": "R1",
+      "set": "210",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "darkSideIcons": 0,
+        "destiny": "0",
+        "gametext": "Light: While Qui-Gon 'communing,' no Force drains here and, once per turn, may deploy Theed Palace Generator from Reserve Deck; reshuffle. Dark:",
+        "icons": [
+          "Interior",
+          "Planet",
+          "Episode I",
+          "Set 16"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/coruscantjeditemplemeditationroom_ai.gif",
+        "lightSideIcons": 2,
+        "subType": "Site",
+        "title": "•Coruscant: Jedi Temple Meditation Room (AI)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Coruscant Jedi Temple Meditation Room (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "216_25",
+      "id": 7374,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "216"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "Light may not attempt to deploy Theed Palace Generator if it is already on table.",
+        "Light may only attempt to deploy Theed Palace Generator during their own deploy phase."
+      ],
+      "set": "216",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "darkSideIcons": 0,
+        "destiny": "0",
+        "errataSymbol": "E1",
+        "gametext": "Light: If Yoda here or [Set 16] Yoda 'communing,' Broken Concentration is canceled and, once per turn, you may subtract 2 from attrition against you. Dark:",
+        "icons": [
+          "Dagobah",
+          "Exterior",
+          "Planet",
+          "Set 16"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/dagobahyodashut_ai.gif",
+        "lightSideIcons": 2,
+        "subType": "Site",
+        "title": "•Dagobah: Yoda's Hut (V) (AI)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Dagobah Yodas Hut (V) (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "216_26",
+      "id": 7375,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "216"
+        }
+      ],
+      "pulledBy": [
+        "Dagobah",
+        "Dagobah (V)",
+        "Our Only Hope (V)"
+      ],
+      "rarity": "R",
+      "rulings": [
+        "Declare attrition subtraction during the power segment, after all battle destinies and attrition destinies have been drawn by both players."
+      ],
+      "set": "216",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "LMFBM"
+      ],
+      "combo": [
+        "Like My Father Before Me + Luke Skywalker, Jedi Knight"
+      ],
+      "conceptBy": "Original concept by Chris Kelly",
+      "front": {
+        "destiny": "4",
+        "errataSymbol": "E1",
+        "gametext": "If an Endor site on table, deploy on table. [Death Star II] Luke is deploy = 6 and may not be Disarmed. If Luke is at a battleground (even as a captive), your battle destiny draws are +1 there and, once during your turn, may deploy Luke's Lightsaber from Reserve Deck (reshuffle) or place a card from hand on Force Pile. [Immune to Alter.]",
+        "icons": [
+          "Set 2"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/likemyfatherbeforeme_ai.gif",
+        "lore": "The final act of Luke's ascension to Jedi Knighthood was sending off his father, draped in the garb of Vader.",
+        "title": "•Like My Father Before Me (AI)",
+        "type": "Effect",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Like My Father Before Me (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "202_5",
+      "id": 7376,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "202"
+        }
+      ],
+      "pulledBy": [
+        "Endor: Anakin's Funeral Pyre"
+      ],
+      "pulls": [
+        "Luke's Lightsaber"
+      ],
+      "rarity": "U",
+      "rulings": [
+        "Although you are allowed to attempt to deploy Luke's Lightsaber when he is a captive at a battleground, it fails to deploy on him (he is inactive)."
+      ],
+      "set": "202",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "ability": "4",
+        "characteristics": [
+          "Information broker",
+          "leader"
+        ],
+        "deploy": "3",
+        "destiny": "3",
+        "forfeit": "5",
+        "gametext": "If you just deployed BB-8 or a Resistance leader to same or related location, may draw top card of Reserve Deck. During your control phase, one of your other Resistance characters present may make a regular move.",
+        "icons": [
+          "Episode VII",
+          "Set 4"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/lorsantekka_ai.gif",
+        "lore": "Information broker. Leader.",
+        "power": "1",
+        "subType": "Resistance",
+        "title": "•Lor San Tekka (AI)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Lor San Tekka (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "204_7",
+      "id": 7377,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "204"
+        }
+      ],
+      "pulledBy": [
+        "Why Does Everyone Want To Go Back To Jakku?!"
+      ],
+      "rarity": "C1",
+      "rulings": [
+        "May respond to his own deployment."
+      ],
+      "set": "204",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "characteristics": [
+          "lightsaber"
+        ],
+        "destiny": "1",
+        "gametext": "Deploy on Mace. May add 1 to Force drain where present. Mace may add 1 to his duel total. May target a character or creature for free. Draw two destiny. Target hit, and its forfeit = 0, if total destiny > defense value.",
+        "icons": [
+          "Episode I",
+          "Set 1"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/macewinduslightsaber_ai.gif",
+        "lore": "Elegant sword of pure energy. 'This is the weapon of a Jedi Knight. Not as clumsy or as random as a blaster.' A lightsaber can be dangerous to an unskilled user.",
+        "subType": "Character",
+        "title": "•Mace Windu's Lightsaber (AI)",
+        "type": "Weapon",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Mace Windus Lightsaber (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "201_21",
+      "id": 7378,
+      "legacy": false,
+      "matchingWeapon": [
+        "Mace Windu"
+      ],
+      "printings": [
+        {
+          "set": "201"
+        }
+      ],
+      "pulledBy": [
+        "Gift Of The Mentor"
+      ],
+      "rarity": "U1",
+      "set": "201",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "characteristics": [
+          "Independent (starship)"
+        ],
+        "deploy": "2",
+        "destiny": "2",
+        "forfeit": "5",
+        "gametext": "May add 2 pilots and 1 passenger. Power, maneuver, and immunity to attrition +1 for each card stacked on A Useless Gesture (limit +3). While Dash or Leebo piloting, immune to attrition < 4.",
+        "hyperspeed": "5",
+        "icons": [
+          "Reflections 2",
+          "Scomp Link",
+          "Independent",
+          "Nav Computer",
+          "Set 18"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/outrider_ai.gif",
+        "lore": "Highly modified Corellian Engineering Corporation YT-2400. KonGar KGDefender military grade ion engines. Griffyn/Y2TG hyperdrive. Never boarded by Imperial customs.",
+        "maneuver": "3",
+        "power": "3",
+        "subType": "Starfighter: Modified Light Freighter",
+        "title": "•Outrider (V) (AI)",
+        "type": "Starship",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Outrider (V) (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "218_27",
+      "id": 7379,
+      "legacy": false,
+      "matching": [
+        "Dash Rendar",
+        "Dash Rendar (V)",
+        "LE-BO2D9 (Leebo)"
+      ],
+      "printings": [
+        {
+          "set": "218"
+        }
+      ],
+      "pulledBy": [
+        "Local Defense",
+        "Local Defense & Put That Down",
+        "Seeking An Audience (V) (only from Lost Pile)",
+        "Yoxgit (V) (only if Outrider (V) drawn for destiny)"
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "More than 3 cards may still be stacked on A Useless Gesture, they just don't grant any further bonus to Outrider (V).",
+        "Even if the +3 bonus has been reached, Outrider (V) may still receive bonuses from other cards (e.g. Special Modifications still adds 2 to maneuver)."
+      ],
+      "set": "218",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "ability": "7",
+        "characteristics": [
+          "Jedi Council member"
+        ],
+        "deploy": "5",
+        "destiny": "2",
+        "extraText": [
+          "Jedi Master"
+        ],
+        "forfeit": "5",
+        "gametext": "Adds 2 to power of anything he pilots. Deploys -2 to same location as Ahsoka (or vice versa). Once per turn, may lose top card of Force Pile to make your character (or piloted [Episode I] starfighter) here forfeit +2 and immune to attrition for remainder of turn.",
+        "icons": [
+          "Coruscant",
+          "Pilot",
+          "Warrior",
+          "Episode I",
+          "Set 10"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/plokoon_ai.gif",
+        "lore": "Kel Dor Jedi Council member descended from a long line of Jedi. Known for exceptional sensory skills, Plo Koon's control of the Force is unmatched by most.",
+        "power": "5",
+        "subType": "Jedi Master",
+        "title": "•Plo Koon (V) (AI)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Plo Koon (V) (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "210_23",
+      "id": 7380,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "210"
+        }
+      ],
+      "rarity": "R",
+      "set": "210",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "RFTTG"
+      ],
+      "front": {
+        "destiny": "0",
+        "gametext": "If Yavin 4 on table, deploy on table. If you just initiated a Force drain at a battleground system (except a 'liberated' system), may draw destiny. Add 1 for each piloted unique (•) snub fighter present at that system. If total destiny > 5, opponent loses 1 Force and stacks lost card face down there (while that card stacked there, system is 'liberated'). If opponent Force drains at a 'liberated' system, place stacked card in owner's Used Pile. At each 'liberated' system, your Force drains are +1 and opponent's starships are deploy +1.",
+        "icons": [
+          "Set 8"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/restorefreedomtothegalaxy_ai.gif",
+        "title": "•Restore Freedom To The Galaxy (AI)",
+        "type": "Epic Event",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Restore Freedom To The Galaxy (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "208_17",
+      "id": 7381,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "208"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "When Light Force drains, Dark gets first optional response, and may cancel the drain (e.g. with Control), preventing Light from responding with a destiny draw attempt to liberate the system.",
+        "When Light liberates a system, the Force drain +1 bonus is immediately applied to the very same Force drain that triggered the liberation.",
+        "When Dark Force drains, placing the stacked card in owner's Used Pile is an automatic response, occurring before optional responses such as Light using Control or Blue Squadron 1 to cancel the drain.",
+        "If a player loses Force from hand to stack under a system, it is first revealed to both players, then stacked face down.",
+        "If a player loses Force from Life Force to stack under a system, it is not revealed to anyone. Stack it face down, unseen.",
+        "Only Dark may view Dark's cards after they are stacked face down under a system."
+      ],
+      "set": "208",
+      "side": "Light"
+    },
+    {
+      "front": {
+        "darkSideIcons": 0,
+        "destiny": "0",
+        "errataSymbol": "E1",
+        "gametext": "Light: While Obi-Wan 'communing,' no Force drains here and, once per turn, may subtract 2 from a just drawn [Permanent Weapon] weapon destiny. Dark:",
+        "icons": [
+          "Exterior",
+          "Planet",
+          "Set 16"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/tatooineobiwanshut_ai.gif",
+        "lightSideIcons": 2,
+        "subType": "Site",
+        "title": "•Tatooine: Obi-Wan's Hut (V) (AI)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Tatooine Obi-Wans Hut (V) (AI)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "216_43",
+      "id": 7382,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "216"
+        }
+      ],
+      "pulledBy": [
+        "Return Of A Jedi (V)"
+      ],
+      "rarity": "R1",
+      "set": "216",
+      "side": "Light"
+    },
+    {
+      "conceptBy": "Original concept by Matt Schmaltz",
+      "front": {
+        "ability": "3",
+        "characteristics": [
+          "leader",
+          "female",
+          "Twi'lek"
+        ],
+        "deploy": "4",
+        "destiny": "3",
+        "extraText": [
+          "Force-Attuned"
+        ],
+        "forfeit": "6",
+        "gametext": "Adds 3 to power of anything she pilots. If with an Imperial (or two Rebels), adds one battle destiny. During battle, if you just drew a destiny < number of Rebels here, may cancel and redraw that destiny.",
+        "icons": [
+          "Pilot",
+          "Warrior",
+          "Set 4"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Light/large/captainherasyndulla_ai2.gif",
+        "lore": "Female Twi'lek leader.",
+        "power": "4",
+        "subType": "Rebel",
+        "title": "•Captain Hera Syndulla (Border Breaker AI)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Captain Hera Syndulla (AI - Border Breaker)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "204_3",
+      "id": 7383,
+      "legacy": false,
+      "matching": [
+        "Ghost"
+      ],
+      "printings": [
+        {
+          "set": "204"
+        }
+      ],
+      "pulledBy": [
+        "Lothal",
+        "Yavin 4: Massassi War Room (V)"
+      ],
+      "rarity": "C",
+      "set": "204",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "CERv"
+      ],
+      "cancels": [
+        "Suspends Ominous Rumors or There Are Many Hunting You Now"
+      ],
+      "combo": [
+        "Dejarik Hologameboard",
+        "General Crix Madine (V)"
+      ],
+      "front": {
+        "characteristics": [
+          "hologram"
+        ],
+        "destiny": "4",
+        "gametext": "USED: Suspend Ominous Rumors or There Are Many Hunting You Now for remainder of turn. OR Take Blount, Orrimaarko, Tala Durith, or [Endor] Chewie into hand from Reserve Deck; reshuffle. LOST: Lose 1 Force to exclude opponent's passenger from battle (then place this Interrupt out of play).",
+        "icons": [
+          "Death Star II",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/criticalerrorrevealed.gif",
+        "lore": "Hologram technology allows efficient communication of complex intelligence during war room briefings.",
+        "subType": "Used Or Lost",
+        "title": "•Critical Error Revealed (V)",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Critical Error Revealed (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_7",
+      "id": 7391,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "pulledBy": [
+        "Holoprojector"
+      ],
+      "pulls": [
+        "Chewbacca Of Kashyyyk",
+        "Chewbacca, Defender Of Kashyyyk",
+        "Lieutenant Blount",
+        "Orrimaarko"
+      ],
+      "rarity": "C",
+      "rulings": [
+        "Suspending Ominous Rumors will flip Endor Operations from the 7-side to the 0-side. When Ominous Rumors is restored to normal (at end of turn), Endor Operations will flip back to the 7-side if the conditions are met.",
+        "General Crix Madine (V) is an optional response that occurs during the response step of playing this Interrupt (before the result). Dark gets first response to Light's action, and if Dark cancels this Interrupt first, then Madine cannot respond to it.",
+        "Lost function: If General Crix Madine (V) is on table, first Light loses 1 Force to pay the cost, then Dark has a chance to respond (e.g. with Sense), then (if not canceled) Light may respond such as with General Crix Madine (V)'s retrieval. Once there are no further responses, the Interrupt has its result and places itself out of play.",
+        "Lost function: If canceled (e.g. by Sense) then this Interrupt does not place itself out of play.",
+        "Lost function: If played successfully (e.g. not canceled by Sense), this card never actually reaches the Lost Pile but instead goes straight out of play."
+      ],
+      "set": "225",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "IDNTSEv"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "USED: Take Houjix, Ounee Ta, or Scanner Techs into hand from Reserve Deck; reshuffle. OR Cancel a Force drain initiated by a lone Slave I. LOST: If an Imperial and a bounty hunter are in a battle together, draw one destiny and subtract that amount from opponent's attrition and total power.",
+        "icons": [
+          "Cloud City",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/idontneedtheirscumeither.gif",
+        "lore": "Of all the scum and villainy Lando had dealt with (pirates, smugglers, con-artists, thieves, swindlers, politicians and Imperial lackeys), he hated bounty hunters the most.",
+        "subType": "Used Or Lost",
+        "title": "•I Don't Need Their Scum, Either (V)",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/I Don't Need Their Scum, Either (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_8",
+      "id": 7392,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "pulls": [
+        "Houjix",
+        "Houjix & Out Of Nowhere",
+        "Ounee Ta (Jabba's Palace Sealed Deck)",
+        "Ounee Ta (Reflections III)",
+        "Ounee Ta (V)",
+        "Scanner Techs",
+        "Scanner Techs (V)"
+      ],
+      "rarity": "R",
+      "rulings": [
+        "Slave I is alone if its owner has no other active characters, vehicles, or starships there (aside from ones aboard Slave I).",
+        "The LOST function can only be initiated if attrition exists (opponent successfully completed a battle destiny draw, even if it was a 0).",
+        "The LOST function is initiated in the power segment after battle destinies (and any attrition destinies) are drawn."
+      ],
+      "set": "225",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "MSHI"
+      ],
+      "combo": [
+        "Leia With Blaster Rifle or Princess Leia (V) + any Han + I Know = 4 battle destiny that cannot be limited",
+        "[Skywalker] Effects: Best Starpilot In The Galaxy and A Cunning Warrior"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "During battle involving Rebel Leia, the number of battle destiny draws may not be limited. OR Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, take Chief Chirpa's Hut or Guest Quarters into hand from Reserve Deck; reshuffle.",
+        "icons": [
+          "Skywalker",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mysisterhasit.gif",
+        "lore": "'He's my brother.'",
+        "subType": "Used",
+        "title": "•My Sister Has It",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/My Sister Has It/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_9",
+      "id": 7393,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "pulls": [
+        "Cloud City: Guest Quarters",
+        "Endor: Chief Chirpa's Hut",
+        "Endor: Chief Chirpa's Hut (V)"
+      ],
+      "rarity": "R",
+      "rulings": [
+        "First function: Players may still initiate an action that would limit battle destiny draws, such as taking a card off I Don't Like Sand or playing the limiting function on Imperial Command & In Range. The limit is simply ignored.",
+        "Second function: The phrase 'unless targeting an Undercover spy' applies to both Force Lightning and 'choke' destiny draws.",
+        "Examples of 'choke' destiny draws: Darth Vader Dark Lord Of The Sith, Physical Choke, and Vader."
+      ],
+      "set": "225",
+      "side": "Light"
+    },
+    {
+      "canceledBy": [
+        "Dead Ewok",
+        "Eee Chu Wawa! (cancels game text)"
+      ],
+      "front": {
+        "ability": "2",
+        "characteristics": [
+          "scout",
+          "Ewok"
+        ],
+        "deploy": "2",
+        "destiny": "3",
+        "forfeit": "3",
+        "gametext": "Deploys only on Endor. Once per game, may take an Endor site into hand from Reserve Deck; reshuffle. Game text of your other scouts here may not be canceled. During any deploy phase, if an Imperial at an adjacent site, Wuta may move to that site (using landspeed) as a regular move.",
+        "icons": [
+          "Endor",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/wuta.gif",
+        "lore": "Ewok explorer. Scout. Searches for fallen trees to make tools. Tracks predators. First to notice the Imperial presence on Endor.",
+        "power": "2",
+        "subType": "Alien",
+        "title": "•Wuta (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Wuta (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_10",
+      "id": 7394,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "pulledBy": [
+        "Chewbacca Of Kashyyyk",
+        "General Crix Madine",
+        "General Crix Madine (V)",
+        "Soth Petikkin"
+      ],
+      "pulls": [
+        "Endor: Anakin's Funeral Pyre",
+        "Endor: Back Door",
+        "Endor: Bunker",
+        "Endor: Bunker (V)",
+        "Endor: Chief Chirpa's Hut",
+        "Endor: Dense Forest",
+        "Endor: Ewok Village",
+        "Endor: Ewok Village (V)",
+        "Endor: Great Forest",
+        "Endor: Hidden Forest Trail",
+        "Endor: Landing Platform (Docking Bay)",
+        "Endor: Rebel Landing Site (Forest)"
+      ],
+      "rarity": "U",
+      "rulings": [
+        "'Deploys only on Endor' may not deploy to the Endor system location.",
+        "If Wuta (V)'s game text is canceled, it is then possible for Light's other scouts there to have their game text canceled. If Wuta (V)'s game text is subsequently restored, the other Light characters game texts would then be restored via Wuta (V)."
+      ],
+      "set": "225",
       "side": "Light"
     }
   ]
