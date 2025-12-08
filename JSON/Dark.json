@@ -373,8 +373,14 @@
       "set": "109",
       "side": "Dark",
       "underlyingCardFor": [
-        "4-LOM With Concussion Rifle (V)",
-        "4-LOM With Concussion Rifle (V) (AI)"
+        {
+          "title": "4-LOM With Concussion Rifle (V)",
+          "cardId": 4019
+        },
+        {
+          "title": "4-LOM With Concussion Rifle (V) (AI)",
+          "cardId": 7133
+        }
       ]
     },
     {
@@ -512,7 +518,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "5D6-RA-7 (Fivedesix) (V)"
+        {
+          "title": "5D6-RA-7 (Fivedesix) (V)",
+          "cardId": 4020
+        }
       ]
     },
     {
@@ -592,7 +601,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "On The Verge Of Greatness / Taking Control Of The Weapon"
+        {
+          "title": "On The Verge Of Greatness / Taking Control Of The Weapon",
+          "cardId": 6914
+        }
       ]
     },
     {
@@ -627,7 +639,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Revenge Of The Sith"
+        {
+          "title": "Revenge Of The Sith",
+          "cardId": 6972
+        }
       ]
     },
     {
@@ -659,8 +674,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Dark Time For The Rebellion (V)",
-        "A Dark Time For The Rebellion & Tarkin's Orders"
+        {
+          "title": "A Dark Time For The Rebellion (V)",
+          "cardId": 4102
+        },
+        {
+          "title": "A Dark Time For The Rebellion & Tarkin's Orders",
+          "cardId": 7047
+        }
       ]
     },
     {
@@ -726,7 +747,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Day Long Remembered (V)"
+        {
+          "title": "A Day Long Remembered (V)",
+          "cardId": 4039
+        }
       ]
     },
     {
@@ -797,7 +821,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hosnian Prime"
+        {
+          "title": "Hosnian Prime",
+          "cardId": 7051
+        }
       ]
     },
     {
@@ -1513,7 +1540,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Admiral Motti (V)"
+        {
+          "title": "Admiral Motti (V)",
+          "cardId": 61
+        }
       ]
     },
     {
@@ -1621,7 +1651,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Admiral Ozzel (V)"
+        {
+          "title": "Admiral Ozzel (V)",
+          "cardId": 6789
+        }
       ]
     },
     {
@@ -1701,7 +1734,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Admiral Piett (V)"
+        {
+          "title": "Admiral Piett (V)",
+          "cardId": 6896
+        }
       ]
     },
     {
@@ -1945,7 +1981,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Never Ask For Anything Twice"
+        {
+          "title": "I Never Ask For Anything Twice",
+          "cardId": 6808
+        }
       ]
     },
     {
@@ -2105,7 +2144,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alert My Star Destroyer! (V)"
+        {
+          "title": "Alert My Star Destroyer! (V)",
+          "cardId": 5191
+        },
+        {
+          "title": "Navy Of The First Order",
+          "cardId": 7408
+        }
       ]
     },
     {
@@ -2185,7 +2231,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Black 5"
+        {
+          "title": "Black 5",
+          "cardId": 4053
+        }
       ]
     },
     {
@@ -2401,8 +2450,14 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alter (Coruscant) (V)",
-        "Surely You Can Do Better"
+        {
+          "title": "Alter (Coruscant) (V)",
+          "cardId": 6083
+        },
+        {
+          "title": "Surely You Can Do Better",
+          "cardId": 7090
+        }
       ]
     },
     {
@@ -2448,7 +2503,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alter (Premiere) (V)"
+        {
+          "title": "Alter (Premiere) (V)",
+          "cardId": 6085
+        }
       ]
     },
     {
@@ -2492,7 +2550,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alter & Collateral Damage (V)"
+        {
+          "title": "Alter & Collateral Damage (V)",
+          "cardId": 6855
+        }
       ]
     },
     {
@@ -2686,8 +2747,14 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Asajj Ventress With Lightsabers",
-        "Asajj Ventress With Lightsabers (AI)"
+        {
+          "title": "Asajj Ventress With Lightsabers",
+          "cardId": 5139
+        },
+        {
+          "title": "Asajj Ventress With Lightsabers (AI)",
+          "cardId": 7006
+        }
       ]
     },
     {
@@ -2785,7 +2852,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "D'Qar"
+        {
+          "title": "D'Qar",
+          "cardId": 6262
+        }
       ]
     },
     {
@@ -2823,7 +2893,13 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Vicrul",
+          "cardId": 7419
+        }
+      ]
     },
     {
       "canceledBy": [
@@ -2861,7 +2937,13 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "AT-M6 Cannon",
+          "cardId": 7395
+        }
+      ]
     },
     {
       "front": {
@@ -2922,7 +3004,10 @@
       "set": "109",
       "side": "Dark",
       "underlyingCardFor": [
-        "Any Methods Necessary (V)"
+        {
+          "title": "Any Methods Necessary (V)",
+          "cardId": 5145
+        }
       ]
     },
     {
@@ -2998,7 +3083,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Apology Accepted (V)"
+        {
+          "title": "Apology Accepted (V)",
+          "cardId": 6090
+        }
       ]
     },
     {
@@ -3101,7 +3189,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Aratech Corporation (V)"
+        {
+          "title": "Aratech Corporation (V)",
+          "cardId": 125
+        }
       ]
     },
     {
@@ -3201,7 +3292,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Arica (V)"
+        {
+          "title": "Arica (V)",
+          "cardId": 4021
+        }
       ]
     },
     {
@@ -3769,7 +3863,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Aurra Sing With Blaster Rifle (AI)"
+        {
+          "cardId": 6874,
+          "title": "Aurra Sing With Blaster Rifle (AI)"
+        }
       ]
     },
     {
@@ -3812,7 +3909,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Aurra Sing With Blaster Rifle"
+        {
+          "cardId": 6783,
+          "title": "Aurra Sing With Blaster Rifle"
+        }
       ]
     },
     {
@@ -3912,7 +4012,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Avenger (V)"
+        {
+          "cardId": 6905,
+          "title": "Avenger (V)"
+        }
       ]
     },
     {
@@ -4032,7 +4135,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "The Client"
+        {
+          "cardId": 6852,
+          "title": "The Client"
+        }
       ]
     },
     {
@@ -4152,7 +4258,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Baniss Keeg, Pilot Instructor"
+        {
+          "cardId": 5020,
+          "title": "Baniss Keeg, Pilot Instructor"
+        }
       ]
     },
     {
@@ -4294,7 +4403,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "You Know What I've Come For"
+        {
+          "cardId": 5200,
+          "title": "You Know What I've Come For"
+        }
       ]
     },
     {
@@ -4337,7 +4449,7 @@
         "destiny": "2",
         "errataSymbol": "E1",
         "forfeit": "3",
-        "gametext": "Deploys only to a Jabba's Palace site. Power = 0 at any location other than a Tatooine site. Power +2 at any Jabba's Palace site while Jabba is on the table. Your transport vehicles lost from same site may go to your Used Pile rather than your Lost Pile.",
+        "gametext": "Deploys only to a Jabba's Palace site. Power = 0 at any location other than a Tatooine site. Power +2 at any Jabba's Palace site, while Jabba on table. Your transport vehicles just lost from same site may be placed in your Used Pile.",
         "icons": [
           "Warrior",
           "Jabba's Palace"
@@ -4702,7 +4814,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Intimidator & Persecutor"
+        {
+          "cardId": 6859,
+          "title": "Intimidator & Persecutor"
+        }
       ]
     },
     {
@@ -4852,7 +4967,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Begin Landing Your Troops & Fighters Straight Ahead"
+        {
+          "cardId": 6955,
+          "title": "Begin Landing Your Troops & Fighters Straight Ahead"
+        }
       ]
     },
     {
@@ -4962,6 +5080,10 @@
         {
           "title": "Mustafar",
           "cardId": 6527
+        },
+        {
+          "title": "The Grand Inquisitor's Lightsaber",
+          "cardId": 7417
         }
       ]
     },
@@ -5002,8 +5124,14 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Admiral Trench",
-        "Admiral Trench (Holo AI)"
+        {
+          "cardId": 6781,
+          "title": "Admiral Trench"
+        },
+        {
+          "cardId": 7148,
+          "title": "Admiral Trench (Holo AI)"
+        }
       ]
     },
     {
@@ -5154,7 +5282,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bib Fortuna, Heir To The Palace"
+        {
+          "cardId": 7123,
+          "title": "Bib Fortuna, Heir To The Palace"
+        }
       ]
     },
     {
@@ -5189,7 +5320,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lothal: Imperial Strip Mines"
+        {
+          "cardId": 7086,
+          "title": "Lothal: Imperial Strip Mines"
+        }
       ]
     },
     {
@@ -5423,7 +5557,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Black 2 (V)"
+        {
+          "cardId": 248,
+          "title": "Black 2 (V)"
+        }
       ]
     },
     {
@@ -5522,7 +5659,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Black 3 (V)"
+        {
+          "cardId": 6125,
+          "title": "Black 3 (V)"
+        }
       ]
     },
     {
@@ -5774,10 +5914,8 @@
     },
     {
       "cancels": [
-        "Blast The Door",
-        "Kid!",
-        "Into The Garbage Chute",
-        "Flyboy",
+        "Blast The Door, Kid!",
+        "Into The Garbage Chute, Flyboy",
         "Narrow Escape",
         "Rebel Barrier"
       ],
@@ -5914,7 +6052,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blaster Rack (V)"
+        {
+          "cardId": 263,
+          "title": "Blaster Rack (V)"
+        }
       ]
     },
     {
@@ -5991,7 +6132,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blaster Rifle (V)"
+        {
+          "cardId": 4062,
+          "title": "Blaster Rifle (V)"
+        }
       ]
     },
     {
@@ -6112,7 +6256,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blizzard 1 (V)"
+        {
+          "cardId": 6956,
+          "title": "Blizzard 1 (V)"
+        }
       ]
     },
     {
@@ -6162,7 +6309,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blizzard 2 (V)"
+        {
+          "cardId": 270,
+          "title": "Blizzard 2 (V)"
+        }
       ]
     },
     {
@@ -6418,7 +6568,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blizzard Scout 1 (V)"
+        {
+          "cardId": 273,
+          "title": "Blizzard Scout 1 (V)"
+        }
       ]
     },
     {
@@ -6517,7 +6670,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Marquand In Blizzard 6"
+        {
+          "cardId": 6513,
+          "title": "Marquand In Blizzard 6"
+        }
       ]
     },
     {
@@ -6659,7 +6815,10 @@
       "set": "14",
       "side": "Dark",
       "underlyingCardFor": [
-        "Invisible Hand: Docking Bay"
+        {
+          "cardId": 6421,
+          "title": "Invisible Hand: Docking Bay"
+        }
       ]
     },
     {
@@ -6700,7 +6859,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Invisible Hand: Hallway 328"
+        {
+          "cardId": 6422,
+          "title": "Invisible Hand: Hallway 328"
+        }
       ]
     },
     {
@@ -6878,7 +7040,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Boba Fett (V)"
+        {
+          "cardId": 6138,
+          "title": "Boba Fett (V)"
+        }
       ]
     },
     {
@@ -6953,6 +7118,7 @@
         "forfeit": "6",
         "gametext": "Adds 3 to power of anything he pilots. Deploys -1 aboard Slave I. Adds one battle destiny with Vader (or while piloting Slave I). Once per game, if a battle was just initiated here, may exchange a card in hand with a card in Reserve Deck; reshuffle.",
         "icons": [
+          "Cloud City",
           "Pilot",
           "Warrior",
           "Set 6"
@@ -7024,7 +7190,10 @@
       "set": "109",
       "side": "Dark",
       "underlyingCardFor": [
-        "Boba Fett In Slave I (V)"
+        {
+          "cardId": 4055,
+          "title": "Boba Fett In Slave I (V)"
+        }
       ]
     },
     {
@@ -7247,7 +7416,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Boba Fett's Blaster Rifle (V)"
+        {
+          "cardId": 5123,
+          "title": "Boba Fett's Blaster Rifle (V)"
+        }
       ]
     },
     {
@@ -7595,7 +7767,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bossk (V)"
+        {
+          "cardId": 309,
+          "title": "Bossk (V)"
+        }
       ]
     },
     {
@@ -7689,7 +7864,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bossk In Hound's Tooth (V)"
+        {
+          "cardId": 4056,
+          "title": "Bossk In Hound's Tooth (V)"
+        }
       ]
     },
     {
@@ -7863,7 +8041,13 @@
         "Only completes if the captive is imprisoned by the original seizing bounty hunter card."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "The Client's Bounty",
+          "cardId": 7415
+        }
+      ]
     },
     {
       "abbr": [
@@ -7982,8 +8166,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Darth Vader, Emperor's Enforcer",
-        "Darth Vader, Emperor's Enforcer (AI)"
+        {
+          "cardId": 5184,
+          "title": "Darth Vader, Emperor's Enforcer"
+        },
+        {
+          "cardId": 7264,
+          "title": "Darth Vader, Emperor's Enforcer (AI)"
+        }
       ]
     },
     {
@@ -8012,7 +8202,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Unlimited Power!"
+        {
+          "cardId": 6976,
+          "title": "Unlimited Power!"
+        }
       ]
     },
     {
@@ -8237,7 +8430,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lady Proxima"
+        {
+          "cardId": 6475,
+          "title": "Lady Proxima"
+        }
       ]
     },
     {
@@ -8282,7 +8478,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Captain Bewil (V)"
+        {
+          "cardId": 5091,
+          "title": "Captain Bewil (V)"
+        }
       ]
     },
     {
@@ -8452,7 +8651,13 @@
       ],
       "rarity": "U",
       "set": "9",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Major Partagaz",
+          "cardId": 7174
+        }
+      ]
     },
     {
       "front": {
@@ -8584,7 +8789,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Captain Khurgee (V)"
+        {
+          "cardId": 6875,
+          "title": "Captain Khurgee (V)"
+        }
       ]
     },
     {
@@ -8687,7 +8895,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Captain Needa (V)"
+        {
+          "cardId": 6958,
+          "title": "Captain Needa (V)"
+        }
       ]
     },
     {
@@ -8964,8 +9175,14 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "General Hux",
-        "General Hux (AI)"
+        {
+          "cardId": 5095,
+          "title": "General Hux"
+        },
+        {
+          "cardId": 7266,
+          "title": "General Hux (AI)"
+        }
       ]
     },
     {
@@ -9081,7 +9298,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Carbonite Chamber Console (V)"
+        {
+          "cardId": 6163,
+          "title": "Carbonite Chamber Console (V)"
+        }
       ]
     },
     {
@@ -9150,7 +9370,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jedha"
+        {
+          "cardId": 5203,
+          "title": "Jedha"
+        }
       ]
     },
     {
@@ -9264,8 +9487,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Captain Phasma",
-        "Captain Phasma (Holo AI)"
+        {
+          "cardId": 5092,
+          "title": "Captain Phasma"
+        },
+        {
+          "cardId": 7007,
+          "title": "Captain Phasma (Holo AI)"
+        }
       ]
     },
     {
@@ -9341,7 +9570,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Chief Bast (V)"
+        {
+          "cardId": 6167,
+          "title": "Chief Bast (V)"
+        }
       ]
     },
     {
@@ -9559,7 +9791,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Governor Pryce"
+        {
+          "cardId": 7079,
+          "title": "Governor Pryce"
+        }
       ]
     },
     {
@@ -9598,7 +9833,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Close Call (V)"
+        {
+          "cardId": 422,
+          "title": "Close Call (V)"
+        }
       ]
     },
     {
@@ -9952,7 +10190,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Coruscant: 500 Republica"
+        {
+          "cardId": 6197,
+          "title": "Coruscant: 500 Republica"
+        }
       ]
     },
     {
@@ -10033,7 +10274,13 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7445,
+          "title": "Cloud City: Dining Room (V)"
+        }
+      ]
     },
     {
       "counterpart": "Cloud City: Downtown Plaza",
@@ -10106,8 +10353,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Coruscant: Private Platform (Docking Bay)",
-        "Mustafar: Private Platform (Docking Bay)"
+        {
+          "cardId": 6203,
+          "title": "Coruscant: Private Platform (Docking Bay)"
+        },
+        {
+          "cardId": 6912,
+          "title": "Mustafar: Private Platform (Docking Bay)"
+        }
       ]
     },
     {
@@ -10144,8 +10397,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Mustafar: Vader's Castle",
-        "Mustafar: Vader's Castle (AI)"
+        {
+          "cardId": 6528,
+          "title": "Mustafar: Vader's Castle"
+        },
+        {
+          "cardId": 7016,
+          "title": "Mustafar: Vader's Castle (AI)"
+        }
       ]
     },
     {
@@ -10181,7 +10440,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Starkiller Base: Interrogation Room (Prison)"
+        {
+          "cardId": 5207,
+          "title": "Starkiller Base: Interrogation Room (Prison)"
+        }
       ]
     },
     {
@@ -10298,7 +10560,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Cloud City: Security Tower (V)"
+        {
+          "cardId": 4052,
+          "title": "Cloud City: Security Tower (V)"
+        }
       ]
     },
     {
@@ -10438,7 +10703,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Thrawn's Art Collection"
+        {
+          "cardId": 7093,
+          "title": "Thrawn's Art Collection"
+        }
       ]
     },
     {
@@ -10476,7 +10744,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Elan Sleazebaggano"
+        {
+          "cardId": 7076,
+          "title": "Elan Sleazebaggano"
+        }
       ]
     },
     {
@@ -10504,7 +10775,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Cold Feet (V)"
+        {
+          "cardId": 4103,
+          "title": "Cold Feet (V)"
+        }
       ]
     },
     {
@@ -10593,8 +10867,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Force Freeze",
-        "Moff Gideon"
+        {
+          "cardId": 5103,
+          "title": "Force Freeze"
+        },
+        {
+          "cardId": 6784,
+          "title": "Moff Gideon"
+        }
       ]
     },
     {
@@ -10685,7 +10965,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Deputy Director Harus Ison"
+        {
+          "cardId": 6960,
+          "title": "Deputy Director Harus Ison"
+        }
       ]
     },
     {
@@ -10860,7 +11143,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Colonel Wullf Yularen (V)"
+        {
+          "cardId": 4096,
+          "title": "Colonel Wullf Yularen (V)"
+        }
       ]
     },
     {
@@ -10971,7 +11257,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Combat Readiness (V)"
+        {
+          "cardId": 481,
+          "title": "Combat Readiness (V)"
+        }
       ]
     },
     {
@@ -11045,7 +11334,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Combat Response (V)"
+        {
+          "cardId": 4040,
+          "title": "Combat Response (V)"
+        }
       ]
     },
     {
@@ -11221,7 +11513,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "The Dead Speak!"
+        {
+          "cardId": 6853,
+          "title": "The Dead Speak!"
+        }
       ]
     },
     {
@@ -11258,8 +11553,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Steadfast",
-        "Steadfast (AI)"
+        {
+          "cardId": 6860,
+          "title": "Steadfast"
+        },
+        {
+          "cardId": 7270,
+          "title": "Steadfast (AI)"
+        }
       ]
     },
     {
@@ -11348,7 +11649,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Commander Brandei (V)"
+        {
+          "cardId": 6181,
+          "title": "Commander Brandei (V)"
+        }
       ]
     },
     {
@@ -11434,8 +11738,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Director Orson Krennic",
-        "Director Orson Krennic (AI)"
+        {
+          "cardId": 5154,
+          "title": "Director Orson Krennic"
+        },
+        {
+          "cardId": 7265,
+          "title": "Director Orson Krennic (AI)"
+        }
       ]
     },
     {
@@ -11484,7 +11794,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "General Nevar"
+        {
+          "cardId": 5005,
+          "title": "General Nevar"
+        }
       ]
     },
     {
@@ -11653,7 +11966,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Commander Nemet (V)"
+        {
+          "cardId": 5022,
+          "title": "Commander Nemet (V)"
+        }
       ]
     },
     {
@@ -11808,7 +12124,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Commence Primary Ignition (V)"
+        {
+          "cardId": 6187,
+          "title": "Commence Primary Ignition (V)"
+        }
       ]
     },
     {
@@ -12025,7 +12344,14 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Conquest (V)"
+        {
+          "cardId": 4000,
+          "title": "Conquest (V)"
+        },
+        {
+          "cardId": 7135,
+          "title": "Conquest (V) (AI)"
+        }
       ]
     },
     {
@@ -12649,7 +12975,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Corporal Vandolay (V)"
+        {
+          "cardId": 552,
+          "title": "Corporal Vandolay (V)"
+        }
       ]
     },
     {
@@ -12724,7 +13053,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Never Ask That Question"
+        {
+          "cardId": 6371,
+          "title": "I Never Ask That Question"
+        }
       ]
     },
     {
@@ -12871,7 +13203,13 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7446,
+          "title": "Coruscant (V)"
+        }
+      ]
     },
     {
       "counterpart": "Coruscant",
@@ -12946,7 +13284,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Coruscant Guard (V)"
+        {
+          "cardId": 6959,
+          "title": "Coruscant Guard (V)"
+        }
       ]
     },
     {
@@ -13020,7 +13361,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Scarif: Landing Pad Five (Docking Bay)"
+        {
+          "cardId": 6920,
+          "title": "Scarif: Landing Pad Five (Docking Bay)"
+        }
       ]
     },
     {
@@ -13091,7 +13435,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lord Sidious"
+        {
+          "cardId": 5188,
+          "title": "Lord Sidious"
+        }
       ]
     },
     {
@@ -13124,8 +13471,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Coruscant: Imperial City (V)",
-        "Lothal: Imperial Complex"
+        {
+          "cardId": 4106,
+          "title": "Coruscant: Imperial City (V)"
+        },
+        {
+          "cardId": 7085,
+          "title": "Lothal: Imperial Complex"
+        }
       ]
     },
     {
@@ -13541,7 +13894,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Crossfire (Endor) (V)"
+        {
+          "cardId": 6907,
+          "title": "Crossfire (Endor) (V)"
+        }
       ]
     },
     {
@@ -13570,7 +13926,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Crossfire (V)"
+        {
+          "cardId": 6908,
+          "title": "Crossfire (V)"
+        }
       ]
     },
     {
@@ -13610,7 +13969,10 @@
       "set": "109",
       "side": "Dark",
       "underlyingCardFor": [
-        "Crush The Rebellion (V)"
+        {
+          "cardId": 7049,
+          "title": "Crush The Rebellion (V)"
+        }
       ]
     },
     {
@@ -13647,7 +14009,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "IG MagnaGuard"
+        {
+          "cardId": 6376,
+          "title": "IG MagnaGuard"
+        }
       ]
     },
     {
@@ -13759,7 +14124,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dannik Jerriko (V)"
+        {
+          "cardId": 6898,
+          "title": "Dannik Jerriko (V)"
+        }
       ]
     },
     {
@@ -13996,7 +14364,13 @@
         "If Alter is played in response to the attempted deployment of this Effect, this Effect's game text may not be used yet."
       ],
       "set": "102",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Master Sidious",
+          "cardId": 7406
+        }
+      ]
     },
     {
       "front": {
@@ -14032,7 +14406,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dathomir: Maul's Chambers"
+        {
+          "cardId": 6811,
+          "title": "Dathomir: Maul's Chambers"
+        }
       ]
     },
     {
@@ -14070,7 +14447,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dark Jedi Lightsaber (V)"
+        {
+          "cardId": 6216,
+          "title": "Dark Jedi Lightsaber (V)"
+        }
       ]
     },
     {
@@ -14164,8 +14544,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Count Dooku",
-        "Count Dooku (AI)"
+        {
+          "cardId": 4022,
+          "title": "Count Dooku"
+        },
+        {
+          "cardId": 7136,
+          "title": "Count Dooku (AI)"
+        }
       ]
     },
     {
@@ -14270,8 +14656,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Supreme Leader Snoke",
-        "Supreme Leader Snoke (Holo AI)"
+        {
+          "cardId": 6669,
+          "title": "Supreme Leader Snoke"
+        },
+        {
+          "cardId": 7019,
+          "title": "Supreme Leader Snoke (Holo AI)"
+        }
       ]
     },
     {
@@ -14869,7 +15261,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Darth Vader (V)"
+        {
+          "cardId": 635,
+          "title": "Darth Vader (V)"
+        }
       ]
     },
     {
@@ -15163,7 +15558,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Darth Vader's Lightsaber (V)"
+        {
+          "cardId": 5211,
+          "title": "Darth Vader's Lightsaber (V)"
+        }
       ]
     },
     {
@@ -15253,7 +15651,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dathcha (V)"
+        {
+          "cardId": 5111,
+          "title": "Dathcha (V)"
+        }
       ]
     },
     {
@@ -15343,7 +15744,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Daultay Dofine (V)"
+        {
+          "cardId": 7075,
+          "title": "Daultay Dofine (V)"
+        }
       ]
     },
     {
@@ -15472,7 +15876,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Death Squadron Assignment"
+        {
+          "cardId": 6231,
+          "title": "Death Squadron Assignment"
+        }
       ]
     },
     {
@@ -15548,7 +15955,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Binder"
+        {
+          "cardId": 5008,
+          "title": "Binder"
+        }
       ]
     },
     {
@@ -15895,7 +16305,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Exegol: Sith Throne"
+        {
+          "cardId": 6856,
+          "title": "Exegol: Sith Throne"
+        }
       ]
     },
     {
@@ -16068,7 +16481,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Scarif: Citadel Tower"
+        {
+          "cardId": 6918,
+          "title": "Scarif: Citadel Tower"
+        }
       ]
     },
     {
@@ -16276,7 +16692,10 @@
       "set": "101",
       "side": "Dark",
       "underlyingCardFor": [
-        "Starkiller Base: Shield Control"
+        {
+          "cardId": 5208,
+          "title": "Starkiller Base: Shield Control"
+        }
       ]
     },
     {
@@ -16343,7 +16762,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Death Star: War Room (V)"
+        {
+          "cardId": 5201,
+          "title": "Death Star: War Room (V)"
+        }
       ]
     },
     {
@@ -16444,7 +16866,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bow To The First Order"
+        {
+          "cardId": 5101,
+          "title": "Bow To The First Order"
+        }
       ]
     },
     {
@@ -16550,7 +16975,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Defensive Fire (V)"
+        {
+          "cardId": 690,
+          "title": "Defensive Fire (V)"
+        }
       ]
     },
     {
@@ -16640,8 +17068,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Deflector Shield Generators (V)",
-        "Shield Gate"
+        {
+          "cardId": 5026,
+          "title": "Deflector Shield Generators (V)"
+        },
+        {
+          "cardId": 6921,
+          "title": "Shield Gate"
+        }
       ]
     },
     {
@@ -16705,8 +17139,14 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alien Mob",
-        "First Light: Reception Area"
+        {
+          "cardId": 6904,
+          "title": "Alien Mob"
+        },
+        {
+          "cardId": 6815,
+          "title": "First Light: Reception Area"
+        }
       ]
     },
     {
@@ -16765,7 +17205,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dengar (V)"
+        {
+          "cardId": 5112,
+          "title": "Dengar (V)"
+        }
       ]
     },
     {
@@ -16788,6 +17231,7 @@
         "forfeit": "5",
         "gametext": "While escorting a captive or piloting Punishing One, adds one battle destiny. If a character is about to be 'hit' by Dengar, he may capture that character instead. Once per game, may take Bounty or a blaster into hand from Reserve Deck; reshuffle.",
         "icons": [
+          "Dagobah",
           "Pilot",
           "Warrior",
           "Set 5"
@@ -16932,7 +17376,10 @@
       "set": "110",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dengar With Blaster Carbine (V)"
+        {
+          "cardId": 4023,
+          "title": "Dengar With Blaster Carbine (V)"
+        }
       ]
     },
     {
@@ -17162,7 +17609,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Despair (V)"
+        {
+          "cardId": 715,
+          "title": "Despair (V)"
+        }
       ]
     },
     {
@@ -17365,7 +17815,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Devastator (V)"
+        {
+          "cardId": 6911,
+          "title": "Devastator (V)"
+        }
       ]
     },
     {
@@ -17770,7 +18223,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Black Sun Blaster"
+        {
+          "cardId": 6819,
+          "title": "Black Sun Blaster"
+        }
       ]
     },
     {
@@ -17819,7 +18275,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Djas Puhr (V)"
+        {
+          "cardId": 742,
+          "title": "Djas Puhr (V)"
+        }
       ]
     },
     {
@@ -18173,9 +18632,18 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Double Back (V)",
-        "Gar Saxon",
-        "He's No Good To Me Dead"
+        {
+          "cardId": 5196,
+          "title": "Double Back (V)"
+        },
+        {
+          "cardId": 6962,
+          "title": "Gar Saxon"
+        },
+        {
+          "cardId": 7050,
+          "title": "He's No Good To Me Dead"
+        }
       ]
     },
     {
@@ -18457,7 +18925,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "You'll Be Dead!"
+        {
+          "cardId": 4046,
+          "title": "You'll Be Dead!"
+        }
       ]
     },
     {
@@ -18695,7 +19166,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Want That Map / And Now You'll Give It To Me"
+        {
+          "cardId": 6373,
+          "title": "I Want That Map / And Now You'll Give It To Me"
+        }
       ]
     },
     {
@@ -18728,7 +19202,10 @@
       "set": "14",
       "side": "Dark",
       "underlyingCardFor": [
-        "Droid Racks (V)"
+        {
+          "cardId": 5192,
+          "title": "Droid Racks (V)"
+        }
       ]
     },
     {
@@ -18990,7 +19467,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Drop! (V)"
+        {
+          "cardId": 7124,
+          "title": "Drop! (V)"
+        }
       ]
     },
     {
@@ -19110,7 +19590,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lt. Poldin Lehuse"
+        {
+          "cardId": 6500,
+          "title": "Lt. Poldin Lehuse"
+        }
       ]
     },
     {
@@ -19129,7 +19612,7 @@
           "Warrior"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Dark/large/ds613.gif",
-        "lore": "Vader's right wingman. Flies Black 3. Reputation for ferocity in combat. Corellian pilot with excellent skills. Nicknamed 'Backstabber.'",
+        "lore": "Pilot DS-61-3. Vader's right wingman. Flies Black 3. Reputation for ferocity in combat. Corellian pilot with excellent skills. Nicknamed 'Backstabber.'",
         "power": "3",
         "subType": "Imperial",
         "title": "•DS-61-3",
@@ -19154,7 +19637,13 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "DS-61-3 (V)",
+          "cardId": 7402
+        }
+      ]
     },
     {
       "front": {
@@ -19488,7 +19977,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sergeant Narthax With E-web Blaster"
+        {
+          "cardId": 6632,
+          "title": "Sergeant Narthax With E-web Blaster"
+        }
       ]
     },
     {
@@ -20037,8 +20529,14 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Emperor Palpatine, Foreseer",
-        "Insidious Prisoner"
+        {
+          "cardId": 5113,
+          "title": "Emperor Palpatine, Foreseer"
+        },
+        {
+          "cardId": 6416,
+          "title": "Insidious Prisoner"
+        }
       ]
     },
     {
@@ -20264,7 +20762,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Endor Shield (V)"
+        {
+          "cardId": 4099,
+          "title": "Endor Shield (V)"
+        }
       ]
     },
     {
@@ -20735,7 +21236,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Black 6"
+        {
+          "cardId": 5009,
+          "title": "Black 6"
+        }
       ]
     },
     {
@@ -20882,7 +21386,10 @@
       "set": "102",
       "side": "Dark",
       "underlyingCardFor": [
-        "Eriadu (V)"
+        {
+          "cardId": 6961,
+          "title": "Eriadu (V)"
+        }
       ]
     },
     {
@@ -20921,7 +21428,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vanee"
+        {
+          "cardId": 6733,
+          "title": "Vanee"
+        },
+        {
+          "cardId": 7272,
+          "title": "Vanee (AI)"
+        }
       ]
     },
     {
@@ -20961,7 +21475,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Establish Control (V)"
+        {
+          "cardId": 4041,
+          "title": "Establish Control (V)"
+        }
       ]
     },
     {
@@ -21035,7 +21552,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Establish Secret Base (V)"
+        {
+          "cardId": 5161,
+          "title": "Establish Secret Base (V)"
+        }
       ]
     },
     {
@@ -21262,8 +21782,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Finalizer",
-        "Finalizer (AI)"
+        {
+          "cardId": 5106,
+          "title": "Finalizer"
+        },
+        {
+          "cardId": 7011,
+          "title": "Finalizer (AI)"
+        }
       ]
     },
     {
@@ -21300,7 +21826,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Scarif: Command Center"
+        {
+          "cardId": 6919,
+          "title": "Scarif: Command Center"
+        }
       ]
     },
     {
@@ -21337,8 +21866,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Executor: Control Station (V)",
-        "Invisible Hand: Bridge"
+        {
+          "cardId": 6812,
+          "title": "Executor: Control Station (V)"
+        },
+        {
+          "cardId": 6420,
+          "title": "Invisible Hand: Bridge"
+        }
       ]
     },
     {
@@ -21456,7 +21991,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Invisible Hand: Observatory Entrance"
+        {
+          "cardId": 6423,
+          "title": "Invisible Hand: Observatory Entrance"
+        }
       ]
     },
     {
@@ -21558,7 +22096,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Imperial Entanglements / No One To Stop Us This Time"
+        {
+          "cardId": 6397,
+          "title": "Imperial Entanglements / No One To Stop Us This Time"
+        }
       ]
     },
     {
@@ -21667,7 +22208,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Failure At The Cave (V)"
+        {
+          "cardId": 6801,
+          "title": "Failure At The Cave (V)"
+        }
       ]
     },
     {
@@ -21770,7 +22314,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Fanfare (V)"
+        {
+          "cardId": 4402,
+          "title": "Fanfare (V)"
+        }
       ]
     },
     {
@@ -21829,7 +22376,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Fanfare (Tatooine) (V)"
+        {
+          "cardId": 6293,
+          "title": "Fanfare (Tatooine) (V)"
+        }
       ]
     },
     {
@@ -21952,8 +22502,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Far More Frightening Than Death",
-        "Xizor's Bounty"
+        {
+          "cardId": 6807,
+          "title": "Far More Frightening Than Death"
+        },
+        {
+          "cardId": 5144,
+          "title": "Xizor's Bounty"
+        }
       ]
     },
     {
@@ -21991,7 +22547,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Evil Is Everywhere"
+        {
+          "cardId": 6785,
+          "title": "Evil Is Everywhere"
+        }
       ]
     },
     {
@@ -22028,7 +22587,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tarkin Doctrine"
+        {
+          "cardId": 4045,
+          "title": "Tarkin Doctrine"
+        }
       ]
     },
     {
@@ -22513,7 +23075,13 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Supremacy",
+          "cardId": 7411
+        }
+      ]
     },
     {
       "combo": [
@@ -22902,7 +23470,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Force Field (V)"
+        {
+          "cardId": 4049,
+          "title": "Force Field (V)"
+        }
       ]
     },
     {
@@ -23058,7 +23629,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Force Push (V)"
+        {
+          "cardId": 4050,
+          "title": "Force Push (V)"
+        }
       ]
     },
     {
@@ -23195,7 +23769,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Starkiller Base: Forest"
+        {
+          "cardId": 5206,
+          "title": "Starkiller Base: Forest"
+        }
       ]
     },
     {
@@ -23390,7 +23967,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Stormtrooper Patrol"
+        {
+          "cardId": 5099,
+          "title": "Stormtrooper Patrol"
+        }
       ]
     },
     {
@@ -23426,8 +24006,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dr. Chelli Lona Aphra",
-        "Dr. Chelli Lona Aphra (AI)"
+        {
+          "cardId": 6263,
+          "title": "Dr. Chelli Lona Aphra"
+        },
+        {
+          "cardId": 7008,
+          "title": "Dr. Chelli Lona Aphra (AI)"
+        }
       ]
     },
     {
@@ -23455,7 +24041,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Wat Tambor"
+        {
+          "cardId": 6977,
+          "title": "Wat Tambor"
+        }
       ]
     },
     {
@@ -23468,7 +24057,7 @@
           "Medical Droid"
         ],
         "forfeit": "3",
-        "gametext": "Once per turn, one of your 'hit' non-droid characters at same or adjacent site may go to your Used Pile rather than your Lost Pile.",
+        "gametext": "Once per turn, one of your 'hit' non-droid characters at same or adjacent site may be placed in your Used Pile instead of Lost Pile when forfeited.",
         "icons": [
           "Hoth"
         ],
@@ -23632,7 +24221,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tragedy Of Plagueis"
+        {
+          "cardId": 6975,
+          "title": "Tragedy Of Plagueis"
+        }
       ]
     },
     {
@@ -23696,7 +24288,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hylobon Enforcer"
+        {
+          "cardId": 6791,
+          "title": "Hylobon Enforcer"
+        }
       ]
     },
     {
@@ -23773,7 +24368,13 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7448,
+          "title": "Garindan, Imperial Spy"
+        }
+      ]
     },
     {
       "front": {
@@ -24176,7 +24777,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "General Veers (V)"
+        {
+          "cardId": 1030,
+          "title": "General Veers (V)"
+        }
       ]
     },
     {
@@ -24506,9 +25110,18 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Grand Admiral Thrawn (V)",
-        "Grand Admiral Thrawn (V) (AI)",
-        "Mitth'raw'nuruodo"
+        {
+          "cardId": 5155,
+          "title": "Grand Admiral Thrawn (V)"
+        },
+        {
+          "cardId": 7122,
+          "title": "Grand Admiral Thrawn (V) (AI)"
+        },
+        {
+          "cardId": 6522,
+          "title": "Mitth'raw'nuruodo"
+        }
       ]
     },
     {
@@ -24623,7 +25236,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Grand Moff Tarkin (V)"
+        {
+          "cardId": 4026,
+          "title": "Grand Moff Tarkin (V)"
+        }
       ]
     },
     {
@@ -24700,7 +25316,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Coarse And Rough And Irritating"
+        {
+          "cardId": 1276,
+          "title": "Coarse And Rough And Irritating"
+        }
       ]
     },
     {
@@ -24827,7 +25446,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Greedo (V)"
+        {
+          "cardId": 5096,
+          "title": "Greedo (V)"
+        }
       ]
     },
     {
@@ -24964,7 +25586,13 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7449,
+          "title": "Guri (V)"
+        }
+      ]
     },
     {
       "front": {
@@ -25024,7 +25652,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kylo Ren's Lightsaber"
+        {
+          "cardId": 5109,
+          "title": "Kylo Ren's Lightsaber"
+        }
       ]
     },
     {
@@ -25054,7 +25685,13 @@
         "May target a character aboard a starship or vehicle. If successful, the character is removed from the starship or vehicle and becomes missing at that site."
       ],
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Crait: Salt Plateau",
+          "cardId": 7401
+        }
+      ]
     },
     {
       "front": {
@@ -25154,7 +25791,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Officer Valin Hess"
+        {
+          "title": "More! MORE!!!!",
+          "cardId": 7407
+        },
+        {
+          "title": "Officer Valin Hess",
+          "cardId": 6969
+        }
       ]
     },
     {
@@ -25300,7 +25944,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Quiggold"
+        {
+          "cardId": 5156,
+          "title": "Quiggold"
+        }
       ]
     },
     {
@@ -25331,7 +25978,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "He's All Yours, Bounty Hunter (V)"
+        {
+          "cardId": 6349,
+          "title": "He's All Yours, Bounty Hunter (V)"
+        }
       ]
     },
     {
@@ -25400,8 +26050,14 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Darksaber",
-        "Darksaber (AI)"
+        {
+          "cardId": 6861,
+          "title": "Darksaber"
+        },
+        {
+          "cardId": 7263,
+          "title": "Darksaber (AI)"
+        }
       ]
     },
     {
@@ -25590,7 +26246,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Working Much More Closely"
+        {
+          "cardId": 6810,
+          "title": "Working Much More Closely"
+        }
       ]
     },
     {
@@ -25619,7 +26278,13 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Tracked Fleet",
+          "cardId": 7418
+        }
+      ]
     },
     {
       "front": {
@@ -25701,7 +26366,13 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "The First Order Reigns / The Resistance Is Doomed",
+          "cardId": 7416
+        }
+      ]
     },
     {
       "counterpart": "Hoth",
@@ -25737,8 +26408,18 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Starkiller Base",
-        "Starkiller Base (AI)"
+        {
+          "title": "Crait",
+          "cardId": 7399
+        },
+        {
+          "title": "Starkiller Base",
+          "cardId": 5204
+        },
+        {
+          "title": "Starkiller Base (AI)",
+          "cardId": 7018
+        }
       ]
     },
     {
@@ -25872,7 +26553,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Starkiller Base: Docking Bay"
+        {
+          "title": "Crait: Outpost Entrance Cavern",
+          "cardId": 7400
+        },
+        {
+          "title": "Starkiller Base: Docking Bay",
+          "cardId": 5205
+        }
       ]
     },
     {
@@ -25904,8 +26592,14 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hoth: Ice Plains (5th Marker) (V)",
-        "Hoth: Ice Plains (5th Marker) (V) (AI)"
+        {
+          "cardId": 6356,
+          "title": "Hoth: Ice Plains (5th Marker) (V)"
+        },
+        {
+          "cardId": 7267,
+          "title": "Hoth: Ice Plains (5th Marker) (V) (AI)"
+        }
       ]
     },
     {
@@ -26001,7 +26695,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hoth: North Ridge (4th Marker) (V)"
+        {
+          "cardId": 6964,
+          "title": "Hoth: North Ridge (4th Marker) (V)"
+        }
       ]
     },
     {
@@ -26076,7 +26773,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hound's Tooth (V)"
+        {
+          "cardId": 1186,
+          "title": "Hound's Tooth (V)"
+        }
       ]
     },
     {
@@ -26201,7 +26901,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hunt Down And Destroy The Jedi / Their Fire Has Gone Out Of The Universe (V)"
+        {
+          "cardId": 6821,
+          "title": "Hunt Down And Destroy The Jedi / Their Fire Has Gone Out Of The Universe (V)"
+        }
       ]
     },
     {
@@ -26234,7 +26937,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Hunting Party (V)"
+        {
+          "cardId": 5110,
+          "title": "Hunting Party (V)"
+        }
       ]
     },
     {
@@ -26613,7 +27319,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Can't Shake Him! (V)"
+        {
+          "cardId": 4002,
+          "title": "I Can't Shake Him! (V)"
+        }
       ]
     },
     {
@@ -26749,7 +27458,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Have You Now (V)"
+        {
+          "cardId": 7052,
+          "title": "I Have You Now (V)"
+        }
       ]
     },
     {
@@ -27102,8 +27814,14 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Darth Maul, Lone Hunter",
-        "Darth Maul, Lone Hunter (AI)"
+        {
+          "cardId": 5023,
+          "title": "Darth Maul, Lone Hunter"
+        },
+        {
+          "cardId": 7137,
+          "title": "Darth Maul, Lone Hunter (AI)"
+        }
       ]
     },
     {
@@ -27250,7 +27968,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "IG-88 (V)"
+        {
+          "cardId": 1246,
+          "title": "IG-88 (V)"
+        }
       ]
     },
     {
@@ -27480,7 +28201,13 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "IG-88's Pulse Cannon (V)",
+          "cardId": 7405
+        }
+      ]
     },
     {
       "canceledBy": [
@@ -27542,6 +28269,8 @@
       "pulls": [
         "Cloud City: Carbonite Chamber",
         "Cloud City: Chasm Walkway",
+        "Cloud City: Chasm Walkway (V)",
+        "Cloud City: Dining Room (V)",
         "Cloud City: Incinerator",
         "Cloud City: Interrogation Room",
         "Cloud City: Lower Corridor",
@@ -27550,7 +28279,13 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7450,
+          "title": "I'm Sorry (V)"
+        }
+      ]
     },
     {
       "front": {
@@ -27622,7 +28357,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Image Of The Dark Lord (V)"
+        {
+          "cardId": 1254,
+          "title": "Image Of The Dark Lord (V)"
+        }
       ]
     },
     {
@@ -27693,9 +28431,18 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Imbalance & Kintan Strider",
-        "Maul",
-        "Maul (Holo AI)"
+        {
+          "cardId": 4051,
+          "title": "Imbalance & Kintan Strider"
+        },
+        {
+          "cardId": 6800,
+          "title": "Maul"
+        },
+        {
+          "cardId": 7273,
+          "title": "Maul (Holo AI)"
+        }
       ]
     },
     {
@@ -27876,7 +28623,8 @@
         "Read this as owner's move phase and <u>any</u> exterior sites (not as owner's move phase and <u>owner's</u> exterior sites).",
         "For Nabrun and Elis, the origin site and the destination site must <u>both</u> be exterior (interior/exterior sites such as Death Star: Docking Bay are allowed).",
         "Light has the option to decline and cancel the retrieval.",
-        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards."
+        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards.",
+        "If Light is to search their Lost Pile to retrieve card(s) that meet specific criteria, Light searches first, then pays for Secret Plans only if they find valid card(s) and choose to retrieve."
       ],
       "set": "12",
       "side": "Dark"
@@ -27983,13 +28731,15 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "F-11D Blaster Rifle"
+        {
+          "cardId": 5108,
+          "title": "F-11D Blaster Rifle"
+        }
       ]
     },
     {
       "cancels": [
-        "Into The Garbage Chute",
-        "Flyboy",
+        "Into The Garbage Chute, Flyboy",
         "Scomp Link Access"
       ],
       "front": {
@@ -28013,7 +28763,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Imperial Code Cylinder (V)"
+        {
+          "cardId": 6806,
+          "title": "Imperial Code Cylinder (V)"
+        }
       ]
     },
     {
@@ -28216,7 +28969,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Imperial Enforcement"
+        {
+          "cardId": 1271,
+          "title": "Imperial Enforcement"
+        }
       ]
     },
     {
@@ -28464,7 +29220,7 @@
       ],
       "counterpart": "I Don't Like Sand",
       "front": {
-        "destiny": "3",
+        "destiny": "4",
         "gametext": "Deploy on table; shuffle your Reserve Deck, peek at top two cards, and stack them face-up here. During battle, may take a card here into hand to prevent all battle destiny draws from being modified or canceled (each player may draw no more than one battle destiny). (Immune to Alter.)",
         "icons": [
           "Episode I",
@@ -28491,7 +29247,7 @@
         "We Must Accelerate Our Plans",
         "Surface Defense (V)"
       ],
-      "rarity": "C2",
+      "rarity": "U2",
       "rulings": [
         "Preventing destiny draws from being modified even prevents global modifiers such as from the Silence Is Golden (V) and the Senate Objective.",
         "Preventing destiny draws from being modified can be circumvented with a substituted destiny that has been modified <u>before</u> the substitution (e.g. Darklighter Spin on a modified maneuver value, or a senator on Sando Aqua Monster that is already receiving a global modifier from the Senate Objective)."
@@ -28723,7 +29479,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Thrawn Pincer"
+        {
+          "cardId": 7092,
+          "title": "Thrawn Pincer"
+        }
       ]
     },
     {
@@ -28761,8 +29520,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Agent Kallus",
-        "Agent Kallus (AI)"
+        {
+          "cardId": 5019,
+          "title": "Agent Kallus"
+        },
+        {
+          "cardId": 6078,
+          "title": "Agent Kallus (AI)"
+        }
       ]
     },
     {
@@ -28841,7 +29606,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Understand Art, Understand A Species"
+        {
+          "cardId": 7096,
+          "title": "Understand Art, Understand A Species"
+        }
       ]
     },
     {
@@ -28961,7 +29729,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Imperial Command & In Range"
+        {
+          "cardId": 7041,
+          "title": "Imperial Command & In Range"
+        }
       ]
     },
     {
@@ -29138,8 +29909,18 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Lawless Time",
-        "A Lawless Time (AI)"
+        {
+          "cardId": 6805,
+          "title": "A Lawless Time"
+        },
+        {
+          "cardId": 7262,
+          "title": "A Lawless Time (AI)"
+        },
+        {
+          "cardId": 7451,
+          "title": "Information Exchange (V)"
+        }
       ]
     },
     {
@@ -29211,8 +29992,14 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "According To My Design",
-        "Insignificant Rebellion (V)"
+        {
+          "cardId": 4101,
+          "title": "According To My Design"
+        },
+        {
+          "cardId": 6788,
+          "title": "Insignificant Rebellion (V)"
+        }
       ]
     },
     {
@@ -29349,7 +30136,10 @@
       "set": "14",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Stunning Move / A Valuable Hostage"
+        {
+          "cardId": 6064,
+          "title": "A Stunning Move / A Valuable Hostage"
+        }
       ]
     },
     {
@@ -29726,7 +30516,8 @@
       "rulings": [
         "Increases the original Force loss amount, for example a Force drain of 1 could be increased to a drain of 6, then finally the damage capped to 2 by Ultimatum.",
         "When increasing the loss from a Force drain, It's Worse is a Force drain modifier and a Force drain bonus. As such, its increase to a Force drain can be entirely eliminated by (for example) Menace Fades, Great Warrior, or The Planet That It's Farthest From.",
-        "Responses to the original Force loss are no longer possible, for example a Force drain that has been increased can no longer be canceled by Control."
+        "Responses to the original Force loss are no longer possible, for example a Force drain that has been increased can no longer be canceled by Control.",
+        "See It Could Be Worse for additional rulings."
       ],
       "set": "1",
       "side": "Dark"
@@ -29930,7 +30721,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jabba The Hutt (V)"
+        {
+          "cardId": 1347,
+          "title": "Jabba The Hutt (V)"
+        }
       ]
     },
     {
@@ -30098,7 +30892,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jabba's Haven"
+        {
+          "cardId": 4100,
+          "title": "Jabba's Haven"
+        }
       ]
     },
     {
@@ -30146,7 +30943,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Malachor: Sith Temple Upper Chamber"
+        {
+          "cardId": 6816,
+          "title": "Malachor: Sith Temple Upper Chamber"
+        }
       ]
     },
     {
@@ -30185,7 +30985,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lothal: Advanced Projects Laboratory"
+        {
+          "cardId": 7083,
+          "title": "Lothal: Advanced Projects Laboratory"
+        }
       ]
     },
     {
@@ -30228,7 +31031,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Malachor: Sith Temple Gateway"
+        {
+          "cardId": 6967,
+          "title": "Malachor: Sith Temple Gateway"
+        }
       ]
     },
     {
@@ -30268,7 +31074,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Malachor: Sith Temple Entrance"
+        {
+          "cardId": 6817,
+          "title": "Malachor: Sith Temple Entrance"
+        }
       ]
     },
     {
@@ -30441,7 +31250,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jabba's Sail Barge (V)"
+        {
+          "cardId": 5135,
+          "title": "Jabba's Sail Barge (V)"
+        }
       ]
     },
     {
@@ -30578,7 +31390,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jabba's Space Cruiser (V)"
+        {
+          "cardId": 6438,
+          "title": "Jabba's Space Cruiser (V)"
+        }
       ]
     },
     {
@@ -31746,7 +32561,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lothal"
+        {
+          "cardId": 7082,
+          "title": "Lothal"
+        }
       ]
     },
     {
@@ -31817,7 +32635,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Shadow Collective / You Know Who I Answer To"
+        {
+          "cardId": 6822,
+          "title": "Shadow Collective / You Know Who I Answer To"
+        }
       ]
     },
     {
@@ -31896,7 +32717,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bala-Tik"
+        {
+          "cardId": 6112,
+          "title": "Bala-Tik"
+        }
       ]
     },
     {
@@ -31962,7 +32786,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dryden Vos"
+        {
+          "cardId": 6790,
+          "title": "Dryden Vos"
+        }
       ]
     },
     {
@@ -32006,7 +32833,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kir Kanos (V)"
+        {
+          "cardId": 5189,
+          "title": "Kir Kanos (V)"
+        }
       ]
     },
     {
@@ -32204,7 +33034,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Knowledge And Defense (V)"
+        {
+          "cardId": 4042,
+          "title": "Knowledge And Defense (V)"
+        }
       ]
     },
     {
@@ -32310,7 +33143,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Qi'ra, Top Lieutenant"
+        {
+          "cardId": 6971,
+          "title": "Qi'ra, Top Lieutenant"
+        }
       ]
     },
     {
@@ -32432,7 +33268,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kuat Drive Yards (V)"
+        {
+          "cardId": 1459,
+          "title": "Kuat Drive Yards (V)"
+        }
       ]
     },
     {
@@ -32810,7 +33649,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Burg"
+        {
+          "cardId": 6957,
+          "title": "Burg"
+        }
       ]
     },
     {
@@ -32892,7 +33734,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kylo Ren's Command Shuttle"
+        {
+          "cardId": 5107,
+          "title": "Kylo Ren's Command Shuttle"
+        }
       ]
     },
     {
@@ -33015,7 +33860,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lando Calrissian, Vader's Broker"
+        {
+          "cardId": 6965,
+          "title": "Lando Calrissian, Vader's Broker"
+        }
       ]
     },
     {
@@ -33043,8 +33891,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jango Fett",
-        "Jango Fett (AI)"
+        {
+          "cardId": 4098,
+          "title": "Jango Fett"
+        },
+        {
+          "cardId": 7013,
+          "title": "Jango Fett (AI)"
+        }
       ]
     },
     {
@@ -33381,8 +34235,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kylo Ren With Lightsaber",
-        "Kylo Ren With Lightsaber (AI)"
+        {
+          "cardId": 6472,
+          "title": "Kylo Ren With Lightsaber"
+        },
+        {
+          "cardId": 7015,
+          "title": "Kylo Ren With Lightsaber (AI)"
+        }
       ]
     },
     {
@@ -33464,7 +34324,13 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Captain Moden Canady",
+          "cardId": 7397
+        }
+      ]
     },
     {
       "front": {
@@ -33505,7 +34371,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ensign Eli Vanto"
+        {
+          "cardId": 7077,
+          "title": "Ensign Eli Vanto"
+        }
       ]
     },
     {
@@ -33552,11 +34421,13 @@
     {
       "front": {
         "ability": "2",
-        "deploy": "0",
-        "destiny": "6",
-        "errataSymbol": "E1",
-        "forfeit": "3",
-        "gametext": "When drawn for destiny, use 1 Force or this card is lost. Adds 2 to power of anything he pilots. During your deploy phase, may use 3 Force to relocate Kylo from here to same site as a Resistance Agent.",
+        "deploy": "2",
+        "destiny": "2",
+        "errataDate": "2025-12-08",
+        "errataNotes": "E1 version was destiny 6, deploy 0, forfeit 3, and had the followiing text: When drawn for destiny, use 1 Force or this card is lost. Adds 2 to power of anything he pilots. During your deploy phase, may use 3 Force to relocate Kylo from here to same site as a Resistance Agent.",
+        "errataSymbol": "E2",
+        "forfeit": "5",
+        "gametext": "Adds 2 to power of anything he pilots. Deploys -2 to (and forfeit -2 at) same location as Kylo. During your deploy phase, may relocate Kylo from here to same site as a Resistance Agent.",
         "icons": [
           "Pilot",
           "Episode VII",
@@ -33575,12 +34446,13 @@
       "gempId": "208_33",
       "id": 5186,
       "legacy": false,
+      "previousId": 20060,
       "printings": [
         {
           "set": "208"
         }
       ],
-      "rarity": "PM",
+      "rarity": "U2",
       "set": "208",
       "side": "Dark"
     },
@@ -33618,8 +34490,14 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "DS-61-5",
-        "DS-61-5 (AI)"
+        {
+          "cardId": 4025,
+          "title": "DS-61-5"
+        },
+        {
+          "cardId": 7010,
+          "title": "DS-61-5 (AI)"
+        }
       ]
     },
     {
@@ -33854,7 +34732,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lieutenant Dopheld Mitaka"
+        {
+          "cardId": 5186,
+          "title": "Lieutenant Dopheld Mitaka"
+        }
       ]
     },
     {
@@ -33894,7 +34775,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lieutenant Venka (V)"
+        {
+          "cardId": 6491,
+          "title": "Lieutenant Venka (V)"
+        }
       ]
     },
     {
@@ -34010,9 +34894,18 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "B2 Battle Droid",
-        "B2 Battle Droid (AI)",
-        "Rise Of The Sith"
+        {
+          "cardId": 5090,
+          "title": "B2 Battle Droid"
+        },
+        {
+          "cardId": 7134,
+          "title": "B2 Battle Droid (AI)"
+        },
+        {
+          "cardId": 6973,
+          "title": "Rise Of The Sith"
+        }
       ]
     },
     {
@@ -34191,8 +35084,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Droideka",
-        "Droideka (AI)"
+        {
+          "cardId": 4024,
+          "title": "Droideka"
+        },
+        {
+          "cardId": 7009,
+          "title": "Droideka (AI)"
+        }
       ]
     },
     {
@@ -34265,7 +35164,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vote Of No Confidence"
+        {
+          "cardId": 4408,
+          "title": "Vote Of No Confidence"
+        }
       ]
     },
     {
@@ -34841,7 +35743,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lt. Pol Treidum (V)"
+        {
+          "cardId": 4097,
+          "title": "Lt. Pol Treidum (V)"
+        }
       ]
     },
     {
@@ -35415,7 +36320,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Death Trooper"
+        {
+          "cardId": 6238,
+          "title": "Death Trooper"
+        }
       ]
     },
     {
@@ -35456,7 +36364,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Maarek Stele, The Emperor's Reach"
+        {
+          "cardId": 4028,
+          "title": "Maarek Stele, The Emperor's Reach"
+        }
       ]
     },
     {
@@ -35494,8 +36405,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Savage Opress",
-        "Savage Opress (AI)"
+        {
+          "cardId": 5157,
+          "title": "Savage Opress"
+        },
+        {
+          "cardId": 7017,
+          "title": "Savage Opress (AI)"
+        }
       ]
     },
     {
@@ -35569,7 +36486,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Malastare (V)"
+        {
+          "cardId": 7053,
+          "title": "Malastare (V)"
+        }
       ]
     },
     {
@@ -35671,8 +36591,7 @@
     {
       "abbr": [
         "EPP Mara",
-        "MJ",
-        "Shannon McRandle"
+        "MJ"
       ],
       "front": {
         "ability": "5",
@@ -35693,7 +36612,7 @@
           "Set 0"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual0-Dark/large/marajadewithlightsaber.gif",
-        "lore": "Ordered to kill Luke Skywalker. Assumed the identity of a dancer named 'Arica' in order to sneak into Jabba's Palace.",
+        "lore": "Ordered to kill Luke Skywalker. Assumed the identity of a dancer named 'Arica' in order to sneak into Jabba's palace.",
         "power": "4",
         "subType": "Alien/Imperial",
         "title": "•Mara Jade With Lightsaber",
@@ -35752,7 +36671,7 @@
           "Premium"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/marajadetheemperorshand.gif",
-        "lore": "Spy. Ordered to kill Luke Skywalker. Assumed the identity of a dancer named 'Arica' in order to sneak into Jabba's Palace.",
+        "lore": "Spy. Ordered to kill Luke Skywalker. Assumed the identity of a dancer named 'Arica' in order to sneak into Jabba's palace.",
         "power": "4",
         "subType": "Alien/Imperial",
         "title": "•Mara Jade, The Emperor's Hand",
@@ -35810,7 +36729,14 @@
       "set": "110",
       "side": "Dark",
       "underlyingCardFor": [
-        "Mara Jade With Lightsaber"
+        {
+          "cardId": 7452,
+          "title": "Mara Jade, The Emperor's Hand (V)"
+        },
+        {
+          "cardId": 4029,
+          "title": "Mara Jade With Lightsaber"
+        }
       ]
     },
     {
@@ -35836,7 +36762,8 @@
       "matchingWeapon": [
         "Arica",
         "Arica (V)",
-        "Mara Jade, The Emperor's Hand"
+        "Mara Jade, The Emperor's Hand",
+        "Mara Jade, The Emperor's Hand (V)"
       ],
       "printings": [
         {
@@ -35846,6 +36773,7 @@
       "pulledBy": [
         "I Will Finish What You Started",
         "Mara Jade, The Emperor's Hand",
+        "Mara Jade, The Emperor's Hand (V)",
         "Maul Strikes"
       ],
       "rarity": "PM",
@@ -35969,7 +36897,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Grievous' Gambit"
+        {
+          "cardId": 7080,
+          "title": "Grievous' Gambit"
+        }
       ]
     },
     {
@@ -36183,7 +37114,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lord Maul With Lightsaber"
+        {
+          "cardId": 5187,
+          "title": "Lord Maul With Lightsaber"
+        }
       ]
     },
     {
@@ -36310,7 +37244,13 @@
       ],
       "rarity": "PM",
       "set": "112",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Baylan Skoll",
+          "cardId": 7396
+        }
+      ]
     },
     {
       "front": {
@@ -36574,7 +37514,7 @@
           "leader"
         ],
         "deploy": "3",
-        "destiny": "1",
+        "destiny": "2",
         "extraText": [
           "Force-Attuned"
         ],
@@ -36657,7 +37597,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Emperor's Orders"
+        {
+          "cardId": 6899,
+          "title": "Emperor's Orders"
+        }
       ]
     },
     {
@@ -36812,7 +37755,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Moment Of Triumph (V)"
+        {
+          "cardId": 6968,
+          "title": "Moment Of Triumph (V)"
+        }
       ]
     },
     {
@@ -36928,7 +37874,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Crimson Dawn Blaster"
+        {
+          "cardId": 6820,
+          "title": "Crimson Dawn Blaster"
+        }
       ]
     },
     {
@@ -37538,7 +38487,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Myn Kyneugh (V)"
+        {
+          "cardId": 6536,
+          "title": "Myn Kyneugh (V)"
+        }
       ]
     },
     {
@@ -37694,7 +38646,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Naboo (V)"
+        {
+          "cardId": 6913,
+          "title": "Naboo (V)"
+        }
       ]
     },
     {
@@ -38597,7 +39552,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ng'ok War Beast"
+        {
+          "cardId": 1689,
+          "title": "Ng'ok War Beast"
+        }
       ]
     },
     {
@@ -38676,7 +39634,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ni Chuba Na?? (V)"
+        {
+          "cardId": 7054,
+          "title": "Ni Chuba Na?? (V)"
+        }
       ]
     },
     {
@@ -38833,7 +39794,13 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "No Civility, Only Politics (V)",
+          "cardId": 7409
+        }
+      ]
     },
     {
       "counterpart": "Ounee Ta",
@@ -38873,7 +39840,10 @@
       "set": "112",
       "side": "Dark",
       "underlyingCardFor": [
-        "No Escape (V)"
+        {
+          "cardId": 7088,
+          "title": "No Escape (V)"
+        }
       ]
     },
     {
@@ -39085,7 +40055,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Nute Gunray (V)"
+        {
+          "cardId": 6547,
+          "title": "Nute Gunray (V)"
+        }
       ]
     },
     {
@@ -39263,7 +40236,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Observation Holocam (V)"
+        {
+          "cardId": 7089,
+          "title": "Observation Holocam (V)"
+        }
       ]
     },
     {
@@ -39349,7 +40325,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Seventh Sister"
+        {
+          "cardId": 6799,
+          "title": "Seventh Sister"
+        }
       ]
     },
     {
@@ -39392,7 +40371,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Eighth Brother"
+        {
+          "cardId": 6793,
+          "title": "Eighth Brother"
+        }
       ]
     },
     {
@@ -39413,7 +40395,7 @@
           "Premium"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/OfficialTournamentSealedDeck-Dark/large/obsidiansquadrontie.gif",
-        "lore": "Modified TIE fighter. Specifically adapted for atmospheric engagement. Some are fitted with high-output solar panels to support improved weaponry.",
+        "lore": "Modified TIE fighter. Specially adapted for atmospheric engagement. Some are fitted with high-output solar panels to support improved weaponry.",
         "maneuver": "3",
         "power": "1",
         "subType": "Starfighter: TIE/LN",
@@ -39478,7 +40460,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Krennic, Death Star Commandant"
+        {
+          "cardId": 6470,
+          "title": "Krennic, Death Star Commandant"
+        }
       ]
     },
     {
@@ -39617,8 +40602,17 @@
         }
       ],
       "rarity": "PM",
+      "rulings": [
+        "See It's Worse and It Could Be Worse for various rulings."
+      ],
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7453,
+          "title": "Ommni Box & It's Worse (V)"
+        }
+      ]
     },
     {
       "front": {
@@ -39685,7 +40679,13 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Cardo",
+          "cardId": 7398
+        }
+      ]
     },
     {
       "front": {
@@ -39730,7 +40730,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Colonel Jendon In Onyx 1"
+        {
+          "cardId": 4057,
+          "title": "Colonel Jendon In Onyx 1"
+        }
       ]
     },
     {
@@ -39776,7 +40779,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Onyx 2 (V)"
+        {
+          "cardId": 4059,
+          "title": "Onyx 2 (V)"
+        }
       ]
     },
     {
@@ -39858,7 +40864,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Oo-ta Goo-ta, Solo? (V)"
+        {
+          "cardId": 6560,
+          "title": "Oo-ta Goo-ta, Solo? (V)"
+        }
       ]
     },
     {
@@ -40037,7 +41046,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Operational As Planned (V)"
+        {
+          "cardId": 5197,
+          "title": "Operational As Planned (V)"
+        }
       ]
     },
     {
@@ -40133,7 +41145,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Seal Off The Bridge"
+        {
+          "cardId": 7042,
+          "title": "Seal Off The Bridge"
+        }
       ]
     },
     {
@@ -40323,8 +41338,14 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Aemon Gremm With Percussive Cannon",
-        "Ortugg (V)"
+        {
+          "cardId": 6792,
+          "title": "Aemon Gremm With Percussive Cannon"
+        },
+        {
+          "cardId": 5025,
+          "title": "Ortugg (V)"
+        }
       ]
     },
     {
@@ -40565,7 +41586,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Captain Peavey"
+        {
+          "cardId": 5183,
+          "title": "Captain Peavey"
+        }
       ]
     },
     {
@@ -40707,7 +41731,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Overseeing It Personally (V)"
+        {
+          "cardId": 5120,
+          "title": "Overseeing It Personally (V)"
+        }
       ]
     },
     {
@@ -40960,7 +41987,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Passel Argente (V)"
+        {
+          "cardId": 6970,
+          "title": "Passel Argente (V)"
+        }
       ]
     },
     {
@@ -41296,7 +42326,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Point Man (V)"
+        {
+          "cardId": 5122,
+          "title": "Point Man (V)"
+        }
       ]
     },
     {
@@ -41375,7 +42408,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ponda Baba (V)"
+        {
+          "cardId": 4027,
+          "title": "Ponda Baba (V)"
+        }
       ]
     },
     {
@@ -41521,7 +42557,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Pote Snitkin (V)"
+        {
+          "cardId": 5006,
+          "title": "Pote Snitkin (V)"
+        }
       ]
     },
     {
@@ -41713,7 +42752,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Prepare For A Surface Attack (V)"
+        {
+          "cardId": 6572,
+          "title": "Prepare For A Surface Attack (V)"
+        }
       ]
     },
     {
@@ -41887,8 +42929,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Allegiant General Pryde",
-        "Pride Of The Empire (V)"
+        {
+          "cardId": 6782,
+          "title": "Allegiant General Pryde"
+        },
+        {
+          "cardId": 6575,
+          "title": "Pride Of The Empire (V)"
+        }
       ]
     },
     {
@@ -42238,7 +43286,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Projective Telepathy (V)"
+        {
+          "cardId": 6915,
+          "title": "Projective Telepathy (V)"
+        }
       ]
     },
     {
@@ -42307,7 +43358,13 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Orbital Bombardment",
+          "cardId": 7410
+        }
+      ]
     },
     {
       "front": {
@@ -42355,7 +43412,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Punishing One (V)"
+        {
+          "cardId": 5160,
+          "title": "Punishing One (V)"
+        }
       ]
     },
     {
@@ -42572,7 +43632,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Quietly Observing (V)"
+        {
+          "cardId": 6585,
+          "title": "Quietly Observing (V)"
+        }
       ]
     },
     {
@@ -42846,7 +43909,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ninth Sister"
+        {
+          "cardId": 6797,
+          "title": "Ninth Sister"
+        }
       ]
     },
     {
@@ -42888,7 +43954,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Fifth Brother"
+        {
+          "cardId": 6795,
+          "title": "Fifth Brother"
+        }
       ]
     },
     {
@@ -43030,9 +44099,18 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "General Grievous",
-        "General Grievous (AI)",
-        "General Grievous (Holo AI)"
+        {
+          "cardId": 5024,
+          "title": "General Grievous"
+        },
+        {
+          "cardId": 6322,
+          "title": "General Grievous (AI)"
+        },
+        {
+          "cardId": 6321,
+          "title": "General Grievous (Holo AI)"
+        }
       ]
     },
     {
@@ -43065,8 +44143,14 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kijimi",
-        "Ralltiir (V)"
+        {
+          "cardId": 6857,
+          "title": "Kijimi"
+        },
+        {
+          "cardId": 7125,
+          "title": "Ralltiir (V)"
+        }
       ]
     },
     {
@@ -43104,10 +44188,7 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark",
-      "underlyingCardFor": [
-        "Ralltiir Operations / In The Hands Of The Empire (V)"
-      ]
+      "side": "Dark"
     },
     {
       "front": {
@@ -43240,7 +44321,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Death Star Reactor Terminal"
+        {
+          "cardId": 6233,
+          "title": "Death Star Reactor Terminal"
+        }
       ]
     },
     {
@@ -43320,7 +44404,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ree-Yees (V)"
+        {
+          "cardId": 6596,
+          "title": "Ree-Yees (V)"
+        }
       ]
     },
     {
@@ -43402,7 +44489,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Unkar Plutt"
+        {
+          "cardId": 7097,
+          "title": "Unkar Plutt"
+        }
       ]
     },
     {
@@ -43459,7 +44549,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "There Are Many Hunting You Now"
+        {
+          "cardId": 6803,
+          "title": "There Are Many Hunting You Now"
+        }
       ]
     },
     {
@@ -43663,7 +44756,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jabba's Trophies"
+        {
+          "cardId": 5007,
+          "title": "Jabba's Trophies"
+        }
       ]
     },
     {
@@ -43860,7 +44956,13 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7457,
+          "title": "Welcome Home, Lord Tyranus"
+        }
+      ]
     },
     {
       "front": {
@@ -43888,7 +44990,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "The First Order Was Just The Beginning"
+        {
+          "cardId": 6854,
+          "title": "The First Order Was Just The Beginning"
+        }
       ]
     },
     {
@@ -44006,7 +45111,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Zam Wesell"
+        {
+          "cardId": 5100,
+          "title": "Zam Wesell"
+        }
       ]
     },
     {
@@ -44046,7 +45154,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Planetary Rings"
+        {
+          "cardId": 6802,
+          "title": "Planetary Rings"
+        }
       ]
     },
     {
@@ -44436,7 +45547,13 @@
         "This character is female."
       ],
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7454,
+          "title": "Rystall (V)"
+        }
+      ]
     },
     {
       "combo": [
@@ -44574,7 +45691,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Third Sister"
+        {
+          "cardId": 7126,
+          "title": "Third Sister"
+        }
       ]
     },
     {
@@ -44656,13 +45776,25 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Trophy Sacrificed",
-        "Lana Dobreed & Sacrifice"
+        {
+          "cardId": 5121,
+          "title": "A Trophy Sacrificed"
+        },
+        {
+          "cardId": 6478,
+          "title": "Lana Dobreed & Sacrifice"
+        }
       ]
     },
     {
+      "combo": [
+        "Jabba The Hutt (V)"
+      ],
       "front": {
         "ability": "1",
+        "characteristics": [
+          "Kowakian"
+        ],
         "deploy": "1",
         "destiny": "3",
         "forfeit": "3",
@@ -44687,7 +45819,8 @@
         }
       ],
       "pulledBy": [
-        "Hondo Ohnaka"
+        "Hondo Ohnaka",
+        "No Bargain (V)"
       ],
       "rarity": "R",
       "rulings": [
@@ -44696,7 +45829,13 @@
         "When a destiny card is lost, this does not affect the destiny value (e.g. a battle destiny draw of 5 is still a 5 after the card is lost)."
       ],
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7455,
+          "title": "Salacious Crumb (V)"
+        }
+      ]
     },
     {
       "counterpart": "Sandcrawler",
@@ -45038,7 +46177,13 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Supremacy: Bridge",
+          "cardId": 7412
+        }
+      ]
     },
     {
       "front": {
@@ -45084,7 +46229,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sidious' Lightsaber"
+        {
+          "cardId": 6974,
+          "title": "Sidious' Lightsaber"
+        }
       ]
     },
     {
@@ -45461,7 +46609,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "First Order Special Forces TIE"
+        {
+          "cardId": 6300,
+          "title": "First Order Special Forces TIE"
+        }
       ]
     },
     {
@@ -45536,7 +46687,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sebulba (V)"
+        {
+          "cardId": 6622,
+          "title": "Sebulba (V)"
+        }
       ]
     },
     {
@@ -45571,7 +46725,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sebulba (V) (AI)"
+        {
+          "cardId": 6624,
+          "title": "Sebulba (V) (AI)"
+        }
       ]
     },
     {
@@ -45694,7 +46851,8 @@
       "rarity": "PM",
       "rulings": [
         "Light has the option to decline and cancel the retrieval.",
-        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards."
+        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards.",
+        "If Light is to search their Lost Pile to retrieve card(s) that meet specific criteria, Light searches first, then pays for Secret Plans only if they find valid card(s) and choose to retrieve."
       ],
       "set": "13",
       "side": "Dark"
@@ -45732,12 +46890,16 @@
       "rarity": "U",
       "rulings": [
         "Light has the option to decline and cancel the retrieval.",
-        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards."
+        "The amount of Force used ('X') equals the retrieval amount initiated, even if the Lost pile has fewer than X cards.",
+        "If Light is to search their Lost Pile to retrieve card(s) that meet specific criteria, Light searches first, then pays for Secret Plans only if they find valid card(s) and choose to retrieve."
       ],
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Great Tactician Creates Plans / The Result Is Often Resentment"
+        {
+          "cardId": 7073,
+          "title": "A Great Tactician Creates Plans / The Result Is Often Resentment"
+        }
       ]
     },
     {
@@ -45820,7 +46982,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Security Precautions (V)"
+        {
+          "cardId": 5162,
+          "title": "Security Precautions (V)"
+        }
       ]
     },
     {
@@ -46116,7 +47281,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Falleen's Fist"
+        {
+          "cardId": 5032,
+          "title": "Falleen's Fist"
+        }
       ]
     },
     {
@@ -46972,7 +48140,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "An Effective Demonstration"
+        {
+          "cardId": 6953,
+          "title": "An Effective Demonstration"
+        }
       ]
     },
     {
@@ -47173,7 +48344,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Silence Is Golden (V)"
+        {
+          "cardId": 6642,
+          "title": "Silence Is Golden (V)"
+        }
       ]
     },
     {
@@ -47247,7 +48421,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sim Aloo (V)"
+        {
+          "cardId": 5115,
+          "title": "Sim Aloo (V)"
+        }
       ]
     },
     {
@@ -47353,8 +48530,14 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "A Sith Legend",
-        "Sith Fury (V)"
+        {
+          "cardId": 6903,
+          "title": "A Sith Legend"
+        },
+        {
+          "cardId": 4003,
+          "title": "Sith Fury (V)"
+        }
       ]
     },
     {
@@ -47437,7 +48620,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "DRK-1 (Dark Eye Probe Droid)"
+        {
+          "cardId": 4033,
+          "title": "DRK-1 (Dark Eye Probe Droid)"
+        }
       ]
     },
     {
@@ -47617,8 +48803,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Slave I, Symbol Of Fear",
-        "Slave I, Symbol Of Fear (AI)"
+        {
+          "cardId": 4107,
+          "title": "Slave I, Symbol Of Fear"
+        },
+        {
+          "cardId": 6649,
+          "title": "Slave I, Symbol Of Fear (AI)"
+        }
       ]
     },
     {
@@ -47791,7 +48983,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Slip Sliding Away (V)"
+        {
+          "cardId": 6786,
+          "title": "Slip Sliding Away (V)"
+        }
       ]
     },
     {
@@ -47821,7 +49016,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sneak Attack (V)"
+        {
+          "cardId": 2289,
+          "title": "Sneak Attack (V)"
+        }
       ]
     },
     {
@@ -47890,7 +49088,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Fennec Shand"
+        {
+          "cardId": 7078,
+          "title": "Fennec Shand"
+        }
       ]
     },
     {
@@ -48013,7 +49214,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blizzard 8"
+        {
+          "cardId": 6897,
+          "title": "Blizzard 8"
+        }
       ]
     },
     {
@@ -48112,7 +49316,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Something Special Planned For Them (V)"
+        {
+          "cardId": 4044,
+          "title": "Something Special Planned For Them (V)"
+        }
       ]
     },
     {
@@ -48188,7 +49395,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sonic Bombardment (V)"
+        {
+          "cardId": 5198,
+          "title": "Sonic Bombardment (V)"
+        }
       ]
     },
     {
@@ -48298,7 +49508,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Lothal: Capital City"
+        {
+          "cardId": 7084,
+          "title": "Lothal: Capital City"
+        }
       ]
     },
     {
@@ -48369,9 +49582,18 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "First Light: Dryden's Study",
-        "Jedha: Jedha City",
-        "Jedha: Jedha City (AI)"
+        {
+          "cardId": 6814,
+          "title": "First Light: Dryden's Study"
+        },
+        {
+          "cardId": 6444,
+          "title": "Jedha: Jedha City"
+        },
+        {
+          "cardId": 7014,
+          "title": "Jedha: Jedha City (AI)"
+        }
       ]
     },
     {
@@ -48827,7 +50049,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Stalker (V)"
+        {
+          "cardId": 2340,
+          "title": "Stalker (V)"
+        }
       ]
     },
     {
@@ -49247,7 +50472,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Stinger (V)"
+        {
+          "cardId": 4063,
+          "title": "Stinger (V)"
+        }
       ]
     },
     {
@@ -49359,7 +50587,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "First Order Stormtrooper"
+        {
+          "cardId": 5093,
+          "title": "First Order Stormtrooper"
+        }
       ]
     },
     {
@@ -49644,7 +50875,13 @@
         "To initiate this Interrupt, there must be at least one character targeted to be excluded."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Supremacy: Throne Room",
+          "cardId": 7413
+        }
+      ]
     },
     {
       "counterpart": "Ineffective Maneuver",
@@ -49709,8 +50946,14 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jakku",
-        "Jakku (AI)"
+        {
+          "cardId": 5104,
+          "title": "Jakku"
+        },
+        {
+          "cardId": 7012,
+          "title": "Jakku (AI)"
+        }
       ]
     },
     {
@@ -49742,7 +50985,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Twin Suns Of Tatooine / Well Trained In The Jedi Arts"
+        {
+          "cardId": 6716,
+          "title": "Twin Suns Of Tatooine / Well Trained In The Jedi Arts"
+        }
       ]
     },
     {
@@ -49808,7 +51054,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Superlaser (V)"
+        {
+          "cardId": 6922,
+          "title": "Superlaser (V)"
+        }
       ]
     },
     {
@@ -49959,7 +51208,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Surface Defense (V)"
+        {
+          "cardId": 4017,
+          "title": "Surface Defense (V)"
+        }
       ]
     },
     {
@@ -50153,7 +51405,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Xizor's Palace: Sewer"
+        {
+          "cardId": 6769,
+          "title": "Xizor's Palace: Sewer"
+        }
       ]
     },
     {
@@ -50188,7 +51443,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ysanne Isard"
+        {
+          "cardId": 4035,
+          "title": "Ysanne Isard"
+        }
       ]
     },
     {
@@ -50453,7 +51711,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "BB-9E"
+        {
+          "cardId": 6954,
+          "title": "BB-9E"
+        }
       ]
     },
     {
@@ -50575,7 +51836,10 @@
       "set": "102",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tarkin (V)"
+        {
+          "cardId": 5098,
+          "title": "Tarkin (V)"
+        }
       ]
     },
     {
@@ -50691,7 +51955,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tarkin's Bounty (V)"
+        {
+          "cardId": 5193,
+          "title": "Tarkin's Bounty (V)"
+        }
       ]
     },
     {
@@ -50832,7 +52099,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tatooine (V)"
+        {
+          "cardId": 5031,
+          "title": "Tatooine (V)"
+        }
       ]
     },
     {
@@ -51034,7 +52304,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Scarif: Beach"
+        {
+          "cardId": 6917,
+          "title": "Scarif: Beach"
+        }
       ]
     },
     {
@@ -51068,7 +52341,13 @@
       ],
       "rarity": "PM",
       "set": "112",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Tatooine: Desert Heart (V)",
+          "cardId": 7414
+        }
+      ]
     },
     {
       "abbr": [
@@ -51401,7 +52680,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Jakku: Tuanul Village"
+        {
+          "cardId": 6873,
+          "title": "Jakku: Tuanul Village"
+        }
       ]
     },
     {
@@ -51522,7 +52804,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tatooine: Mos Espa (V)"
+        {
+          "cardId": 5209,
+          "title": "Tatooine: Mos Espa (V)"
+        }
       ]
     },
     {
@@ -52166,7 +53451,10 @@
       "set": "8",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tempest Scout 3 (V)"
+        {
+          "cardId": 5010,
+          "title": "Tempest Scout 3 (V)"
+        }
       ]
     },
     {
@@ -52179,7 +53467,7 @@
         "deploy": "3",
         "destiny": "3",
         "forfeit": "4",
-        "gametext": "May add 1 pilot. May move as a 'react.' Permanent pilot provides ability of 2. Unless this vehicle 'hit,' your other vehicles here may not be targeted by non-character weapons or opponent's Interrupts.",
+        "gametext": "May add 1 pilot. May move as a 'react.' Permanent pilot provides ability of 2. Unless this vehicle 'hit,' your other vehicles here may not be targeted by artillery weapons, vehicle weapons, or opponent's Interrupts.",
         "icons": [
           "Pilot",
           "Scomp Link",
@@ -52551,7 +53839,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "The Dark Path (V)"
+        {
+          "cardId": 6686,
+          "title": "The Dark Path (V)"
+        }
       ]
     },
     {
@@ -52688,7 +53979,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "The Emperor (V)"
+        {
+          "cardId": 7091,
+          "title": "The Emperor (V)"
+        }
       ]
     },
     {
@@ -52727,7 +54021,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Luke Skywalker, The Emperor's Prize"
+        {
+          "cardId": 6501,
+          "title": "Luke Skywalker, The Emperor's Prize"
+        }
       ]
     },
     {
@@ -53378,8 +54675,14 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Always Two There Are",
-        "They Will Be No Match For You (V)"
+        {
+          "cardId": 6087,
+          "title": "Always Two There Are"
+        },
+        {
+          "cardId": 6698,
+          "title": "They Will Be No Match For You (V)"
+        }
       ]
     },
     {
@@ -53539,7 +54842,13 @@
       ],
       "rarity": "PM",
       "set": "109",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7456,
+          "title": "This Deal Is Getting Worse All The Time / Pray I Don't Alter It Any Further (V)"
+        }
+      ]
     },
     {
       "canceledBy": [
@@ -53780,13 +55089,7 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark",
-      "underlyingCardFor": [
-        {
-          "title": "Major Partagaz",
-          "cardId": 7174
-        }
-      ]
+      "side": "Dark"
     },
     {
       "front": {
@@ -53907,7 +55210,10 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "Thunderflare (V)"
+        {
+          "cardId": 7094,
+          "title": "Thunderflare (V)"
+        }
       ]
     },
     {
@@ -53987,7 +55293,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Kylo Ren's TIE Silencer"
+        {
+          "cardId": 6473,
+          "title": "Kylo Ren's TIE Silencer"
+        }
       ]
     },
     {
@@ -54069,7 +55378,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Mara Jade In VT-49 Decimator"
+        {
+          "cardId": 5210,
+          "title": "Mara Jade In VT-49 Decimator"
+        }
       ]
     },
     {
@@ -54161,7 +55473,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Alpha 1"
+        {
+          "cardId": 7048,
+          "title": "Alpha 1"
+        }
       ]
     },
     {
@@ -54293,8 +55608,14 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Bestoon Legacy",
-        "Meson Martinet"
+        {
+          "cardId": 6858,
+          "title": "Bestoon Legacy"
+        },
+        {
+          "cardId": 5159,
+          "title": "Meson Martinet"
+        }
       ]
     },
     {
@@ -54323,7 +55644,10 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "TIE Sentry Ships (V)"
+        {
+          "cardId": 4104,
+          "title": "TIE Sentry Ships (V)"
+        }
       ]
     },
     {
@@ -54762,7 +56086,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Blockade Support Ship"
+        {
+          "cardId": 4054,
+          "title": "Blockade Support Ship"
+        }
       ]
     },
     {
@@ -54840,7 +56167,10 @@
       "set": "14",
       "side": "Dark",
       "underlyingCardFor": [
-        "Trade Federation Tactics (V)"
+        {
+          "cardId": 6709,
+          "title": "Trade Federation Tactics (V)"
+        }
       ]
     },
     {
@@ -54993,7 +56323,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Ochi"
+        {
+          "cardId": 6850,
+          "title": "Ochi"
+        }
       ]
     },
     {
@@ -55047,7 +56380,13 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "cardId": 7447,
+          "title": "Endless Legions"
+        }
+      ]
     },
     {
       "front": {
@@ -55315,7 +56654,10 @@
       "set": "3",
       "side": "Dark",
       "underlyingCardFor": [
-        "Turn It Off! Turn It Off! (V)"
+        {
+          "cardId": 4105,
+          "title": "Turn It Off! Turn It Off! (V)"
+        }
       ]
     },
     {
@@ -55382,7 +56724,10 @@
       "set": "12",
       "side": "Dark",
       "underlyingCardFor": [
-        "Tusken Raider With Hunting Rifle"
+        {
+          "cardId": 7095,
+          "title": "Tusken Raider With Hunting Rifle"
+        }
       ]
     },
     {
@@ -55474,9 +56819,18 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "The Grand Inquisitor",
-        "The Grand Inquisitor (AI)",
-        "Twi'lek Advisor (V)"
+        {
+          "cardId": 6692,
+          "title": "The Grand Inquisitor"
+        },
+        {
+          "cardId": 7271,
+          "title": "The Grand Inquisitor (AI)"
+        },
+        {
+          "cardId": 6715,
+          "title": "Twi'lek Advisor (V)"
+        }
       ]
     },
     {
@@ -55607,7 +56961,13 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "Fulminatrix",
+          "cardId": 7404
+        }
+      ]
     },
     {
       "combo": [
@@ -56186,7 +57546,10 @@
       "set": "101",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vader (V)"
+        {
+          "cardId": 7098,
+          "title": "Vader (V)"
+        }
       ]
     },
     {
@@ -56215,7 +57578,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vader's Anger (V)"
+        {
+          "cardId": 6725,
+          "title": "Vader's Anger (V)"
+        }
       ]
     },
     {
@@ -56372,7 +57738,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vader's Custom TIE (V)"
+        {
+          "cardId": 5143,
+          "title": "Vader's Custom TIE (V)"
+        }
       ]
     },
     {
@@ -56452,7 +57821,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "I Will Finish What You Started"
+        {
+          "cardId": 5195,
+          "title": "I Will Finish What You Started"
+        }
       ]
     },
     {
@@ -56497,7 +57869,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vader's Lightsaber (V)"
+        {
+          "cardId": 7099,
+          "title": "Vader's Lightsaber (V)"
+        }
       ]
     },
     {
@@ -56592,8 +57967,14 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Colonel Jendon In Vader's Personal Shuttle",
-        "Vader's Personal Shuttle (V)"
+        {
+          "cardId": 7149,
+          "title": "Colonel Jendon In Vader's Personal Shuttle"
+        },
+        {
+          "cardId": 4060,
+          "title": "Vader's Personal Shuttle (V)"
+        }
       ]
     },
     {
@@ -56772,7 +58153,10 @@
       "set": "104",
       "side": "Dark",
       "underlyingCardFor": [
-        "Veers (V)"
+        {
+          "cardId": 5142,
+          "title": "Veers (V)"
+        }
       ]
     },
     {
@@ -56890,7 +58274,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Velken Tezeri (V)"
+        {
+          "cardId": 5116,
+          "title": "Velken Tezeri (V)"
+        }
       ]
     },
     {
@@ -56979,7 +58366,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vengeance (V)"
+        {
+          "cardId": 6737,
+          "title": "Vengeance (V)"
+        }
       ]
     },
     {
@@ -57142,7 +58532,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Vigo (V)"
+        {
+          "cardId": 4038,
+          "title": "Vigo (V)"
+        }
       ]
     },
     {
@@ -57272,7 +58665,10 @@
       "set": "10",
       "side": "Dark",
       "underlyingCardFor": [
-        "Elis In Hinthra"
+        {
+          "cardId": 4058,
+          "title": "Elis In Hinthra"
+        }
       ]
     },
     {
@@ -57359,8 +58755,14 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Shadows Of The Empire",
-        "Visage Of The Emperor (V)"
+        {
+          "cardId": 6638,
+          "title": "Shadows Of The Empire"
+        },
+        {
+          "cardId": 6804,
+          "title": "Visage Of The Emperor (V)"
+        }
       ]
     },
     {
@@ -57430,7 +58832,13 @@
       ],
       "rarity": "R",
       "set": "12",
-      "side": "Dark"
+      "side": "Dark",
+      "underlyingCardFor": [
+        {
+          "title": "With Thunderous Applause",
+          "cardId": 7420
+        }
+      ]
     },
     {
       "counterpart": "The Republic No Longer Functions",
@@ -57535,7 +58943,10 @@
       "set": "7",
       "side": "Dark",
       "underlyingCardFor": [
-        "Wakeelmui (V)"
+        {
+          "cardId": 6818,
+          "title": "Wakeelmui (V)"
+        }
       ]
     },
     {
@@ -57572,6 +58983,10 @@
         {
           "title": "Echo Base Destroyed",
           "cardId": 7298
+        },
+        {
+          "title": "First Order AT-M6",
+          "cardId": 7403
         }
       ]
     },
@@ -57914,7 +59329,10 @@
       "set": "2",
       "side": "Dark",
       "underlyingCardFor": [
-        "FN-2199 (Nines)"
+        {
+          "cardId": 5185,
+          "title": "FN-2199 (Nines)"
+        }
       ]
     },
     {
@@ -58124,8 +59542,14 @@
       "set": "5",
       "side": "Dark",
       "underlyingCardFor": [
-        "Dooku's Lightsaber",
-        "Dooku's Lightsaber (AI)"
+        {
+          "cardId": 4064,
+          "title": "Dooku's Lightsaber"
+        },
+        {
+          "cardId": 7138,
+          "title": "Dooku's Lightsaber (AI)"
+        }
       ]
     },
     {
@@ -58259,7 +59683,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Rukh"
+        {
+          "cardId": 6900,
+          "title": "Rukh"
+        }
       ]
     },
     {
@@ -58414,8 +59841,14 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Magistrate Morgan Elsbeth",
-        "Well Guarded (V)"
+        {
+          "cardId": 7087,
+          "title": "Magistrate Morgan Elsbeth"
+        },
+        {
+          "cardId": 7150,
+          "title": "Well Guarded (V)"
+        }
       ]
     },
     {
@@ -58636,7 +60069,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "Where Are Those Droidekas?! (V)"
+        {
+          "cardId": 5194,
+          "title": "Where Are Those Droidekas?! (V)"
+        }
       ]
     },
     {
@@ -58702,7 +60138,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Sidon Ithano"
+        {
+          "cardId": 5158,
+          "title": "Sidon Ithano"
+        }
       ]
     },
     {
@@ -58956,7 +60395,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Wooof (V)"
+        {
+          "cardId": 2828,
+          "title": "Wooof (V)"
+        }
       ]
     },
     {
@@ -59406,7 +60848,10 @@
       "set": "1",
       "side": "Dark",
       "underlyingCardFor": [
-        "Xizor's Palace: Uplink Station"
+        {
+          "cardId": 5030,
+          "title": "Xizor's Palace: Uplink Station"
+        }
       ]
     },
     {
@@ -59601,9 +61046,18 @@
       "set": "9",
       "side": "Dark",
       "underlyingCardFor": [
-        "I've Been Searching For You For Some Time",
-        "I've Been Searching For You For Some Time (AI)",
-        "You Cannot Hide Forever (Death Star II) (V)"
+        {
+          "cardId": 6809,
+          "title": "I've Been Searching For You For Some Time"
+        },
+        {
+          "cardId": 7268,
+          "title": "I've Been Searching For You For Some Time (AI)"
+        },
+        {
+          "cardId": 6771,
+          "title": "You Cannot Hide Forever (Death Star II) (V)"
+        }
       ]
     },
     {
@@ -59636,7 +61090,10 @@
       "set": "13",
       "side": "Dark",
       "underlyingCardFor": [
-        "You Cannot Hide Forever (V)"
+        {
+          "cardId": 4400,
+          "title": "You Cannot Hide Forever (V)"
+        }
       ]
     },
     {
@@ -59980,7 +61437,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "You Swindled Me! (V)"
+        {
+          "cardId": 5199,
+          "title": "You Swindled Me! (V)"
+        }
       ]
     },
     {
@@ -60050,7 +61510,10 @@
       "set": "11",
       "side": "Dark",
       "underlyingCardFor": [
-        "Specter Of The Supreme Leader"
+        {
+          "cardId": 5163,
+          "title": "Specter Of The Supreme Leader"
+        }
       ]
     },
     {
@@ -60349,7 +61812,10 @@
       "set": "6",
       "side": "Dark",
       "underlyingCardFor": [
-        "Cad Bane"
+        {
+          "cardId": 5021,
+          "title": "Cad Bane"
+        }
       ]
     },
     {
@@ -60454,7 +61920,10 @@
       "set": "4",
       "side": "Dark",
       "underlyingCardFor": [
-        "Zuckuss (V)"
+        {
+          "cardId": 7127,
+          "title": "Zuckuss (V)"
+        }
       ]
     },
     {
@@ -63827,6 +65296,9 @@
       "front": {
         "deploy": "2",
         "destiny": "4½",
+        "destinyValues": [
+          4.5
+        ],
         "errataDate": "2022-12-12",
         "errataNotes": "E1 Text: Deploys -1 to same site as BB-8. Cancels game text of BB-8 and/or Rose at same site. During your move phase, may place in Used Pile; 'break cover' of all Undercover spies here (if any). Immune to Restraining Bolt and Sorry About The Mess.",
         "errataSymbol": "E2",
@@ -66002,7 +67474,10 @@
       ],
       "front": {
         "destiny": "4",
-        "gametext": "Deploy on table. When deployed, may take the top card of Lost Pile into hand. During your move phase, may cancel Landing Claw (then place it out of play from Lost Pile). Elis Helrot and Nabrun Leids are unique (•) and are Lost Interrupts. [Immune to Alter.]",
+        "errataDate": "2025-08-08",
+        "errataNotes": "The original wording of this card allowed Landing Claw to be saved by Crash Site Memorial. That is no longer possible. Previous text: Deploy on table. When deployed, may take the top card of Lost Pile into hand. During your move phase, may cancel Landing Claw (then place it out of play from Lost Pile). Elis Helrot and Nabrun Leids are unique (•) and are Lost Interrupts. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on table. When deployed, may take the top card of Lost Pile into hand. During your move phase, may cancel Landing Claw. If Landing Claw was just lost, place it out of play. Elis Helrot and Nabrun Leids are unique (•) and are Lost Interrupts. [Immune to Alter.]",
         "icons": [
           "Premium",
           "Set 19"
@@ -66018,6 +67493,7 @@
       "gempId": "219_16",
       "id": 7088,
       "legacy": false,
+      "previousId": 20058,
       "printings": [
         {
           "set": "219"
@@ -67478,13 +68954,7 @@
       ],
       "rarity": "C",
       "set": "221",
-      "side": "Dark",
-      "underlyingCardFor": [
-        {
-          "title": "•Cloud City: Chasm Walkway (V)",
-          "cardId": 7159
-        }
-      ]
+      "side": "Dark"
     },
     {
       "abbr": [
@@ -69237,6 +70707,9 @@
       "abbr": [
         "YPAWOMv"
       ],
+      "combo": [
+        "Ommni Box & It's Worse (V)"
+      ],
       "front": {
         "destiny": "5",
         "gametext": "If opponent just lost a battle, they lose 2 Force. OR During battle, if Obi-Wan is participating (or 'communing'), add one battle destiny; characters may not be 'revived' this turn. OR Cancel Clash Of Sabers targeting your Dark Jedi.",
@@ -69260,6 +70733,9 @@
         }
       ],
       "rarity": "R1",
+      "rulings": [
+        "Multiple copies of this card may be played after winning a battle, causing 2 Force loss each."
+      ],
       "set": "222",
       "side": "Dark"
     },
@@ -69996,6 +71472,9 @@
       ],
       "rarity": "U1",
       "rulings": [
+        "(Competing Grabbers) In this specific context, the words '(if possible)' are intended to mean that if A Useless Gesture and another grabber would both automatically grab the same Interrupt, that other grabber takes precedence. It is NOT competing automatic actions.",
+        "(Competing Grabbers) If A Useless Gesture would automatically stack an Interrupt, and another grabber could optionally stack it, the automatic A Useless Gesture takes precedence.",
+        "(Competing Grabbers) Light only pays the costs of one grabber, the grabber that actually stacked the Interrupt.",
         "A card that deploys for 0 such as Kal'Falnl C'ndros is not the same as 'free' and thus doesn't trigger the anti-free portion of this card.",
         "When Light simultaneously deploys a pair of cards for free (e.g. due to I'd Just As Soon Kiss A Wookiee), each card is separately affected by Imperial Detention, potentially causing a total cost of 4.",
         "The separate cost for non-unique cards must be paid even if the non-unique card being deployed is free."
@@ -70007,7 +71486,10 @@
       "front": {
         "darkSideIcons": 2,
         "destiny": "0",
-        "gametext": "Dark: If you occupy and Dark Deal on table, flip This Deal Is Getting Worse All The Time. Immune to Revolution. Light: You lose no more than 2 Force to Cloud City Occupation. Game text of opponent's Admiral's Orders is canceled.",
+        "errataDate": "2025-12-08",
+        "errataNotes": "Previous text: Dark: If you occupy and Dark Deal on table, flip This Deal Is Getting Worse All The Time. Immune to Revolution. Light: You lose no more than 2 Force to Cloud City Occupation. Game text of opponent's Admiral's Orders is canceled.",
+        "errataSymbol": "E1",
+        "gametext": "Dark: Executor may not move from here unless Vader aboard. If your [Cloud City] objective on table, Executor deploys -8 here. Light: You lose no more than 2 Force to Cloud City Occupation. May not be converted.",
         "icons": [
           "Planet",
           "Set 23",
@@ -70026,6 +71508,7 @@
       "gempId": "223_8",
       "id": 7296,
       "legacy": false,
+      "previousId": 20059,
       "printings": [
         {
           "set": "223"
@@ -70034,7 +71517,8 @@
       "pulledBy": [
         "Commander Merrejk",
         "Kuat Drive Yards (V)",
-        "This Deal Is Getting Worse All The Time"
+        "This Deal Is Getting Worse All The Time",
+        "This Deal Is Getting Worse All The Time (V)"
       ],
       "rarity": "U",
       "set": "223",
@@ -71856,6 +73340,1599 @@
         "Cancels Nabrun Leids globally."
       ],
       "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "Chin Cannons"
+      ],
+      "front": {
+        "destiny": "3",
+        "gametext": "Deploy on your AT-M6. May target a character or vehicle. Draw destiny. Add 1 if at an [Episode VII] site. If total destiny +1 > defense value, target hit, its forfeit is cumulatively -3 and, if during battle, opponent's characters and vehicles there are cumulatively power -1.",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/atm6cannon.gif",
+        "lore": "Blank.",
+        "subType": "Vehicle",
+        "title": "AT-M6 Cannon",
+        "type": "Weapon",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/AT-M6 Cannon/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_11",
+      "id": 7395,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "The power -1 modifiers expire at the end of the battle."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "BS"
+      ],
+      "front": {
+        "ability": "6",
+        "deploy": "6",
+        "destiny": "1",
+        "extraText": [
+          "Dark Jedi"
+        ],
+        "forfeit": "7",
+        "gametext": "Once per game, may deploy a card with 'mercenary' in lore (or a lightsaber on Baylan) from Reserve Deck; reshuffle. While in battle alone or with Shin, unless Sidious on table, opponent must have two characters (or Anakin or Yoda) in battle to draw battle destiny. Immune to attrition < 5.",
+        "icons": [
+          "Warrior",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/baylanskoll.gif",
+        "lore": "Mercenary.",
+        "power": "6",
+        "subType": "Sith",
+        "title": "•Baylan Skoll",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Baylan Skoll/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_12",
+      "id": 7396,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "The phrase 'two characters' means 'at least two characters'."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "CMC"
+      ],
+      "front": {
+        "ability": "2",
+        "deploy": "3",
+        "destiny": "2",
+        "forfeit": "5",
+        "gametext": "Adds 2 to power of anything he pilots. While piloting a [First Order] starship, it is armor and immunity to attrition +1 (if Fulminatrix, it is armor +2 and immune to attrition < 6 instead). During battle, cancels Alternatives To Fighting, Hit And Run, and opponent's 'reacts.'",
+        "icons": [
+          "Episode VII",
+          "Pilot",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/captainmodencanady.gif",
+        "lore": "Leader.",
+        "power": "2",
+        "subType": "First Order",
+        "title": "•Captain Moden Canady",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Captain Moden Canady/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_13",
+      "id": 7397,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U2",
+      "rulings": [
+        "Canady must be participating in the battle to use his 'During battle' text."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "ability": "3",
+        "deploy": "4",
+        "destiny": "2",
+        "extraText": [
+          "Force-Attuned"
+        ],
+        "forfeit": "6",
+        "gametext": "Adds 2 to power of anything he pilots. While an [Episode VII] objective on table, draws one battle destiny if unable to otherwise. Permanent weapon is •Arm Cannon (may target a character for free; draw destiny; target hit, and its forfeit = 0, if destiny + 1 > defense value).",
+        "icons": [
+          "Episode VII",
+          "Pilot",
+          "Warrior",
+          "Permanent Weapon",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/cardo.gif",
+        "lore": "Knight of Ren.",
+        "power": "4",
+        "subType": "First Order",
+        "title": "•Cardo",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Cardo/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_14",
+      "id": 7398,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "Works with any [Episode VII] objective, including the opponent's."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "darkSideIcons": 1,
+        "destiny": "0",
+        "gametext": "Dark: You shuttle from here for free. While you occupy, gains one [Dark Side] icon. Light: Your capital starships here are armor +1 and are hyperspeed +1 when moving from here.",
+        "icons": [
+          "Planet",
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/crait.gif",
+        "lightSideIcons": 1,
+        "parsec": "8",
+        "subType": "System",
+        "title": "•Crait",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Crait (Dark)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_15",
+      "id": 7399,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U2",
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "COEC"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Force drain +1 here. Kylo may not be excluded from battles here. Light: During battle here, Force Projection is immune to Sense.",
+        "icons": [
+          "Episode VII",
+          "Interior",
+          "Exterior",
+          "Planet",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/craitoutpostentrancecavern.gif",
+        "lightSideIcons": 1,
+        "subType": "Site",
+        "title": "•Crait: Outpost Entrance Cavern",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Crait Outpost Entrance Cavern/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_16",
+      "id": 7400,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C2",
+      "rulings": [
+        "Although Kylo cannot be excluded from battle, a card like Rebel Barrier or Clash Of Sabers targeting Kylo might prevent a battle from being initiated in the first place, particularly if he is alone. Once a battle is successfully initiated (such as by having another non-Barriered character), Kylo will not be excluded.",
+        "Kylo can be made immediately lost (e.g. via Blaster Proficiency) as this is not exclusion."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "CSP"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Your combat vehicles are power and defense value +1 here. Light: While The Resistance Is Doomed on table, Force drains here may not be canceled or reduced.",
+        "icons": [
+          "Exterior",
+          "Planet",
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/craitsaltplateau.gif",
+        "lightSideIcons": 1,
+        "subType": "Site",
+        "title": "•Crait: Salt Plateau",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Crait Salt Plateau/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_17",
+      "id": 7401,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C2",
+      "rulings": [
+        "Force drain bonuses may be canceled (e.g. Great Warrior or Menace Fades) as that is not canceling or reducing a Force drain."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "ability": "2",
+        "deploy": "2",
+        "destiny": "2",
+        "forfeit": "4",
+        "gametext": "Adds 3 to power of anything he pilots. While piloting a dreadnaught or starfighter, draws one battle destiny if unable to otherwise and opponent's immunity to attrition here is limited to < 7 (< 5 if piloting Black 3 or with Vader). Your non-[Coruscant] Interrupts with 'back' in title are destiny +2.",
+        "icons": [
+          "Pilot",
+          "Warrior",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/ds613.gif",
+        "lore": "Pilot DS-61-3. Vader's right wingman. Flies Black 3. Reputation for ferocity in combat. Corellian pilot with excellent skills. Nicknamed 'Backstabber.'",
+        "power": "3",
+        "subType": "Imperial",
+        "title": "•DS-61-3 (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/DS-61-3 (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_18",
+      "id": 7402,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R1",
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "Walker"
+      ],
+      "front": {
+        "armor": "6",
+        "deploy": "6",
+        "destiny": "2",
+        "forfeit": "7",
+        "gametext": "May add 1 pilot and 6 passengers. Permanent pilot provides ability of 2. Once during your deploy phase, may deploy a First Order trooper here from Used Pile; reshuffle.",
+        "icons": [
+          "Scomp Link",
+          "Episode VII",
+          "First Order",
+          "Pilot",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/firstorderatm6.gif",
+        "landspeed": "1",
+        "lore": "Enclosed.",
+        "power": "7",
+        "subType": "Combat: AT-M6",
+        "title": "First Order AT-M6",
+        "type": "Vehicle",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/First Order AT-M6/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_19",
+      "id": 7403,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U1",
+      "rulings": [
+        "Not an AT-AT (e.g. cannot use Trample or be targeted by Power Harpoon)."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "armor": "8",
+        "deploy": "9",
+        "destiny": "3",
+        "forfeit": "9",
+        "gametext": "May add 5 pilots, 4 passengers, 3 [First Order] TIEs, and 2 vehicles. If opponent about to move a starship from here, opponent loses 1 Force. Deploys -2 if Tracked Fleet on table. Permanent pilot provides ability of 2.",
+        "hyperspeed": "3",
+        "icons": [
+          "Scomp Link",
+          "Episode VII",
+          "First Order",
+          "Pilot",
+          "Nav Computer",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/fulminatrix.gif",
+        "lore": "Blank",
+        "power": "10",
+        "subType": "Capital: Mandator IV-Class Dreadnaught",
+        "title": "•Fulminatrix",
+        "type": "Starship",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Fulminatrix/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_20",
+      "id": 7404,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R1",
+      "rulings": [
+        "If opponent moves multiple starships away in the same turn, they lose 1 Force each time.",
+        "Only the starship making a move causes Force loss (e.g. Home One moving away with X-wings embarked aboard loses 1 Force, not multiple).",
+        "Force loss is based on an opponent's starship moving from Fulminatrix's location to any other location. Can be caused by using hyperspeed, landing, moving to a sector, moving to/from a Death Star, etc., not by embarking/disembarking."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "IPCv",
+        "IGPCv"
+      ],
+      "front": {
+        "destiny": "1",
+        "gametext": "Deploy on your bounty hunter. May target a character. Draw destiny. If destiny +1 > defense value, target hit, its forfeit = 0 and, if IG-88 firing repeatedly, may add one destiny to power or attrition. May fire repeatedly for 2 Force each time.",
+        "icons": [
+          "Dagobah",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/ig88spulsecannon.gif",
+        "lore": "IG-88's personal favorite for mass destruction. Rapid-fire fusion plasma bursts are extremely effective against multiple targets. Not widely used due to incidental damage.",
+        "subType": "Character",
+        "title": "•IG-88's Pulse Cannon (V)",
+        "type": "Weapon",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/IG-88s Pulse Cannon (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_21",
+      "id": 7405,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "This weapon may fire repeatedly, add one destiny to power, and then fire repeatedly again and add one destiny to attrition. It may continue firing but cannot add more destiny draws after that due to the cumulative rule."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "MS"
+      ],
+      "front": {
+        "ability": "7",
+        "deploy": "6",
+        "destiny": "1",
+        "extraText": [
+          "Dark Jedi Master"
+        ],
+        "forfeit": "8",
+        "gametext": "While alone on Coruscant, your apprentice is immune to attrition. During your move phase, if on Coruscant, may use 1 Force to relocate to your apprentice's site. Once per game, may take Hyperwave Scan, Unlimited Power!, or Young Fool into hand from Reserve Deck; reshuffle. Immune to attrition.",
+        "icons": [
+          "Episode I",
+          "Warrior",
+          "Separatist",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/mastersidious.gif",
+        "lore": "Leader. Trade Federation.",
+        "power": "5",
+        "subType": "Dark Jedi Master/Imperial/Republic",
+        "title": "•Master Sidious",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Master Sidious/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_22",
+      "id": 7406,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "Dark's 'apprentice' is defined on Revenge Of The Sith."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "MM"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "Fire an [Episode VII] blaster or [Episode VII] cannon into a battle at an adjacent site. OR If Kylo in battle, add 1 to a just drawn destiny. OR Once per game, during battle, if you just fired an [Episode VII] weapon (except a lightsaber), it may fire again this battle.",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/moremore.gif",
+        "lore": "Blank.",
+        "subType": "Used",
+        "title": "•More! MORE!!!!",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/More! MORE!!!!/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_23",
+      "id": 7407,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "rulings": [
+        "A permanent weapon does not possess any icons (other than the [Permanent Weapon] icon itself)."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "NOTFO"
+      ],
+      "front": {
+        "destiny": "4",
+        "gametext": "Deploy on table. [First Order] starships are deploy -1 (-2 to D'Qar) and hyperspeed +1. During your deploy phase, may reveal one [First Order] starship from hand to take a First Order pilot (or vice versa) into hand from Reserve Deck (reshuffle) and deploy both simultaneously. [Immune to Alter.]",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/navyofthefirstorder.gif",
+        "lore": "Blank.",
+        "title": "•Navy Of The First Order",
+        "type": "Effect",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Navy Of The First Order/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_24",
+      "id": 7408,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "NCOPv"
+      ],
+      "front": {
+        "destiny": "4",
+        "gametext": "LOST: Take Coruscant Guard into hand from Reserve Deck; reshuffle. STARTING: If My Lord, Is That Legal? on table, deploy With Thunderous Applause and two Effects that deploy on your side of the table, deploy for free, and are always immune to Alter. Place Interrupt in hand.",
+        "icons": [],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/nocivilityonlypolitics.gif",
+        "lore": "It's not rare to see a senator using the system to forward his own personal agenda. Much goes on behind closed doors that the Senate never sees.",
+        "subType": "Lost Or Starting",
+        "title": "•No Civility, Only Politics (V)",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/No Civility, Only Politics (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_25",
+      "id": 7409,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "rulings": [
+        "The Lost function searches for a card with the exact title Coruscant Guard, including Coruscant Guard (V). It may not take Keder The Black."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "OB"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "During battle at a site related to a system your dreadnaught or Star Destroyer occupies, add 1 to your total battle destiny. If you also control that system (or occupy it with Fulminatrix), add 2 instead and the number of battle destiny draws may not be limited.",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/orbitalbombardment.gif",
+        "lore": "Blank.",
+        "subType": "Used",
+        "title": "•Orbital Bombardment",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Orbital Bombardment/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_26",
+      "id": 7410,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "The phrase 'the number of battle destiny draws may not be limited' applies to both players.",
+        "Players may still initiate an action that would limit battle destiny draws, such as taking a card off I Don't Like Sand or playing the limiting function on Imperial Command & In Range. The limit is simply ignored."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "armor": "10",
+        "deploy": "16",
+        "destiny": "1",
+        "forfeit": "16",
+        "gametext": "May add unlimited pilots, passengers, starfighters, and vehicles. Permanent pilot provides ability of 4. Immune to attrition < 10 (< 12 while Snoke aboard). While Tracked Fleet here, immune to attrition.",
+        "hyperspeed": "2",
+        "icons": [
+          "Scomp Link",
+          "Episode VII",
+          "First Order",
+          "Permanent Pilot",
+          "Nav Computer",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/supremacy.gif",
+        "lore": "Blank.",
+        "power": "13",
+        "subType": "Capital: Mega-Class Star Dreadnaught",
+        "title": "•Supremacy",
+        "type": "Starship",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Supremacy/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_27",
+      "id": 7411,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "If Snoke is at a Supremacy site, he is 'aboard', boosting the immunity to attrition to < 12.",
+        "If Snoke aboard and Supremacy also with Tracked Fleet, the greater immunity is used."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "SB"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: While you control, Supremacy is power + 3. Light: Unless your piloted [Resistance] starship at a system, Force drain -1 here.",
+        "icons": [
+          "Interior",
+          "Starship",
+          "Mobile",
+          "Scomp Link",
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/supremacybridge.gif",
+        "lightSideIcons": 0,
+        "subType": "Site",
+        "title": "•Supremacy: Bridge",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Supremacy Bridge/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_28",
+      "id": 7412,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C2",
+      "rulings": [
+        "The piloted [Resistance] starship can be at any system."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "STR"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Once per game, may deploy Snoke here from Reserve Deck; reshuffle. Light: While Snoke here (and Rey is not), attrition against you here is +1.",
+        "icons": [
+          "Interior",
+          "Starship",
+          "Mobile",
+          "Scomp Link",
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/supremacythroneroom.gif",
+        "lightSideIcons": 1,
+        "subType": "Site",
+        "title": "•Supremacy: Throne Room",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Supremacy Throne Room/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_29",
+      "id": 7413,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C2",
+      "rulings": [
+        "The attrition +1 requires Snoke to be participating in the battle and Rey to not be participating in the battle (or not be there at all)."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TDHv"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Once per turn, if you just deployed an alien here, may raise your converted [Jabba's Palace] site to the top. Light: Unless you occupy, you must first use 1 Force to deploy a non-alien character here.",
+        "icons": [
+          "Planet",
+          "Exterior",
+          "Jabba's Palace",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/tatooinedesertheart.gif",
+        "lightSideIcons": 1,
+        "subType": "Site",
+        "title": "•Tatooine: Desert Heart (V)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Tatooine Desert Heart (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_30",
+      "id": 7414,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "A 'non-alien character' is any character that does not possess the alien icon. An Alien/Rebel is an alien (not a non-alien)."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TCB"
+      ],
+      "front": {
+        "destiny": "4",
+        "gametext": "Deploy on opponent's just deployed character. Once per turn, if a bounty hunter here, may reveal the top card of each player's Reserve Deck. If this character about to be captured, retrieve 2 Force (3 if The Client on table) and return this card to your hand. [Immune to Control.]",
+        "icons": [
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/theclientsbounty.gif",
+        "lore": "One of the most profitable occupations in the galaxy is hunting down and capturing wanted beings. The more notable the quarry, the more profitable the venture.",
+        "subType": "Immediate",
+        "title": "•The Client's Bounty",
+        "type": "Effect",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Client's Bounty/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_31",
+      "id": 7415,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TFOR/TRID"
+      ],
+      "back": {
+        "destiny": "7",
+        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may deploy an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/theresistanceisdoomed.gif",
+        "title": "The First Order Reigns / The Resistance Is Doomed",
+        "type": "Objective",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Resistance Is Doomed/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "front": {
+        "destiny": "0",
+        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may deploy an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "title": "The First Order Reigns / The Resistance Is Doomed",
+        "type": "Objective",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The First Order Reigns/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_32",
+      "id": 7416,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "rulings": [
+        "Dark may deploy [Presence] droids such as P-59.",
+        "(7-side) Light may initiate an action that causes retrieval, but the retrieval result is canceled.",
+        "(7-side) Han, Leia, or Luke must still be present at the Salt Plateau and active (not excluded from battle, captive, missing, Undercover, etc) at the time that Kylo was forfeited from a battle Dark lost there for the Objective to be placed out of play."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TGIL"
+      ],
+      "front": {
+        "destiny": "2",
+        "gametext": "Deploy on an Inquisitor. Dodge may not target characters here. May target a character. Draw two destiny. Target hit, and may not be used to satisfy attrition, if total destiny > defense value. If hit by Grand Inquisitor, target's forfeit = 0.",
+        "icons": [
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thegrandinquisitorslightsaber.gif",
+        "lore": "Blank.",
+        "subType": "Character",
+        "title": "•The Grand Inquisitor's Lightsaber",
+        "type": "Weapon",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Grand Inquisitor's Lightsaber/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_33",
+      "id": 7417,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "Prevents both functions of Dodge."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TF"
+      ],
+      "front": {
+        "destiny": "0",
+        "gametext": "Deploy on D'Qar system (only at start of game). Tied To The End Of A String: You may not deploy starships here. Supremacy moves to here for free. There Will Be No Surrender: Three times per game, at start of opponent's move phase, opponent may stack a card from hand face down on this card to relocate it to an [Episode VII] system within 3 parsecs. Fire At Will!: At the start of your turn, if you control this system, Tracked Fleet is 'annihilated' (placed out of play).",
+        "icons": [
+          "Episode VII",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/trackedfleet.gif",
+        "title": "•Tracked Fleet",
+        "type": "Epic Event",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Tracked Fleet/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_34",
+      "id": 7418,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "The card stacked from hand face down is not revealed (unlike cards that say to 'lose 1 Force and stack' such as I Feel The Conflict)."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "ability": "4",
+        "deploy": "4",
+        "destiny": "2",
+        "extraText": [
+          "Force-Sensitive"
+        ],
+        "forfeit": "7",
+        "gametext": "Adds 2 to power of anything he pilots. Power +1 for each opponent's card out of play. Opponent may not cancel your battle destiny draws where you have Kylo or a Knight of Ren. If you just initiated a Force drain here, may place topmost Interrupt of opponent's Lost Pile out of play.",
+        "icons": [
+          "Episode VII",
+          "Pilot",
+          "Warrior",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/vicrul.gif",
+        "lore": "Knight of Ren.",
+        "power": "4",
+        "subType": "First Order",
+        "title": "•Vicrul",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Vicrul/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_35",
+      "id": 7419,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "C",
+      "rulings": [
+        "Dark (not Light) may search Light's entire Lost Pile while finding the topmost Interrupt. If the finding is disputed, a judge may confirm.",
+        "Do not shuffle or reorder any other cards of the Lost Pile."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "WTA"
+      ],
+      "front": {
+        "destiny": "0",
+        "gametext": "Deploy on Galactic Senate. [V17] Passel Argente's game text and your Political Effects are canceled. Twice per turn, may target your agenda here: Blockade: Cancel a 'react.' Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force. Trade: During your draw phase, place a card from hand in Lost Pile, shuffle that pile, and take top card into hand. Wealth: Subtract 1 from attrition against you.",
+        "icons": [
+          "Coruscant",
+          "Episode I",
+          "Set 25"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/withthunderousapplause.gif",
+        "title": "•With Thunderous Applause",
+        "type": "Epic Event",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/With Thunderous Applause/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "225_36",
+      "id": 7420,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "225"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "The same agenda / same character may be targeted twice in the same turn.",
+        "However, note that Wealth's 'subtract 1 from attrition' is not cumulative."
+      ],
+      "set": "225",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "CCDRv"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Vader, your Boba Fett, and your Lando deploy -1 here. May deploy Lando here from Reserve Deck; reshuffle. Light: Chewie, Han, Leia, and your Lando move to here using landspeed for free.",
+        "icons": [
+          "Cloud City",
+          "Interior",
+          "Mobile",
+          "Scomp Link",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/cloudcitydiningroom.gif",
+        "lightSideIcons": 1,
+        "subType": "Site",
+        "title": "•Cloud City: Dining Room (V)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Cloud City Dining Room (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_1",
+      "id": 7445,
+      "legacy": false,
+      "pulledBy": [
+        "I'm Sorry",
+        "I'm Sorry (V)",
+        "This Deal Is Getting Worse All The Time",
+        "This Deal Is Getting Worse All The Time (V)"
+      ],
+      "pulls": [
+        "Lando Calrissian",
+        "Lando Calrissian, Vader's Broker"
+      ],
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "R",
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "cancels": [
+        "Suspends Menace Fades"
+      ],
+      "front": {
+        "darkSideIcons": 2,
+        "destiny": "0",
+        "gametext": "Dark: Invisible Hand is hyperspeed +3 when moving to or from here. Your [Episode I] pilots deploy -1 here. Light: While Invisible Hand controls this system, Menace Fades is suspended.",
+        "icons": [
+          "Planet",
+          "Episode I",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/coruscant.gif",
+        "lightSideIcons": 1,
+        "parsec": "0",
+        "subType": "System",
+        "title": "•Coruscant (V)",
+        "type": "Location",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Coruscant (Special Edition) (Dark) (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_2",
+      "id": 7446,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "R",
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "EL"
+      ],
+      "front": {
+        "destiny": "4",
+        "gametext": "If your stormtroopers occupy three battlegrounds and/or Rebel Base locations, choose: Draw three cards from Force Pile, then place two cards from hand on Force Pile. OR Once per game, if you just lost a non-[Maintenance] stormtrooper, take it into hand.",
+        "icons": [
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/endlesslegions.gif",
+        "lore": "Imperial troopers are fearless and totally indoctrinated. Backed by the most powerful weapons and starships in the galaxy, they tend to consider themselves invincible.",
+        "subType": "Used",
+        "title": "•Endless Legions",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Endless Legions/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_3",
+      "id": 7447,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "U2",
+      "rulings": [
+        "To initiate the first function requires a card in Force Pile.",
+        "To initiate the first function also requires a card in hand, but Endless Legions itself satisfies this requirement (provided that it is being played from hand).",
+        "If the Force Pile contains only 1 or 2 cards, the player will draw them, then the action will end without placing any cards back."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "GIS"
+      ],
+      "front": {
+        "ability": "1",
+        "characteristics": [
+          "Kubaz",
+          "spy"
+        ],
+        "deploy": "2",
+        "destiny": "4",
+        "forfeit": "3",
+        "gametext": "Imperials move to here using landspeed for free. If present at a site and not 'hit,' may place Garindan in Used Pile to cancel a just drawn weapon destiny targeting your other character here (or to make an Undercover spy here lost).",
+        "icons": [
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/garindanimperialspy.gif",
+        "lore": "Long-nosed, male Kubaz from Kubindi. Spy. Squealed on Obi-Wan and Luke outside Docking Bay 94. Works for Jabba the Hutt or the highest bidder. Not particularly brave.",
+        "power": "1",
+        "subType": "Alien/Imperial",
+        "title": "•Garindan, Imperial Spy",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Garindan, Imperial Spy/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_4",
+      "id": 7448,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "R2",
+      "rulings": [
+        "Works with Imperial Enforcement.",
+        "Works with Scum And Villainy.",
+        "Prevents playing None Shall Pass."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "armor": "5",
+        "characteristics": [
+          "assassin",
+          "Black Sun agent",
+          "female"
+        ],
+        "deploy": "4",
+        "destiny": "2",
+        "extraText": [
+          "Assassin Droid"
+        ],
+        "forfeit": "6",
+        "gametext": "Adds 2 to power of anything she pilots. While Guri and Xizor present at same site, Force drain +1 here and Xizor may not be targeted by weapons (unless Guri 'hit'). While your [Reflections II] objective on table, draws one battle destiny if unable to otherwise and immune to attrition < 5.",
+        "icons": [
+          "Reflections II",
+          "Pilot",
+          "Warrior",
+          "Presence",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/guri.gif",
+        "lore": "Human-replica droid. Programmed to function as Xizor's personal bodyguard and assassin. Black Sun agent. Cost 9 million credits. Worth every decicred.",
+        "power": "6",
+        "subType": "Droid",
+        "title": "•Guri (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Guri (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_5",
+      "id": 7449,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "This character is female.",
+        "First sentence requires both Guri (V) and Xizor to be present at the site (not in a starship or enclosed vehicle).",
+        "Reflections II objective is required for Guri (V) to be immune to attrition < 5."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "ISv"
+      ],
+      "cancels": [
+        "Elis Helrot",
+        "Stunning Leader",
+        "Surreptitious Glance"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "If your [Cloud City] objective on table, deploy on table. Elis Helrot, Stunning Leader, and Surreptitious Glance may not be played. Once per turn, may deploy an interior Cloud City site from Reserve Deck; reshuffle. Your unique (•) characters with printed forfeit < 5 are forfeit +2 (limit +2). [Immune to Alter.]",
+        "icons": [
+          "Tatooine",
+          "Cloud City",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/imsorry.gif",
+        "lore": "'I'm sorry, too.'",
+        "title": "•I'm Sorry (V)",
+        "type": "Effect",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/I'm Sorry (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_6",
+      "id": 7450,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "pulls": [
+        "Cloud City: Carbonite Chamber",
+        "Cloud City: Chasm Walkway",
+        "Cloud City: Chasm Walkway (V)",
+        "Cloud City: Dining Room",
+        "Cloud City: Dining Room (V)",
+        "Cloud City: Incinerator",
+        "Cloud City: Interrogation Room",
+        "Cloud City: Lower Corridor",
+        "Cloud City: Security Tower",
+        "Cloud City: Security Tower (V)",
+        "Cloud City: Upper Plaza Corridor",
+        "Cloud City: West Gallery"
+      ],
+      "rarity": "R",
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "IEv"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "Deploy on table. Black Sun agents are forfeit and defense value +1. Once per turn, if you just deployed an information broker, may exchange the top card of Force Pile with any one card in hand. [Reflections II] Emperor deploys -1 and moves for free. [Immune to Alter.]",
+        "icons": [
+          "Jabba's Palace",
+          "Reflections II",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/informationexchange.gif",
+        "lore": "'Chisa nyooda ishaley. Kun Jabba neguda len malta.' 'Ikkit ui! Yobbit, yobbit. Nelan tui ke bada.'",
+        "title": "•Information Exchange (V)",
+        "type": "Effect",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Information Exchange (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_7",
+      "id": 7451,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "This works with Black Sun Fleet (deploy a Black Sun agent to a site, they become an information broker, then Dark exchanges a card)."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "MJTEHv",
+        "Mara TEHv",
+        "Shannon McRandle"
+      ],
+      "cancels": [
+        "Rebel Barrier"
+      ],
+      "combo": [
+        "Master Sidious",
+        "Revenge Of The Sith"
+      ],
+      "front": {
+        "ability": "5",
+        "characteristics": [
+          "female",
+          "spy"
+        ],
+        "deploy": "5",
+        "destiny": "1",
+        "extraText": [
+          "Force-Sensitive"
+        ],
+        "forfeit": "7",
+        "gametext": "Functions as your apprentice. Battle destiny draws may not be added here. May deploy Mara Jade's Lightsaber here from Reserve Deck; reshuffle. If you just won a battle here, may retrieve a card with 'Mara' in game text. Immune to Rebel Barrier and attrition < 4 (< 5 if Luke on table).",
+        "icons": [
+          "Premium",
+          "Pilot",
+          "Warrior",
+          "Death Star II",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/marajadetheemperorshand.gif",
+        "lore": "Spy. Ordered to kill Luke Skywalker. Assumed the identity of a dancer named 'Arica' in order to sneak into Jabba's palace.",
+        "power": "4",
+        "subType": "Alien/Imperial",
+        "title": "•Mara Jade, The Emperor's Hand (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Mara Jade, The Emperor's Hand (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_8",
+      "id": 7452,
+      "legacy": false,
+      "matchingWeapon": [
+        "Mara Jade's Lightsaber"
+      ],
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "pulledBy": [
+        "Blizzard 4",
+        "Murttoc Yine"
+      ],
+      "pulls": [
+        "Mara Jade's Lightsaber"
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "Used with Revenge Of The Sith, Mara functions as your chosen apprentice in addition to your actual chosen apprentice.",
+        "Used with Revenge Of The Sith, Mara functions as your chosen apprentice (and therefore is a Sith) in all card states and thus benefits from the destiny +2 on ROTS.",
+        "Even without Revenge Of The Sith, Mara is your apprentice, e.g. works with Master Sidious."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "OB&IWv"
+      ],
+      "canceledBy": [
+        "It's A Hit! (partially immune)"
+      ],
+      "cancels": [
+        "Blast The Door, Kid!",
+        "It Could Be Worse"
+      ],
+      "combo": [
+        "Sy Snootles",
+        "Tech Mo'r",
+        "Your Powers Are Weak, Old Man (V)"
+      ],
+      "front": {
+        "destiny": "5",
+        "gametext": "USED: For remainder of turn, you lose no Force to the following cards on table (if any): A Good Blaster At Your Side, No Disintegrations!, Stardust, and They Will Be Lost And Confused. OR Cancel Blast The Door, Kid! or It Could Be Worse. (Immune to It's A Hit!) OR Shuffle any player's Reserve Deck or Lost Pile. LOST: If opponent just lost a battle, they lose 2 Force.",
+        "icons": [
+          "Reflections II",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/ommniboxitsworse.gif",
+        "subType": "Used Or Lost",
+        "title": "Ommni Box & It's Worse (V)",
+        "type": "Interrupt",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Ommni Box & It's Worse (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_9",
+      "id": 7453,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "Multiple copies of this card may be played after winning a battle, causing 2 Force loss each."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "front": {
+        "ability": "2",
+        "characteristics": [
+          "Black Sun agent",
+          "female",
+          "musician"
+        ],
+        "deploy": "2",
+        "destiny": "3",
+        "forfeit": "3",
+        "gametext": "Power and forfeit +2 at a Coruscant site. Once per turn, if you just deployed a Black Sun agent to same site, may retrieve 1 Force. If opponent's [Maintenance] card just deployed here, it may not battle for remainder of turn.",
+        "icons": [
+          "Special Edition",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/rystall.gif",
+        "lore": "Musician. Raised by Ortolans. Grew up on the streets of Coruscant. Rescued from the Black Sun crime cartel by Lando Calrissian.",
+        "power": "1",
+        "subType": "Alien",
+        "title": "•Rystall (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Rystall (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_10",
+      "id": 7454,
+      "legacy": false,
+      "pulledBy": [
+        "Ak-rev",
+        "Coruscant: Imperial City (V)"
+      ],
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "May respond to her own deployment.",
+        "This character is female."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "SCv"
+      ],
+      "combo": [
+        "Jabba The Hutt (V)"
+      ],
+      "front": {
+        "ability": "1",
+        "characteristics": [
+          "Kowakian"
+        ],
+        "deploy": "1",
+        "destiny": "3",
+        "forfeit": "3",
+        "gametext": "When deployed, may reveal the top two cards of your Reserve Deck; take one into hand and place the other in Used Pile. Unless Crumb is 'hit', your leaders here may not be targeted by weapons. Undercover spies here are lost. ('AH-hahahaha!')",
+        "icons": [
+          "Jabba's Palace",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/salaciouscrumb.gif",
+        "lore": "Male Kowakian. Prankster. Humiliates others for Jabba's amusement. His life depends on making Jabba laugh at least once per day.",
+        "power": "1",
+        "subType": "Alien",
+        "title": "•Salacious Crumb (V)",
+        "type": "Character",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Salacious Crumb (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_11",
+      "id": 7455,
+      "legacy": false,
+      "pulledBy": [
+        "Hondo Ohnaka",
+        "No Bargain (V)"
+      ],
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "rarity": "R",
+      "rulings": [
+        "If Salacious Crumb is a leader (e.g. due to being the Rep in My Kind Of Scum) he prevents himself from being targeted by weapons."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "TDIGWATT/PIDAIAFv",
+        "TDIGWATTv"
+      ],
+      "back": {
+        "destiny": "7",
+        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may take Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and, if a character was just frozen, opponent loses 3 Force. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "icons": [
+          "Cloud City",
+          "Premium",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/prayidontalteritanyfurther.gif",
+        "title": "This Deal Is Getting Worse All The Time / Pray I Don't Alter It Any Further (V)",
+        "type": "Objective",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Pray I Don't Alter It Any Further (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "cancels": [
+        "Alter",
+        "Sense",
+        "Admiral's Orders game text"
+      ],
+      "front": {
+        "destiny": "0",
+        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may take Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and, if a character was just frozen, opponent loses 3 Force. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "icons": [
+          "Cloud City",
+          "Premium",
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/thisdealisgettingworseallthetime.gif",
+        "title": "This Deal Is Getting Worse All The Time / Pray I Don't Alter It Any Further (V)",
+        "type": "Objective",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/This Deal Is Getting Worse All The Time (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_12",
+      "id": 7456,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "pulls": [
+        "Bespin (V)",
+        "Cloud City Occupation",
+        "Dark Deal",
+        "Dark Deal (V)",
+        "Vader's Bounty"
+      ],
+      "rarity": "PM",
+      "rulings": [
+        "Multiple alien/Imperial pairs still only gives total battle destiny +2, not +4 or more."
+      ],
+      "set": "226",
+      "side": "Dark"
+    },
+    {
+      "abbr": [
+        "WHLT"
+      ],
+      "cancels": [
+        "Sense"
+      ],
+      "combo": [
+        "Darth Tyranus",
+        "Revenge Of The Sith"
+      ],
+      "front": {
+        "destiny": "6",
+        "gametext": "If Dooku is your apprentice, choose: Take Petranaki Arena or The Works into hand from Reserve Deck; reshuffle. OR If Dooku and Sidious on table, cancel Sense. OR Once per game, if Darth Tyranus in battle at a site and you are about to draw a card for battle destiny, instead use his ability number.",
+        "icons": [
+          "Set 26"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual26-Dark/large/welcomehomelordtyranus.gif",
+        "lore": "Blank.",
+        "subType": "Lost",
+        "title": "•Welcome Home, Lord Tyranus",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Welcome Home, Lord Tyranus/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "226_13",
+      "id": 7457,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "226"
+        }
+      ],
+      "pulls": [
+        "Coruscant: The Works"
+      ],
+      "rarity": "R",
+      "rulings": [
+        "The third function only works with a card titled exactly 'Darth Tyranus'."
+      ],
+      "set": "226",
       "side": "Dark"
     }
   ]

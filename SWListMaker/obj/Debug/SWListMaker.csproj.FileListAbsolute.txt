@@ -21,7 +21,7 @@ D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.Form1.resources
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.Properties.Resources.resources
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.GenerateResource.cache
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.CoreCompileInputs.cache
-D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.CopyComplete
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.exe
 D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.pdb
-D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.csproj.SuggestedBindingRedirects.cache
+D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMaker.exe.config
+D:\swccg\swccg-cardlists\SWListMaker\obj\Debug\SWListMa.17C8389E.Up2Date

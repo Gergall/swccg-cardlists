@@ -403,12 +403,67 @@ namespace SWListMaker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MakeFoldersFromCardList(GetDecipherErrataCardList("Dark"));
-            MakeFoldersFromCardList(GetDecipherErrataCardList("Light"));
+            //MakeFoldersFromCardList(GetDecipherErrataCardList("Dark"));
+            //MakeFoldersFromCardList(GetDecipherErrataCardList("Light"));
 
-            //MakeFoldersFromCardList(GetCardList("214", "Dark"));
-            //MakeFoldersFromCardList(GetCardList("214", "Light"));
+            MakeFoldersFromCardList(GetCardList("200", "Dark"));
+            MakeFoldersFromCardList(GetCardList("200", "Light"));
+            MakeFoldersFromCardList(GetCardList("201", "Dark"));
+            MakeFoldersFromCardList(GetCardList("201", "Light"));
+            MakeFoldersFromCardList(GetCardList("202", "Dark"));
+            MakeFoldersFromCardList(GetCardList("202", "Light"));
+            MakeFoldersFromCardList(GetCardList("203", "Dark"));
+            MakeFoldersFromCardList(GetCardList("203", "Light"));
+            MakeFoldersFromCardList(GetCardList("204", "Dark"));
+            MakeFoldersFromCardList(GetCardList("204", "Light"));
+            MakeFoldersFromCardList(GetCardList("205", "Dark"));
+            MakeFoldersFromCardList(GetCardList("205", "Light"));
 
+            MakeFoldersFromCardList(GetCardList("206", "Dark"));
+            MakeFoldersFromCardList(GetCardList("206", "Light"));
+            MakeFoldersFromCardList(GetCardList("207", "Dark"));
+            MakeFoldersFromCardList(GetCardList("207", "Light"));
+            MakeFoldersFromCardList(GetCardList("208", "Dark"));
+            MakeFoldersFromCardList(GetCardList("208", "Light"));
+            MakeFoldersFromCardList(GetCardList("209", "Dark"));
+            MakeFoldersFromCardList(GetCardList("209", "Light"));
+            MakeFoldersFromCardList(GetCardList("210", "Dark"));
+            MakeFoldersFromCardList(GetCardList("210", "Light"));
+
+            MakeFoldersFromCardList(GetCardList("211", "Dark"));
+            MakeFoldersFromCardList(GetCardList("211", "Light"));
+            MakeFoldersFromCardList(GetCardList("212", "Dark"));
+            //MakeFoldersFromCardList(GetCardList("212", "Light")); //There are no Set 12 Light cards
+            MakeFoldersFromCardList(GetCardList("213", "Dark"));
+            MakeFoldersFromCardList(GetCardList("213", "Light"));
+            MakeFoldersFromCardList(GetCardList("214", "Dark"));
+            MakeFoldersFromCardList(GetCardList("214", "Light"));
+            MakeFoldersFromCardList(GetCardList("215", "Dark"));
+            MakeFoldersFromCardList(GetCardList("215", "Light"));
+
+            MakeFoldersFromCardList(GetCardList("216", "Dark"));
+            MakeFoldersFromCardList(GetCardList("216", "Light"));
+            MakeFoldersFromCardList(GetCardList("217", "Dark"));
+            MakeFoldersFromCardList(GetCardList("217", "Light"));
+            MakeFoldersFromCardList(GetCardList("218", "Dark"));
+            MakeFoldersFromCardList(GetCardList("218", "Light"));
+            MakeFoldersFromCardList(GetCardList("219", "Dark"));
+            MakeFoldersFromCardList(GetCardList("219", "Light"));
+            MakeFoldersFromCardList(GetCardList("220", "Dark"));
+            MakeFoldersFromCardList(GetCardList("220", "Light"));
+
+            MakeFoldersFromCardList(GetCardList("221", "Dark"));
+            MakeFoldersFromCardList(GetCardList("221", "Light"));
+            MakeFoldersFromCardList(GetCardList("222", "Dark"));
+            MakeFoldersFromCardList(GetCardList("222", "Light"));
+            MakeFoldersFromCardList(GetCardList("223", "Dark"));
+            MakeFoldersFromCardList(GetCardList("223", "Light"));
+            MakeFoldersFromCardList(GetCardList("224", "Dark"));
+            MakeFoldersFromCardList(GetCardList("224", "Light"));
+            MakeFoldersFromCardList(GetCardList("225", "Dark"));
+            MakeFoldersFromCardList(GetCardList("225", "Light"));
+
+            //AIs are already included in the above pulls.  These are useful if Scott only wants a small update instead of everything
             //MakeFoldersFromCardList(GetAICardList("Dark"));
             //MakeFoldersFromCardList(GetAICardList("Light"));
 
