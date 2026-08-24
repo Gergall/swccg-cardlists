@@ -403,9 +403,9 @@ namespace SWListMaker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //MakeFoldersFromCardList(GetDecipherErrataCardList("Dark"));
-            //MakeFoldersFromCardList(GetDecipherErrataCardList("Light"));
-
+            MakeFoldersFromCardList(GetDecipherErrataCardList("Dark"));
+            MakeFoldersFromCardList(GetDecipherErrataCardList("Light"));
+            /*
             MakeFoldersFromCardList(GetCardList("200", "Dark"));
             MakeFoldersFromCardList(GetCardList("200", "Light"));
             MakeFoldersFromCardList(GetCardList("201", "Dark"));
@@ -462,6 +462,12 @@ namespace SWListMaker
             MakeFoldersFromCardList(GetCardList("224", "Light"));
             MakeFoldersFromCardList(GetCardList("225", "Dark"));
             MakeFoldersFromCardList(GetCardList("225", "Light"));
+
+            MakeFoldersFromCardList(GetCardList("226", "Dark"));
+            MakeFoldersFromCardList(GetCardList("226", "Light"));
+            //MakeFoldersFromCardList(GetCardList("225", "Dark")); //no DS cards yet
+            MakeFoldersFromCardList(GetCardList("227", "Light")); //podrace prep preview card
+            */
 
             //AIs are already included in the above pulls.  These are useful if Scott only wants a small update instead of everything
             //MakeFoldersFromCardList(GetAICardList("Dark"));
